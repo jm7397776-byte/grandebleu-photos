@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+Sitemap: https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sitemap.xml
+Host: https://jejugrandebleuyacht.blogspot.com
