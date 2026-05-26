@@ -1,4 +1,4 @@
-# 📰 Google Posts — 2026-05-26 (2026-W22)
+# 📰 Google Posts — 2026-05-27 (2026-W22)
 
 > Google Business Profile → 게시물 → 복붙 (5분)
 
@@ -11,21 +11,21 @@
 
 ## 🇰🇷 KO
 
-**사진**: https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_08_bow.jpg
+**사진**: https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_17_sunset_tour.png
 
 **SEO 키워드**: 제주 카타마란, 제주 인생샷, 제주 선셋 크루즈, 제주 라면 크루즈
 
 ```
-황금빛 매직 아워, 제주 선셋 크루즈로 하루를 완성하세요.
+주말 황금빛 노을이 대포항을 물들이기 전에, 제주 카타마란 자리를 먼저 확보하세요.
 
-대포항에서 출발하는 60분 크루즈. 수평선이 붉게 물드는 그 순간, 제주 인생샷이 완성됩니다.
+매주 주말 출항편은 빠르게 마감됩니다. 일정이 정해졌다면 평일 예약을 적극 추천합니다. 여유로운 승선과 탁 트인 갑판 자리를 원하신다면 더욱 그렇습니다.
 
-- 국내 유일 인증 카타마란: 2011년부터 누적 10만 명 이상이 선택한 그랑블루. 47인승, 44인승 두 척을 운영합니다.
-- 무제한 제공 음료와 라면: 생맥주, 와인, 제주 감귤주스, 제주 현지 스낵, 그리고 따뜻한 제주 라면 크루즈의 명물 한국식 라면까지 무제한 무료 제공됩니다.
-- 서귀포 바다 절경 코스: 코끼리 바위, 주상절리, 대형 해식동굴 등 제주의 대표 해안 절경을 바다 위에서 감상합니다.
-- 제주 카타마란만의 안정감: 넓고 안정적인 선체로 파도에 흔들림이 적어 사진 찍기에 최적의 환경을 제공합니다.
+- 제주 선셋 크루즈 60분, 대포항 출발. 2011년부터 누적 10만 명 이상이 선택한 제주 유일 공인 카타마란으로 매직 아워의 수평선을 정면으로 마주합니다.
+- 승선 중 무제한 제공: 생맥주, 와인, 제주 감귤 주스, 제주 향토 스낵, 한국식 라면. 제주 라면 크루즈라는 별명이 괜히 붙은 게 아닙니다.
+- 코끼리 바위, 월평 주상절리, 대형 해식 동굴을 바다 위에서 바라보며 제주 인생샷을 남길 수 있는 황금빛 시간대를 놓치지 마세요.
+- 예약 순서는 컨시어지 상담 후 승선, 출항 순입니다. Klook에서 럭셔리·선셋 두 가지 상품 중 선택하실 수 있습니다.
 
-주말 출발 편은 빠르게 마감되고 있습니다. 원하는 날짜를 확보하려면 미리 예약하시길 권장드리며, 여유롭게 즐기고 싶다면 평일 크루즈를 추천드립니다.
+이번 주말 잔여 좌석은 매우 제한적입니다. 평일 출항편은 현재 예약 가능합니다.
 
 예약하기 → https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht
 ```
@@ -35,27 +35,23 @@
 
 ## 🇺🇸 EN
 
-**사진**: https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_06.jpg
+**사진**: https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_19_luxury_close.jpg
 
 **SEO 키워드**: jeju safe tour, jeju safe yacht, jeju hotspot, jeju sunset spot
 
 ```
-Golden hour on the water is something you never forget, and Jeju's best sunset spot is right here at Daepo Port, Seogwipo.
+Chasing golden hour in Jeju? The view from the water hits differently than any cliffside lookout.
 
-Grande Bleu Yacht, Korea's only certified catamaran, takes you on a 60-minute cruise past some of Jeju's most dramatic coastal scenery, including Elephant Rock, Jingotnae Sea Canyon, Wolpyeong Basalt Columns, Pangpaengideok, and a breathtaking large sea cave.
+Jeju safe yacht tours fill up fast on weekends, especially as summer kicks in. Here is what makes Grande Bleu the go-to Jeju hotspot for sunset seekers:
 
-What makes this a jeju safe yacht experience:
+- Korea's only certified catamaran since 2011, with 100,000+ guests welcomed across two vessels (47-seat and 44-seat). Safety and comfort, built in.
+- The 60-minute sunset cruise from Daepo Port, Seogwipo traces a route past Elephant Rock, Jingotnae Sea Canyon, Wolpyeong Basalt Columns, Pangpaengideok, and a dramatic large sea cave. Every minute earns its keep.
+- Free-flow drinks and snacks are included: draft beer, wine, Jeju tangerine juice, water, Jeju local snacks, and Korean ramyeon. No hidden extras, just good times on the water.
+- Jeju safe tour standards mean everything is handled from the moment you meet our concierge at Daepo Port. Boarding and departure follow a smooth, guided sequence so you never feel rushed or lost.
 
-- Certified operation since 2011 with 100,000+ guests welcomed aboard two vessels (47-seat and 44-seat), so safety and reliability come built-in.
-- Free-flow drinks and bites throughout your cruise: draft beer, wine, Jeju tangerine juice, water, Jeju local snacks, and Korean ramyeon, all included with no extra charge.
-- A prime jeju hotspot route along the Seogwipo coastline, where the setting sun turns the basalt cliffs a deep amber, perfect for photos and lasting memories.
-- Smooth concierge check-in at Daepo Port makes boarding effortless, whether you are traveling solo, as a couple, or with a group.
+Weekend slots disappear quickly. If your schedule is flexible, weekday departures offer a calmer, more intimate experience with the same stunning Jeju sunset spot views.
 
-Weekend departures fill quickly, especially during peak season. If your schedule allows, weekday slots offer a more relaxed experience with more space on deck. Either way, booking in advance is strongly recommended.
-
-This is the jeju safe tour that travelers keep coming back for, and one of the most iconic jeju sunset spot experiences on the island.
-
-Book now -> https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht
+Book now → https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht
 ```
 
 ---
@@ -63,21 +59,25 @@ Book now -> https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-y
 
 ## 🇨🇳 ZH-CN
 
-**사진**: https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_12_sailing.jpg
+**사진**: https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_09_luxury.png
 
 **SEO 키워드**: 济州岛红酒游艇, 济州岛海上游, 韩国唯一认证双体船, 济州岛亲子
 
 ```
-黄金时段魔法，济州岛红酒游艇的夕阳时刻正在等你。
+每逢周末，济州岛海上游的名额总是一抢而空——这就是黄金时段的魔法。
 
-每当落日将西归浦海岸染成橙红，Grande Bleu双体船缓缓驶出大浦港，这一刻便成为许多旅人一生难忘的记忆。作为韩国唯一认证双体船，我们自2011年起已接待逾十万名来自世界各地的宾客。
+搭乘韩国唯一认证双体船，从大浦港出发，60分钟环游西归浦绝美海岸线，象岩、月坪柱状节理、大海蚀洞逐一呈现，每一处都是只有海上才能目睹的风景。
 
-- 60分钟济州岛海上游，途经象岩、津串内海上峡谷、月坪柱状节理、彭辰德及大海蚀洞，沿途火山地貌壮阔无边，景色独一无二。
-- 船上免费畅饮生啤、红酒、济州柑橘汁，搭配济州特色小食与韩式拉面，举杯便是一道风景，济州岛亲子家庭与情侣同样适合。
-- 47座与44座两艘大型双体船宽敞稳定，适合家庭出游、亲子旅行及团体包船，甲板空间充裕，拍照视野绝佳。
-- 全程由专业礼宾团队引导登船，流程清晰，体验轻松舒适，让每位宾客安心享受海上黄金时光。
+船上畅饮无限量供应：
 
-夏季周末名额紧张，热门场次往往提前数日售罄。建议优先考虑工作日出行，或尽早锁定心仪时段，以免向隅。
+- 精选红酒、扎啤、济州岛橘子汁，随喝随续，全程免费
+- 济州岛本地小吃与韩式拉面热情待客，暖胃又暖心
+- 宽阔双体船甲板视野开阔，亲子家庭、情侣、好友团皆宜
+- 自2011年运营至今，累计接待逾十万名游客，安全有保障
+
+济州岛红酒游艇体验分为豪华航线与日落航线两款产品，满足不同偏好。日落时分，汉拿山倒映于海面，那片金红色的光是济州岛亲子旅行与浪漫出行最难忘的背景。
+
+周末名额紧张，建议工作日出行或尽早锁定席位，避免临时扑空。预订流程简单：礼宾确认、登船、准时出发，三步搞定。
 
 立即预订 → https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht
 ```
@@ -87,24 +87,21 @@ Book now -> https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-y
 
 ## 🇯🇵 JA
 
-**사진**: https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_13_aerial.jpg
+**사진**: https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_07_sunset.jpg
 
 **SEO 키워드**: 済州島コスパ, 済州島ワインクルーズ, 済州島飲み放題, 済州島インスタ映え
 
 ```
-ゴールデンアワーの魔法を、済州島の海の上で体験してください。
+夕暮れのわずか60分が、旅の記憶をすべて塗り替える。
 
-西帰浦・大浦港から出発する60分間のサンセットクルーズ。2011年創業、累計10万人以上が体験した済州島唯一の公認カタマランが、忘れられない夕暮れをご用意します。
+済州島インスタ映えを狙うなら、大浦港 (Daepo港) を出発するグランデブルーのサンセットクルーズが今、最も注目されています。2011年から10万人以上のゲストに選ばれた済州島唯一の認定カタマランで、ゴールデンアワーの絶景をそのまま体験できます。
 
-- 済州島コスパ最高のクルーズ体験: 乗船中はクラフトビール、ワイン、済州島みかんジュース、済州島の地元スナック、韓国ラーメンがすべて飲み放題・食べ放題。追加料金なしで心ゆくまでお楽しみください。
+- 済州島コスパ最強の船上体験: 生ビール、ワイン、済州みかんジュース、済州産スナック、韓国ラーメンがすべて飲み放題・食べ放題。追加費用ゼロで60分を楽しめます。
+- 済州島ワインクルーズとして人気の理由: 象岩、チンゴンネ海峡、ウォルピョン柱状節理、パンペンイドク、大型海食洞窟を船上から一望。夕陽と奇岩が重なる瞬間は、どのカメラでも映えます。
+- 済州島飲み放題を海上で: グラスを傾けながら西帰浦 (ソギポ) の水平線を眺める。陸では再現できない時間です。
+- 47席・44席の2艘体制で安定した乗り心地。コンシェルジュ対応から乗船まで、スタッフが丁寧にご案内します。
 
-- 済州島インスタ映えの絶景ルート: 象岩、チンゴンネ海峡、ウォルピョン柱状節理、パンペンイドク、大型海食洞窟を海上から一望。漢拏山(ハルラサン)を背景に染まる空と海は、写真に収めずにはいられません。
-
-- 済州島ワインクルーズとして人気上昇中: サンセットの光の中でグラスを傾ける体験は、旅の記念に最適。47席・44席の2艘体制で、グループ・カップル・ファミリーどのスタイルにも対応します。
-
-- 安心の乗船フロー: コンシェルジュ対応、ご乗船、出航の順でスムーズにご案内。初めての方もご安心ください。
-
-週末便は早い段階で満席になります。平日のご予約を特におすすめします。お席を確保するなら今がチャンスです。
+週末の枠は毎週早期に満席になります。平日のご予約が特におすすめです。お早めにご確認ください。
 
 今すぐ予約 → https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht
 ```
