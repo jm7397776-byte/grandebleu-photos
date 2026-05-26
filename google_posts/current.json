@@ -1,35 +1,35 @@
 {
   "week": "2026-W22",
-  "generated_at": "2026-05-27T00:46:47",
+  "generated_at": "2026-05-27T01:02:49",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_106_luxury.jpg",
+      "photo": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_161_luxury.jpg",
       "seo_keywords": "제주 카타마란, 제주 인생샷, 제주 선셋 크루즈, 제주 라면 크루즈",
       "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W22_ko.txt",
-      "body_length": 636
+      "body_length": 605
     },
     "en": {
       "label": "English",
       "photo": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_107_luxury.jpg",
       "seo_keywords": "jeju safe tour, jeju safe yacht, jeju hotspot, jeju sunset spot",
       "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W22_en.txt",
-      "body_length": 1461
+      "body_length": 1406
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_110_luxury.jpg",
+      "photo": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_07_sunset.jpg",
       "seo_keywords": "济州岛红酒游艇, 济州岛海上游, 韩国唯一认证双体船, 济州岛亲子",
       "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W22_zh-CN.txt",
-      "body_length": 525
+      "body_length": 546
     },
     "ja": {
       "label": "日本語",
-      "photo": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_109_luxury.jpg",
+      "photo": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_101_sunset.jpg",
       "seo_keywords": "済州島コスパ, 済州島ワインクルーズ, 済州島飲み放題, 済州島インスタ映え",
       "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W22_ja.txt",
-      "body_length": 729
+      "body_length": 703
     }
   }
 }
