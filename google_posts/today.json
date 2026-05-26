@@ -2,7 +2,7 @@
   "date": "2026-05-27",
   "weekday": 2,
   "weekday_name": "수",
-  "publish": true,
+  "publish": "true",
   "week": "2026-W22",
   "lang": "ja",
   "lang_label": "日本語",
