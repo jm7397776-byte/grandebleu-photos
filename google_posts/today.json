@@ -1,0 +1,17 @@
+{
+  "date": "2026-05-26",
+  "weekday": 1,
+  "weekday_name": "화",
+  "publish": true,
+  "week": "2026-W22",
+  "lang": "en",
+  "lang_label": "English",
+  "body": "Golden hour on the water is something you never forget, and Jeju's best sunset spot is right here at Daepo Port, Seogwipo.\n\nGrande Bleu Yacht, Korea's only certified catamaran, takes you on a 60-minute cruise past some of Jeju's most dramatic coastal scenery, including Elephant Rock, Jingotnae Sea Canyon, Wolpyeong Basalt Columns, Pangpaengideok, and a breathtaking large sea cave.\n\nWhat makes this a jeju safe yacht experience:\n\n- Certified operation since 2011 with 100,000+ guests welcomed aboard two vessels (47-seat and 44-seat), so safety and reliability come built-in.\n- Free-flow drinks and bites throughout your cruise: draft beer, wine, Jeju tangerine juice, water, Jeju local snacks, and Korean ramyeon, all included with no extra charge.\n- A prime jeju hotspot route along the Seogwipo coastline, where the setting sun turns the basalt cliffs a deep amber, perfect for photos and lasting memories.\n- Smooth concierge check-in at Daepo Port makes boarding effortless, whether you are traveling solo, as a couple, or with a group.\n\nWeekend departures fill quickly, especially during peak season. If your schedule allows, weekday slots offer a more relaxed experience with more space on deck. Either way, booking in advance is strongly recommended.\n\nThis is the jeju safe tour that travelers keep coming back for, and one of the most iconic jeju sunset spot experiences on the island.\n\nBook now -> https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
+  "body_length": 1556,
+  "photo_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_06.jpg",
+  "seo_keywords": "jeju safe tour, jeju safe yacht, jeju hotspot, jeju sunset spot",
+  "cta_action_type": "BOOK",
+  "cta_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts",
+  "_generator": "jarvis_google_posts_to_github.py",
+  "_make_com_hint": "HTTP module → JSON parse → GBP Create Post (use photo_url for media, body for summary, cta_action_type + cta_url)"
+}
