@@ -1,18 +1,6 @@
 {
-  "date": "2026-05-28",
-  "weekday": 3,
-  "weekday_name": "목",
-  "publish": "true",
-  "dedupe_reason": null,
-  "week": "2026-W22",
-  "lang": "ko",
-  "lang_label": "한국어",
-  "body": "해가 수평선에 닿는 딱 그 순간, 제주 선셋 크루즈 위에서 인생샷을 남기세요.\n\n- 황금빛 매직 아워를 담는 제주 인생샷: 대포항을 출발해 60분간 펼쳐지는 해안 절경 — 코끼리바위부터 월평 주상절리까지, 카메라를 내려놓을 틈이 없습니다.\n- 한국 유일 공인 제주 카타마란: 2011년부터 누적 탑승객 10만 명 이상, 47인승·44인승 두 척 운항. 안정적인 쌍동선 구조로 멀미 걱정을 줄였습니다.\n- 승선 즉시 무제한 무료 제공: 생맥주, 와인, 제주 한라봉 주스, 제주 라면 크루즈 감성 그대로 즐기는 제주 로컬 라면까지. 추가 비용 없이 배 위에서 즐기세요.\n- 넉넉한 평일을 노리세요: 주말 자리는 빠르게 마감됩니다. 여유로운 일몰을 원한다면 평일 예약을 적극 추천합니다.\n\n이번 주 W22 주말 잔여 좌석이 얼마 남지 않았습니다. 서귀포 대포항 출항 시간표가 마감되기 전에 자리를 확보하세요.\n\n예약하기 → https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
-  "body_length": 605,
-  "photo_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_161_luxury.jpg",
-  "seo_keywords": "제주 카타마란, 제주 인생샷, 제주 선셋 크루즈, 제주 라면 크루즈",
-  "cta_action_type": "BOOK",
-  "cta_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts",
-  "_generator": "jarvis_google_posts_to_github.py",
-  "_make_com_hint": "HTTP module → JSON parse → GBP Create Post (use photo_url for media, body for summary, cta_action_type + cta_url)"
+  "date": "2026-05-29",
+  "weekday": 4,
+  "publish": "false",
+  "reason": "weekend skip (Fri/Sat/Sun)"
 }
