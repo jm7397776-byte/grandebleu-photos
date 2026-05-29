@@ -15,7 +15,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 HISTORY_LIMIT = 60
-LINK = "https://jejugrandebleuyacht.blogspot.com/"
+LINK = (
+    "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/"
+    "?utm_source=pinterest&utm_medium=social&utm_campaign=jeju_yacht"
+)
 
 
 def read_json(path):
