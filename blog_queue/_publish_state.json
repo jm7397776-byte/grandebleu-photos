@@ -177,6 +177,39 @@
           "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
         }
       }
+    },
+    "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__en": {
+      "ts": "2026-05-29T03:48:16",
+      "lang": "en",
+      "results": {
+        "blogger-en": {
+          "channel": "blogger-en",
+          "ok": false,
+          "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__zh-CN": {
+      "ts": "2026-05-29T03:48:17",
+      "lang": "zh-CN",
+      "results": {
+        "blogger-zh-CN": {
+          "channel": "blogger-zh-CN",
+          "ok": false,
+          "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__ja": {
+      "ts": "2026-05-29T03:48:18",
+      "lang": "ja",
+      "results": {
+        "blogger-ja": {
+          "channel": "blogger-ja",
+          "ok": false,
+          "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
+        }
+      }
     }
   }
 }
