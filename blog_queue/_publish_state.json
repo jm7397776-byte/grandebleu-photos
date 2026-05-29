@@ -1,0 +1,149 @@
+{
+  "published": {
+    "2026-05-24_0050_13_제주_선셋_명소_노을을_배경이_아니라_발밑에_두는_법_persona20": {
+      "ts": "2026-05-24T01:39:11",
+      "results": {}
+    },
+    "2026-05-24_0050_13_제주_선셋_명소_노을을_배경이_아니라_발밑에_두는_법_persona20__en": {
+      "ts": "2026-05-24T02:25:31",
+      "lang": "en",
+      "results": {
+        "blogger-en": {
+          "ok": true,
+          "url": "https://jejugrandebleuyacht.blogspot.com/2026/05/jeju-yacht-sunset-tour-sail-daepo-port.html"
+        }
+      }
+    },
+    "2026-05-24_0050_13_제주_선셋_명소_노을을_배경이_아니라_발밑에_두는_법_persona20__zh-CN": {
+      "ts": "2026-05-24T02:25:31",
+      "lang": "zh-CN",
+      "results": {
+        "blogger-zh-CN": {
+          "ok": true,
+          "url": "https://jejugrandebleuyacht.blogspot.com/2026/05/jeju-yacht-sunset-tour-sail-catamaran.html"
+        }
+      }
+    },
+    "2026-05-24_0050_13_제주_선셋_명소_노을을_배경이_아니라_발밑에_두는_법_persona20__ja": {
+      "ts": "2026-05-24T02:25:31",
+      "lang": "ja",
+      "results": {
+        "blogger-ja": {
+          "ok": true,
+          "url": "https://jejugrandebleuyacht.blogspot.com/2026/05/jeju-yacht.html"
+        }
+      }
+    },
+    "_failure_learning_stats__en": {
+      "ts": "2026-05-25T21:23:00",
+      "lang": "en",
+      "results": {
+        "blogger-en": {
+          "channel": "blogger-en",
+          "ok": true,
+          "url": "https://jejugrandebleuyacht.blogspot.com/2026/05/grande-bleu-jeju-yacht-honest-review-of.html",
+          "post_id": "4668047046439318528"
+        }
+      }
+    },
+    "_failure_learning_stats__zh-CN": {
+      "ts": "2026-05-25T21:23:02",
+      "lang": "zh-CN",
+      "results": {
+        "blogger-zh-CN": {
+          "channel": "blogger-zh-CN",
+          "ok": true,
+          "url": "https://jejugrandebleuyacht.blogspot.com/2026/05/grande-bleu.html",
+          "post_id": "9208225812755389002"
+        }
+      }
+    },
+    "_failure_learning_stats__ja": {
+      "ts": "2026-05-25T21:23:03",
+      "lang": "ja",
+      "results": {
+        "blogger-ja": {
+          "channel": "blogger-ja",
+          "ok": false,
+          "reason": "HTTP Error 400: Bad Request"
+        }
+      }
+    },
+    "2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic__en": {
+      "ts": "2026-05-26T18:20:50",
+      "lang": "en",
+      "results": {
+        "blogger-en": {
+          "channel": "blogger-en",
+          "ok": true,
+          "url": "https://jejugrandebleuyacht.blogspot.com/2026/05/grande-bleu-jeju-yacht-honest-sunset_01879779367.html",
+          "post_id": "1300884061062316418",
+          "mode": "full"
+        }
+      }
+    },
+    "2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic__zh-CN": {
+      "ts": "2026-05-26T18:20:52",
+      "lang": "zh-CN",
+      "results": {
+        "blogger-zh-CN": {
+          "channel": "blogger-zh-CN",
+          "ok": true,
+          "url": "https://jejugrandebleuyacht.blogspot.com/2026/05/grande-bleu-0526-1820.html",
+          "post_id": "4899961463639737055",
+          "mode": "full"
+        }
+      }
+    },
+    "2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic__ja": {
+      "ts": "2026-05-26T18:20:55",
+      "lang": "ja",
+      "results": {
+        "blogger-ja": {
+          "channel": "blogger-ja",
+          "ok": true,
+          "url": "https://jejugrandebleuyacht.blogspot.com/2026/05/grande-bleu-0526-1820_0811517756.html",
+          "post_id": "6109528409464187380",
+          "mode": "minimal_fallback"
+        }
+      }
+    },
+    "2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic__en": {
+      "ts": "2026-05-26T18:21:28",
+      "lang": "en",
+      "results": {
+        "blogger-en": {
+          "channel": "blogger-en",
+          "ok": true,
+          "url": "https://jejugrandebleuyacht.blogspot.com/2026/05/grande-bleu-jeju-yacht-honest-faq-price_01798155.html",
+          "post_id": "4491808364589990405",
+          "mode": "full"
+        }
+      }
+    },
+    "2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic__zh-CN": {
+      "ts": "2026-05-26T18:21:32",
+      "lang": "zh-CN",
+      "results": {
+        "blogger-zh-CN": {
+          "channel": "blogger-zh-CN",
+          "ok": true,
+          "url": "https://jejugrandebleuyacht.blogspot.com/2026/05/grande-bleu280-0526-1821.html",
+          "post_id": "2334065794563981918",
+          "mode": "minimal_fallback"
+        }
+      }
+    },
+    "2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic__ja": {
+      "ts": "2026-05-26T18:21:34",
+      "lang": "ja",
+      "results": {
+        "blogger-ja": {
+          "channel": "blogger-ja",
+          "ok": false,
+          "reason": "full: HTTP Error 400: Bad Request / minimal: HTTP Error 429: Too Many Requests"
+        }
+      }
+    }
+  }
+}
