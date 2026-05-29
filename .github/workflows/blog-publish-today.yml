@@ -1,9 +1,9 @@
 name: Grande Bleu Blog Safe Publish
 
 on:
-  # Blogger API write is currently returning 403 even with a fresh OAuth client.
-  # Keep this manual until Google restores posts.insert permission or a non-API
-  # publishing route is approved.
+  schedule:
+    # KST 14:00 = UTC 05:00. Runs after blog_today render.
+    - cron: "0 5 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -34,6 +34,15 @@ jobs:
           BLOGGER_SAFE_CLIENT_ID: ${{ secrets.BLOGGER_SAFE_CLIENT_ID }}
           BLOGGER_SAFE_CLIENT_SECRET: ${{ secrets.BLOGGER_SAFE_CLIENT_SECRET }}
           BLOGGER_SAFE_REFRESH_TOKEN: ${{ secrets.BLOGGER_SAFE_REFRESH_TOKEN }}
+          MAIL2BLOGGER_EMAIL: ${{ secrets.MAIL2BLOGGER_EMAIL }}
+          GMAIL_SEND_CLIENT_ID: ${{ secrets.GMAIL_SEND_CLIENT_ID }}
+          GMAIL_SEND_CLIENT_SECRET: ${{ secrets.GMAIL_SEND_CLIENT_SECRET }}
+          GMAIL_SEND_REFRESH_TOKEN: ${{ secrets.GMAIL_SEND_REFRESH_TOKEN }}
+          GMAIL_SEND_USER: ${{ secrets.GMAIL_SEND_USER }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
         run: |
           python3 .github/scripts/blog_publish_today_safe.py
 
