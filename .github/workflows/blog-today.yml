@@ -54,10 +54,8 @@ jobs:
           TG_CHAT: ${{ secrets.TG_CHAT }}
         run: |
           if [ -n "$TG_TOKEN" ] && [ -n "$TG_CHAT" ]; then
+            MSG=$(printf '⚠️ 그랑블루 외국인용 블로그 글 생성 실패\nworkflow: %s\nrun: %s/%s/actions/runs/%s\nCodex 자동 복구 감시가 다음 주기에 확인합니다.' "$GITHUB_WORKFLOW" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")
             curl -fsS -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
               -d "chat_id=${TG_CHAT}" \
-              --data-urlencode "text=⚠️ 그랑블루 외국인용 블로그 글 생성 실패
-workflow: ${GITHUB_WORKFLOW}
-run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
-Codex 자동 복구 감시가 다음 주기에 확인합니다." || true
+              --data-urlencode "text=${MSG}" || true
           fi
