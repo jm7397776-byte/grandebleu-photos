@@ -18,6 +18,7 @@ HISTORY = REPO / "blog_today_history.json"
 LANGS_CYCLE = ["en", "ja", "zh-CN"]
 TARGET_TEXT_CHARS = 3400
 MAX_FIGURES = 9
+RECENT_IMAGE_WINDOW = 7
 
 spec = importlib.util.spec_from_file_location("pub", PUB_SRC)
 pub = importlib.util.module_from_spec(spec)
@@ -37,12 +38,25 @@ def save_history(history):
     HISTORY.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def image_urls(content):
+    return re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', content, flags=re.I)
+
+
+def recent_image_urls(history, window=RECENT_IMAGE_WINDOW):
+    urls = []
+    for item in history.get("selected", [])[-window:]:
+        urls.extend(item.get("image_urls", []))
+    return set(urls)
+
+
 def pick_post(lang):
     lang_dir = QUEUE / lang
     history = load_history()
     used = {item.get("key") for item in history.get("selected", [])}
     candidates = sorted(lang_dir.glob("*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
     for path in candidates:
+        if path.name.startswith("_"):
+            continue
         key = f"{path.stem}__{lang}"
         if key in used:
             continue
@@ -104,6 +118,10 @@ def remove_repeated_tail_sections(content):
     return compact
 
 
+def count_figures(content):
+    return len(re.findall(r"<figure\b.*?</figure>", content, flags=re.S | re.I))
+
+
 def limit_figures(content):
     seen = 0
 
@@ -117,15 +135,61 @@ def limit_figures(content):
     return re.sub(r"<figure\b.*?</figure>", repl, content, flags=re.S | re.I)
 
 
-def compact_for_make(content):
-    return limit_figures(remove_repeated_tail_sections(content))
+def remove_recent_figures(content, avoid_urls, min_figures=6):
+    avoid_urls = set(avoid_urls or [])
+    if not avoid_urls:
+        return content
+
+    remaining = count_figures(content)
+
+    def repl(match):
+        nonlocal remaining
+        figure = match.group(0)
+        src_match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', figure, flags=re.I)
+        if not src_match:
+            return figure
+        if src_match.group(1) in avoid_urls and remaining > min_figures:
+            remaining -= 1
+            return ""
+        return figure
+
+    return re.sub(r"<figure\b.*?</figure>", repl, content, flags=re.S | re.I)
 
 
-def render(lang, post):
+def dedupe_figures(content):
+    seen = set()
+
+    def repl(match):
+        figure = match.group(0)
+        src_match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', figure, flags=re.I)
+        if not src_match:
+            return figure
+        src = src_match.group(1)
+        if src in seen:
+            return ""
+        seen.add(src)
+        return figure
+
+    return re.sub(r"<figure\b.*?</figure>", repl, content, flags=re.S | re.I)
+
+
+def compact_for_make(content, avoid_photo_urls=None):
+    content = remove_repeated_tail_sections(content)
+    content = remove_recent_figures(content, avoid_photo_urls)
+    content = dedupe_figures(content)
+    return limit_figures(content)
+
+
+def render(lang, post, avoid_photo_urls=None):
     klook = os.environ.get("GRANDEBLEU_KLOOK_URL", pub.KLOOK_URL_DEFAULT)
     meta = pub.LANG_META.get(lang, pub.LANG_META["en"])
     body = pub.sanitize_body(post["body"], klook)
-    body_html = compact_for_make(pub.md_to_html(body, photo_seed=f"{post['title']}_{lang}"))
+    avoid_photo_urls = set(avoid_photo_urls or [])
+    body_html = compact_for_make(pub.md_to_html(
+        body,
+        photo_seed=f"{post['title']}_{lang}",
+        avoid_photo_urls=avoid_photo_urls,
+    ), avoid_photo_urls=avoid_photo_urls)
     cta = (
         f'<p style="text-align:center;margin:2rem 0;">'
         f'<a href="{klook}" target="_blank" rel="noopener" '
@@ -137,6 +201,7 @@ def render(lang, post):
     labels.append(f"lang:{lang}")
     stamp = datetime.now().strftime("%m%d-%H%M")
     title = f"[{meta['label']}] {post['title'][:160]}" if lang != "en" else post["title"][:180]
+    urls = image_urls(body_html)
     return {
         "title": f"{title} | {stamp}",
         "content": body_html + cta,
@@ -144,6 +209,8 @@ def render(lang, post):
         "link": "https://jejugrandebleuyacht.blogspot.com/",
         "lang": lang,
         "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "image_urls": urls,
+        "image_count": len(urls),
     }
 
 
@@ -152,9 +219,9 @@ def main():
     path, key, post = pick_post(lang)
     if not post:
         raise SystemExit(f"{lang}: no unpublished post candidate")
-    data = render(lang, post)
-    (REPO / "blog_today.json").write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     history = load_history()
+    data = render(lang, post, avoid_photo_urls=recent_image_urls(history))
+    (REPO / "blog_today.json").write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     selected = history.setdefault("selected", [])
     selected.append({
         "key": key,
@@ -162,11 +229,13 @@ def main():
         "file": str(path.relative_to(REPO)),
         "title": data["title"],
         "generated_at": data["generated_at"],
+        "image_urls": data["image_urls"],
+        "image_count": data["image_count"],
     })
     history["selected"] = selected[-90:]
     save_history(history)
     print(f"blog_today.json rendered: {lang} {data['title']}")
-    print(f"html={len(data['content'])} text={visible_text_len(data['content'])}")
+    print(f"html={len(data['content'])} text={visible_text_len(data['content'])} images={data['image_count']}")
 
 
 if __name__ == "__main__":

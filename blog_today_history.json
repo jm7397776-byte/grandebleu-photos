@@ -12,7 +12,18 @@
       "lang": "ja",
       "file": "blog_queue/ja/2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic.md",
       "title": "[日本語] Grande Bleu 済州 ヨット|秋のセーリングで穏やか1時間 | 0529-0426",
-      "generated_at": "2026-05-29T04:26:32"
+      "generated_at": "2026-05-29T04:26:32",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_14_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_01.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_11_cockpit.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_es.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_03.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_leelee.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_04.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_hwa.jpg"
+      ],
+      "image_count": 8
     }
   ]
 }

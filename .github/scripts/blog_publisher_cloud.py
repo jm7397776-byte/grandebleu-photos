@@ -275,7 +275,12 @@ def _seeded_rng(seed_key: str):
     return random.Random(h)
 
 
-def _pick_photos(seed_key: str, n: int = 7) -> list:
+def _without_avoided(pool: list, avoid_urls: set[str]) -> list:
+    filtered = [p for p in pool if p.get("url") not in avoid_urls]
+    return filtered or list(pool)
+
+
+def _pick_photos(seed_key: str, n: int = 7, avoid_urls: set[str] | None = None) -> list:
     """글마다 카테고리 균형·인물 중복 없는 7장 선택.
 
     규칙:
@@ -286,6 +291,7 @@ def _pick_photos(seed_key: str, n: int = 7) -> list:
     - 매 글마다 hero가 sunset이 아니라 다양 (선셋 편중 방지)
     """
     rng = _seeded_rng(seed_key)
+    avoid_urls = set(avoid_urls or [])
     picked = []
     used_persons = set()
     # 1) Hero 사진 (첫 번째 슬롯) — sunset 제외하고 다양화
@@ -294,7 +300,7 @@ def _pick_photos(seed_key: str, n: int = 7) -> list:
         + PHOTO_POOL_BY_CAT["detail"]
         + PHOTO_POOL_BY_CAT["interior"]
     )
-    hero_candidates = list(hero_candidates)
+    hero_candidates = _without_avoided(list(hero_candidates), avoid_urls)
     rng.shuffle(hero_candidates)
     hero = hero_candidates[0]
     picked.append(hero)
@@ -310,9 +316,9 @@ def _pick_photos(seed_key: str, n: int = 7) -> list:
     for cat, count in body_recipe:
         if cat == "interior_or_detail":
             sub = "interior" if rng.random() < 0.5 else "detail"
-            pool = list(PHOTO_POOL_BY_CAT[sub])
+            pool = _without_avoided(list(PHOTO_POOL_BY_CAT[sub]), avoid_urls)
         else:
-            pool = list(PHOTO_POOL_BY_CAT.get(cat, []))
+            pool = _without_avoided(list(PHOTO_POOL_BY_CAT.get(cat, [])), avoid_urls)
         rng.shuffle(pool)
         added = 0
         for ph in pool:
@@ -329,7 +335,11 @@ def _pick_photos(seed_key: str, n: int = 7) -> list:
     if len(picked) < n:
         extra = [p for p in PHOTO_POOL_BY_CAT["scenery"]
                   + PHOTO_POOL_BY_CAT.get("sunset", [])
-                  if p not in picked]
+                  if p not in picked and p.get("url") not in avoid_urls]
+        if not extra:
+            extra = [p for p in PHOTO_POOL_BY_CAT["scenery"]
+                      + PHOTO_POOL_BY_CAT.get("sunset", [])
+                      if p not in picked]
         rng.shuffle(extra)
         picked.extend(extra[:n - len(picked)])
 
@@ -343,14 +353,17 @@ def _pick_photos(seed_key: str, n: int = 7) -> list:
 PHOTO_POOL = [p for cat in PHOTO_POOL_BY_CAT.values() for p in cat]
 
 
-def md_to_html(md: str, photo_seed: str = "") -> str:
+def md_to_html(md: str, photo_seed: str = "", avoid_photo_urls: set[str] | None = None) -> str:
     """Markdown → Blogger 친화 HTML + H2 사이마다 사진 자동 삽입.
 
     Blogger는 markdown 렌더링 안 함 → 직접 HTML 변환 필수.
     네이버 블로그 톤 참고: 짧은 문단·여백·강조 절제·문단 사이 사진."""
     if not md: return ""
+    explicit_urls = set(re.findall(r"!\[[^\]]*\]\(([^)]+)\)", md))
+    explicit_urls.update(re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', md, flags=re.I))
+    avoid_urls = set(avoid_photo_urls or set()) | explicit_urls
     # 글마다 다른 사진 7장 선택 (hero 1 + H2 사이 6 = 중복 없음)
-    photos = _pick_photos(photo_seed or md[:200], 7)
+    photos = _pick_photos(photo_seed or md[:200], 7, avoid_urls=avoid_urls)
     hero_photo = photos[0] if photos else None
     photo_iter = iter(photos[1:])  # hero 제외한 나머지
 
