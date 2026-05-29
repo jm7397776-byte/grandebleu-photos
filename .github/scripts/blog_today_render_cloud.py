@@ -426,11 +426,10 @@ def render(lang, post, avoid_photo_urls=None):
     )
     labels = [k.strip() for k in post["keywords"].split(",") if k.strip()][:6]
     labels.append(f"lang:{lang}")
-    stamp = datetime.now().strftime("%m%d-%H%M")
-    title = f"[{meta['label']}] {post['title'][:160]}" if lang != "en" else post["title"][:180]
+    title = post["title"][:180]
     urls = image_urls(body_html)
     return {
-        "title": f"{title} | {stamp}",
+        "title": title,
         "content": body_html + cta,
         "labels": labels,
         "link": "https://jejugrandebleuyacht.blogspot.com/",

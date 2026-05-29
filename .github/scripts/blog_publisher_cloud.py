@@ -700,11 +700,7 @@ def publish_blogger(env: dict, post: dict, lang: str = "en") -> dict:
             labels_full.append(kw)
     labels_full.append(f"lang:{lang}")
 
-    # 2026-05-26 fix: 제목 중복 시 Blogger API가 기존 글 URL을 success로 반환하는 버그 회피
-    # → 날짜·시각 prefix로 제목 unique 보장
-    _ts = datetime.now().strftime("%m%d-%H%M")
-    _base_title = f"[{meta['label']}] {post['title'][:160]}" if lang != "en" else post["title"][:180]
-    title_full = f"{_base_title} | {_ts}"
+    title_full = post["title"][:180]
     # ?isDraft=false → 즉시 공개 발행 (기본값 DRAFT라 공개 안 되는 버그 해결)
     url = f"https://www.googleapis.com/blogger/v3/blogs/{blog_id}/posts/?isDraft=false"
 
