@@ -38,7 +38,7 @@ jobs:
         run: |
           git config user.email "jm7397776@gmail.com"
           git config user.name "jm7397776-byte"
-          git add blog_today.json blog_today_history.json
+          git add blog_today.json blog_today_history.json blog_queue
           if ! git diff --cached --quiet; then
             git commit -m "blog_today render $(date -u +%Y-%m-%dT%H:%MZ)"
             git push origin main

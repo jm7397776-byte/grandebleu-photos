@@ -40,6 +40,32 @@ STATE = REPO / "blog_publish_today_state.json"
 LOG = REPO / "blog_queue" / "publish_today.log"
 
 
+def telegram_notify(message):
+    token = os.environ.get("TG_TOKEN")
+    chat = os.environ.get("TG_CHAT")
+    if not token or not chat:
+        log("Telegram credentials absent; notification skipped")
+        return False
+    body = urllib.parse.urlencode({
+        "chat_id": chat,
+        "text": message[:3900],
+        "disable_web_page_preview": "false",
+    }).encode()
+    req = urllib.request.Request(
+        f"https://api.telegram.org/bot{token}/sendMessage",
+        data=body,
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            json.load(resp)
+        log("Telegram notification sent")
+        return True
+    except Exception as exc:
+        log(f"Telegram notification failed: {type(exc).__name__}: {exc}")
+        return False
+
+
 def log(message):
     LOG.parent.mkdir(parents=True, exist_ok=True)
     line = f"[{datetime.now().isoformat(timespec='seconds')}] {message}"
@@ -295,6 +321,13 @@ def main():
     state["published"] = published[-180:]
     save_json(STATE, state)
     log(f"published via {publish_method}: {item.get('url') or 'mail2blogger pending URL'}")
+    telegram_notify(
+        "🌍 그랑블루 외국인용 블로그 자동 업로드 완료\n"
+        f"- 언어: {item.get('lang')}\n"
+        f"- 제목: {item.get('title')}\n"
+        f"- 방식: {item.get('method')}\n"
+        f"- 링크: {item.get('url') or 'Blogger 반영 대기'}"
+    )
     return 0
 
 
