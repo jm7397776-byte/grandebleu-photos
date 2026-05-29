@@ -31,3 +31,10 @@ jobs:
             git commit -m "pinterest_today: ${title}"
             git push
           fi
+
+      - name: Purge jsDelivr cache
+        run: |
+          curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/pinterest_today.json" || true
+          curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@latest/pinterest_today.json" || true
+          curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/pinterest_run_pool.json" || true
+          curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@latest/pinterest_run_pool.json" || true
