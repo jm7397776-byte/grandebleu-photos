@@ -95,7 +95,7 @@ def blogger_call_with_refresh(env: dict, url: str, data: bytes = None,
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r), env
         except urllib.error.HTTPError as e:
-            if e.code == 401 and attempt == 0:
+            if e.code in (401, 403) and attempt == 0:
                 new_tok = refresh_blogger_token(env)
                 if new_tok:
                     token = new_tok
@@ -818,6 +818,9 @@ def publish_github_pages(post: dict, slug: str) -> dict:
 # ─── 메인 — 새 글 발견 → 채널 모두에 게시 ─────────
 def main():
     env = _load_env()
+    _fresh = refresh_blogger_token(env)
+    if _fresh:
+        env["BLOGGER_OAUTH_TOKEN"] = _fresh
     state = _load(STATE, {"published": {}})
     n_new = 0
     results = []
