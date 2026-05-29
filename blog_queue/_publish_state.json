@@ -58,17 +58,6 @@
         }
       }
     },
-    "_failure_learning_stats__ja": {
-      "ts": "2026-05-25T21:23:03",
-      "lang": "ja",
-      "results": {
-        "blogger-ja": {
-          "channel": "blogger-ja",
-          "ok": false,
-          "reason": "HTTP Error 400: Bad Request"
-        }
-      }
-    },
     "2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic__en": {
       "ts": "2026-05-26T18:20:50",
       "lang": "en",
@@ -134,82 +123,20 @@
         }
       }
     },
-    "2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic__ja": {
-      "ts": "2026-05-26T18:21:34",
-      "lang": "ja",
-      "results": {
-        "blogger-ja": {
-          "channel": "blogger-ja",
-          "ok": false,
-          "reason": "full: HTTP Error 400: Bad Request / minimal: HTTP Error 429: Too Many Requests"
-        }
-      }
-    },
-    "2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic__en": {
-      "ts": "2026-05-29T03:45:21",
+    "2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic__en": {
+      "ts": "2026-05-29T12:49:13",
       "lang": "en",
-      "results": {
-        "blogger-en": {
-          "channel": "blogger-en",
-          "ok": false,
-          "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
-        }
-      }
+      "results": {}
     },
-    "2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic__zh-CN": {
-      "ts": "2026-05-29T03:45:22",
+    "2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic__zh-CN": {
+      "ts": "2026-05-29T12:49:13",
       "lang": "zh-CN",
-      "results": {
-        "blogger-zh-CN": {
-          "channel": "blogger-zh-CN",
-          "ok": false,
-          "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
-        }
-      }
+      "results": {}
     },
-    "2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic__ja": {
-      "ts": "2026-05-29T03:45:22",
+    "2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic__ja": {
+      "ts": "2026-05-29T12:49:13",
       "lang": "ja",
-      "results": {
-        "blogger-ja": {
-          "channel": "blogger-ja",
-          "ok": false,
-          "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
-        }
-      }
-    },
-    "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__en": {
-      "ts": "2026-05-29T03:48:16",
-      "lang": "en",
-      "results": {
-        "blogger-en": {
-          "channel": "blogger-en",
-          "ok": false,
-          "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
-        }
-      }
-    },
-    "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__zh-CN": {
-      "ts": "2026-05-29T03:48:17",
-      "lang": "zh-CN",
-      "results": {
-        "blogger-zh-CN": {
-          "channel": "blogger-zh-CN",
-          "ok": false,
-          "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
-        }
-      }
-    },
-    "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__ja": {
-      "ts": "2026-05-29T03:48:18",
-      "lang": "ja",
-      "results": {
-        "blogger-ja": {
-          "channel": "blogger-ja",
-          "ok": false,
-          "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
-        }
-      }
+      "results": {}
     }
   }
 }

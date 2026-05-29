@@ -869,6 +869,10 @@ def main():
                         r = publish_wordpress(env, post)
                         r_log["wordpress"] = r
                         if r.get("ok"): results.append(r)
+                _ok_any = any(rr.get("ok") for rr in r_log.values() if isinstance(rr, dict))
+                if not _ok_any:
+                    _log(f"  발행 실패 — state 미기록 (재시도 대상): {f.stem} [{lang}]")
+                    continue
                 state.setdefault("published", {})[key] = {
                     "ts": datetime.now().isoformat(timespec="seconds"),
                     "lang": lang,
