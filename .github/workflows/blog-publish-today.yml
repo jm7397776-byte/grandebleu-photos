@@ -1,9 +1,9 @@
 name: Grande Bleu Blog Safe Publish
 
 on:
-  schedule:
-    # KST 14:00 = UTC 05:00. Runs after blog_today render.
-    - cron: "0 5 * * *"
+  # Blogger API write is currently returning 403 even with a fresh OAuth client.
+  # Keep this manual until Google restores posts.insert permission or a non-API
+  # publishing route is approved.
   workflow_dispatch: {}
 
 permissions:
