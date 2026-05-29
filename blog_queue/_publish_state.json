@@ -144,6 +144,39 @@
           "reason": "full: HTTP Error 400: Bad Request / minimal: HTTP Error 429: Too Many Requests"
         }
       }
+    },
+    "2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic__en": {
+      "ts": "2026-05-29T03:45:21",
+      "lang": "en",
+      "results": {
+        "blogger-en": {
+          "channel": "blogger-en",
+          "ok": false,
+          "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    "2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic__zh-CN": {
+      "ts": "2026-05-29T03:45:22",
+      "lang": "zh-CN",
+      "results": {
+        "blogger-zh-CN": {
+          "channel": "blogger-zh-CN",
+          "ok": false,
+          "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    "2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic__ja": {
+      "ts": "2026-05-29T03:45:22",
+      "lang": "ja",
+      "results": {
+        "blogger-ja": {
+          "channel": "blogger-ja",
+          "ok": false,
+          "reason": "full: HTTP Error 403: Forbidden / minimal: HTTP Error 403: Forbidden"
+        }
+      }
     }
   }
 }
