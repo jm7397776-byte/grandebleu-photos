@@ -1,0 +1,55 @@
+name: Grande Bleu Blog Daily Publish
+
+on:
+  schedule:
+    # KST 04:50 = UTC 19:50, KST 14:50 = UTC 05:50
+    - cron: '50 19 * * *'
+    - cron: '50 5 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: blog-daily
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Publish to Blogger (en + zh-CN + ja)
+        env:
+          REPO_DIR: ${{ github.workspace }}
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+          BLOGGER_OAUTH_TOKEN: ${{ secrets.BLOGGER_OAUTH_TOKEN }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          BLOGGER_OAUTH_CLIENT_ID: ${{ secrets.BLOGGER_OAUTH_CLIENT_ID }}
+          BLOGGER_OAUTH_CLIENT_SECRET: ${{ secrets.BLOGGER_OAUTH_CLIENT_SECRET }}
+          GRANDEBLEU_KLOOK_URL: ${{ secrets.GRANDEBLEU_KLOOK_URL }}
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT: ${{ secrets.TG_CHAT }}
+        run: |
+          python3 .github/scripts/blog_publisher_cloud.py
+
+      - name: Commit publish state
+        run: |
+          git config user.email "jm7397776@gmail.com"
+          git config user.name "jm7397776-byte"
+          git add blog_queue/_publish_state.json blog_queue/publish.log 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "blog publish state $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin main
+          else
+            echo "No state change to commit"
+          fi
