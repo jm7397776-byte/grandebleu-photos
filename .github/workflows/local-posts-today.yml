@@ -46,6 +46,51 @@ jobs:
             echo "No local post change"
           fi
 
+      - name: Notify local post package ready
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT: ${{ secrets.TG_CHAT }}
+        run: |
+          if [ -n "$TG_TOKEN" ] && [ -n "$TG_CHAT" ]; then
+            python3 - <<'PY' > /tmp/local_posts_message.txt
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path("local_posts/today.json").read_text(encoding="utf-8"))
+          daangn = data["channels"]["daangn"]
+          kakao = data["channels"]["kakao_channel"]
+
+          lines = [
+              "✅ 그랑블루 당근/카카오채널 패키지 생성 완료",
+              f"date: {data.get('date')}",
+              f"topic: {data.get('topic_title')}",
+              "",
+              "🥕 당근",
+              daangn["title"],
+              daangn["body"],
+              "",
+              "사진:",
+              *daangn["image_urls"],
+              f"예약 링크: {daangn['cta_url']}",
+              "",
+              "💬 카카오채널",
+              kakao["title"],
+              kakao["body"],
+              "",
+              "사진:",
+              *kakao["image_urls"],
+              f"버튼: {kakao['button_title']} / {kakao['button_url']}",
+              "",
+              f"원본 JSON: {data['make']['source_url']}",
+              f"workflow: https://github.com/{__import__('os').environ['GITHUB_REPOSITORY']}/actions/runs/{__import__('os').environ['GITHUB_RUN_ID']}",
+          ]
+          print("\n".join(lines))
+          PY
+            curl -fsS -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+              -d "chat_id=${TG_CHAT}" \
+              --data-urlencode "text@/tmp/local_posts_message.txt" || true
+          fi
+
       - name: Notify local post render failure
         if: failure()
         env:

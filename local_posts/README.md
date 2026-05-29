@@ -63,10 +63,12 @@ Verified in Make:
 - HTTP status: `200`
 - Response size: `4579`
 - Schedule saved: daily at 10:45 Asia/Seoul
-- Activation: blocked by Make Free plan active scenario limit `2/2`
+- Activation: active after the account moved to Make Core
+- Make plan seen in UI: Core, 10,000 credits/month, unlimited active scenarios
 
-Do not deactivate the existing GBP or Pinterest scenarios without explicit
-operator approval.
+The GitHub workflow also sends the rendered Daangn/Kakao package to Telegram
+when `TG_TOKEN` and `TG_CHAT` repository secrets are present. This keeps a
+human-readable daily package in chat while Make fetches the same JSON feed.
 
 ### Daangn/Karrot Route
 
