@@ -2,9 +2,8 @@ name: Grande Bleu Blog Daily Publish
 
 on:
   schedule:
-    # KST 04:50 = UTC 19:50, KST 14:50 = UTC 05:50
-    - cron: '50 19 * * *'
-    - cron: '50 5 * * *'
+    # 하루 1회만 — KST 14:00 = UTC 05:00 (다발 호출 방지)
+    - cron: '0 5 * * *'
   workflow_dispatch: {}
 
 permissions:

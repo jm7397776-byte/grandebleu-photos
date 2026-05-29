@@ -836,7 +836,7 @@ def main():
 
     _log(f"가용 채널: {available}")
     # 다국어 통합 발행 — en + zh-CN + ja 동시 (Blogger 라벨로 분류)
-    LANGS = ["en", "zh-CN", "ja"]
+    LANGS = [["en", "ja", "zh-CN"][datetime.now().weekday() % 3]]  # 하루 1언어만 (월=en 화=ja 수=zh 회전)
     for lang in LANGS:
         lang_dir = GLOBAL_CONTENT / lang
         if not lang_dir.exists():
