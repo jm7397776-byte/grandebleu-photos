@@ -1,0 +1,16 @@
+[2026-05-29T04:55:24] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-05-29T04:55:36] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/05/grande-bleu-1-0529-0426.html
