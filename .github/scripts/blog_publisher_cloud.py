@@ -140,12 +140,30 @@ def parse_post(text: str) -> dict:
 KLOOK_URL_DEFAULT = ("https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/"
                      "?utm_source=blogger&utm_medium=cta&utm_campaign=jeju_yacht")
 
+BOOKING_CHANNEL_NOTE = (
+    "Reservations are available through major partner platforms such as Naver, "
+    "Klook, KKday, and Ctrip/Trip.com. Availability, pricing, language support, "
+    "and change/refund rules can differ by channel, so please check the platform "
+    "you use before payment."
+)
+
+BOOKING_CHANNEL_NOTE_JA = (
+    "Grande Bleu の予約は、Klook だけでなく、Naver、KKday、Ctrip/Trip.com など"
+    "複数の提携プラットフォームから可能です。空席、料金、言語サポート、変更・返金条件は"
+    "予約チャネルごとに異なる場合があるため、決済前に各ページでご確認ください。"
+)
+
+BOOKING_CHANNEL_NOTE_ZH = (
+    "Grande Bleu 可通过多个合作平台预订，包括 Naver、Klook、KKday、携程/Ctrip/Trip.com 等。"
+    "不同平台的余位、价格、语言支持及改退规则可能不同，请以付款前页面显示为准。"
+)
+
 
 def sanitize_body(text: str, klook_url: str) -> str:
-    """grandebleu.co.kr 등 *없는* 도메인 자동 치환·제거.
+    """grandebleu.co.kr 등 없는 도메인과 단일 예약 채널 오표기를 자동 치환한다.
 
-    그랑블루는 아직 자체 도메인 X — Klook이 유일 예약 채널.
-    AI가 prompt 무시하고 grandebleu.co.kr 넣어도 자동 차단."""
+    Grande Bleu는 Klook 단일 예약이 아니다. Naver, Klook, KKday,
+    Ctrip/Trip.com 등 복수 채널 예약 가능성을 유지해야 한다."""
     if not text: return text
     # 마크다운 링크 [text](grandebleu.co.kr) → Klook
     text = re.sub(
@@ -156,6 +174,32 @@ def sanitize_body(text: str, klook_url: str) -> str:
         r"(?:https?://)?(?:www\.)?grandebleu\.(?:co\.)?kr(?:/[\w\-/]*)?",
         klook_url, text, flags=re.IGNORECASE)
     # "official site", "official website", "자체 웹사이트" 류 문구 약화
+    replacements = [
+        (r"(?im)^.*Klook[^.\n]*(?:only|exclusively|exclusive|one channel|one price|no phone-tag)[^.\n]*\.?$",
+         BOOKING_CHANNEL_NOTE),
+        (r"(?im)^.*Booking is handled exclusively through Klook[^.\n]*\.?$",
+         BOOKING_CHANNEL_NOTE),
+        (r"(?im)^.*Grande Bleu takes bookings through \*\*Klook only\*\*[^.\n]*\.?$",
+         BOOKING_CHANNEL_NOTE),
+        (r"(?im)^.*Klook is the only booking channel[^.\n]*\.?$",
+         BOOKING_CHANNEL_NOTE),
+        (r"(?im)^.*only official booking channel[^.\n]*Klook[^.\n]*\.?$",
+         BOOKING_CHANNEL_NOTE),
+        (r"(?im)^.*(?:no separate website|no in-house reservation page|no third-party agent)[^.\n]*\.?$",
+         "Please use the booking platform that best matches your country, language, payment method, and change/refund needs."),
+        (r"(?m)^.*Klook[^。\n]*(?:一本化|のみ|だけ|唯一|独家|官方预订渠道|一个渠道)[^。\n]*。?$",
+         BOOKING_CHANNEL_NOTE_JA),
+        (r"(?m)^.*自社予約ページ[^。\n]*(?:運営していません|ありません)[^。\n]*。?$",
+         BOOKING_CHANNEL_NOTE_JA),
+        (r"(?m)^.*(?:只有|唯一|独家)[^。\n]*Klook[^。\n]*。?$",
+         BOOKING_CHANNEL_NOTE_ZH),
+        (r"(?m)^.*Klook[^。\n]*一个渠道[^。\n]*。?$",
+         BOOKING_CHANNEL_NOTE_ZH),
+        (r"(?m)^.*(?:官网、电话|官网|电话)[^。\n]*不是主要预订入口[^。\n]*。?$",
+         BOOKING_CHANNEL_NOTE_ZH),
+    ]
+    for pattern, repl in replacements:
+        text = re.sub(pattern, repl, text)
     return text
 
 
@@ -473,19 +517,19 @@ LANG_META = {
     "en": {"label": "English", "cta_book": "Book Your Sail",
             "cta_about": "About Grande Bleu", "related": "Related",
             "klook_headline": "Sail Before Sunset Tonight",
-            "klook_sub": "Instant-confirm via Klook · Free onboard food & drinks",
+            "klook_sub": "Partner booking platforms · Free onboard food & drinks",
             "extra_keywords": "Jeju catamaran, sunset cruise, Daepo Port, Seogwipo, "
                                "Jeju honeymoon, Jeju family activities, Korea sailing"},
     "zh-CN": {"label": "中文简体", "cta_book": "立即预订",
               "cta_about": "关于Grande Bleu", "related": "相关",
               "klook_headline": "今日落日前出航",
-              "klook_sub": "Klook即时确认·免费船上美食",
+              "klook_sub": "合作平台预订·船上餐饮免费",
               "extra_keywords": "济州岛游艇, 济州航海, Grande Bleu, 大浦港, "
                                  "西归浦, 韩国济州岛, 蜜月旅行, 韩剧打卡, 拍照圣地"},
     "ja": {"label": "日本語", "cta_book": "今すぐ予約",
             "cta_about": "Grande Bleuについて", "related": "関連",
             "klook_headline": "今日のサンセット前に出航",
-            "klook_sub": "Klook即時確認・船上の食事ドリンク無料",
+            "klook_sub": "提携予約プラットフォーム・船上の食事ドリンク無料",
             "extra_keywords": "済州島 ヨット, 済州 セーリング, グランブルー, 大浦港, "
                                "西帰浦, 韓国旅行, ハネムーン, 家族旅行, 韓ドラ, "
                                "サンセットクルーズ, カタマラン, 双胴船"},
@@ -548,7 +592,7 @@ def publish_blogger(env: dict, post: dict, lang: str = "en") -> dict:
                     "inLanguage": lang,
                     "foundingDate": "2011",
                     "openingHours": "Mo-Su 09:00-19:00",
-                    "paymentAccepted": ["Online (Klook)", "Phone booking"],
+                    "paymentAccepted": ["Naver", "Klook", "KKday", "Ctrip/Trip.com", "Phone booking"],
                     "aggregateRating": {"@type": "AggregateRating",
                                          "ratingValue": "4.8", "reviewCount": "500"},
                     "amenityFeature": [
