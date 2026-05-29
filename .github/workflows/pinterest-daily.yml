@@ -1,0 +1,37 @@
+name: Pinterest daily picker
+
+on:
+  schedule:
+    # 05:30 Asia/Seoul daily. Make.com publishes at 09:00 KST.
+    - cron: "30 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pick:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout photos repository
+        uses: actions/checkout@v4
+
+      - name: Pick daily Pinterest photo and copy
+        run: python3 .github/scripts/pinterest_daily_picker_cloud.py
+
+      - name: Commit picker output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pinterest_today.json pinterest_today.jpg pinterest_history.json pinterest_run_pool.json
+          if git diff --cached --quiet; then
+            echo "No Pinterest picker changes to commit."
+          else
+            title="$(python3 - <<'PY'
+import json
+print(json.load(open("pinterest_today.json"))["title"][:50])
+PY
+)"
+            git commit -m "pinterest_today: ${title}"
+            git push
+          fi
