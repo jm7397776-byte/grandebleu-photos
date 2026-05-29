@@ -1,0 +1,50 @@
+name: Grande Bleu Blog Safe Publish
+
+on:
+  schedule:
+    # KST 14:00 = UTC 05:00. Runs after blog_today render.
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: blog-publish-today
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Publish blog_today safely
+        env:
+          REPO_DIR: ${{ github.workspace }}
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+          BLOGGER_SAFE_CLIENT_ID: ${{ secrets.BLOGGER_SAFE_CLIENT_ID }}
+          BLOGGER_SAFE_CLIENT_SECRET: ${{ secrets.BLOGGER_SAFE_CLIENT_SECRET }}
+          BLOGGER_SAFE_REFRESH_TOKEN: ${{ secrets.BLOGGER_SAFE_REFRESH_TOKEN }}
+        run: |
+          python3 .github/scripts/blog_publish_today_safe.py
+
+      - name: Commit publish state
+        run: |
+          git config user.email "jm7397776@gmail.com"
+          git config user.name "jm7397776-byte"
+          git add blog_publish_today_state.json blog_queue/publish_today.log 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "blog publish today state $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin main
+          else
+            echo "No publish state change"
+          fi
