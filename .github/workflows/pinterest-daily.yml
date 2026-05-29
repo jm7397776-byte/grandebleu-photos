@@ -27,11 +27,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No Pinterest picker changes to commit."
           else
-            title="$(python3 - <<'PY'
-import json
-print(json.load(open("pinterest_today.json"))["title"][:50])
-PY
-)"
+            title="$(python3 -c 'import json; print(json.load(open("pinterest_today.json"))["title"][:50])')"
             git commit -m "pinterest_today: ${title}"
             git push
           fi
