@@ -1,9 +1,8 @@
 name: Grande Bleu Blog Daily Publish
 
 on:
-  schedule:
-    # 하루 1회만 — KST 14:00 = UTC 05:00 (다발 호출 방지)
-    - cron: '0 5 * * *'
+  # Blogger API direct publishing is kept manual only.
+  # The previous OAuth client is blocked by Google; Make/HTTP alternatives publish blog_today.json.
   workflow_dispatch: {}
 
 permissions:

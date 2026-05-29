@@ -1,0 +1,48 @@
+name: Grande Bleu Blog Today Render
+
+on:
+  schedule:
+    # KST 13:30 = UTC 04:30. Make Blogger publish should run after this.
+    - cron: "30 4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: blog-today
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Render blog_today.json
+        env:
+          REPO_DIR: ${{ github.workspace }}
+          GRANDEBLEU_KLOOK_URL: ${{ secrets.GRANDEBLEU_KLOOK_URL }}
+        run: |
+          python3 .github/scripts/blog_today_render_cloud.py
+
+      - name: Commit rendered JSON
+        run: |
+          git config user.email "jm7397776@gmail.com"
+          git config user.name "jm7397776-byte"
+          git add blog_today.json blog_today_history.json
+          if ! git diff --cached --quiet; then
+            git commit -m "blog_today render $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin main
+            curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/blog_today.json" || true
+          else
+            echo "No blog_today change"
+          fi
