@@ -2,8 +2,8 @@ name: Grande Bleu Blog Today Render
 
 on:
   schedule:
-    # KST 13:37 = UTC 04:37. 비혼잡 분(:37)으로 둔다 — GitHub은 :00/:30 예약을 드롭하기 쉬움.
-    - cron: "37 4 * * *"
+    # 발행(09:08 KST) 30분 전 렌더: KST 08:38 = UTC 23:38(전일). 비혼잡 분.
+    - cron: "38 23 * * *"
   workflow_dispatch: {}
 
 permissions:
