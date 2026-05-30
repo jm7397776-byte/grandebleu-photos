@@ -3,7 +3,7 @@ name: Pinterest daily picker
 on:
   schedule:
     # 05:30 Asia/Seoul daily. Make.com publishes at 09:00 KST.
-    - cron: "30 20 * * *"
+    - cron: "30 22 * * *"
   workflow_dispatch:
 
 permissions:
