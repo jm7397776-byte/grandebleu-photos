@@ -139,6 +139,18 @@ def parse_post(text: str) -> dict:
 
 KLOOK_URL_DEFAULT = ("https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/"
                      "?utm_source=blogger&utm_medium=cta&utm_campaign=jeju_yacht")
+KKDAY_URL_DEFAULT = ("https://www.kkday.com/en/product/17612"
+                     "?cid=jeju_grandebleu&utm_source=blogger&utm_medium=cta")
+CTRIP_URL_DEFAULT = "https://www.trip.com/travel-guide/attraction/seogwipo/grande-blue-yacht-18134092/"
+
+
+def _ota_button(url: str, label: str, primary: bool = False) -> str:
+    """예약 플랫폼 버튼 (Klook=골드 채움, KKday·Trip.com=아웃라인)."""
+    bg = "#d4a437" if primary else "#ffffff"
+    return (f'<a href="{url}" target="_blank" rel="noopener" '
+            f'style="display:inline-block;background:{bg};color:#0d2645;'
+            f'border:1.5px solid #d4a437;padding:0.6rem 1.4rem;border-radius:999px;'
+            f'text-decoration:none;font-weight:600;font-size:0.9rem;margin:0.25rem;">{label}</a>')
 
 BOOKING_CHANNEL_NOTE = (
     "Reservations are available through major partner platforms such as Naver, "
@@ -584,16 +596,27 @@ def publish_blogger(env: dict, post: dict, lang: str = "en") -> dict:
     # 2) Klook CTA 골드 배너 (글 중간·끝)
     klook_url = env.get("GRANDEBLEU_KLOOK_URL",
                         "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=blogger&utm_medium=cta&utm_campaign=jeju_yacht")
+    kkday_url = env.get("GRANDEBLEU_KKDAY_URL", KKDAY_URL_DEFAULT)
+    ctrip_url = env.get("GRANDEBLEU_CTRIP_URL", CTRIP_URL_DEFAULT)
+    _book_more = {"en": "Or book on your preferred platform",
+                  "zh-CN": "也可在常用平台预订",
+                  "ja": "ご希望のプラットフォームでも予約可"}.get(lang, "Or book on your preferred platform")
     klook_banner = (
         f'<a href="{klook_url}" target="_blank" rel="noopener" '
         f'style="display:block;background:linear-gradient(135deg,#d4a437 0%,#b8862a 100%);'
         f'color:#fff;padding:1.75rem 2rem;border-radius:14px;text-decoration:none;'
-        f'margin:2.5rem auto;max-width:720px;text-align:center;'
+        f'margin:2.5rem auto 1rem;max-width:720px;text-align:center;'
         f'box-shadow:0 12px 32px rgba(212,164,55,0.3);">'
         f'<div style="font-family:Georgia,serif;font-size:1.5rem;font-weight:600;margin-bottom:0.5rem;">'
         f'{meta["klook_headline"]} →</div>'
         f'<div style="font-size:0.9375rem;opacity:0.92;letter-spacing:0.04em;">{meta["klook_sub"]}</div>'
         f'</a>'
+        f'<div style="max-width:720px;margin:0 auto 2.5rem;text-align:center;">'
+        f'<p style="font-size:0.8rem;color:#6b7280;margin:0 0 0.6rem;letter-spacing:0.04em;">{_book_more}</p>'
+        + _ota_button(klook_url, "Klook", primary=True)
+        + _ota_button(kkday_url, "KKday")
+        + _ota_button(ctrip_url, "Trip.com · 携程")
+        + '</div>'
     )
 
     # 3) schema.org JSON-LD — GEO·AEO·SEO 최적화 (TouristAttraction + LocalBusiness + FAQPage)
