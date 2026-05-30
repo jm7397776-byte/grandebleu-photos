@@ -2,8 +2,8 @@ name: Grande Bleu Blog Today Render
 
 on:
   schedule:
-    # KST 13:30 = UTC 04:30. Make Blogger publish should run after this.
-    - cron: "0 23 * * *"
+    # KST 13:37 = UTC 04:37. 비혼잡 분(:37)으로 둔다 — GitHub은 :00/:30 예약을 드롭하기 쉬움.
+    - cron: "37 4 * * *"
   workflow_dispatch: {}
 
 permissions:
