@@ -1,0 +1,76 @@
+name: Grande Bleu Blog Watchdog
+
+on:
+  schedule:
+    # 발행 창(렌더 04:37 / 발행 05:07 UTC)이 지난 뒤 점검.
+    - cron: "33 7 * * *"    # KST 16:33 — 1차 안전망
+    - cron: "33 10 * * *"   # KST 19:33 — 2차 안전망
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: blog-watchdog
+  cancel-in-progress: false
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Watchdog — 오늘치 누락 시 렌더+발행 자가복구
+        env:
+          REPO_DIR: ${{ github.workspace }}
+          GRANDEBLEU_KLOOK_URL: ${{ secrets.GRANDEBLEU_KLOOK_URL }}
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+          BLOGGER_SAFE_CLIENT_ID: ${{ secrets.BLOGGER_SAFE_CLIENT_ID }}
+          BLOGGER_SAFE_CLIENT_SECRET: ${{ secrets.BLOGGER_SAFE_CLIENT_SECRET }}
+          BLOGGER_SAFE_REFRESH_TOKEN: ${{ secrets.BLOGGER_SAFE_REFRESH_TOKEN }}
+          MAIL2BLOGGER_EMAIL: ${{ secrets.MAIL2BLOGGER_EMAIL }}
+          GMAIL_SEND_CLIENT_ID: ${{ secrets.GMAIL_SEND_CLIENT_ID }}
+          GMAIL_SEND_CLIENT_SECRET: ${{ secrets.GMAIL_SEND_CLIENT_SECRET }}
+          GMAIL_SEND_REFRESH_TOKEN: ${{ secrets.GMAIL_SEND_REFRESH_TOKEN }}
+          GMAIL_SEND_USER: ${{ secrets.GMAIL_SEND_USER }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT: ${{ secrets.TG_CHAT }}
+        run: |
+          python3 .github/scripts/blog_watchdog.py
+
+      - name: Commit self-heal changes
+        run: |
+          git config user.email "jm7397776@gmail.com"
+          git config user.name "jm7397776-byte"
+          git add blog_today.json blog_today_history.json blog_queue blog_publish_today_state.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "blog watchdog self-heal $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin main
+            curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/blog_today.json" || true
+          else
+            echo "watchdog: no changes (healthy)"
+          fi
+
+      - name: Notify watchdog run failure
+        if: failure()
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT: ${{ secrets.TG_CHAT }}
+        run: |
+          if [ -n "$TG_TOKEN" ] && [ -n "$TG_CHAT" ]; then
+            MSG=$(printf '⚠️ 그랑블루 외국블로그 워치독 실행 자체 실패\nrun: %s/%s/actions/runs/%s' "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")
+            curl -fsS -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+              -d "chat_id=${TG_CHAT}" --data-urlencode "text=${MSG}" || true
+          fi
