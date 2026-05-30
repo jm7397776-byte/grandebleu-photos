@@ -162,8 +162,8 @@ def generated_text(lang, angle, audience, focus):
     focus_l = _label(FOCUS_LABELS, focus, lang)
     aud_l = _label(AUDIENCE_LABELS, audience, lang)
     if lang == "ja":
-        title = f"済州島ヨット {focus_l}｜Grande Bleu 大浦港セーリング（{aud_l}向け）"
-        meta = f"済州島ヨット攻略：{focus_l}。Grande Bleu 大浦港の1時間カタマラン、船上グルメ込み。{aud_l}向けの予約前ガイド。"
+        title = f"済州島ヨット {focus_l}｜Grande Bleu 西帰浦セーリング（{aud_l}向け）"
+        meta = f"済州島ヨット攻略：{focus_l}。Grande Bleu 西帰浦の1時間カタマラン、船上グルメ込み。{aud_l}向けの予約前ガイド。"
         keywords = "済州島ヨット, 済州島旅行, 済州島 観光, Grande Bleu, 大浦港, カタマラン, サンセットクルーズ, 韓国旅行"
         body = f"""# {title}
 
@@ -196,8 +196,8 @@ def generated_text(lang, angle, audience, focus):
 電話は {FACTS['phone']}、Instagram は {FACTS['instagram']} です。電話は韓国語中心の対応になるため、海外からの予約確認は各予約プラットフォームの案内を先に見るとスムーズです。
 """
     elif lang == "zh-CN":
-        title = f"济州岛游艇攻略 · {focus_l}｜Grande Bleu 大浦港帆船（{aud_l}）"
-        meta = f"济州岛游艇攻略：{focus_l}。Grande Bleu 大浦港1小时双体帆船，含船上美食。面向{aud_l}的预订前指南。"
+        title = f"济州岛游艇攻略 · {focus_l}｜Grande Bleu 西归浦帆船（{aud_l}）"
+        meta = f"济州岛游艇攻略：{focus_l}。Grande Bleu 西归浦1小时双体帆船，含船上美食。面向{aud_l}的预订前指南。"
         keywords = "济州岛游艇, 济州岛旅游, 济州岛攻略, Grande Bleu, 大浦港, 双体帆船, 日落巡航, 韩国旅游"
         body = f"""# {title}
 
@@ -230,8 +230,8 @@ Grande Bleu 使用双体帆船。总载客量为 {FACTS['capacity']}。每次航
 电话: {FACTS['phone']}。Instagram: {FACTS['instagram']}。电话主要以韩语沟通，海外旅客建议先查看预订平台页面。
 """
     else:
-        title = f"Jeju Yacht Tour — {focus_l} | Grande Bleu Sunset Catamaran, Daepo Port ({aud_l})"
-        meta = f"Jeju yacht tour guide: {focus_l} for your Grande Bleu sunset catamaran from Daepo Port, Seogwipo. Written for {aud_l}."
+        title = f"Jeju Yacht Tour — {focus_l} | Grande Bleu Catamaran, Seogwipo Jeju ({aud_l})"
+        meta = f"Jeju yacht tour guide: {focus_l} for your Grande Bleu catamaran in Seogwipo, Jeju. Written for {aud_l}."
         keywords = "Jeju yacht tour, things to do in Jeju, Jeju sunset cruise, Grande Bleu, Daepo Port, Seogwipo, catamaran sailing, Korea travel"
         body = f"""# {title}
 
