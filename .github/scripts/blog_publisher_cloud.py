@@ -544,21 +544,22 @@ LANG_META = {
             "cta_about": "About Grande Bleu", "related": "Related",
             "klook_headline": "Sail Before Sunset Tonight",
             "klook_sub": "Partner booking platforms · Free onboard food & drinks",
-            "extra_keywords": "Jeju catamaran, sunset cruise, Daepo Port, Seogwipo, "
+            "extra_keywords": "Jeju yacht tour, things to do in Jeju, Jeju Island travel, "
+                               "Jeju itinerary, Jeju catamaran, sunset cruise, Daepo Port, Seogwipo, "
                                "Jeju honeymoon, Jeju family activities, Korea sailing"},
     "zh-CN": {"label": "中文简体", "cta_book": "立即预订",
               "cta_about": "关于Grande Bleu", "related": "相关",
               "klook_headline": "今日落日前出航",
               "klook_sub": "合作平台预订·船上餐饮免费",
-              "extra_keywords": "济州岛游艇, 济州航海, Grande Bleu, 大浦港, "
-                                 "西归浦, 韩国济州岛, 蜜月旅行, 韩剧打卡, 拍照圣地"},
+              "extra_keywords": "济州岛游艇, 济州岛旅游, 济州岛攻略, 济州岛自由行, 济州航海, "
+                                 "Grande Bleu, 大浦港, 西归浦, 韩国济州岛, 蜜月旅行, 韩剧打卡, 拍照圣地"},
     "ja": {"label": "日本語", "cta_book": "今すぐ予約",
             "cta_about": "Grande Bleuについて", "related": "関連",
             "klook_headline": "今日のサンセット前に出航",
             "klook_sub": "提携予約プラットフォーム・船上の食事ドリンク無料",
-            "extra_keywords": "済州島 ヨット, 済州 セーリング, グランブルー, 大浦港, "
-                               "西帰浦, 韓国旅行, ハネムーン, 家族旅行, 韓ドラ, "
-                               "サンセットクルーズ, カタマラン, 双胴船"},
+            "extra_keywords": "済州島ヨット, 済州島 観光, 済州島 旅行, 済州島 おすすめ, "
+                               "済州 セーリング, グランブルー, 大浦港, 西帰浦, 韓国旅行, "
+                               "ハネムーン, 家族旅行, サンセットクルーズ, カタマラン, 双胴船"},
 }
 
 
