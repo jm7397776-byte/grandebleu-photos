@@ -3,7 +3,7 @@ name: Grande Bleu Blog Safe Publish
 on:
   schedule:
     # KST 14:00 = UTC 05:00. Runs after blog_today render.
-    - cron: "0 5 * * *"
+    - cron: "30 23 * * *"
   workflow_dispatch: {}
 
 permissions:
