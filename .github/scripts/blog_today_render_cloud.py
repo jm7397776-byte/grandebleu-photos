@@ -441,7 +441,7 @@ def render(lang, post, avoid_photo_urls=None):
 
 
 def main():
-    lang = LANGS_CYCLE[datetime.now().weekday() % 3]
+    lang = LANGS_CYCLE[datetime.now().toordinal() % 3]  # 매일 강제 3순환(요일 무관, 연속 중복 없음)
     history = load_history()
     path, key, post = pick_post(lang)
     if not post:
