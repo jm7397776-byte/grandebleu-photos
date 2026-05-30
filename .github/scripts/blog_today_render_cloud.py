@@ -410,7 +410,7 @@ def compact_for_make(content, avoid_photo_urls=None):
 def render(lang, post, avoid_photo_urls=None):
     klook = os.environ.get("GRANDEBLEU_KLOOK_URL", pub.KLOOK_URL_DEFAULT)
     meta = pub.LANG_META.get(lang, pub.LANG_META["en"])
-    body = pub.sanitize_body(post["body"], klook)
+    body = pub.sanitize_body(post["body"], klook, lang)
     avoid_photo_urls = set(avoid_photo_urls or [])
     body_html = compact_for_make(pub.md_to_html(
         body,
