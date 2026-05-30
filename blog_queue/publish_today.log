@@ -15,3 +15,20 @@
 
 [2026-05-29T04:55:36] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/05/grande-bleu-1-0529-0426.html
 [2026-05-29T04:56:35] already published: [日本語] Grande Bleu 済州 ヨット|秋のセーリングで穏やか1時間 | 0529-0426
+[2026-05-30T08:47:15] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-05-30T08:47:27] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/05/grande-bleu280_0824963788.html
+[2026-05-30T08:47:28] Telegram notification sent
