@@ -57,6 +57,19 @@ def published_today() -> bool:
     return False
 
 
+def today_json_fresh() -> bool:
+    """blog_today.json이 오늘 렌더본이면 True (재렌더 불필요)."""
+    p = REPO / "blog_today.json"
+    if not p.exists():
+        return False
+    try:
+        gen = str(json.loads(p.read_text(encoding="utf-8")).get("generated_at", ""))[:10]
+    except Exception:
+        return False
+    return gen in (datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+                   datetime.now(KST).strftime("%Y-%m-%d"))
+
+
 def run(script: str) -> tuple[bool, str]:
     try:
         r = subprocess.run(
@@ -72,11 +85,15 @@ def main() -> None:
         print("watchdog: healthy — 오늘치 이미 발행됨")
         return
 
-    print("watchdog: 오늘치 누락 감지 → 자가 복구(렌더 + 발행) 시작")
-    ok_r, tail_r = run("blog_today_render_cloud.py")
-    if not ok_r:
-        tg(f"⚠️ 그랑블루 외국블로그 워치독 — 렌더 실패\n{tail_r[-400:]}")
-        raise SystemExit("watchdog render failed")
+    print("watchdog: 오늘치 누락 감지 → 자가 복구 시작")
+    if today_json_fresh():
+        print("watchdog: 오늘 렌더본 존재 → 재렌더 없이 발행만 재시도")
+    else:
+        print("watchdog: 오늘 렌더본 없음 → 렌더 먼저")
+        ok_r, tail_r = run("blog_today_render_cloud.py")
+        if not ok_r:
+            tg(f"⚠️ 그랑블루 외국블로그 워치독 — 렌더 실패\n{tail_r[-400:]}")
+            raise SystemExit("watchdog render failed")
 
     ok_p, tail_p = run("blog_publish_today_safe.py")
     if not ok_p:
