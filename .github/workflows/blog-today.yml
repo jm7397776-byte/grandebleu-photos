@@ -3,7 +3,7 @@ name: Grande Bleu Blog Today Render
 on:
   schedule:
     # KST 13:30 = UTC 04:30. Make Blogger publish should run after this.
-    - cron: "30 4 * * *"
+    - cron: "0 23 * * *"
   workflow_dispatch: {}
 
 permissions:
