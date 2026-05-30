@@ -159,11 +159,45 @@ BOOKING_CHANNEL_NOTE_ZH = (
 )
 
 
-def sanitize_body(text: str, klook_url: str) -> str:
+def _booking_note(lang: str) -> str:
+    return {"ja": BOOKING_CHANNEL_NOTE_JA,
+            "zh-CN": BOOKING_CHANNEL_NOTE_ZH}.get(lang, BOOKING_CHANNEL_NOTE)
+
+
+# "Klook 단독/독점" 오표기 탐지 패턴 — 언어별로 분리. 글의 언어와 같은 그룹만
+# 적용해 교차언어 혼입(예: 중국어 글에 일본어 안내문 주입)을 원천 차단한다.
+_EXCLUSIVE_PATTERNS = {
+    "en": [
+        r"(?im)^.*Klook[^.\n]*(?:only|exclusively|exclusive|one channel|one price|no phone-tag)[^.\n]*\.?$",
+        r"(?im)^.*Booking is handled exclusively through Klook[^.\n]*\.?$",
+        r"(?im)^.*Grande Bleu takes bookings through \*\*Klook only\*\*[^.\n]*\.?$",
+        r"(?im)^.*Klook is the only booking channel[^.\n]*\.?$",
+        r"(?im)^.*only official booking channel[^.\n]*Klook[^.\n]*\.?$",
+    ],
+    "ja": [
+        r"(?m)^.*Klook[^。\n]*(?:一本化|のみ|だけ)[^。\n]*。?$",
+        r"(?m)^.*自社予約ページ[^。\n]*(?:運営していません|ありません)[^。\n]*。?$",
+    ],
+    "zh-CN": [
+        r"(?m)^.*(?:只有|唯一|独家)[^。\n]*Klook[^。\n]*。?$",
+        r"(?m)^.*Klook[^。\n]*(?:一个渠道|官方预订渠道|独家|唯一)[^。\n]*。?$",
+        r"(?m)^.*(?:官网、电话|官网|电话)[^。\n]*不是主要预订入口[^。\n]*。?$",
+    ],
+}
+
+# 영어 전용: "자체 예약 페이지 없음" 류 → 일반 안내문
+_EN_NO_SITE = (
+    r"(?im)^.*(?:no separate website|no in-house reservation page|no third-party agent)[^.\n]*\.?$",
+    "Please use the booking platform that best matches your country, language, payment method, and change/refund needs.",
+)
+
+
+def sanitize_body(text: str, klook_url: str, lang: str = "en") -> str:
     """grandebleu.co.kr 등 없는 도메인과 단일 예약 채널 오표기를 자동 치환한다.
 
     Grande Bleu는 Klook 단일 예약이 아니다. Naver, Klook, KKday,
-    Ctrip/Trip.com 등 복수 채널 예약 가능성을 유지해야 한다."""
+    Ctrip/Trip.com 등 복수 채널 예약 가능성을 유지해야 한다.
+    lang으로 글의 언어를 받아 *그 언어의 패턴·안내문만* 적용 → 언어 혼입 차단."""
     if not text: return text
     # 마크다운 링크 [text](grandebleu.co.kr) → Klook
     text = re.sub(
@@ -173,33 +207,12 @@ def sanitize_body(text: str, klook_url: str) -> str:
     text = re.sub(
         r"(?:https?://)?(?:www\.)?grandebleu\.(?:co\.)?kr(?:/[\w\-/]*)?",
         klook_url, text, flags=re.IGNORECASE)
-    # "official site", "official website", "자체 웹사이트" 류 문구 약화
-    replacements = [
-        (r"(?im)^.*Klook[^.\n]*(?:only|exclusively|exclusive|one channel|one price|no phone-tag)[^.\n]*\.?$",
-         BOOKING_CHANNEL_NOTE),
-        (r"(?im)^.*Booking is handled exclusively through Klook[^.\n]*\.?$",
-         BOOKING_CHANNEL_NOTE),
-        (r"(?im)^.*Grande Bleu takes bookings through \*\*Klook only\*\*[^.\n]*\.?$",
-         BOOKING_CHANNEL_NOTE),
-        (r"(?im)^.*Klook is the only booking channel[^.\n]*\.?$",
-         BOOKING_CHANNEL_NOTE),
-        (r"(?im)^.*only official booking channel[^.\n]*Klook[^.\n]*\.?$",
-         BOOKING_CHANNEL_NOTE),
-        (r"(?im)^.*(?:no separate website|no in-house reservation page|no third-party agent)[^.\n]*\.?$",
-         "Please use the booking platform that best matches your country, language, payment method, and change/refund needs."),
-        (r"(?m)^.*Klook[^。\n]*(?:一本化|のみ|だけ|唯一|独家|官方预订渠道|一个渠道)[^。\n]*。?$",
-         BOOKING_CHANNEL_NOTE_JA),
-        (r"(?m)^.*自社予約ページ[^。\n]*(?:運営していません|ありません)[^。\n]*。?$",
-         BOOKING_CHANNEL_NOTE_JA),
-        (r"(?m)^.*(?:只有|唯一|独家)[^。\n]*Klook[^。\n]*。?$",
-         BOOKING_CHANNEL_NOTE_ZH),
-        (r"(?m)^.*Klook[^。\n]*一个渠道[^。\n]*。?$",
-         BOOKING_CHANNEL_NOTE_ZH),
-        (r"(?m)^.*(?:官网、电话|官网|电话)[^。\n]*不是主要预订入口[^。\n]*。?$",
-         BOOKING_CHANNEL_NOTE_ZH),
-    ]
-    for pattern, repl in replacements:
-        text = re.sub(pattern, repl, text)
+    # 예약 채널 오표기 → 글 언어에 맞는 안내문 (해당 언어 패턴만 적용)
+    note = _booking_note(lang)
+    for pattern in _EXCLUSIVE_PATTERNS.get(lang, _EXCLUSIVE_PATTERNS["en"]):
+        text = re.sub(pattern, note, text)
+    if lang == "en":
+        text = re.sub(_EN_NO_SITE[0], _EN_NO_SITE[1], text)
     return text
 
 
@@ -561,8 +574,8 @@ def publish_blogger(env: dict, post: dict, lang: str = "en") -> dict:
     # 0) 본문 위생 처리 — grandebleu.co.kr 자동 치환 (도메인 없음)
     klook_url = env.get("GRANDEBLEU_KLOOK_URL", KLOOK_URL_DEFAULT)
     post = dict(post)
-    post["body"] = sanitize_body(post["body"], klook_url)
-    post["meta_desc"] = sanitize_body(post["meta_desc"], klook_url)
+    post["body"] = sanitize_body(post["body"], klook_url, lang)
+    post["meta_desc"] = sanitize_body(post["meta_desc"], klook_url, lang)
 
     # 1) Markdown → HTML 변환 + 문단 사이 사진 자동 삽입 (글마다 다른 6장)
     body_html = md_to_html(post["body"], photo_seed=f"{post['title']}_{lang}")
