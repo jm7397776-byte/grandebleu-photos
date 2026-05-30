@@ -76,6 +76,33 @@ INFO_FOCUS = [
     "ship",
 ]
 
+
+# 언어별 라벨 — 폴백 글 제목/본문을 시장별 고검색어 선두 + 완전 현지어로 (언어혼입 제거)
+FOCUS_LABELS = {
+    "route":   {"en": "Route & Highlights",    "ja": "航路と見どころ", "zh-CN": "航线亮点"},
+    "safety":  {"en": "Safety & Comfort",      "ja": "安全と快適さ",   "zh-CN": "安全与舒适"},
+    "price":   {"en": "Price Guide",           "ja": "料金ガイド",     "zh-CN": "价格指南"},
+    "food":    {"en": "Onboard Food & Drinks", "ja": "船上グルメ",     "zh-CN": "船上美食"},
+    "photos":  {"en": "Photo Spots",           "ja": "撮影スポット",   "zh-CN": "拍照打卡"},
+    "booking": {"en": "How to Book",           "ja": "予約方法",       "zh-CN": "预订指南"},
+    "season":  {"en": "Best Season",           "ja": "ベストシーズン", "zh-CN": "最佳季节"},
+    "ship":    {"en": "The Catamaran",         "ja": "カタマラン船",   "zh-CN": "双体帆船"},
+}
+AUDIENCE_LABELS = {
+    "first-time Jeju visitors":   {"en": "first-time visitors",        "ja": "はじめての済州島",       "zh-CN": "初游济州"},
+    "Japan travelers":            {"en": "travelers from Japan",       "ja": "日本からの旅行者",       "zh-CN": "日本游客"},
+    "Chinese-speaking travelers": {"en": "Chinese-speaking travelers", "ja": "中国語圏の旅行者",       "zh-CN": "华语游客"},
+    "families with children":     {"en": "families with kids",         "ja": "子連れ家族",            "zh-CN": "亲子家庭"},
+    "couples and honeymooners":   {"en": "couples and honeymooners",   "ja": "カップル・ハネムーン",   "zh-CN": "情侣蜜月"},
+    "corporate groups":           {"en": "corporate groups",           "ja": "企業・団体",            "zh-CN": "企业团体"},
+    "solo travelers":             {"en": "solo travelers",             "ja": "ひとり旅",              "zh-CN": "独自旅行"},
+    "premium hotel guests":       {"en": "premium hotel guests",       "ja": "プレミアムホテル滞在者", "zh-CN": "高端酒店宾客"},
+}
+
+
+def _label(d, key, lang):
+    return d.get(key, {}).get(lang) or d.get(key, {}).get("en") or key
+
 FACTS = {
     "duration": "1 hour",
     "port": "Daepo Port, Seogwipo, Jeju",
@@ -132,16 +159,18 @@ def generated_combo(lang, history):
 
 
 def generated_text(lang, angle, audience, focus):
+    focus_l = _label(FOCUS_LABELS, focus, lang)
+    aud_l = _label(AUDIENCE_LABELS, audience, lang)
     if lang == "ja":
-        title = f"Grande Bleu 済州ヨット｜{angle} for {audience}"
-        meta = f"済州島大浦港から出航するGrande Bleuの1時間カタマラン体験。テーマ: {angle}。"
-        keywords = "済州島ヨット, Grande Bleu, 大浦港, カタマラン, サンセット, 韓国旅行"
+        title = f"済州島ヨット {focus_l}｜Grande Bleu 大浦港セーリング（{aud_l}向け）"
+        meta = f"済州島ヨット攻略：{focus_l}。Grande Bleu 大浦港の1時間カタマラン、船上グルメ込み。{aud_l}向けの予約前ガイド。"
+        keywords = "済州島ヨット, 済州島旅行, 済州島 観光, Grande Bleu, 大浦港, カタマラン, サンセットクルーズ, 韓国旅行"
         body = f"""# {title}
 
 ## 今日のテーマ
-今回のテーマは **{angle}** です。Grande Bleu は済州島・西帰浦の大浦港から出航する {FACTS['boat']} で、所要時間は約 {FACTS['duration']}。短い時間でも、海から見る済州南岸の印象は陸上観光とはかなり違います。
+今回のテーマは **{focus_l}** です。Grande Bleu は済州島・西帰浦の大浦港から出航する {FACTS['boat']} で、所要時間は約 {FACTS['duration']}。短い時間でも、海から見る済州南岸の印象は陸上観光とはかなり違います。
 
-この文章は {audience} 向けに、予約前に知っておくと安心な情報だけを整理しています。
+この文章は {aud_l} 向けに、予約前に知っておくと安心な情報だけを整理しています。
 
 ## コースで見えるもの
 航路では {FACTS['landmarks']} など、南岸らしい地形を海側から眺めます。特に柱状節理は、展望台から見下ろす姿と、船上から見上げる姿で印象が変わります。
@@ -167,15 +196,15 @@ def generated_text(lang, angle, audience, focus):
 電話は {FACTS['phone']}、Instagram は {FACTS['instagram']} です。電話は韓国語中心の対応になるため、海外からの予約確認は各予約プラットフォームの案内を先に見るとスムーズです。
 """
     elif lang == "zh-CN":
-        title = f"Grande Bleu 济州游艇｜{angle} for {audience}"
-        meta = f"从济州西归浦大浦港出发的Grande Bleu 1小时双体帆船体验。主题: {angle}。"
-        keywords = "济州岛游艇, Grande Bleu, 大浦港, 双体船, 日落航行, 韩国旅行"
+        title = f"济州岛游艇攻略 · {focus_l}｜Grande Bleu 大浦港帆船（{aud_l}）"
+        meta = f"济州岛游艇攻略：{focus_l}。Grande Bleu 大浦港1小时双体帆船，含船上美食。面向{aud_l}的预订前指南。"
+        keywords = "济州岛游艇, 济州岛旅游, 济州岛攻略, Grande Bleu, 大浦港, 双体帆船, 日落巡航, 韩国旅游"
         body = f"""# {title}
 
 ## 今日主题
-这篇文章的主题是 **{angle}**。Grande Bleu 从济州岛西归浦大浦港出发，船型为 {FACTS['boat']}，航程约 {FACTS['duration']}。
+这篇文章的主题是 **{focus_l}**。Grande Bleu 从济州岛西归浦大浦港出发，船型为 {FACTS['boat']}，航程约 {FACTS['duration']}。
 
-内容主要写给 {audience}，帮助你在预订前快速理解这趟航行适不适合自己。
+内容主要写给 {aud_l}，帮助你在预订前快速理解这趟航行适不适合自己。
 
 ## 航线亮点
 航行中可以看到 {FACTS['landmarks']} 等济州南岸地形。柱状节理从陆地看是一种风景，从海面看则更能感受到高度和岩石纹理。
@@ -201,15 +230,15 @@ Grande Bleu 使用双体帆船。总载客量为 {FACTS['capacity']}。每次航
 电话: {FACTS['phone']}。Instagram: {FACTS['instagram']}。电话主要以韩语沟通，海外旅客建议先查看预订平台页面。
 """
     else:
-        title = f"Grande Bleu Jeju Yacht | {angle.title()} for {audience.title()}"
-        meta = f"A practical guide to Grande Bleu's 1-hour Jeju catamaran sailing from Daepo Port. Focus: {angle}."
-        keywords = "Jeju yacht, Grande Bleu, Daepo Port, catamaran, sunset cruise, Korea travel"
+        title = f"Jeju Yacht Tour — {focus_l} | Grande Bleu Sunset Catamaran, Daepo Port ({aud_l})"
+        meta = f"Jeju yacht tour guide: {focus_l} for your Grande Bleu sunset catamaran from Daepo Port, Seogwipo. Written for {aud_l}."
+        keywords = "Jeju yacht tour, things to do in Jeju, Jeju sunset cruise, Grande Bleu, Daepo Port, Seogwipo, catamaran sailing, Korea travel"
         body = f"""# {title}
 
 ## Today's Angle
-This post focuses on **{angle}**. Grande Bleu sails from {FACTS['port']} on a {FACTS['boat']}, with a cruise time of about {FACTS['duration']}.
+This post focuses on **{focus_l}**. Grande Bleu sails from {FACTS['port']} on a {FACTS['boat']}, with a cruise time of about {FACTS['duration']}.
 
-It is written for {audience}, with practical details that help before booking.
+It is written for {aud_l}, with practical details that help before booking.
 
 ## What You See On The Route
 The route introduces Jeju's southern coastline from sea level: {FACTS['landmarks']}. The basalt columns feel different when viewed from the water, because you see the height, texture, and coastline in one frame.
