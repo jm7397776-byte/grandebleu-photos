@@ -2,8 +2,8 @@ name: Grande Bleu Blog Safe Publish
 
 on:
   schedule:
-    # KST 14:00 = UTC 05:00. Runs after blog_today render.
-    - cron: "30 23 * * *"
+    # KST 14:07 = UTC 05:07. 비혼잡 분; 렌더(04:37) 약 30분 뒤. 워치독(blog-watchdog)이 누락 시 자가복구.
+    - cron: "7 5 * * *"
   workflow_dispatch: {}
 
 permissions:
