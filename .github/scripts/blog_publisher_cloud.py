@@ -673,9 +673,8 @@ def publish_blogger(env: dict, post: dict, lang: str = "en") -> dict:
     # 5) hreflang 메타 — 다국어 alternate (2026-05-26 정정: grandebleu.co.kr 도메인 없음)
     _BLOGGER = "https://jejugrandebleuyacht.blogspot.com/"
     _CN_MIRROR = "https://grandebleu-jeju-cn.pages.dev/"
-    # 영문 미러(github.io/grandebleu-jeju-en)는 현재 404(Pages 미설정) → 죽은 hreflang은
-    # SEO 감점이므로 라이브 blogspot으로 지정. 전용 영문 미러 복구 시 이 값만 교체.
-    _EN_MIRROR = _BLOGGER
+    # 영문 미러 복구 완료(2026-05-30: public 전환 + GitHub Pages + 영문 14편 + sitemap).
+    _EN_MIRROR = "https://jm7397776-byte.github.io/grandebleu-jeju-en/"
     _KLOOK = "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/"
     hreflang_meta = (
         f'<meta name="language" content="{lang}" />'
