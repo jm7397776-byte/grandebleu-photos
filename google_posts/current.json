@@ -1,35 +1,35 @@
 {
-  "week": "2026-W22",
-  "generated_at": "2026-05-27T01:02:49",
+  "week": "2026-W23",
+  "generated_at": "2026-06-01T07:00:07",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_161_luxury.jpg",
-      "seo_keywords": "제주 카타마란, 제주 인생샷, 제주 선셋 크루즈, 제주 라면 크루즈",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W22_ko.txt",
-      "body_length": 605
+      "photo": "yacht_88_sunset.jpg",
+      "seo_keywords": "제주 와인 크루즈, 제주 데이트 코스, 제주 커플여행, 대포항 요트",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W23_ko.txt",
+      "body_length": 707
     },
     "en": {
       "label": "English",
-      "photo": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_107_luxury.jpg",
-      "seo_keywords": "jeju safe tour, jeju safe yacht, jeju hotspot, jeju sunset spot",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W22_en.txt",
-      "body_length": 1406
+      "photo": "yacht_75_general.jpg",
+      "seo_keywords": "jeju 60 minute cruise, jeju weekend trip, jeju vegan options, jeju hallasan view",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W23_en.txt",
+      "body_length": 1384
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_07_sunset.jpg",
-      "seo_keywords": "济州岛红酒游艇, 济州岛海上游, 韩国唯一认证双体船, 济州岛亲子",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W22_zh-CN.txt",
-      "body_length": 546
+      "photo": "yacht_82_general.jpg",
+      "seo_keywords": "济州岛拍照点, 济州岛性价比, 济州岛私人游艇, 济州岛红酒游艇",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W23_zh-CN.txt",
+      "body_length": 557
     },
     "ja": {
       "label": "日本語",
-      "photo": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_101_sunset.jpg",
-      "seo_keywords": "済州島コスパ, 済州島ワインクルーズ, 済州島飲み放題, 済州島インスタ映え",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W22_ja.txt",
-      "body_length": 703
+      "photo": "yacht_06.jpg",
+      "seo_keywords": "韓国セーリング体験, 済州島人気スポット, 済州島海ツアー, 済州島おすすめアクティビティ",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W23_ja.txt",
+      "body_length": 700
     }
   }
 }
