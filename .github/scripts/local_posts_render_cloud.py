@@ -14,8 +14,16 @@ import hashlib
 import json
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+KST = timezone(timedelta(hours=9))
+
+
+def now_kst() -> datetime:
+    """GitHub Actions(UTC)에서 돌아도 한국 시각을 반환. naive로 맞춰 기존 출력 포맷 유지."""
+    return datetime.now(KST).replace(tzinfo=None)
+
 
 REPO = Path(os.environ.get("REPO_DIR", os.getcwd()))
 PHOTO_INDEX = REPO / "photos_index.json"
@@ -103,7 +111,7 @@ def save_json(path: Path, data):
 
 
 def text_seed() -> str:
-    return datetime.now().strftime("%Y-%m-%d")
+    return now_kst().strftime("%Y-%m-%d")
 
 
 def pick_topic(history: dict) -> dict:
@@ -221,9 +229,9 @@ def main():
     history = load_json(HISTORY_JSON, {"items": []})
     topic = pick_topic(history)
     photos = pick_photos(topic, history, 3)
-    generated_at = datetime.now().isoformat(timespec="seconds")
+    generated_at = now_kst().isoformat(timespec="seconds")
     payload = {
-        "date": datetime.now().date().isoformat(),
+        "date": now_kst().date().isoformat(),
         "generated_at": generated_at,
         "publish": True,
         "topic_key": topic["key"],
