@@ -1,35 +1,36 @@
 {
   "week": "2026-W23",
-  "generated_at": "2026-06-01T07:00:07",
-  "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts",
+  "generated_at": "2026-06-02T00:26:04",
+  "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
       "photo": "yacht_88_sunset.jpg",
       "seo_keywords": "제주 와인 크루즈, 제주 데이트 코스, 제주 커플여행, 대포항 요트",
       "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W23_ko.txt",
-      "body_length": 707
+      "body_length": 648
     },
     "en": {
       "label": "English",
-      "photo": "yacht_75_general.jpg",
+      "photo": "yacht_95_sunset.jpg",
       "seo_keywords": "jeju 60 minute cruise, jeju weekend trip, jeju vegan options, jeju hallasan view",
       "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W23_en.txt",
-      "body_length": 1384
+      "body_length": 1096
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "yacht_82_general.jpg",
+      "photo": "yacht_97_sunset.jpg",
       "seo_keywords": "济州岛拍照点, 济州岛性价比, 济州岛私人游艇, 济州岛红酒游艇",
       "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W23_zh-CN.txt",
-      "body_length": 557
+      "body_length": 739
     },
     "ja": {
       "label": "日本語",
-      "photo": "yacht_06.jpg",
+      "photo": "yacht_90_sunset.jpg",
       "seo_keywords": "韓国セーリング体験, 済州島人気スポット, 済州島海ツアー, 済州島おすすめアクティビティ",
       "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W23_ja.txt",
-      "body_length": 700
+      "body_length": 673
     }
-  }
+  },
+  "_generator": "google_posts_generate_cloud.py (gemini)"
 }

@@ -159,6 +159,38 @@
       "first_sentence": "海が穏やかな季節、漢拏山(ハルラサン)を背景にした60分が、済州島の真髄をすべて凝縮してくれる。",
       "hash": "016f545ed947",
       "added": "2026-06-01T06:00:53"
+    },
+    {
+      "week": "2026-W23",
+      "lang": "ko",
+      "angle": "culture_local",
+      "first_sentence": "바다 잔잔한 평온 시즌, 한라산 배경 속에서 즐기는 제주 와인 크루즈가 여러분을 기다립니다. 60분간 제주 여행의 정수를 만끽하며 잊지 못할 추억을 만들어 보세요.",
+      "hash": "dbe62f781348",
+      "added": "2026-06-02T00:24:13"
+    },
+    {
+      "week": "2026-W23",
+      "lang": "en",
+      "angle": "culture_local",
+      "first_sentence": "Experience the ultimate Jeju weekend trip this calm seas season aboard Grande Bleu Yacht! Our 60-minute sunset cruise from Daepo Port, Seogwipo, offers the perfect blend of local culture and breathtak",
+      "hash": "48983255e2c9",
+      "added": "2026-06-02T00:24:45"
+    },
+    {
+      "week": "2026-W23",
+      "lang": "zh-CN",
+      "angle": "culture_local",
+      "first_sentence": "海面平静的季节，正是探索济州岛拍照点的绝佳时机。想象一下，以壮丽的汉拿山为背景，手捧济州本地饼干，品尝热腾腾的济州本地拉面，60分钟内浓缩济州精华。这正是济州岛私人游艇 Grande Bleu 为您精心打造的独特体验。",
+      "hash": "dcf6d5e1ef50",
+      "added": "2026-06-02T00:25:19"
+    },
+    {
+      "week": "2026-W23",
+      "lang": "ja",
+      "angle": "culture_local",
+      "first_sentence": "海が穏やかな季節、漢拏山 (ハルラサン) の雄大な背景と、済州島 (チェジュド) の真髄が詰まった60分間の**韓国セーリング体験**はいかがですか？Grande Bleu Yacht が提供する、忘れられない済州島の思い出作りをサポートします。",
+      "hash": "662073bd868e",
+      "added": "2026-06-02T00:26:04"
     }
   ]
 }
