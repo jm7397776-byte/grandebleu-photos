@@ -1,0 +1,163 @@
+{
+  "_meta": {
+    "purpose": "Google Posts SEO 키워드 + 앵글 회전 풀",
+    "updated": "2026-05-26",
+    "owner": "그랑블루요트 — 제주 카타마란 선셋 크루즈"
+  },
+  "angles": [
+    {
+      "id": "sunset_timing",
+      "name_ko": "이번 주 일몰 시각",
+      "focus_ko": "이번 주 일몰 시간(분 단위) + 황금 시간(매직 아워) 강조 + 출항 시각",
+      "focus_en": "This week's exact sunset time + golden hour magic + departure timing",
+      "focus_zh": "本周日落时间 + 黄金时段 + 出航时间",
+      "focus_ja": "今週の日没時刻 + ゴールデンアワー + 出航タイミング",
+      "hook_template_ko": "이번 주 일몰은 {sunset_time}. {weekday}이 가장 황금빛입니다.",
+      "hook_template_en": "Sunset this week peaks at {sunset_time}.",
+      "hook_template_zh": "本周日落时间 {sunset_time}。",
+      "hook_template_ja": "今週の日没は{sunset_time}。"
+    },
+    {
+      "id": "weather_seasonal",
+      "name_ko": "시즌·날씨 결합",
+      "focus_ko": "현재 시즌 강점(5-6월 = 최적 항해, 7-8월 = 야간 시원, 9-10월 = 청명) + 이번 주 예보",
+      "focus_en": "Current season strengths + this week's forecast",
+      "focus_zh": "当季优势 + 本周天气",
+      "focus_ja": "今季の魅力 + 今週の天気"
+    },
+    {
+      "id": "food_unlimited",
+      "name_ko": "무제한 음식·음료",
+      "focus_ko": "선상푸드코트 무제한 무료 — 제주로컬쿠키·제주로컬라면·생맥주·와인·물·쥬스 제공",
+      "focus_en": "Free unlimited onboard food court: Jeju local cookies, Jeju local ramyeon, draft beer, wine, water and juice",
+      "focus_zh": "船上美食区免费无限享用 — 济州本地饼干、济州本地拉面、生啤、葡萄酒、水、果汁",
+      "focus_ja": "船上フードコートが無料で無制限 — 済州ローカルクッキー、済州ローカルラーメン、生ビール、ワイン、水、ジュース"
+    },
+    {
+      "id": "catamaran_stability",
+      "name_ko": "쌍동선 안정성",
+      "focus_ko": "한국 유일 공인 카타마란 — 쌍동선 구조로 멀미 X, 넓은 갑판, 초보·아이도 안심",
+      "focus_en": "Korea's only certified catamaran — twin-hull stability, no seasickness, wide deck, kid-friendly",
+      "focus_zh": "韩国唯一认证双体帆船 — 双船体稳定，不晕船，宽阔甲板，老少皆宜",
+      "focus_ja": "韓国唯一の認定カタマラン — 双胴船で揺れ少なく、酔いにくく、広いデッキ"
+    },
+    {
+      "id": "couple_romance",
+      "name_ko": "커플·프로포즈·기념일",
+      "focus_ko": "커플 데이트·프로포즈·결혼기념일 추천. 단독 갑판 좌석·노을 배경 인생샷·로맨틱 무드",
+      "focus_en": "Best for couples, proposals, anniversaries. Private deck seats, sunset backdrop, romantic mood",
+      "focus_zh": "情侣约会、求婚、纪念日推荐。专属甲板座位、夕阳背景、浪漫氛围",
+      "focus_ja": "カップルデート、プロポーズ、記念日に最適。専用デッキ席、夕陽の背景、ロマンチックな雰囲気"
+    },
+    {
+      "id": "family_friendly",
+      "name_ko": "가족여행·아이 동반",
+      "focus_ko": "어린이부터 어르신까지 환영. 안정적 쌍동선, 가족 단위 갑판 공간, 음료 라면 가족 식사",
+      "focus_en": "Welcome to all ages. Stable catamaran, family deck space, drinks and ramyeon as family meal",
+      "focus_zh": "全家欢迎，从儿童到长辈。稳定双体船、家庭甲板空间、饮料拉面合家欢",
+      "focus_ja": "お子様からご年配まで歓迎。安定したカタマラン、家族向けデッキ、ドリンクとラーメン"
+    },
+    {
+      "id": "price_value",
+      "name_ko": "가성비·럭셔리 대비",
+      "focus_ko": "60분 크루즈·럭셔리/선셋 옵션. 음식·음료 모두 포함. 다른 요트투어 대비 압도적 가성비",
+      "focus_en": "60-min cruise, luxury/sunset options. All food & drinks included. Unmatched value vs other tours",
+      "focus_zh": "60分钟航程，奢华/日落两种选择。餐饮全包。性价比远超其他游艇游",
+      "focus_ja": "60分クルーズ、ラグジュアリー/サンセット選択可。飲食すべて込み。コスパ最強"
+    },
+    {
+      "id": "photo_spot",
+      "name_ko": "인스타·인생샷",
+      "focus_ko": "갑판에서 노을 배경 셀카, 한라산+요트 풍경, SNS 핫플레이스",
+      "focus_en": "Selfie with sunset, Hallasan + yacht backdrop, Instagram hotspot",
+      "focus_zh": "甲板夕阳自拍、汉拿山+游艇背景、网红打卡圣地",
+      "focus_ja": "デッキで夕陽セルフィー、漢拏山+ヨット背景、インスタ映えスポット"
+    },
+    {
+      "id": "route_scenery",
+      "name_ko": "코스 풍경",
+      "focus_ko": "코끼리바위·진곶내(Jingotnae) 해상 협곡·월평 주상절리·팡팽이덕·큰 해식동굴 풍경 코스",
+      "focus_en": "Elephant Rock, Jingotnae Sea Canyon, Wolpyeong Basalt Columns, Pangpaengideok, Large Sea Cave route",
+      "focus_zh": "象岩、津串内海上峡谷、月坪柱状节理、彭辰德、大海蚀洞航线",
+      "focus_ja": "象岩、津串内海峡、月坪柱状節理、ポンペンイドク、大海蝕洞コース"
+    },
+    {
+      "id": "safety_certification",
+      "name_ko": "안전·인증",
+      "focus_ko": "한국 유일 공인 카타마란, 자격증 보유 선장 직접 운항, 100,000명+ 무사고 운항 (2011년 시작)",
+      "focus_en": "Korea's only certified catamaran, licensed captain, 100,000+ safe sailings since 2011",
+      "focus_zh": "韩国唯一认证双体帆船，持证船长亲自驾驶，2011年至今10万+人无事故",
+      "focus_ja": "韓国唯一の認定カタマラン、有資格船長運航、2011年以来10万人以上無事故"
+    },
+    {
+      "id": "weekend_urgency",
+      "name_ko": "주말 자리·예약 긴급",
+      "focus_ko": "주말 자리 빠르게 마감. 미리 예약 권장 + 평일 추천",
+      "focus_en": "Weekend slots fill fast. Book ahead + weekday recommended",
+      "focus_zh": "周末名额紧张，建议提前预订或工作日出行",
+      "focus_ja": "週末は早く埋まります。事前予約・平日推奨"
+    },
+    {
+      "id": "culture_local",
+      "name_ko": "제주 문화·로컬",
+      "focus_ko": "한라산 배경 + 제주로컬쿠키 + 제주로컬라면 = 제주 여행 정수를 1시간에",
+      "focus_en": "Hallasan backdrop + Jeju local cookies + Jeju local ramyeon = essence of Jeju in 60 minutes",
+      "focus_zh": "汉拿山背景 + 济州本地饼干 + 济州本地拉面 = 60分钟浓缩济州精华",
+      "focus_ja": "漢拏山の背景 + 済州ローカルクッキー + 済州ローカルラーメン = 60分で済州の真髄"
+    }
+  ],
+  "seo_keywords": {
+    "ko": [
+      "제주 요트투어", "제주 선셋 크루즈", "제주 카타마란", "서귀포 요트", "대포항 요트",
+      "제주 일몰 명소", "제주 가족여행", "제주 커플여행", "제주 데이트 코스", "제주 프로포즈",
+      "제주 럭셔리 투어", "제주 바다투어", "제주 액티비티", "제주 인생샷", "제주 야경",
+      "제주 6월 가볼만한곳", "제주 주말 여행", "주상절리 요트", "제주 무제한 음료 크루즈",
+      "제주 라면 크루즈", "제주 한라산 뷰", "한국 유일 카타마란", "제주 안전 요트",
+      "제주 60분 크루즈", "제주 일몰 시간", "서귀포 액티비티", "제주 핫플레이스",
+      "제주 어린이 동반", "제주 안전 투어", "제주 와인 크루즈", "제주 비건 옵션",
+      "제주 노을", "제주 가성비 투어", "제주 SNS 명소", "제주 친구여행"
+    ],
+    "en": [
+      "jeju yacht tour", "jeju catamaran", "sunset cruise jeju", "seogwipo yacht", "daepo port yacht",
+      "jeju sunset spot", "jeju family activity", "jeju couple activity", "jeju romantic date", "jeju proposal cruise",
+      "jeju luxury yacht", "jeju ocean tour", "korea catamaran", "jeju instagram spot", "jeju night view",
+      "jeju best activities", "jeju weekend trip", "jusangjeolli cliff yacht", "jeju unlimited drinks cruise",
+      "jeju ramyeon cruise", "jeju hallasan view", "korea only certified catamaran", "jeju safe yacht",
+      "jeju 60 minute cruise", "jeju sunset time", "seogwipo activities", "jeju hotspot",
+      "jeju kid friendly", "jeju safe tour", "jeju wine cruise", "jeju vegan options",
+      "jeju golden hour", "jeju value cruise", "jeju photo spot", "jeju friends trip",
+      "korea sailing experience", "jeju private cruise", "jeju anniversary cruise"
+    ],
+    "zh-CN": [
+      "济州岛游艇", "济州岛双体帆船", "济州岛日落", "西归浦游艇", "大浦港游艇",
+      "济州岛日落景点", "济州岛家庭旅行", "济州岛情侣", "济州岛约会", "济州岛求婚",
+      "济州岛奢华游艇", "济州岛海上游", "韩国双体船", "济州岛网红打卡", "济州岛夜景",
+      "济州岛必玩活动", "济州岛周末游", "柱状节理游艇", "济州岛无限畅饮",
+      "济州岛拉面游艇", "济州岛汉拿山", "韩国唯一认证双体船", "济州岛安全游艇",
+      "济州岛60分钟航程", "济州岛日落时间", "西归浦活动", "济州岛热门景点",
+      "济州岛亲子", "济州岛安全游", "济州岛红酒游艇", "济州岛素食选项",
+      "济州岛夕阳", "济州岛性价比", "济州岛拍照点", "济州岛朋友游",
+      "韩国航海体验", "济州岛私人游艇", "济州岛纪念日"
+    ],
+    "ja": [
+      "済州島ヨット", "チェジュ島ヨット", "済州島サンセット", "西帰浦ヨット", "大浦港ヨット",
+      "済州島夕陽スポット", "済州島家族旅行", "済州島カップル", "済州島デート", "済州島プロポーズ",
+      "済州島ラグジュアリー", "済州島海ツアー", "韓国カタマラン", "済州島インスタ映え", "済州島夜景",
+      "済州島おすすめアクティビティ", "済州島週末旅行", "柱状節理ヨット", "済州島飲み放題",
+      "済州島ラーメンクルーズ", "済州島漢拏山", "韓国唯一認定カタマラン", "済州島安全ヨット",
+      "済州島60分クルーズ", "済州島日没時間", "西帰浦アクティビティ", "済州島人気スポット",
+      "済州島子連れ", "済州島安全ツアー", "済州島ワインクルーズ", "済州島ベジタリアン",
+      "済州島ゴールデンアワー", "済州島コスパ", "済州島フォトスポット", "済州島友達旅行",
+      "韓国セーリング体験", "済州島記念日"
+    ]
+  },
+  "weekly_hooks": {
+    "_note": "주차 % 4 로 회전 (월요일=KST 기준)",
+    "rotations": [
+      {"id": 0, "ko": "주말 일몰 가장 늦은 시즌", "en": "Latest sunset weekends of the year", "zh-CN": "全年日落最晚的周末", "ja": "年で最も日没が遅い週末"},
+      {"id": 1, "ko": "맑은 하늘 청명 시즌", "en": "Clearest skies of the season", "zh-CN": "天空最清澈的季节", "ja": "最も澄んだ空の季節"},
+      {"id": 2, "ko": "황금빛 매직 아워", "en": "Golden hour magic", "zh-CN": "黄金时段魔法", "ja": "ゴールデンアワーの魔法"},
+      {"id": 3, "ko": "바다 잔잔한 평온 시즌", "en": "Calm seas season", "zh-CN": "海面平静的季节", "ja": "海が穏やかな季節"}
+    ]
+  }
+}
