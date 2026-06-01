@@ -2,8 +2,9 @@ name: Pinterest daily picker
 
 on:
   schedule:
-    # 05:30 Asia/Seoul daily. Make.com publishes at 09:00 KST.
-    - cron: "30 22 * * *"
+    # 03:00 Asia/Seoul daily (18:00 UTC). Make.com publishes at 09:00 KST.
+    # 6h margin absorbs GitHub Actions schedule drift. Cloud is the single source of truth (local launchd retired).
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
@@ -38,3 +39,5 @@ jobs:
           curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@latest/pinterest_today.json" || true
           curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/pinterest_run_pool.json" || true
           curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@latest/pinterest_run_pool.json" || true
+          curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/pinterest_today.jpg" || true
+          curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@latest/pinterest_today.jpg" || true
