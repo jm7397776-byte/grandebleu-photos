@@ -19,7 +19,7 @@ HISTORY = REPO / "blog_today_history.json"
 LANGS_CYCLE = ["en", "ja", "zh-CN"]
 TARGET_TEXT_CHARS = 3400
 MAX_FIGURES = 9
-RECENT_IMAGE_WINDOW = 7
+RECENT_IMAGE_WINDOW = 60
 
 GENERATED_ANGLES = [
     "sunset timing and golden-hour photos",
