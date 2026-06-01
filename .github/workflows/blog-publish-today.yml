@@ -60,6 +60,13 @@ jobs:
             echo "No publish state change"
           fi
 
+      - name: Notify publish success
+        if: success()
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT: ${{ secrets.TG_CHAT }}
+        run: python3 .github/scripts/blog_publish_report.py
+
       - name: Notify publish failure
         if: failure()
         env:
