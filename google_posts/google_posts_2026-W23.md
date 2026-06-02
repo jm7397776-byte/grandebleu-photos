@@ -8,18 +8,18 @@
 
 ## 🇰🇷 KO
 
-**사진**: yacht_95_sunset.jpg
+**사진**: yacht_29_interior_620b.jpg
 
 **SEO 키워드**: 제주 와인 크루즈, 제주 데이트 코스, 제주 커플여행, 대포항 요트
 
 ```
-바다 잔잔한 평온 시즌, 제주 커플여행 오신 분들이라면 대포항 요트 그랑블루가 제주 여행의 정수를 단 1시간에 선사합니다. 한라산 배경 아래 펼쳐지는 그림 같은 풍경과 함께 특별한 시간을 만들어보세요.
+바다 잔잔한 평온 시즌, 한라산 배경 속에서 즐기는 제주 와인 크루즈는 어떠세요? 60분간 제주 여행의 정수를 만끽하며 잊지 못할 추억을 만들어 보세요.
 
-*   **제주 와인 크루즈의 여유:** 눈앞에 펼쳐지는 제주 바다와 한라산의 웅장한 경치를 감상하며 와인 한 잔의 로맨틱한 순간을 즐겨보세요. 달콤한 제주 로컬 쿠키와 함께 제주에서의 완벽한 데이트 코스가 될 거예요.
-*   **60분간 맛보는 제주의 맛:** 따뜻한 제주 로컬 라면과 시원한 생맥주, 달콤한 제주 감귤 주스까지 모두 무제한으로 제공됩니다. 오직 그랑블루 요트에서만 누릴 수 있는 풍성한 선상 푸드코트를 경험해 보세요.
-*   **안전하고 특별한 경험:** 2011년부터 10만 명 이상의 손님들이 선택한 한국 유일의 카타마란 인증 요트로, 47인승과 44인승 두 척의 배가 안전하고 쾌적한 운항을 보장합니다. 월평 주상절리, 코끼리바위 등 대포항 근해의 아름다운 경치를 감상하며 잊지 못할 추억을 만들 수 있습니다.
+· 제주 커플여행의 정점, 대포항 요트 그랑블루에서 평생 잊지 못할 순간을 만드세요. 한라산이 병풍처럼 펼쳐진 바다 위에서 제주 로컬 쿠키와 라면, 그리고 와인이 무제한으로 제공됩니다.
+· 2011년부터 10만 명 이상의 승객이 선택한 그랑블루요트는 국내 유일의 인증받은 카타마란으로, 47인승과 44인승 두 대의 안전한 요트가 운항됩니다. 승선 전 컨시어지 서비스부터 출항까지 완벽한 60분 선셋 크루즈를 경험해 보세요.
+· 제주의 에메랄드빛 바다 위에서 월평 주상절리, 코끼리바위 등 아름다운 해안 절경을 감상하며 로맨틱한 시간을 보내세요. 제주 데이트 코스로 이보다 더 완벽할 순 없을 거예요.
 
-이번 제주 커플여행에서는 그랑블루 요트에서 평생 기억에 남을 선셋 크루즈를 경험해 보세요. 예약은 컨시어지-승선-출항 순서로 진행됩니다.
+서귀포 대포항에서 출발하는 그랑블루요트 선셋 크루즈로 아름다운 제주의 밤을 예약하세요.
 
 예약하기 → https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht
 ```
@@ -29,18 +29,20 @@
 
 ## 🇺🇸 EN
 
-**사진**: yacht_22_interior_620.jpg
+**사진**: yacht_06.jpg
 
 **SEO 키워드**: jeju 60 minute cruise, jeju weekend trip, jeju vegan options, jeju hallasan view
 
 ```
-This calm seas season, I discovered the ultimate way to embrace Jeju's beauty: a 60-minute cruise that felt like a full island immersion. From the deck of Grande Bleu Yacht, Korea's only certified catamaran, I soaked in the essence of Jeju in a truly unique way.
+This calm seas season, I discovered the ultimate way to embrace Jeju's beauty: a jeju 60 minute cruise that felt like a full island immersion. From the deck of Grande Bleu Yacht, Korea's only certified catamaran, I soaked in the stunning jeju hallasan view while enjoying a true taste of local culture.
 
-*   **Scenic Views and Local Flavors:** Imagine the majestic Jeju Hallasan view in the distance, framed by the sparkling sea, while you enjoy delicious Jeju local cookies and a steaming bowl of Jeju local ramyeon. It’s the perfect blend of breathtaking scenery and authentic tastes.
-*   **Relaxing Experience:** Our 60-minute cruise offers a serene escape from Daepo Port, Seogwipo. It’s ideal for a memorable Jeju weekend trip, where comfort meets unparalleled island charm.
-*   **Onboard Indulgences:** Enjoy complimentary, unlimited draft beer, wine, Jeju tangerine juice, and water. For those seeking Jeju vegan options, our local snacks and ramyeon can be enjoyed plain, offering a simple yet satisfying treat amidst the waves.
+Imagine yourself on the tranquil waters, cruising past natural wonders like Elephant Rock and Wolpyeong Basalt Columns, all while the majestic Hallasan frames your perfect moment. Our 60-minute sunset cruise from Daepo Port, Seogwipo, is more than just a tour; it's an experience designed to delight all your senses.
 
-Planning your serene escape? Book your unforgettable Jeju 60 minute cruise.
+· Savor the essence of Jeju: Unlimited complimentary Jeju local cookies and Jeju local ramyeon are served onboard, alongside draft beer, wine, and Jeju tangerine juice. We even offer jeju vegan options upon request!
+· Capture breathtaking memories: The gentle evening light creates the perfect backdrop for photos with the iconic jeju hallasan view, an unforgettable highlight of your jeju weekend trip.
+· Relax in certified comfort: Since 2011, Grande Bleu Yacht has welcomed over 100,000 guests on our two certified vessels (47-seat and 44-seat), ensuring a safe and serene journey.
+
+The calm seas won't last forever. Secure your spot on this unique cultural journey and make your Jeju visit truly special. The order is simple: Concierge -> Boarding -> Departure.
 
 Book now → https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht
 ```

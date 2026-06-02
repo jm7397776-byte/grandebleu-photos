@@ -1,21 +1,21 @@
 {
   "week": "2026-W23",
-  "generated_at": "2026-06-02T09:38:23",
+  "generated_at": "2026-06-02T09:47:50",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "yacht_95_sunset.jpg",
+      "photo": "yacht_29_interior_620b.jpg",
       "seo_keywords": "제주 와인 크루즈, 제주 데이트 코스, 제주 커플여행, 대포항 요트",
       "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W23_ko.txt",
-      "body_length": 759
+      "body_length": 628
     },
     "en": {
       "label": "English",
-      "photo": "yacht_22_interior_620.jpg",
+      "photo": "yacht_06.jpg",
       "seo_keywords": "jeju 60 minute cruise, jeju weekend trip, jeju vegan options, jeju hallasan view",
       "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W23_en.txt",
-      "body_length": 1233
+      "body_length": 1547
     }
   },
   "_generator": "google_posts_generate_cloud.py (gemini)"
