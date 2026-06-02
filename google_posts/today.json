@@ -1,17 +1,7 @@
 {
-  "date": "2026-06-02",
-  "weekday": 1,
+  "date": "2026-06-03",
+  "weekday": 2,
   "_generator": "google_posts_today_cloud.py",
-  "weekday_name": "화",
-  "publish": "true",
-  "week": "2026-W23",
-  "lang": "en",
-  "lang_label": "English",
-  "body": "Experience the ultimate Jeju weekend trip this calm seas season aboard Grande Bleu Yacht! Our 60-minute sunset cruise from Daepo Port, Seogwipo, offers the perfect blend of local culture and breathtaking scenery.\n\nHere's what awaits you:\n*   Savor the essence of Jeju with unlimited local cookies and comforting ramyeon, all while gazing at the majestic Jeju Hallasan view from the deck. We even offer Jeju vegan options for those with dietary preferences!\n*   Witness iconic landmarks like Elephant Rock and the Wolpyeong Basalt Columns, creating unforgettable memories on Korea's only certified catamaran, trusted by over 100,000 guests since 2011.\n*   Your seamless journey begins: Concierge assistance, smooth boarding, and a memorable departure. No hassle, just pure relaxation.\n\nDon't miss out on this quintessential Jeju experience. Spaces fill up fast, so secure your spot for an evening of unparalleled beauty and local flavor!\n\nBook now → https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
-  "body_length": 1096,
-  "photo_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_95_sunset.jpg",
-  "seo_keywords": "jeju 60 minute cruise, jeju weekend trip, jeju vegan options, jeju hallasan view",
-  "cta_action_type": "BOOK",
-  "cta_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
-  "_make_com_hint": "HTTP module → JSON parse → GBP Create Post (photo_url=media, body=summary, cta_action_type+cta_url)"
+  "publish": "false",
+  "reason": "ja data missing in current.json"
 }
