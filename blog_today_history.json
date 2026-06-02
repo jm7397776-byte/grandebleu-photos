@@ -108,6 +108,22 @@
       ],
       "image_count": 6,
       "remaining_candidates": 7
+    },
+    {
+      "key": "2026-05-29_0415_혼자_떠난_제주_바다_위_한_시간의_고요_그랑블루요트_솔로_항해기_topic__zh-CN",
+      "lang": "zh-CN",
+      "file": "blog_queue/zh-CN/2026-05-29_0415_혼자_떠난_제주_바다_위_한_시간의_고요_그랑블루요트_솔로_항해기_topic.md",
+      "title": "济州游艇必玩!Grande Bleu双体船夕阳航海 冬天也暖和",
+      "generated_at": "2026-06-02T04:35:40",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_cher.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_05.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_12_sailing.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_park_bin.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_01.png"
+      ],
+      "image_count": 5,
+      "remaining_candidates": 6
     }
   ]
 }
