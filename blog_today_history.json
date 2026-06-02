@@ -74,6 +74,23 @@
       ],
       "image_count": 6,
       "remaining_candidates": 7
+    },
+    {
+      "key": "2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic__zh-CN",
+      "lang": "zh-CN",
+      "file": "blog_queue/zh-CN/2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic.md",
+      "title": "Grande Bleu 济州游艇｜韩国唯一双体船夕阳巡航攻略",
+      "generated_at": "2026-06-02T00:59:10",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_ohongss.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_14_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_basic_jyan.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_05.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_gaeule.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_02.png"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 8
     }
   ]
 }
