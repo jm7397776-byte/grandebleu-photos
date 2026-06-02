@@ -31,6 +31,7 @@ jobs:
       - name: Watchdog — 오늘치 누락 시 렌더+발행 자가복구
         env:
           REPO_DIR: ${{ github.workspace }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GRANDEBLEU_KLOOK_URL: ${{ secrets.GRANDEBLEU_KLOOK_URL }}
           BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
           BLOGGER_SAFE_CLIENT_ID: ${{ secrets.BLOGGER_SAFE_CLIENT_ID }}
