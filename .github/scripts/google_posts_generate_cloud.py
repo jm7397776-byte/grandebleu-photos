@@ -286,6 +286,7 @@ If you find yourself about to write any Hangul character in a non-Korean post, S
 6. NO em-dashes overuse; use periods and commas.
 7. Include 2-3 LSI (semantic) keywords related to the main keyword cluster.
 8. Mobile-first: keep paragraphs short (2-3 lines), bullets scannable.
+9. PLAIN TEXT ONLY — Google Business Posts render raw characters, so NO markdown: no "*" bullets, no "**bold**", no "#" headers. If you list items, start the line with a middle dot "·" and a space.
 {avoid_block}{pb_block}
 === OUTPUT ===
 Output ONLY the final post text in {LANG_FULL[lang]}. No preamble, no explanation, no markdown headers.
