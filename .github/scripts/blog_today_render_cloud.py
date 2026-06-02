@@ -21,6 +21,84 @@ TARGET_TEXT_CHARS = 3400
 MAX_FIGURES = 9
 RECENT_IMAGE_WINDOW = 60
 
+# === 제미나이 카피 생성 (같은 주제라도 매번 다른 본문; 실패 시 아래 템플릿 폴백) ===
+import urllib.request
+_GKEY = os.environ.get("GEMINI_API_KEY", "")
+try:
+    _FACTS = (REPO / "google_posts" / "_data" / "brand_facts.json").read_text(encoding="utf-8")
+except Exception:
+    _FACTS = ""
+try:
+    _PBRULES = (REPO / "google_posts" / "_data" / "powerblogger_rules.md").read_text(encoding="utf-8")
+except Exception:
+    _PBRULES = ""
+_LANG_NAME = {"en": "English", "ja": "Japanese", "zh-CN": "Simplified Chinese"}
+
+
+def _gemini(prompt, timeout=120):
+    if not _GKEY:
+        return ""
+    body = json.dumps({
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"temperature": 1.0, "topP": 0.97, "maxOutputTokens": 4096,
+                             "thinkingConfig": {"thinkingBudget": 0},
+                             "responseMimeType": "application/json"},
+    }).encode("utf-8")
+    for model in ("gemini-2.5-pro", "gemini-2.5-flash"):
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={_GKEY}"
+        try:
+            with urllib.request.urlopen(
+                urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"}),
+                timeout=timeout) as r:
+                d = json.load(r)
+            t = "".join(p.get("text", "") for p in d["candidates"][0]["content"]["parts"]).strip()
+            if t:
+                return t
+        except Exception:
+            continue
+    return ""
+
+
+def _recent_blog_titles(history, n=10):
+    return [it.get("title", "") for it in history.get("selected", [])[-n:] if it.get("title")]
+
+
+def _gemini_blog(lang, angle, audience, focus, history):
+    if not _GKEY:
+        return None
+    focus_l = _label(FOCUS_LABELS, focus, lang)
+    aud_l = _label(AUDIENCE_LABELS, audience, lang)
+    avoid = _recent_blog_titles(history or {}, 10)
+    avoid_block = ("\n[AVOID — do NOT repeat the opening/structure of these recent posts]\n"
+                   + "\n".join(f"- {a}" for a in avoid)) if avoid else ""
+    lang_name = _LANG_NAME.get(lang, "English")
+    prompt = (
+        f"Write ONE Jeju travel blog post in {lang_name} for Grande Bleu Yacht.\n"
+        f"[Angle/Focus] {focus_l}\n[Audience] {aud_l}\n"
+        f"[Verified facts — use ONLY these, never invent prices] {json.dumps(FACTS, ensure_ascii=False)}\n"
+        f"[Brand facts JSON] {_FACTS[:1200]}\n"
+        f"[Korean power-blogger writing principles — apply the principles, not the Korean text] {_PBRULES[:2400]}\n\n"
+        "[Rules]\n"
+        "- Markdown body, 2500-3400 characters, 5-6 sections each with a ## header.\n"
+        "- MUST be distinctly different in wording and structure every time, even for the same focus.\n"
+        "- Conversational and informative, not ad copy. No invented price numbers.\n"
+        f"- Place names strictly in {lang_name}'s own script (NO Korean Hangul in non-Korean text).\n"
+        "- Fish species only: rockfish, scorpionfish, filefish, pufferfish. No engine/motor claims.\n"
+        f"{avoid_block}\n"
+        '- Output JSON only: {"title":"...","meta":"...","keywords":"...","body":"...markdown..."}'
+    )
+    raw = _gemini(prompt)
+    if not raw:
+        return None
+    try:
+        d = json.loads(raw)
+        if d.get("title") and d.get("body") and len(str(d["body"])) > 800:
+            return {"title": str(d["title"]).strip(), "meta": str(d.get("meta", "")).strip(),
+                    "keywords": str(d.get("keywords", "")).strip(), "body": str(d["body"]).strip()}
+    except Exception:
+        pass
+    return None
+
 GENERATED_ANGLES = [
     "sunset timing and golden-hour photos",
     "Daepo Port check-in and boarding flow",
@@ -158,7 +236,10 @@ def generated_combo(lang, history):
     return f"{base}_{day_salt}__{lang}", angle, audience, focus
 
 
-def generated_text(lang, angle, audience, focus):
+def generated_text(lang, angle, audience, focus, history=None):
+    _g = _gemini_blog(lang, angle, audience, focus, history or {})
+    if _g:
+        return _g["title"], _g["meta"], _g["keywords"], _g["body"]
     focus_l = _label(FOCUS_LABELS, focus, lang)
     aud_l = _label(AUDIENCE_LABELS, audience, lang)
     if lang == "ja":
@@ -268,7 +349,7 @@ Phone: {FACTS['phone']}. Instagram: {FACTS['instagram']}. Phone support is mainl
 
 def ensure_generated_post(lang, history):
     key, angle, audience, focus = generated_combo(lang, history)
-    title, meta, keywords, body = generated_text(lang, angle, audience, focus)
+    title, meta, keywords, body = generated_text(lang, angle, audience, focus, history)
     lang_dir = QUEUE / lang
     lang_dir.mkdir(parents=True, exist_ok=True)
     stem = key.rsplit("__", 1)[0]
