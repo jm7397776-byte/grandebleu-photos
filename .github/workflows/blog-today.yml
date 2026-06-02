@@ -30,6 +30,7 @@ jobs:
       - name: Render blog_today.json
         env:
           REPO_DIR: ${{ github.workspace }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GRANDEBLEU_KLOOK_URL: ${{ secrets.GRANDEBLEU_KLOOK_URL }}
         run: |
           python3 .github/scripts/blog_today_render_cloud.py
