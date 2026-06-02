@@ -91,6 +91,23 @@
       ],
       "image_count": 6,
       "remaining_candidates": 8
+    },
+    {
+      "key": "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__zh-CN",
+      "lang": "zh-CN",
+      "file": "blog_queue/zh-CN/2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic.md",
+      "title": "济州游艇攻略 | Grande Bleu 60分钟夕阳航海体验",
+      "generated_at": "2026-06-02T02:01:51",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_j.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_seoyurim_0818.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_14_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_03.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_05.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_0llllll0ii.jpg"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 7
     }
   ]
 }
