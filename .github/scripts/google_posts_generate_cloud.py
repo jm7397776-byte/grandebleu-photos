@@ -29,6 +29,7 @@ SEO_POOL_FILE = DATA / "seo_pool.json"
 CAT_FILE = DATA / "categorized_photos.json"
 MEMORY_FILE = DATA / "memory.json"
 BRAND_FILE = DATA / "brand_facts.json"
+RULES_FILE = DATA / "powerblogger_rules.md"  # 파워블로거 학습 룰북 (매주 synthesizer가 갱신)
 
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-pro")
@@ -207,6 +208,20 @@ def build_prompt(lang, week_iso, angle, weekly_hook, keywords, avoid, brand) -> 
     banned = brand.get("banned", {})
     facts_json = json.dumps(facts, ensure_ascii=False)
     banned_json = json.dumps(banned, ensure_ascii=False)
+    try:
+        rules = RULES_FILE.read_text(encoding="utf-8")
+    except Exception:
+        rules = ""
+    pb_block = ""
+    if rules:
+        pb_block = (
+            "\n=== KOREAN POWER-BLOGGER BEST PRACTICES (learned from 1,470 top Naver bloggers; "
+            f"rules are in Korean but the principles are language-agnostic — apply them to your {LANG_FULL[lang]} "
+            "post, compressed for Google Posts <=1500 chars) ===\n" + rules +
+            "\nApply especially: experience-hook opening with a front-loaded keyword; varied sentence length; "
+            "conversational tone; keyword woven ~3x (never stuffed); info-style CTA (no 'book now!' ad-speak); "
+            "end with emotion, not data.\n"
+        )
 
     return f"""You are a SEO copywriter for Grande Bleu Yacht — Korea's only certified catamaran in Jeju.
 
@@ -271,7 +286,7 @@ If you find yourself about to write any Hangul character in a non-Korean post, S
 6. NO em-dashes overuse; use periods and commas.
 7. Include 2-3 LSI (semantic) keywords related to the main keyword cluster.
 8. Mobile-first: keep paragraphs short (2-3 lines), bullets scannable.
-{avoid_block}
+{avoid_block}{pb_block}
 === OUTPUT ===
 Output ONLY the final post text in {LANG_FULL[lang]}. No preamble, no explanation, no markdown headers.
 Make this post DISTINCTLY DIFFERENT from any previous post — fresh wording, fresh examples, fresh structure.
