@@ -66,6 +66,8 @@ def _recent_blog_titles(history, n=10):
 def _gemini_blog(lang, angle, audience, focus, history):
     if not _GKEY:
         return None
+    from datetime import timezone as _tz, timedelta as _td
+    _m = datetime.now(_tz(_td(hours=9))).month  # KST 월
     focus_l = _label(FOCUS_LABELS, focus, lang)
     aud_l = _label(AUDIENCE_LABELS, audience, lang)
     avoid = _recent_blog_titles(history or {}, 10)
@@ -84,6 +86,7 @@ def _gemini_blog(lang, angle, audience, focus, history):
         "- Conversational and informative, not ad copy. No invented price numbers.\n"
         f"- Place names strictly in {lang_name}'s own script (NO Korean Hangul in non-Korean text).\n"
         "- Fish species only: rockfish, scorpionfish, filefish, pufferfish. No engine/motor claims.\n"
+        f"- It is now month {_m} in Korea; use ONLY weather and scenery appropriate to this month, never other seasons (no out-of-season snow/foliage/cherry-blossoms).\n"
         f"{avoid_block}\n"
         '- Output JSON only: {"title":"...","meta":"...","keywords":"...","body":"...markdown..."}'
     )
