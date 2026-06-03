@@ -326,7 +326,12 @@ def main() -> int:
         keywords = select_keywords(pool, lang, week, n=4)
         avoid = get_recent_phrases(memory, lang, n=5)
         prompt = build_prompt(lang, week, angle, weekly_hook, keywords, avoid, brand)
-        post = gemini(prompt)
+        post = ""
+        for _try in range(3):  # 짧은/빈 응답(429 등) 재시도 — partial 방지
+            post = gemini(prompt)
+            if post and len(post) > 300:
+                break
+            print(f"  [{lang}] 짧은 응답(len={len(post) if post else 0}) — 재시도 {_try+1}/3")
         photo = pick_photo(cats, lang, week, angle_id)
         if post and len(post) > 300:
             (OUT_DIR / f"{week}_{lang}.txt").write_text(post, encoding="utf-8")
@@ -353,6 +358,20 @@ def main() -> int:
     if test_lang:
         print(f"[TEST] {test_lang} 1편 생성 검증 완료 — current.json/memory 미수정")
         return 0
+
+    # partial(4언어 미만)이면 기존 current.json 언어를 보존(merge) — 침묵 손실 방지.
+    # 이번에 실패한 언어는 지난 콘텐츠라도 유지 → publish=false(누락)보다 stale이 나음.
+    if success < len(langs) and not test_lang:
+        try:
+            old = json.loads((OUT_DIR / "current.json").read_text(encoding="utf-8"))
+            for lc, data in (old.get("languages") or {}).items():
+                if lc not in languages:
+                    languages[lc] = data
+                    print(f"  [merge] {lc}: 이번 실패 → 기존 콘텐츠 보존(누락 방지)")
+        except Exception as e:
+            print(f"  [merge] 기존 current.json 병합 실패: {e}")
+    if len(languages) < 4:
+        print(f"[WARN] 최종 언어 {len(languages)}/4 — Mac 건강검진이 내일 재시도 알림")
 
     (OUT_DIR / f"google_posts_{week}.md").write_text("\n".join(md_lines), encoding="utf-8")
     current = {
