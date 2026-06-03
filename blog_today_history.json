@@ -141,6 +141,20 @@
       ],
       "image_count": 6,
       "remaining_candidates": 8
+    },
+    {
+      "key": "2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic__en",
+      "lang": "en",
+      "file": "blog_queue/en/2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic.md",
+      "title": "Grande Bleu Jeju Yacht: Honest Sunset Cruise Review 2024",
+      "generated_at": "2026-06-03T02:14:17",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_02.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_01.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_04.jpg"
+      ],
+      "image_count": 3,
+      "remaining_candidates": 7
     }
   ]
 }
