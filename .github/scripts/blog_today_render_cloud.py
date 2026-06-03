@@ -540,10 +540,19 @@ def render(lang, post, avoid_photo_urls=None):
     labels = [k.strip() for k in post["keywords"].split(",") if k.strip()][:6]
     labels.append(f"lang:{lang}")
     title = post["title"][:180]
+    # 라벨을 본문 하단 태그 링크로(Mail2Blogger는 Blogger 라벨 미지원 → 본문 태그로 노출·SEO 보강)
+    tag_labels = [l for l in labels if not l.startswith("lang:")]
+    import urllib.parse as _up
+    tag_html = ""
+    if tag_labels:
+        links = " · ".join(
+            f'<a href="https://jejugrandebleuyacht.blogspot.com/search/label/{_up.quote(t)}" '
+            f'style="color:#888;text-decoration:none;">#{t.replace(" ", "")}</a>' for t in tag_labels)
+        tag_html = f'<p style="margin-top:2.2rem;font-size:0.9rem;color:#777;border-top:1px solid #eee;padding-top:1rem;">{links}</p>'
     urls = image_urls(body_html)
     return {
         "title": title,
-        "content": body_html + cta,
+        "content": body_html + cta + tag_html,
         "labels": labels,
         "link": "https://jejugrandebleuyacht.blogspot.com/",
         "lang": lang,
