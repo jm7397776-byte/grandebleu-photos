@@ -374,6 +374,41 @@ def _pick_photos(seed_key: str, n: int = 7, avoid_urls: set[str] | None = None) 
     return [picked[0]] + body[:n-1]
 
 
+def _expand_pool_from_index():
+    """photos_index.json(1600+장)으로 사진 풀 대폭 확장 — 하드코딩 28장만 돌려쓰던 문제 해결.
+    인덱스 없으면(클라우드 체크아웃 변수) 하드코딩 풀 그대로 사용(안전 폴백)."""
+    try:
+        idx = json.loads((REPO / "photos_index.json").read_text(encoding="utf-8"))
+    except Exception:
+        return 0
+    catmap = {"sail": "scenery", "ocean": "scenery", "dolphin": "scenery", "fishing": "scenery",
+              "yacht_legacy": "detail", "food": "detail", "facility": "interior",
+              "influencer": "people", "people": "people", "people_seoyurim": "people"}
+    alt = {"scenery": "Jeju sailing yacht and coastline", "detail": "Grande Bleu yacht detail Jeju",
+           "interior": "Grande Bleu yacht interior lounge",
+           "people": "Guest enjoying Grande Bleu Jeju yacht",
+           "sunset": "Grande Bleu Jeju sunset sailing"}
+    seen = {p["url"] for cat in PHOTO_POOL_BY_CAT.values() for p in cat}
+    added = 0
+    for p in idx.get("photos", []):
+        url = p.get("url") or (_PHOTO_BASE + "/" + p.get("file", ""))
+        if not url or url in seen:
+            continue
+        c = p.get("category", "")
+        bucket = catmap.get(c, "scenery")
+        person = p.get("file", "").rsplit(".", 1)[0] if bucket == "people" else None
+        PHOTO_POOL_BY_CAT.setdefault(bucket, []).append(
+            {"url": url, "alt": alt.get(bucket, "Jeju Grande Bleu yacht"), "person": person})
+        if c == "ocean":  # sunset 버킷도 바다 사진으로 채워 선셋 편중 방지
+            PHOTO_POOL_BY_CAT.setdefault("sunset", []).append(
+                {"url": url, "alt": alt["sunset"], "person": None})
+        seen.add(url)
+        added += 1
+    return added
+
+
+_POOL_EXPANDED = _expand_pool_from_index()
+
 # 호환성을 위한 flat 풀 (필요 시 참조)
 PHOTO_POOL = [p for cat in PHOTO_POOL_BY_CAT.values() for p in cat]
 
