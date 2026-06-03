@@ -1,7 +1,17 @@
 {
-  "date": "2026-06-03",
-  "weekday": 2,
+  "date": "2026-06-04",
+  "weekday": 3,
   "_generator": "google_posts_today_cloud.py",
-  "publish": "false",
-  "reason": "ja data missing in current.json"
+  "weekday_name": "목",
+  "publish": "true",
+  "week": "2026-W23",
+  "lang": "ko",
+  "lang_label": "한국어",
+  "body": "바다 잔잔한 평온 시즌, 한라산 배경 속에서 즐기는 제주 와인 크루즈는 어떠세요? 60분간 제주 여행의 정수를 만끽하며 잊지 못할 추억을 만들어 보세요.\n\n· 제주 커플여행의 정점, 대포항 요트 그랑블루에서 평생 잊지 못할 순간을 만드세요. 한라산이 병풍처럼 펼쳐진 바다 위에서 제주 로컬 쿠키와 라면, 그리고 와인이 무제한으로 제공됩니다.\n· 2011년부터 10만 명 이상의 승객이 선택한 그랑블루요트는 국내 유일의 인증받은 카타마란으로, 47인승과 44인승 두 대의 안전한 요트가 운항됩니다. 승선 전 컨시어지 서비스부터 출항까지 완벽한 60분 선셋 크루즈를 경험해 보세요.\n· 제주의 에메랄드빛 바다 위에서 월평 주상절리, 코끼리바위 등 아름다운 해안 절경을 감상하며 로맨틱한 시간을 보내세요. 제주 데이트 코스로 이보다 더 완벽할 순 없을 거예요.\n\n서귀포 대포항에서 출발하는 그랑블루요트 선셋 크루즈로 아름다운 제주의 밤을 예약하세요.\n\n예약하기 → https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
+  "body_length": 628,
+  "photo_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_29_interior_620b.jpg",
+  "seo_keywords": "제주 와인 크루즈, 제주 데이트 코스, 제주 커플여행, 대포항 요트",
+  "cta_action_type": "BOOK",
+  "cta_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
+  "_make_com_hint": "HTTP module → JSON parse → GBP Create Post (photo_url=media, body=summary, cta_action_type+cta_url)"
 }
