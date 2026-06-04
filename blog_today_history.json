@@ -185,6 +185,24 @@
       ],
       "image_count": 4,
       "remaining_candidates": 5
+    },
+    {
+      "key": "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__ja",
+      "lang": "ja",
+      "file": "blog_queue/ja/2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic.md",
+      "title": "Grande Bleu 済州ヨット|大人の記念日に贈る秋のサンセット航海",
+      "generated_at": "2026-06-04T01:19:23",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0196.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0001.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0042.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0248.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0034.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0092.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0271.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 6
     }
   ]
 }
