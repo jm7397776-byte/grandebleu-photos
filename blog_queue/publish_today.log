@@ -118,3 +118,20 @@
 [2026-06-03T02:17:54] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/grande-bleu-jeju-yacht-honest-sunset.html
 [2026-06-03T02:17:54] Telegram notification sent
 [2026-06-03T05:09:59] already published: Grande Bleu Jeju Yacht: Honest Sunset Cruise Review 2024
+[2026-06-04T01:19:54] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-06-04T01:20:05] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/grande-bleu_0336939486.html
+[2026-06-04T01:20:06] Telegram notification sent
