@@ -153,3 +153,20 @@
 [2026-06-04T05:02:55] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/grande-bleu_01559249932.html
 [2026-06-04T05:02:56] Telegram notification sent
 [2026-06-05T00:58:46] already published: Grande Bleu 済州ヨット|大浦港発プレミアム・セーリング体験
+[2026-06-05T01:41:00] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-06-05T01:41:11] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/grande-bleu_0787018981.html
+[2026-06-05T01:41:12] Telegram notification sent
