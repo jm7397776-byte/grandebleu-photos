@@ -26,8 +26,8 @@ KLOOK_FALLBACK = (
     "170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts"
 )
 
-WEEKDAY_LANG = {0: "zh-CN", 1: "en", 2: "ja", 3: "ko"}  # Mon..Thu
-WEEKDAY_NAME = {0: "월", 1: "화", 2: "수", 3: "목"}
+WEEKDAY_LANG = {0: "zh-CN", 1: "en", 2: "ja", 3: "ko", 4: "ko", 5: "en", 6: "ja"}  # 7일 발행(사용자 2026-06-05): 월중·화영·수일·목한·금한·토영·일일
+WEEKDAY_NAME = {0: "월", 1: "화", 2: "수", 3: "목", 4: "금", 5: "토", 6: "일"}
 
 
 def now_kst() -> datetime:
