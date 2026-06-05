@@ -221,6 +221,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 5
+    },
+    {
+      "key": "2026-05-26_2014_post__zh-CN",
+      "lang": "zh-CN",
+      "file": "blog_queue/zh-CN/2026-05-26_2014_post.md",
+      "title": "济州游艇Grande Bleu｜冬日疗愈夕阳航海·韩国唯一双体船",
+      "generated_at": "2026-06-05T01:37:34",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_338_aerial.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0082.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0198.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0103.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0172.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0018.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0104.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 5
     }
   ]
 }
