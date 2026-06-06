@@ -101,6 +101,23 @@ def diagnose(label, cid, cs, rt, out):
         return
     out.append(f"  토큰 refresh OK ({token[:10]}...)")
 
+    # 0) 토큰의 실제 scope 확인 (쓰기 권한 유무 결정적)
+    try:
+        with urllib.request.urlopen(
+            "https://oauth2.googleapis.com/tokeninfo?access_token=" + urllib.parse.quote(token),
+            timeout=15) as r:
+            ti = json.load(r)
+        scopes = (ti.get("scope", "") or "").split()
+        out.append(f"  토큰 scope: {ti.get('scope','(없음)')}")
+        has_write = "https://www.googleapis.com/auth/blogger" in scopes
+        has_ro = "https://www.googleapis.com/auth/blogger.readonly" in scopes
+        out.append(f"  >> 쓰기 scope(auth/blogger)={'있음 ✅' if has_write else '없음 ❌ ← 원인!'} / "
+                   f"readonly={'있음' if has_ro else '없음'}")
+        if not has_write:
+            out.append("  => 토큰이 읽기전용. 쓰기 scope(auth/blogger)로 재인증하면 해결.")
+    except Exception as e:
+        out.append(f"  tokeninfo 실패: {type(e).__name__}: {e}")
+
     # 1) 토큰이 속한 계정
     st, me = api(token, "https://www.googleapis.com/blogger/v3/users/self")
     if st == 200:
