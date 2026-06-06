@@ -224,11 +224,28 @@ def used_generated_keys(history):
     return {item.get("key") for item in history.get("selected", []) if str(item.get("key", "")).startswith("auto_")}
 
 
-def generated_combo(lang, history):
+SEASON_MONTHS = {"winter": (12, 1, 2), "spring": (3, 4, 5),
+                 "summer": (6, 7, 8), "autumn": (9, 10, 11)}
+
+
+def _season_ok(angle, month):
+    """앵글에 계절 단어가 있으면 그 달이 해당 계절일 때만 허용 (철 지난 주제 차단)."""
+    al = angle.lower()
+    for season, months in SEASON_MONTHS.items():
+        if season in al and month not in months:
+            return False
+    return True
+
+
+def generated_combo(lang, history, when=None):
+    when = when or datetime.now()
     used = used_generated_keys(history)
-    day_salt = datetime.now().strftime("%Y%m%d")
+    day_salt = when.strftime("%Y%m%d")
+    month = when.month
     combos = []
     for angle_idx, angle in enumerate(GENERATED_ANGLES):
+        if not _season_ok(angle, month):
+            continue  # 그 달 계절과 안 맞는 주제 제외 (예: 6월에 '겨울/가을' 주제 X)
         for audience_idx, audience in enumerate(AUDIENCES):
             for focus_idx, focus in enumerate(INFO_FOCUS):
                 key = f"auto_{angle_idx:02d}_{audience_idx:02d}_{focus_idx:02d}__{lang}"
