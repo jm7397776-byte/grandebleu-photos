@@ -257,6 +257,21 @@
       ],
       "image_count": 7,
       "remaining_candidates": 4
+    },
+    {
+      "key": "2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic__en",
+      "lang": "en",
+      "file": "blog_queue/en/2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic.md",
+      "title": "Grande Bleu Jeju Yacht: Honest Sunset Cruise Review",
+      "generated_at": "2026-06-06T01:30:33",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0077.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_01.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0001.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0055.jpg"
+      ],
+      "image_count": 4,
+      "remaining_candidates": 4
     }
   ]
 }
