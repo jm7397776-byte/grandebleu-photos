@@ -517,11 +517,52 @@ def dedupe_figures(content):
     return re.sub(r"<figure\b.*?</figure>", repl, content, flags=re.S | re.I)
 
 
+def ensure_min_figures(content, avoid_photo_urls=None, minimum=6):
+    """압축(섹션 트리밍)으로 사진이 minimum 미만이 되면, 최근·기존과 겹치지 않는
+    고유 사진을 보충해 문단 사이에 고르게 삽입한다. 짧은 글도 사진 풍부·무중복 보장."""
+    cur = count_figures(content)
+    if cur >= minimum:
+        return content
+    used = set(re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', content, flags=re.I))
+    avoid = set(avoid_photo_urls or set()) | used
+    need = minimum - cur
+    seed = hashlib.md5(content[:400].encode("utf-8")).hexdigest()
+    pool = pub._pick_photos(seed, need + 8, avoid_urls=avoid)
+    figs = []
+    for ph in pool:
+        if ph["url"] in used:
+            continue
+        used.add(ph["url"])
+        figs.append(
+            f'<figure style="margin:2.75rem auto;max-width:720px;">'
+            f'<img src="{ph["url"]}" alt="{ph["alt"]}" loading="lazy" '
+            f'style="width:100%;height:auto;border-radius:14px;'
+            f'box-shadow:0 16px 48px rgba(13,38,69,0.14);display:block;" /></figure>'
+        )
+        if len(figs) >= need:
+            break
+    if not figs:
+        return content
+    parts = re.split(r'(</p>)', content)
+    p_pos = [i for i, seg in enumerate(parts) if seg == "</p>"]
+    if not p_pos:
+        return content + "".join(figs)
+    gap = max(1, len(p_pos) // (len(figs) + 1))
+    shift = 0
+    for j, fig in enumerate(figs):
+        at = p_pos[min((j + 1) * gap, len(p_pos) - 1)] + shift + 1
+        parts.insert(at, fig)
+        shift += 1
+    return "".join(parts)
+
+
 def compact_for_make(content, avoid_photo_urls=None):
     content = remove_repeated_tail_sections(content)
     content = remove_recent_figures(content, avoid_photo_urls)
     content = dedupe_figures(content)
-    return limit_figures(content)
+    content = limit_figures(content)
+    content = ensure_min_figures(content, avoid_photo_urls, minimum=6)
+    return content
 
 
 def render(lang, post, avoid_photo_urls=None):

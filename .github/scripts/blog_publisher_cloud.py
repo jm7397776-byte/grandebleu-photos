@@ -422,15 +422,19 @@ def md_to_html(md: str, photo_seed: str = "", avoid_photo_urls: set[str] | None 
     explicit_urls = set(re.findall(r"!\[[^\]]*\]\(([^)]+)\)", md))
     explicit_urls.update(re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', md, flags=re.I))
     avoid_urls = set(avoid_photo_urls or set()) | explicit_urls
-    # 글마다 다른 사진 7장 선택 (hero 1 + H2 사이 6 = 중복 없음)
-    photos = _pick_photos(photo_seed or md[:200], 7, avoid_urls=avoid_urls)
+    recent_set = set(avoid_photo_urls or set())  # 본문에 박힌 이미지도 최근과 겹치면 스킵
+    # 글마다 다른 사진 선택 — 짧은 글(H2 적음)도 사진이 충분·다양하게 들어가도록 9장 확보
+    # (hero 1 + 본문 8). 픽 단계에서 최근 사진(avoid_urls)을 피하므로 글 간 중복도 없음.
+    photos = _pick_photos(photo_seed or md[:200], 9, avoid_urls=avoid_urls)
     hero_photo = photos[0] if photos else None
     photo_iter = iter(photos[1:])  # hero 제외한 나머지
+    _placed = {"n": 0}  # 본문에 실제 배치된 사진 수
 
     def next_photo_html():
-        """H2 사이마다 끼울 사진 HTML."""
+        """H2 사이/문단 사이에 끼울 사진 HTML."""
         try: ph = next(photo_iter)
         except StopIteration: return ""
+        _placed["n"] += 1
         return (
             f'<figure style="margin:2.75rem auto;max-width:720px;">'
             f'<img src="{ph["url"]}" alt="{ph["alt"]}" loading="lazy" '
@@ -472,15 +476,20 @@ def md_to_html(md: str, photo_seed: str = "", avoid_photo_urls: set[str] | None 
         if in_code:
             html_lines.append(f"<pre>{line}</pre>")
             continue
-        # 이미지 (단독 라인) — 이미 HTML img면 그대로
+        # 이미지 (단독 라인) — 이미 HTML img면 그대로 (단, 최근 사진과 겹치면 스킵)
         if line.startswith("<img"):
             flush_paragraph()
+            _s = re.search(r'src=["\']([^"\']+)["\']', line)
+            if _s and _s.group(1) in recent_set:
+                continue
             html_lines.append(line)
             continue
         m = re.match(r"!\[([^\]]*)\]\(([^)]+)\)", line)
         if m:
             flush_paragraph()
             alt, src = m.group(1), m.group(2)
+            if src in recent_set:
+                continue  # 본문에 박힌 이미지가 최근과 중복 → 스킵 (auto·보충이 대체)
             html_lines.append(
                 f'<figure style="margin:2.5em -1em;"><img src="{src}" alt="{alt}" '
                 f'style="width:100%;border-radius:12px;box-shadow:0 12px 40px rgba(13,38,69,0.12);" /></figure>'
@@ -557,6 +566,26 @@ def md_to_html(md: str, photo_seed: str = "", avoid_photo_urls: set[str] | None 
 
     flush_paragraph()
     if in_list: html_lines.append("</ul>")
+
+    # H2가 적은 짧은 글도 사진이 충분(최소 6장)·다양하게 들어가도록,
+    # H2 배치로 다 못 쓴 사진을 문단 사이에 고르게 분산 삽입한다.
+    MIN_BODY_PHOTOS = 6
+    leftovers = []
+    while _placed["n"] < MIN_BODY_PHOTOS:
+        ph = next_photo_html()
+        if not ph: break
+        leftovers.append(ph)
+    if leftovers:
+        p_idx = [i for i, l in enumerate(html_lines) if l.startswith("<p ")]
+        if p_idx:
+            gap = max(1, len(p_idx) // (len(leftovers) + 1))
+            shift = 0
+            for j, ph in enumerate(leftovers):
+                pos = p_idx[min((j + 1) * gap, len(p_idx) - 1)] + shift + 1
+                html_lines.insert(pos, ph)
+                shift += 1
+        else:
+            html_lines.extend(leftovers)
 
     # 본문 시작에 hero 사진 1장 (제목/H1 직후)
     body_inner = "\n".join(html_lines)
