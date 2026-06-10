@@ -348,6 +348,26 @@
       ],
       "image_count": 8,
       "remaining_candidates": 3
+    },
+    {
+      "key": "2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic__ja",
+      "lang": "ja",
+      "file": "blog_queue/ja/2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic.md",
+      "title": "Grande Bleu 済州ヨット|春のハネムーンに穏やかなセーリング",
+      "generated_at": "2026-06-10T01:00:35",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_429_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0110.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0153.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0159.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_135_deck_exterior.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0156.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0019.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0014.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0080.png"
+      ],
+      "image_count": 9,
+      "remaining_candidates": 2
     }
   ]
 }
