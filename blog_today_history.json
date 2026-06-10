@@ -329,6 +329,25 @@
       ],
       "image_count": 6,
       "remaining_candidates": 3
+    },
+    {
+      "key": "2026-05-29_0821_제주도요트투어_올인클루시브_코스__와인음식노을_후기__ja",
+      "lang": "ja",
+      "file": "blog_queue/ja/2026-05-29_0821_제주도요트투어_올인클루시브_코스__와인음식노을_후기.md",
+      "title": "Grande Bleu 済州ヨット|冬の穏やかなサンセット・セーリング体験",
+      "generated_at": "2026-06-10T00:30:33",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0215.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0033.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0098.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0052.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0091.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0021.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0012.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0245.png"
+      ],
+      "image_count": 8,
+      "remaining_candidates": 3
     }
   ]
 }
