@@ -1,46 +1,46 @@
 {
-  "date": "2026-06-10",
-  "generated_at": "2026-06-10T14:55:41",
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T15:13:13",
   "publish": true,
-  "topic_key": "food",
-  "topic_title": "맥주와 간식까지 포함된 가벼운 요트 시간",
+  "topic_key": "sunset",
+  "topic_title": "제주 선셋을 가장 조용하게 보는 방법",
   "channels": {
     "daangn": {
       "platform": "daangn",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_business_profile_post",
-      "title": "맥주와 간식까지 포함된 가벼운 요트 시간",
-      "body": "바다를 보며 생맥주, 와인, 제주 감귤주스, 물, 간식, 컵라면을 가볍게 즐깁니다.\n\n식사를 크게 잡지 않아도 사진과 풍경, 간단한 먹거리가 함께 있는 구성입니다.\n제주 여행 중 부담 없는 특별한 한 시간을 만들기 좋습니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
+      "title": "제주 선셋을 가장 조용하게 보는 방법",
+      "body": "대포항에서 출발해 한 시간, 해가 낮아지는 시간을 바다 위에서 보냅니다.\n\n쌍동선 카타마란이라 가족, 커플, 부모님 동반 여행에서도 안정감이 좋습니다.\n서귀포에서 저녁 일정 전후로 넣기 좋은 짧은 코스입니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
       "hashtags": [
         "제주요트",
         "서귀포",
         "대포항",
         "제주도요트투어",
-        "food"
+        "sunset"
       ],
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0009.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0220.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0232.jpg"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0024.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0016.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0283.jpg"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0009.jpg",
-          "file": "food_0009.jpg",
-          "category": "food",
-          "alt": "그랑블루요트 선상 음식 - 맥주와 간식까지 포함된 가벼운 요트 시간"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0024.jpg",
+          "file": "facility_0024.jpg",
+          "category": "facility",
+          "alt": "그랑블루요트 시설 - 제주 선셋을 가장 조용하게 보는 방법"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0220.jpg",
-          "file": "food_0220.jpg",
-          "category": "food",
-          "alt": "그랑블루요트 선상 음식 - 맥주와 간식까지 포함된 가벼운 요트 시간"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0016.jpg",
+          "file": "sail_0016.jpg",
+          "category": "sail",
+          "alt": "제주 대포항 그랑블루요트 - 제주 선셋을 가장 조용하게 보는 방법"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0232.jpg",
-          "file": "food_0232.jpg",
-          "category": "food",
-          "alt": "그랑블루요트 선상 음식 - 맥주와 간식까지 포함된 가벼운 요트 시간"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0283.jpg",
+          "file": "influencer_0283.jpg",
+          "category": "influencer",
+          "alt": "제주 대포항 그랑블루요트 - 제주 선셋을 가장 조용하게 보는 방법"
         }
       ],
       "cta_label": "예약 채널 확인",
@@ -52,27 +52,27 @@
       "platform": "kakao_channel",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_kakaotalk_channel_post",
-      "title": "맥주와 간식까지 포함된 가벼운 요트 시간",
-      "body": "맥주와 간식까지 포함된 가벼운 요트 시간\n\n바다를 보며 생맥주, 와인, 제주 감귤주스, 물, 간식, 컵라면을 가볍게 즐깁니다.\n식사를 크게 잡지 않아도 사진과 풍경, 간단한 먹거리가 함께 있는 구성입니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
+      "title": "제주 선셋을 가장 조용하게 보는 방법",
+      "body": "제주 선셋을 가장 조용하게 보는 방법\n\n대포항에서 출발해 한 시간, 해가 낮아지는 시간을 바다 위에서 보냅니다.\n쌍동선 카타마란이라 가족, 커플, 부모님 동반 여행에서도 안정감이 좋습니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
       "button_title": "예약 확인하기",
       "button_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=kakao_channel&utm_medium=local_social&utm_campaign=jeju_yacht",
-      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0009.jpg",
+      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0024.jpg",
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0009.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0220.jpg"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0024.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0016.jpg"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0009.jpg",
-          "file": "food_0009.jpg",
-          "category": "food",
-          "alt": "그랑블루요트 선상 음식 - 맥주와 간식까지 포함된 가벼운 요트 시간"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0024.jpg",
+          "file": "facility_0024.jpg",
+          "category": "facility",
+          "alt": "그랑블루요트 시설 - 제주 선셋을 가장 조용하게 보는 방법"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0220.jpg",
-          "file": "food_0220.jpg",
-          "category": "food",
-          "alt": "그랑블루요트 선상 음식 - 맥주와 간식까지 포함된 가벼운 요트 시간"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0016.jpg",
+          "file": "sail_0016.jpg",
+          "category": "sail",
+          "alt": "제주 대포항 그랑블루요트 - 제주 선셋을 가장 조용하게 보는 방법"
         }
       ],
       "manual_target": "KakaoTalk Channel manager post composer",
@@ -90,8 +90,8 @@
     ]
   },
   "image_urls": [
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0009.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0220.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0232.jpg"
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0024.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0016.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0283.jpg"
   ]
 }
