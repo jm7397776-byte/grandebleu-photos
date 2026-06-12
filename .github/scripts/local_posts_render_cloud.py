@@ -13,6 +13,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import random
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -139,20 +140,42 @@ def photo_alt(photo: dict, topic: dict) -> str:
     return f"{label} - {topic['title']}"
 
 
+def _is_infl_cloud(photo: dict) -> bool:
+    f = str(photo.get("file", "") or photo.get("url", "")).lower()
+    return photo.get("category") in ("influencer", "people") or "influencer" in f or "gb.jeju" in f
+
+
 def pick_photos(topic: dict, history: dict, count: int = 3) -> list[dict]:
+    # [2026-06-12 주인님] 클라우드 발행에 인플루언서 사진이 아예 안 들어가던 문제 수정.
+    # 로컬 local_social_render와 동일 규칙: 인플루언서 정확히 2장 + 나머지(=썸네일 첫 사진)는
+    # 풍경/요트. 같은 인물 셀카가 3장 다 차서 '반복'처럼 보이던 것도 함께 해소. used 10→20.
     index = load_json(PHOTO_INDEX, {"photos": []})
-    photos = index.get("photos", [])
-    recent = {url for item in history.get("items", [])[-10:] for url in item.get("image_urls", [])}
-    ranked = []
-    for photo in photos:
+    photos = [p for p in index.get("photos", []) if p.get("url")]
+    recent = {url for item in history.get("items", [])[-20:] for url in item.get("image_urls", [])}
+    seed = int(hashlib.md5(f"{text_seed()}::{topic['key']}".encode()).hexdigest(), 16)
+    rnd = random.Random(seed)
+
+    def _rank(pool: list[dict]) -> list[dict]:
+        pool = pool[:]
+        rnd.shuffle(pool)
+        fresh = [p for p in pool if p.get("url") not in recent]
+        stale = [p for p in pool if p.get("url") in recent]
+        return fresh + stale  # 최근 사용분은 모자랄 때만
+
+    infl = _rank([p for p in photos if _is_infl_cloud(p)])
+    scene = _rank([p for p in photos if not _is_infl_cloud(p) and p.get("category") in topic["category_hint"]])
+    if not scene:
+        scene = _rank([p for p in photos if not _is_infl_cloud(p)])
+
+    selected, seen = [], set()
+    # 풍경/요트(썸네일) 1장 → 인플루언서 2장 → 부족분 보충
+    for photo in scene[:max(1, count - 2)] + infl[:2] + scene + infl + photos:
         url = photo.get("url")
-        if not url or url in recent:
+        if not url or url in seen:
             continue
-        category = photo.get("category", "")
-        match_bonus = 0 if category in topic["category_hint"] else 10**38
-        score = int(hashlib.md5(f"{text_seed()}::{topic['key']}::{url}".encode()).hexdigest(), 16)
-        ranked.append((match_bonus + score, photo))
-    selected = [photo for _, photo in sorted(ranked, key=lambda x: x[0])[:count]]
+        seen.add(url); selected.append(photo)
+        if len(selected) >= count:
+            break
     for photo in selected:
         photo["alt"] = photo_alt(photo, topic)
     return selected
