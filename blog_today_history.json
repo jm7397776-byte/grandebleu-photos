@@ -516,6 +516,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_11_00_06__en",
+      "lang": "en",
+      "file": "blog_queue/en/auto_11_00_06.md",
+      "title": "Jeju Island's Best Season for a Grande Bleu Yacht Adventure",
+      "generated_at": "2026-06-12T02:30:40",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0118.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0181.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0110.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0172.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0210.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0126.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0154.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
