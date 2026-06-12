@@ -464,6 +464,23 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic__en",
+      "lang": "en",
+      "file": "blog_queue/en/2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic.md",
+      "title": "Grande Bleu Jeju Yacht: Honest Sunset Sail Review 2024",
+      "generated_at": "2026-06-12T00:30:33",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0158.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0180.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0065.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0163.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0063.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0253.png"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 2
     }
   ]
 }
