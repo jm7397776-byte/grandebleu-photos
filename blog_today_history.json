@@ -481,6 +481,23 @@
       ],
       "image_count": 6,
       "remaining_candidates": 2
+    },
+    {
+      "key": "2026-05-24_0050_13_제주_선셋_명소_노을을_배경이_아니라_발밑에_두는_법_persona20__en",
+      "lang": "en",
+      "file": "blog_queue/en/2026-05-24_0050_13_제주_선셋_명소_노을을_배경이_아니라_발밑에_두는_법_persona20.md",
+      "title": "Jeju Yacht Sunset Tour: Sail Daepo Port at Golden Hour",
+      "generated_at": "2026-06-12T01:00:28",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0220.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0016.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0177.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0031.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0154.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0069.jpg"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 1
     }
   ]
 }
