@@ -570,6 +570,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_09_00_01__ja",
+      "lang": "ja",
+      "file": "blog_queue/ja/auto_09_00_01.md",
+      "title": "はじめての済州島ヨットクルーズ！グランブルーヨットで叶える安心と快適な船旅",
+      "generated_at": "2026-06-13T01:39:52",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0112.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0048.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0005.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0134.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0108.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0198.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0144.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
