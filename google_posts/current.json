@@ -1,28 +1,28 @@
 {
-  "week": "2026-W24",
-  "generated_at": "2026-06-08T02:12:16",
+  "week": "2026-W25",
+  "generated_at": "2026-06-15T02:17:52",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "yacht_102_sunset.jpg",
-      "seo_keywords": "제주 커플여행, 제주 6월 가볼만한곳, 제주 안전 요트, 제주 인생샷",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W24_ko.txt",
-      "body_length": 656
+      "photo": "yacht_367_aerial.jpg",
+      "seo_keywords": "제주 한라산 뷰, 제주 일몰 명소, 제주 60분 크루즈, 제주 무제한 음료 크루즈",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W25_ko.txt",
+      "body_length": 718
     },
     "en": {
       "label": "English",
-      "photo": "yacht_92_sunset.jpg",
-      "seo_keywords": "jeju sunset spot, jeju private cruise, daepo port yacht, jeju romantic date",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W24_en.txt",
-      "body_length": 1165
+      "photo": "influencer_0054.jpg",
+      "seo_keywords": "jeju kid friendly, daepo port yacht, jeju proposal cruise, jeju night view",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W25_en.txt",
+      "body_length": 1188
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "yacht_91_sunset.jpg",
-      "seo_keywords": "济州岛约会, 济州岛拉面游艇, 济州岛素食选项, 柱状节理游艇",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W24_zh-CN.txt",
-      "body_length": 660
+      "photo": "yacht_345_aerial.jpg",
+      "seo_keywords": "韩国唯一认证双体船, 济州岛日落, 柱状节理游艇, 济州岛素食选项",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W25_zh-CN.txt",
+      "body_length": 698
     },
     "ja": {
       "label": "日本語",

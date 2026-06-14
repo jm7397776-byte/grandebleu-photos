@@ -2,30 +2,6 @@
   "recent_posts": [
     {
       "week": "2026-W22",
-      "lang": "ko",
-      "angle": "weekend_urgency",
-      "first_sentence": "황금빛 매직 아워, 제주 선셋 크루즈로 하루를 완성하세요.",
-      "hash": "b44f047c5d93",
-      "added": "2026-05-26T23:28:23"
-    },
-    {
-      "week": "2026-W22",
-      "lang": "en",
-      "angle": "weekend_urgency",
-      "first_sentence": "Golden hour on the water is something you never forget, and Jeju's best sunset spot is right here at Daepo Port, Seogwipo.",
-      "hash": "57553d7ed8a1",
-      "added": "2026-05-26T23:28:37"
-    },
-    {
-      "week": "2026-W22",
-      "lang": "zh-CN",
-      "angle": "weekend_urgency",
-      "first_sentence": "黄金时段魔法，济州岛红酒游艇的夕阳时刻正在等你。",
-      "hash": "814374544d72",
-      "added": "2026-05-26T23:28:50"
-    },
-    {
-      "week": "2026-W22",
       "lang": "ja",
       "angle": "weekend_urgency",
       "first_sentence": "ゴールデンアワーの魔法を、済州島の海の上で体験してください。",
@@ -255,6 +231,30 @@
       "first_sentence": "年で最も日没が遅い週末、済州島家族旅行や済州島カップルにぴったりの、特別なサンセットクルーズはいかがですか？Grande Bleu Yachtが提供する、忘れられない済州島の思い出を作りましょう。",
       "hash": "24e80b384d09",
       "added": "2026-06-08T02:12:16"
+    },
+    {
+      "week": "2026-W25",
+      "lang": "ko",
+      "angle": "weather_seasonal",
+      "first_sentence": "맑은 하늘 청명 시즌, 제주 여행의 하이라이트를 찾으신다면 그랑블루요트 선셋 크루즈가 정답입니다. 특히 이번 주 제주 날씨는 쾌청해서 시원한 바람과 함께 눈부신 제주 한라산 뷰와 바다를 만끽하기에 더없이 좋아요.",
+      "hash": "9e5c3997a972",
+      "added": "2026-06-15T02:07:21"
+    },
+    {
+      "week": "2026-W25",
+      "lang": "en",
+      "angle": "weather_seasonal",
+      "first_sentence": "This week, Jeju's clearest skies of the season offer an unparalleled opportunity for a breathtaking jeju proposal cruise or a memorable family outing! Imagine the vibrant sunset painting the sky as yo",
+      "hash": "0815b23f0f19",
+      "added": "2026-06-15T02:08:04"
+    },
+    {
+      "week": "2026-W25",
+      "lang": "zh-CN",
+      "angle": "weather_seasonal",
+      "first_sentence": "这个季节，济州岛天空清澈如洗，正是体验海上浪漫的最佳时机！想在韩国唯一认证双体船上，捕捉济州岛日落的绝美瞬间吗？ Grande Bleu Yacht将带您开启一场难忘的海上之旅，我们已接待超过10万名游客，拥有两艘豪华游艇，可容纳47人和44人，自2011年以来，一直致力于为您提供最优质的服务。",
+      "hash": "037106bd2942",
+      "added": "2026-06-15T02:08:48"
     }
   ]
 }
