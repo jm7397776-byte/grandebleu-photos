@@ -312,3 +312,20 @@
 [2026-06-13T04:47:07] already published: はじめての済州島ヨットクルーズ！グランブルーヨットで叶える安心と快適な船旅
 [2026-06-14T00:30:42] already published: はじめての済州島ヨットクルーズ！グランブルーヨットで叶える安心と快適な船旅
 [2026-06-14T01:00:33] already published: はじめての済州島ヨットクルーズ！グランブルーヨットで叶える安心と快適な船旅
+[2026-06-14T05:03:58] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-06-14T05:04:10] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/2026.html
+[2026-06-14T05:04:11] Telegram notification sent
