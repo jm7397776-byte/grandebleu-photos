@@ -166,7 +166,16 @@ def select_keywords(pool: dict, lang: str, week_iso: str, n: int = 4) -> list:
     return rng.sample(keywords, n)
 
 
+# GBP 사진 다양성: 게시물의 약 N%는 인플루언서/라이프스타일 사진(요트 위 인물)을
+# 노을·풍경 대신 노출 → 매번 같은류만 올라가던 문제 해소. 0이면 끔. 자유롭게 조정.
+INFLUENCER_PHOTO_PCT = 35
+
+
 def pick_photo(cats: dict, lang: str, week_iso: str, angle_id: str) -> str:
+    # 일정 확률로 인플루언서 사진을 우선 노출(랜덤 변주). 아니면 기존 카테고리 로직.
+    influencer = cats.get("influencer") or []
+    if influencer and (abs(hash(week_iso + lang + "inf")) % 100) < INFLUENCER_PHOTO_PCT:
+        return influencer[abs(hash(week_iso + lang + "infpick")) % len(influencer)]
     categories = ANGLE_TO_CATEGORIES.get(angle_id, ANGLE_TO_CATEGORIES["default"])
     cat_seed = abs(hash(week_iso + lang + "cat")) % len(categories)
     chosen = categories[cat_seed]
