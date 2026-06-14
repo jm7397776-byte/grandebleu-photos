@@ -588,6 +588,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_21_03_00__zh-CN",
+      "lang": "zh-CN",
+      "file": "blog_queue/zh-CN/auto_21_03_00.md",
+      "title": "亲子济州游艇初体验：Grande Bleu大浦港航线亮点全解析",
+      "generated_at": "2026-06-14T01:58:19",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_422_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0130.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0067.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0187.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0012.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0034.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0048.png"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
