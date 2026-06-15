@@ -1,46 +1,46 @@
 {
-  "date": "2026-06-14",
-  "generated_at": "2026-06-14T15:12:11",
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T15:44:11",
   "publish": true,
-  "topic_key": "course",
-  "topic_title": "월평 주상절리와 코끼리바위를 바다에서",
+  "topic_key": "price",
+  "topic_title": "제주 요트투어 가격과 예약 전 확인할 점",
   "channels": {
     "daangn": {
       "platform": "daangn",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_business_profile_post",
-      "title": "월평 주상절리와 코끼리바위를 바다에서",
-      "body": "육지 전망대와는 다른 각도로 제주의 현무암 해안을 바라봅니다.\n\n월평 주상절리, 월평 해식동굴, 코끼리바위 일대를 따라가는 1시간 항해입니다.\n중문과 서귀포 사이 여행 동선에 자연스럽게 넣기 좋습니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
+      "title": "제주 요트투어 가격과 예약 전 확인할 점",
+      "body": "주간 럭셔리 투어와 선셋 투어는 시간대와 가격이 다릅니다.\n\n프로모션 기준 주간 성인 48,000원부터, 선셋 성인 56,000원부터 확인할 수 있습니다.\n네이버, Klook, KKday, Ctrip/Trip.com 등 예약 채널별 조건을 비교하면 좋습니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
       "hashtags": [
         "제주요트",
         "서귀포",
         "대포항",
         "제주도요트투어",
-        "course"
+        "price"
       ],
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0073.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0114.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0089.png"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0095.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0086.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0214.jpg"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0073.jpg",
-          "file": "ocean_0073.jpg",
-          "category": "ocean",
-          "alt": "제주 대포항 그랑블루요트 - 월평 주상절리와 코끼리바위를 바다에서"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0095.jpg",
+          "file": "facility_0095.jpg",
+          "category": "facility",
+          "alt": "그랑블루요트 시설 - 제주 요트투어 가격과 예약 전 확인할 점"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0114.jpg",
-          "file": "influencer_0114.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0086.jpg",
+          "file": "influencer_0086.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 월평 주상절리와 코끼리바위를 바다에서"
+          "alt": "제주 대포항 그랑블루요트 - 제주 요트투어 가격과 예약 전 확인할 점"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0089.png",
-          "file": "influencer_0089.png",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0214.jpg",
+          "file": "influencer_0214.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 월평 주상절리와 코끼리바위를 바다에서"
+          "alt": "제주 대포항 그랑블루요트 - 제주 요트투어 가격과 예약 전 확인할 점"
         }
       ],
       "cta_label": "예약 채널 확인",
@@ -52,27 +52,27 @@
       "platform": "kakao_channel",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_kakaotalk_channel_post",
-      "title": "월평 주상절리와 코끼리바위를 바다에서",
-      "body": "월평 주상절리와 코끼리바위를 바다에서\n\n육지 전망대와는 다른 각도로 제주의 현무암 해안을 바라봅니다.\n월평 주상절리, 월평 해식동굴, 코끼리바위 일대를 따라가는 1시간 항해입니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
+      "title": "제주 요트투어 가격과 예약 전 확인할 점",
+      "body": "제주 요트투어 가격과 예약 전 확인할 점\n\n주간 럭셔리 투어와 선셋 투어는 시간대와 가격이 다릅니다.\n프로모션 기준 주간 성인 48,000원부터, 선셋 성인 56,000원부터 확인할 수 있습니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
       "button_title": "예약 확인하기",
       "button_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=kakao_channel&utm_medium=local_social&utm_campaign=jeju_yacht",
-      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0073.jpg",
+      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0095.jpg",
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0073.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0114.jpg"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0095.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0086.jpg"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0073.jpg",
-          "file": "ocean_0073.jpg",
-          "category": "ocean",
-          "alt": "제주 대포항 그랑블루요트 - 월평 주상절리와 코끼리바위를 바다에서"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0095.jpg",
+          "file": "facility_0095.jpg",
+          "category": "facility",
+          "alt": "그랑블루요트 시설 - 제주 요트투어 가격과 예약 전 확인할 점"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0114.jpg",
-          "file": "influencer_0114.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0086.jpg",
+          "file": "influencer_0086.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 월평 주상절리와 코끼리바위를 바다에서"
+          "alt": "제주 대포항 그랑블루요트 - 제주 요트투어 가격과 예약 전 확인할 점"
         }
       ],
       "manual_target": "KakaoTalk Channel manager post composer",
@@ -90,8 +90,8 @@
     ]
   },
   "image_urls": [
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0073.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0114.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0089.png"
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0095.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0086.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0214.jpg"
   ]
 }
