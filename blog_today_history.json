@@ -642,6 +642,23 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_27_04_02__en",
+      "lang": "en",
+      "file": "blog_queue/en/auto_27_04_02.md",
+      "title": "Jeju Grande Bleu Yacht: A Price Guide for Romantic Getaways in 2026",
+      "generated_at": "2026-06-15T02:30:44",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_128_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0112.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0026.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0081.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0187.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0072.jpg"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 1
     }
   ]
 }
