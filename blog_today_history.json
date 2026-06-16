@@ -677,6 +677,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_25_02_05__ja",
+      "lang": "ja",
+      "file": "blog_queue/ja/auto_25_02_05.md",
+      "title": "2026年 済州グランブルーヨット予約ガイド：中国語圏の旅行者向け",
+      "generated_at": "2026-06-16T02:11:36",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0085.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0029.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0149.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0177.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0031.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_297_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0072.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
