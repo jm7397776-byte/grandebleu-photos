@@ -365,3 +365,20 @@
 
 [2026-06-16T01:00:47] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/grande-bleu_0951527795.html
 [2026-06-16T01:00:48] Telegram notification sent
+[2026-06-16T05:28:46] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-06-16T05:28:58] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/2026_0849070866.html
+[2026-06-16T05:28:58] Telegram notification sent
