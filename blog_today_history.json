@@ -659,6 +659,24 @@
       ],
       "image_count": 6,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_20_03_06__ja",
+      "lang": "ja",
+      "file": "blog_queue/ja/auto_20_03_06.md",
+      "title": "済州島ヨット ベストシーズン｜Grande Bleu 西帰浦セーリング（子連れ家族向け）",
+      "generated_at": "2026-06-16T00:30:34",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0059.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0071.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0147.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0163.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0061.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0067.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0095.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
