@@ -384,3 +384,20 @@
 [2026-06-16T05:28:58] Telegram notification sent
 [2026-06-17T00:30:33] already published: 2026年 済州グランブルーヨット予約ガイド：中国語圏の旅行者向け
 [2026-06-17T01:00:30] already published: 2026年 済州グランブルーヨット予約ガイド：中国語圏の旅行者向け
+[2026-06-17T05:11:31] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-06-17T05:11:42] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/2026_0948332010.html
+[2026-06-17T05:11:42] Telegram notification sent
