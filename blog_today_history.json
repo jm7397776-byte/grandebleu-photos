@@ -713,6 +713,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_08_07_02__zh-CN",
+      "lang": "zh-CN",
+      "file": "blog_queue/zh-CN/auto_08_07_02.md",
+      "title": "2026年济州格兰蓝游艇价格攻略：高端宾客的奢华之选",
+      "generated_at": "2026-06-17T02:30:36",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0201.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0010.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0116.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0186.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0132.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0107.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0037.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
