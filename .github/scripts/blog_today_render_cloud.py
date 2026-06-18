@@ -76,21 +76,25 @@ def _gemini_blog(lang, angle, audience, focus, history):
                    + "\n".join(f"- {a}" for a in avoid)) if avoid else ""
     lang_name = _LANG_NAME.get(lang, "English")
     prompt = (
-        f"Write ONE Jeju travel blog post in {lang_name} for Grande Bleu Yacht.\n"
-        f"[Angle/Focus] {focus_l}\n[Audience] {aud_l}\n"
-        f"[Verified facts — use ONLY these, never invent prices] {json.dumps(FACTS, ensure_ascii=False)}\n"
-        f"[Brand facts JSON] {_FACTS[:1200]}\n"
-        f"[Korean power-blogger writing principles — apply the principles, not the Korean text] {_PBRULES[:2400]}\n\n"
+        f"Write ONE genuine, useful Jeju travel blog post in {lang_name}. GOAL: attract travelers searching the TOPIC below, "
+        f"and ONLY near the end naturally lead them to a Grande Bleu Yacht tour (keyword-intercept content marketing).\n"
+        f"[TOPIC — the post is mostly about THIS travel topic] {angle}\n"
+        f"[Audience] {aud_l}\n"
+        f"[Verified facts about the yacht — use ONLY for the ending, never invent prices] {json.dumps(FACTS, ensure_ascii=False)}\n"
+        f"[Korean power-blogger writing principles — apply the principles, not the Korean text] {_PBRULES[:2000]}\n\n"
+        "[STRUCTURE — follow exactly]\n"
+        "- TITLE: hook travelers searching the TOPIC; include the topic naturally. Do NOT put 'Grande Bleu' or 'yacht' in the title.\n"
+        "- First ~75% (4-5 ## sections): genuinely useful travel info about the TOPIC — what it is, why go, how to get there, tips, best time of day. Do NOT mention Grande Bleu, yacht, boat, or sailing here. Pure travel value.\n"
+        "- Pivot (1 short ## section): note that one of the best ways to see Seogwipo's south coast is from the sea.\n"
+        "- Last ~20% (1-2 ## sections): recommend Grande Bleu Yacht — departs Daepo Port in Seogwipo, about 1 hour, passes Wolpyeong Jusangjeolli columns and Elephant Rock, optional deck fishing, runs 365 days, consultation 09:00-18:00, book via Naver Talk. Tie it back to the TOPIC once.\n"
         "[Rules]\n"
-        "- Markdown body, 2500-3400 characters, 5-6 sections each with a ## header.\n"
-        "- MUST be distinctly different in wording and structure every time, even for the same focus.\n"
-        "- Conversational and informative, not ad copy. No invented price numbers.\n"
+        "- Markdown body, 2400-3200 characters, 6-7 sections each with a ## header. First-person, friendly, short sentences (power-blogger style). Weave the TOPIC keyword naturally through the whole post for SEO.\n"
+        "- MUST be distinctly different in wording and structure every time.\n"
         f"- Place names strictly in {lang_name}'s own script (NO Korean Hangul in non-Korean text).\n"
-        f"- MUST include Grande Bleu Yacht's exact location near the end (a short 'Location'/所在地/位置 line): "
-        f"172-7 Daepo-ro, Seogwipo-si, Jeju (en) / 济州西归浦市大浦路172-7 (zh-CN) / 済州西帰浦市大浦路172-7 (ja). "
-        f"Write the address in {lang_name}'s own script so visitors can find it on the map.\n"
-        "- Fish species only: rockfish, scorpionfish, filefish, pufferfish. No engine/motor claims.\n"
-        f"- The current year is {_y} and month is {_m} (KST). Use ONLY {_y} as the year anywhere a year appears — NEVER write 2024 or 2025. Use ONLY weather and scenery appropriate to this month, never other seasons (no out-of-season snow/foliage/cherry-blossoms).\n"
+        f"- Near the end include Grande Bleu Yacht's exact Location line in {lang_name}'s script: "
+        f"172-7 Daepo-ro, Seogwipo-si, Jeju (en) / 济州西归浦市大浦路172-7 (zh-CN) / 済州西帰浦市大浦路172-7 (ja).\n"
+        "- Fish species only: rockfish, scorpionfish, filefish, pufferfish. No engine/motor claims. No invented prices.\n"
+        f"- The current year is {_y} and month is {_m} (KST). Use ONLY {_y} as the year — NEVER 2024 or 2025. Use ONLY weather and scenery appropriate to this month, never other seasons.\n"
         f"{avoid_block}\n"
         '- Output JSON only: {"title":"...","meta":"...","keywords":"...","body":"...markdown..."}'
     )
@@ -106,37 +110,39 @@ def _gemini_blog(lang, angle, audience, focus, history):
         pass
     return None
 
+# 인터셉트 토픽 — '요트'가 아니라 외국인 관광객이 실제로 검색하는 '제주 여행 주제'.
+# 글 앞 75%는 이 주제의 진짜 여행정보, 끝 20%에서 그랑블루요트로 자연 연결(프롬프트가 처리).
 GENERATED_ANGLES = [
-    "sunset timing and golden-hour photos",
-    "Daepo Port check-in and boarding flow",
-    "catamaran stability for families",
-    "Jeju south coast geology from sea level",
-    "Wolpyeong Jusangjeolli basalt columns",
-    "Wolpyeong sea cave and Elephant Rock",
-    "food and drinks included onboard",
-    "fishing experience for first-timers",
-    "life-jacket rule and onboard safety",
-    "hotel and premium travel partnerships",
-    "corporate and MICE group use",
-    "solo traveler calm-hour itinerary",
-    "couple and honeymoon photo route",
-    "multi-generation family travel",
-    "winter Jeju sailing comfort",
-    "spring light and clear coastline",
-    "summer evening sea breeze",
-    "autumn shoulder-season sailing",
-    "luxury daytime tour vs sunset tour",
-    "what to wear on a Jeju yacht",
-    "phone photography on a moving yacht",
-    "one-hour itinerary around Seogwipo",
-    "why Daepo Port works for yacht tours",
-    "what first-time Korea travelers should know",
-    "premium but practical Jeju activity",
-    "quiet travel instead of crowded sightseeing",
-    "brand-certified catamaran story",
-    "licensed captain and engineer operations",
-    "clear pricing and promotion notes",
-    "partner-platform booking comparison",
+    "best things to do in Jeju for first-time visitors",
+    "a relaxed 3-day Jeju itinerary",
+    "Seongsan Ilchulbong sunrise peak guide",
+    "Hallasan hiking basics for travelers",
+    "Jeju hidden gems away from the crowds",
+    "Seogwipo travel guide and highlights",
+    "a Jeju east coast day trip plan",
+    "Jeju with kids — family-friendly spots",
+    "Cheonjiyeon and Jeongbang waterfalls guide",
+    "an Udo island day trip",
+    "Jeju ocean-view cafes worth the stop",
+    "Manjanggul lava tube and nearby spots",
+    "Jeju oreum (volcanic cones) to visit",
+    "things to do around Jungmun resort area",
+    "a scenic Jeju coastal drive route",
+    "Wolpyeong Jusangjeolli cliffs and Elephant Rock",
+    "Jeju photo spots travelers love",
+    "Gapado and Marado island trips",
+    "Jeju Olle coastal trail highlights",
+    "a 2-day weekend plan in Jeju",
+    "top attractions near Seogwipo",
+    "what foreign travelers often miss in Jeju",
+    "Jeju local food worth trying",
+    "calm, less-crowded Jeju travel ideas",
+    "Jeju beaches and the south coast",
+    "Jeju rainy-day backup plans",
+    "Jeju nature and scenery highlights",
+    "seeing Jeju's south coast from the water",
+    "a memorable last day in Jeju",
+    "Jeju travel mistakes to avoid",
 ]
 
 AUDIENCES = [
