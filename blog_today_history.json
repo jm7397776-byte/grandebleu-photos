@@ -801,6 +801,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_04_04_04__ja",
+      "lang": "ja",
+      "file": "blog_queue/ja/auto_04_04_04.md",
+      "title": "済州島ヨット 撮影スポット｜Grande Bleu 西帰浦セーリング（カップル・ハネムーン向け）",
+      "generated_at": "2026-06-19T01:00:34",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0131.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0010.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0002.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0164.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0012.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0217.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0231.png"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
