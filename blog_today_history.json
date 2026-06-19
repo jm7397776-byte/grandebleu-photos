@@ -783,6 +783,24 @@
       ],
       "image_count": 6,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_22_01_05__ja",
+      "lang": "ja",
+      "file": "blog_queue/ja/auto_22_01_05.md",
+      "title": "2026年夏！済州島で絶対食べるべき地元グルメと海辺の絶景スポット",
+      "generated_at": "2026-06-19T00:30:41",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_177_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0169.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0094.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0013.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0210.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0273.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0155.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
