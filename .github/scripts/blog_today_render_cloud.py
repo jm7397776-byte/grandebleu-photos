@@ -16,7 +16,7 @@ REPO = Path(os.environ.get("REPO_DIR", ".")).resolve()
 PUB_SRC = REPO / ".github" / "scripts" / "blog_publisher_cloud.py"
 QUEUE = REPO / "blog_queue"
 HISTORY = REPO / "blog_today_history.json"
-LANGS_CYCLE = ["en", "ja", "zh-CN"]
+LANGS_CYCLE = ["en", "ja", "zh-CN", "zh-TW", "ru", "th", "vi", "id"]
 TARGET_TEXT_CHARS = 3400
 MAX_FIGURES = 9
 RECENT_IMAGE_WINDOW = 60
@@ -32,7 +32,9 @@ try:
     _PBRULES = (REPO / "google_posts" / "_data" / "powerblogger_rules.md").read_text(encoding="utf-8")
 except Exception:
     _PBRULES = ""
-_LANG_NAME = {"en": "English", "ja": "Japanese", "zh-CN": "Simplified Chinese"}
+_LANG_NAME = {"en": "English", "ja": "Japanese", "zh-CN": "Simplified Chinese",
+              "zh-TW": "Traditional Chinese", "ru": "Russian", "th": "Thai",
+              "vi": "Vietnamese", "id": "Indonesian"}
 
 
 def _gemini(prompt, timeout=120):
@@ -631,7 +633,7 @@ def render(lang, post, avoid_photo_urls=None):
 
 
 def main():
-    lang = LANGS_CYCLE[datetime.now().toordinal() % 3]  # 매일 강제 3순환(요일 무관, 연속 중복 없음)
+    lang = LANGS_CYCLE[datetime.now().toordinal() % len(LANGS_CYCLE)]  # 매일 언어 순환(en/ja/zh-CN/zh-TW/ru/th/vi/id)
     history = load_history()
     path, key, post = pick_post(lang)
     if not post:
