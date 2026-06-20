@@ -438,3 +438,20 @@
 [2026-06-19T05:21:46] Telegram notification sent
 [2026-06-20T00:30:35] already published: 2026年夏！子連れ家族におすすめ！西帰浦（ソギポ）周辺の絶対外せない観光スポット
 [2026-06-20T01:00:34] already published: 2026年夏！子連れ家族におすすめ！西帰浦（ソギポ）周辺の絶対外せない観光スポット
+[2026-06-20T04:38:57] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-06-20T04:39:09] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/blog-post_810.html
+[2026-06-20T04:39:09] Telegram notification sent
