@@ -16,7 +16,7 @@ REPO = Path(os.environ.get("REPO_DIR", ".")).resolve()
 PUB_SRC = REPO / ".github" / "scripts" / "blog_publisher_cloud.py"
 QUEUE = REPO / "blog_queue"
 HISTORY = REPO / "blog_today_history.json"
-LANGS_CYCLE = ["en", "ja", "zh-CN", "zh-TW", "ru", "th", "vi", "id"]
+LANGS_CYCLE = ["en","ja","zh-CN","zh-TW","ru","th","vi","id","es","fr","de","it","pt","ar","hi","ms","tl","tr","mn","pl"]
 TARGET_TEXT_CHARS = 3400
 MAX_FIGURES = 9
 RECENT_IMAGE_WINDOW = 60
@@ -34,7 +34,7 @@ except Exception:
     _PBRULES = ""
 _LANG_NAME = {"en": "English", "ja": "Japanese", "zh-CN": "Simplified Chinese",
               "zh-TW": "Traditional Chinese", "ru": "Russian", "th": "Thai",
-              "vi": "Vietnamese", "id": "Indonesian"}
+              "vi": "Vietnamese", "id": "Indonesian", "es": "Spanish", "fr": "French", "de": "German", "it": "Italian", "pt": "Portuguese", "ar": "Arabic", "hi": "Hindi", "ms": "Malay", "tl": "Filipino", "tr": "Turkish", "mn": "Mongolian", "pl": "Polish"}
 
 
 def _gemini(prompt, timeout=120):
