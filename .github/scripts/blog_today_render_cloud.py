@@ -86,7 +86,7 @@ def _gemini_blog(lang, angle, audience, focus, history):
         f"[Korean power-blogger writing principles — apply the principles, not the Korean text] {_PBRULES[:2000]}\n\n"
         "[STRUCTURE — follow exactly]\n"
         "- TITLE: hook travelers searching the TOPIC; include the topic naturally. Do NOT put 'Grande Bleu' or 'yacht' in the title.\n"
-        "- First ~75% (4-5 ## sections): genuinely useful travel info about the TOPIC — what it is, why go, how to get there, tips, best time of day. Do NOT mention Grande Bleu, yacht, boat, or sailing here. Pure travel value.\n"
+        "- First ~75% (4-5 ## sections): genuinely useful travel info about the TOPIC — what it is, why go, how to get there, tips, best time of day. Do NOT mention Grande Bleu, yacht, boat, or sailing here. Pure travel value. Do NOT insert any <figure> or <img> in these travel-info sections; put ALL photos ONLY in the Grande Bleu section (last 20%).\n"
         "- Pivot (1 short ## section): note that one of the best ways to see Seogwipo's south coast is from the sea.\n"
         "- Last ~20% (1-2 ## sections): recommend Grande Bleu Yacht — departs Daepo Port in Seogwipo, about 1 hour, passes Wolpyeong Jusangjeolli columns and Elephant Rock, optional deck fishing, runs 365 days, consultation 09:00-18:00, book via Naver Talk. Tie it back to the TOPIC once.\n"
         "[Rules]\n"
