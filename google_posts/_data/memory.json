@@ -4,38 +4,6 @@
       "week": "2026-W22",
       "lang": "ja",
       "angle": "weekend_urgency",
-      "first_sentence": "ゴールデンアワーの魔法を、済州島の海の上で体験してください。",
-      "hash": "e73b55a896a0",
-      "added": "2026-05-26T23:29:04"
-    },
-    {
-      "week": "2026-W22",
-      "lang": "ko",
-      "angle": "weekend_urgency",
-      "first_sentence": "주말 황금빛 노을이 대포항을 물들이기 전에, 제주 카타마란 자리를 먼저 확보하세요.",
-      "hash": "19ee6e071ffd",
-      "added": "2026-05-27T00:24:35"
-    },
-    {
-      "week": "2026-W22",
-      "lang": "en",
-      "angle": "weekend_urgency",
-      "first_sentence": "Chasing golden hour in Jeju? The view from the water hits differently than any cliffside lookout.",
-      "hash": "ffa034d4674b",
-      "added": "2026-05-27T00:24:48"
-    },
-    {
-      "week": "2026-W22",
-      "lang": "zh-CN",
-      "angle": "weekend_urgency",
-      "first_sentence": "每逢周末，济州岛海上游的名额总是一抢而空——这就是黄金时段的魔法。",
-      "hash": "e29f0194daf4",
-      "added": "2026-05-27T00:25:01"
-    },
-    {
-      "week": "2026-W22",
-      "lang": "ja",
-      "angle": "weekend_urgency",
       "first_sentence": "夕暮れのわずか60分が、旅の記憶をすべて塗り替える。",
       "hash": "505b3dd15865",
       "added": "2026-05-27T00:25:13"
@@ -255,6 +223,38 @@
       "first_sentence": "这个季节，济州岛天空清澈如洗，正是体验海上浪漫的最佳时机！想在韩国唯一认证双体船上，捕捉济州岛日落的绝美瞬间吗？ Grande Bleu Yacht将带您开启一场难忘的海上之旅，我们已接待超过10万名游客，拥有两艘豪华游艇，可容纳47人和44人，自2011年以来，一直致力于为您提供最优质的服务。",
       "hash": "037106bd2942",
       "added": "2026-06-15T02:08:48"
+    },
+    {
+      "week": "2026-W26",
+      "lang": "ko",
+      "angle": "food_unlimited",
+      "first_sentence": "제주 요트투어 중 황금빛 매직 아워를 만끽하며 잊지 못할 추억을 만들고 싶다면, 그랑블루요트 선셋 크루즈가 최고의 선택입니다. 서귀포 대포항에서 출발하는 60분간의 항해는 눈부신 제주 노을과 함께 제주 가성비 투어의 진수를 보여줄 것입니다.",
+      "hash": "bd0ca0a4de1e",
+      "added": "2026-06-22T02:17:12"
+    },
+    {
+      "week": "2026-W26",
+      "lang": "en",
+      "angle": "food_unlimited",
+      "first_sentence": "This week, I discovered the golden hour magic that transforms Jeju into an unforgettable spectacle. Our 60-minute **jeju ramyeon cruise** with Grande Bleu Yacht from Daepo Port, **Seogwipo**, was the ",
+      "hash": "669d912755cc",
+      "added": "2026-06-22T02:17:45"
+    },
+    {
+      "week": "2026-W26",
+      "lang": "zh-CN",
+      "angle": "food_unlimited",
+      "first_sentence": "在济州岛的黄金时段，体验一场西归浦活动，感受海上的魔法时刻！当落日余晖洒满海面，登上Grande Bleu Yacht，品尝着济州本地饼干和拉面，无限畅饮生啤和葡萄酒，这将是您济州岛游艇之旅中最难忘的一刻。",
+      "hash": "565a09b4ff78",
+      "added": "2026-06-22T02:18:19"
+    },
+    {
+      "week": "2026-W26",
+      "lang": "ja",
+      "angle": "food_unlimited",
+      "first_sentence": "ゴールデンアワーの魔法に包まれた済州島ワインクルーズ体験はいかがですか？水平線に溶ける済州島 (チェジュド) の夕日を眺めながら、船上フードコートが無料で無制限。Grande Bleu Yacht でしか味わえない特別な時間をお届けします。",
+      "hash": "b73f2b8e8d84",
+      "added": "2026-06-22T02:22:03"
     }
   ]
 }
