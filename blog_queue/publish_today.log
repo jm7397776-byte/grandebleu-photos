@@ -457,3 +457,20 @@
 [2026-06-20T04:39:09] Telegram notification sent
 [2026-06-21T00:30:31] already published: 濟州最美海景咖啡廳地圖：與摯愛沈浸蔚藍，共度浪漫時光！
 [2026-06-21T01:00:32] already published: 濟州最美海景咖啡廳地圖：與摯愛沈浸蔚藍，共度浪漫時光！
+[2026-06-21T02:30:29] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-06-21T02:30:40] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/jeju-yacht-tour-route-highlights-grande.html
+[2026-06-21T02:30:40] Telegram notification sent
