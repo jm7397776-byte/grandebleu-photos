@@ -927,6 +927,23 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_15_04_05__fr",
+      "lang": "fr",
+      "file": "blog_queue/fr/auto_15_04_05.md",
+      "title": "Escapade romantique à Jeju : les falaises de Wolpyeong Jusangjeolli et le rocher de l'Éléphant, un spectacle naturel à ne pas manquer !",
+      "generated_at": "2026-06-22T02:30:45",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_138_deck_exterior.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0243.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_180_aerial.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0068.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0047.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0048.jpg"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 1
     }
   ]
 }
