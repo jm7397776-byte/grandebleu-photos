@@ -477,3 +477,20 @@
 [2026-06-21T05:16:39] already published: Jeju Yacht Tour — Route & Highlights | Grande Bleu Catamaran, Seogwipo Jeju (first-time visitors)
 [2026-06-22T00:30:36] already published: Jeju Yacht Tour — Route & Highlights | Grande Bleu Catamaran, Seogwipo Jeju (first-time visitors)
 [2026-06-22T01:00:31] already published: Jeju Yacht Tour — Route & Highlights | Grande Bleu Catamaran, Seogwipo Jeju (first-time visitors)
+[2026-06-22T05:27:26] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-06-22T05:27:37] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/escapade-romantique-jeju-les-falaises.html
+[2026-06-22T05:27:38] Telegram notification sent
