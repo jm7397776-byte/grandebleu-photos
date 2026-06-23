@@ -496,3 +496,20 @@
 [2026-06-22T05:27:38] Telegram notification sent
 [2026-06-23T00:30:35] already published: Escapade romantique à Jeju : les falaises de Wolpyeong Jusangjeolli et le rocher de l'Éléphant, un spectacle naturel à ne pas manquer !
 [2026-06-23T01:00:35] already published: Escapade romantique à Jeju : les falaises de Wolpyeong Jusangjeolli et le rocher de l'Éléphant, un spectacle naturel à ne pas manquer !
+[2026-06-23T04:18:21] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-06-23T04:18:32] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/jeju-yacht-tour-photo-spots-grande-bleu.html
+[2026-06-23T04:18:32] Telegram notification sent
