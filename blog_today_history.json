@@ -980,6 +980,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_07_06_07__it",
+      "lang": "it",
+      "file": "blog_queue/it/auto_07_06_07.md",
+      "title": "Jeju in famiglia: un'isola a misura di bambino e di viaggiatore singolo!",
+      "generated_at": "2026-06-24T01:28:14",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0150.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0140.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0242.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0083.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0008.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_m1n_sta.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0101.png"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
