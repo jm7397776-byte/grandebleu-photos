@@ -998,6 +998,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_01_05_05__it",
+      "lang": "it",
+      "file": "blog_queue/it/auto_01_05_05.md",
+      "title": "Jeju Yacht Tour — How to Book | Grande Bleu Catamaran, Seogwipo Jeju (corporate groups)",
+      "generated_at": "2026-06-24T02:30:38",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0029.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0110.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0094.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0153.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0301.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0061.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0194.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
