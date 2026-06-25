@@ -1016,6 +1016,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_16_07_02__pt",
+      "lang": "pt",
+      "file": "blog_queue/pt/auto_16_07_02.md",
+      "title": "Jeju Yacht Tour — Price Guide | Grande Bleu Catamaran, Seogwipo Jeju (premium hotel guests)",
+      "generated_at": "2026-06-25T00:30:35",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0008.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0109.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0131.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_174___24.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0228.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0173.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0034.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
