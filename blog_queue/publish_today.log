@@ -569,3 +569,20 @@
 [2026-06-26T04:37:33] Telegram notification sent
 [2026-06-27T00:30:35] already published: جيجو مع الأطفال: مغامرة لا تُنسى للعائلات الصغيرة!
 [2026-06-27T01:00:36] already published: جيجو مع الأطفال: مغامرة لا تُنسى للعائلات الصغيرة!
+[2026-06-27T04:14:13] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-06-27T04:14:24] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/jeju-yacht-tour-route-highlights-grande_0327389973.html
+[2026-06-27T04:14:25] Telegram notification sent
