@@ -2,30 +2,6 @@
   "recent_posts": [
     {
       "week": "2026-W22",
-      "lang": "ja",
-      "angle": "weekend_urgency",
-      "first_sentence": "夕暮れのわずか60分が、旅の記憶をすべて塗り替える。",
-      "hash": "505b3dd15865",
-      "added": "2026-05-27T00:25:13"
-    },
-    {
-      "week": "2026-W22",
-      "lang": "ko",
-      "angle": "weekend_urgency",
-      "first_sentence": "매직 아워, 그 60분을 제주 카타마란 위에서 맞이하세요.",
-      "hash": "14f594d2dcf5",
-      "added": "2026-05-27T00:46:06"
-    },
-    {
-      "week": "2026-W22",
-      "lang": "en",
-      "angle": "weekend_urgency",
-      "first_sentence": "Jeju's most breathtaking golden hour belongs on the water, not on a crowded shore.",
-      "hash": "9339bffd7bff",
-      "added": "2026-05-27T00:46:17"
-    },
-    {
-      "week": "2026-W22",
       "lang": "zh-CN",
       "angle": "weekend_urgency",
       "first_sentence": "黄金时段的魔法，藏在西归浦大浦港的落日余晖里。",
@@ -255,6 +231,30 @@
       "first_sentence": "ゴールデンアワーの魔法に包まれた済州島ワインクルーズ体験はいかがですか？水平線に溶ける済州島 (チェジュド) の夕日を眺めながら、船上フードコートが無料で無制限。Grande Bleu Yacht でしか味わえない特別な時間をお届けします。",
       "hash": "b73f2b8e8d84",
       "added": "2026-06-22T02:22:03"
+    },
+    {
+      "week": "2026-W27",
+      "lang": "ko",
+      "angle": "catamaran_stability",
+      "first_sentence": "바다 잔잔한 평온 시즌, 멀미 걱정 없이 즐기는 제주 요트투어를 찾으신다면 그랑블루요트가 정답입니다. 한국 유일의 공인 카타마란 쌍동선 구조로 흔들림이 거의 없어 초보자나 아이들, 어르신 모두 안심하고 탑승할 수 있답니다. 넓은 갑판 위에서 탁 트인 서귀포 바다를 만끽하며 잊지 못할 시간을 보내보세요.",
+      "hash": "18d6e3563ec8",
+      "added": "2026-06-29T01:56:55"
+    },
+    {
+      "week": "2026-W27",
+      "lang": "en",
+      "angle": "catamaran_stability",
+      "first_sentence": "This calm seas season, I discovered the ultimate jeju unlimited drinks cruise, a serene escape that redefines relaxation. With Grande Bleu Yacht, Korea's only certified catamaran, you'll experience tw",
+      "hash": "77cd29b26b1e",
+      "added": "2026-06-29T01:57:38"
+    },
+    {
+      "week": "2026-W27",
+      "lang": "zh-CN",
+      "angle": "catamaran_stability",
+      "first_sentence": "海面平静的季节，正是开启一场独特济州岛海上游的最佳时机。登上韩国唯一认证的双体帆船Grande Bleu Yacht，感受双船体带来的极致稳定，告别晕船烦恼，在宽阔的甲板上尽情享受海风拂面。",
+      "hash": "db388559ee95",
+      "added": "2026-06-29T01:58:22"
     }
   ]
 }

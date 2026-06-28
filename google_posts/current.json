@@ -1,28 +1,28 @@
 {
-  "week": "2026-W26",
-  "generated_at": "2026-06-22T02:22:03",
+  "week": "2026-W27",
+  "generated_at": "2026-06-29T02:07:24",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "influencer_0245.png",
-      "seo_keywords": "제주 요트투어, 제주 노을, 제주 가성비 투어, 서귀포 요트",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W26_ko.txt",
-      "body_length": 679
+      "photo": "yacht_26_bow.jpg",
+      "seo_keywords": "서귀포 요트, 제주 일몰 시간, 제주 비건 옵션, 제주 어린이 동반",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W27_ko.txt",
+      "body_length": 885
     },
     "en": {
       "label": "English",
-      "photo": "yacht_249_food.jpg",
-      "seo_keywords": "jeju ramyeon cruise, seogwipo activities, korea catamaran, seogwipo yacht",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W26_en.txt",
-      "body_length": 1273
+      "photo": "influencer_0027.jpg",
+      "seo_keywords": "jeju unlimited drinks cruise, jeju couple activity, jeju photo spot, jeju private cruise",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W27_en.txt",
+      "body_length": 1399
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "yacht_249_food.jpg",
-      "seo_keywords": "西归浦活动, 济州岛游艇, 济州岛私人游艇, 柱状节理游艇",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W26_zh-CN.txt",
-      "body_length": 645
+      "photo": "influencer_0027.jpg",
+      "seo_keywords": "济州岛60分钟航程, 济州岛海上游, 济州岛家庭旅行, 济州岛游艇",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W27_zh-CN.txt",
+      "body_length": 745
     },
     "ja": {
       "label": "日本語",
