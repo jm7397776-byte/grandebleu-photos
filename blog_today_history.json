@@ -1178,6 +1178,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_06_07_04__ms",
+      "lang": "ms",
+      "file": "blog_queue/ms/auto_06_07_04.md",
+      "title": "Jeju Yacht Tour — Photo Spots | Grande Bleu Catamaran, Seogwipo Jeju (premium hotel guests)",
+      "generated_at": "2026-06-28T01:36:57",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_425_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_leelee.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0114.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0111.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0084.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0200.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0103.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
