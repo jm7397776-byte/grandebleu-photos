@@ -1,46 +1,46 @@
 {
-  "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:51:23",
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T15:13:17",
   "publish": true,
-  "topic_key": "course",
-  "topic_title": "월평 주상절리와 코끼리바위를 바다에서",
+  "topic_key": "fishing",
+  "topic_title": "처음 해보는 바다낚시도 편하게",
   "channels": {
     "daangn": {
       "platform": "daangn",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_business_profile_post",
-      "title": "월평 주상절리와 코끼리바위를 바다에서",
-      "body": "육지 전망대와는 다른 각도로 제주의 현무암 해안을 바라봅니다.\n\n월평 주상절리, 월평 해식동굴, 코끼리바위 일대를 따라가는 1시간 항해입니다.\n중문과 서귀포 사이 여행 동선에 자연스럽게 넣기 좋습니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
+      "title": "처음 해보는 바다낚시도 편하게",
+      "body": "요트 위에서 우럭, 쏨뱅이, 쥐치 같은 제주 바다 어종을 만날 수 있습니다.\n\n낚시만 하는 배가 아니라 항해, 풍경, 사진, 가벼운 체험이 함께 갑니다.\n아이와 함께할 체험형 제주 일정으로 쓰기 좋습니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
       "hashtags": [
         "제주요트",
         "서귀포",
         "대포항",
         "제주도요트투어",
-        "course"
+        "fishing"
       ],
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_264_luxury.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0262.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0083.jpg"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0007.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0165.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0210.jpg"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_264_luxury.jpg",
-          "file": "yacht_264_luxury.jpg",
-          "category": "yacht_legacy",
-          "alt": "제주 대포항 그랑블루요트 - 월평 주상절리와 코끼리바위를 바다에서"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0007.jpg",
+          "file": "fishing_0007.jpg",
+          "category": "fishing",
+          "alt": "그랑블루요트 낚시 체험 - 처음 해보는 바다낚시도 편하게"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0262.jpg",
-          "file": "influencer_0262.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0165.jpg",
+          "file": "influencer_0165.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 월평 주상절리와 코끼리바위를 바다에서"
+          "alt": "제주 대포항 그랑블루요트 - 처음 해보는 바다낚시도 편하게"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0083.jpg",
-          "file": "influencer_0083.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0210.jpg",
+          "file": "influencer_0210.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 월평 주상절리와 코끼리바위를 바다에서"
+          "alt": "제주 대포항 그랑블루요트 - 처음 해보는 바다낚시도 편하게"
         }
       ],
       "cta_label": "예약 채널 확인",
@@ -52,27 +52,27 @@
       "platform": "kakao_channel",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_kakaotalk_channel_post",
-      "title": "월평 주상절리와 코끼리바위를 바다에서",
-      "body": "월평 주상절리와 코끼리바위를 바다에서\n\n육지 전망대와는 다른 각도로 제주의 현무암 해안을 바라봅니다.\n월평 주상절리, 월평 해식동굴, 코끼리바위 일대를 따라가는 1시간 항해입니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
+      "title": "처음 해보는 바다낚시도 편하게",
+      "body": "처음 해보는 바다낚시도 편하게\n\n요트 위에서 우럭, 쏨뱅이, 쥐치 같은 제주 바다 어종을 만날 수 있습니다.\n낚시만 하는 배가 아니라 항해, 풍경, 사진, 가벼운 체험이 함께 갑니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
       "button_title": "예약 확인하기",
       "button_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=kakao_channel&utm_medium=local_social&utm_campaign=jeju_yacht",
-      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_264_luxury.jpg",
+      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0007.jpg",
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_264_luxury.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0262.jpg"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0007.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0165.jpg"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_264_luxury.jpg",
-          "file": "yacht_264_luxury.jpg",
-          "category": "yacht_legacy",
-          "alt": "제주 대포항 그랑블루요트 - 월평 주상절리와 코끼리바위를 바다에서"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0007.jpg",
+          "file": "fishing_0007.jpg",
+          "category": "fishing",
+          "alt": "그랑블루요트 낚시 체험 - 처음 해보는 바다낚시도 편하게"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0262.jpg",
-          "file": "influencer_0262.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0165.jpg",
+          "file": "influencer_0165.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 월평 주상절리와 코끼리바위를 바다에서"
+          "alt": "제주 대포항 그랑블루요트 - 처음 해보는 바다낚시도 편하게"
         }
       ],
       "manual_target": "KakaoTalk Channel manager post composer",
@@ -90,8 +90,8 @@
     ]
   },
   "image_urls": [
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_264_luxury.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0262.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0083.jpg"
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0007.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0165.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0210.jpg"
   ]
 }
