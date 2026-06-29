@@ -1196,6 +1196,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_20_01_07__tl",
+      "lang": "tl",
+      "file": "blog_queue/tl/auto_20_01_07.md",
+      "title": "Ating Tuklasin: Mga Nangungunang Atraksyon Malapit sa Seogwipo!",
+      "generated_at": "2026-06-29T01:38:57",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_232_deck_exterior.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0269.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0073.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_y_ugyu17.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0170.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0104.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0225.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
