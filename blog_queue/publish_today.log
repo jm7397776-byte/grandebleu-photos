@@ -626,3 +626,20 @@
 [2026-06-29T04:57:30] Telegram notification sent
 [2026-06-30T00:30:33] already published: Jeju Yacht Tour — Price Guide | Grande Bleu Catamaran, Seogwipo Jeju (couples and honeymooners)
 [2026-06-30T01:00:34] already published: Jeju Yacht Tour — Price Guide | Grande Bleu Catamaran, Seogwipo Jeju (couples and honeymooners)
+[2026-06-30T04:22:20] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-06-30T04:22:31] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/06/jeju-yacht-tour-onboard-food-drinks.html
+[2026-06-30T04:22:32] Telegram notification sent
