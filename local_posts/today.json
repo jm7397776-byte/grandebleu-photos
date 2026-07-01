@@ -1,46 +1,46 @@
 {
-  "date": "2026-06-30",
-  "generated_at": "2026-06-30T14:40:59",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T15:00:19",
   "publish": true,
-  "topic_key": "sunset",
-  "topic_title": "제주 선셋을 가장 조용하게 보는 방법",
+  "topic_key": "premium",
+  "topic_title": "호텔 여행에 어울리는 프리미엄 요트 코스",
   "channels": {
     "daangn": {
       "platform": "daangn",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_business_profile_post",
-      "title": "제주 선셋을 가장 조용하게 보는 방법",
-      "body": "대포항에서 출발해 한 시간, 해가 낮아지는 시간을 바다 위에서 보냅니다.\n\n쌍동선 카타마란이라 가족, 커플, 부모님 동반 여행에서도 안정감이 좋습니다.\n서귀포에서 저녁 일정 전후로 넣기 좋은 짧은 코스입니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
+      "title": "호텔 여행에 어울리는 프리미엄 요트 코스",
+      "body": "신라, 파르나스 등 프리미엄 여행 동선과 함께 잡기 좋은 대포항 요트입니다.\n\n브랜드 인증 카타마란과 실내 라운지, 갑판 풍경이 함께 있는 코스입니다.\n기념일, 데이트, 접대성 여행에도 과하지 않게 어울립니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
       "hashtags": [
         "제주요트",
         "서귀포",
         "대포항",
         "제주도요트투어",
-        "sunset"
+        "premium"
       ],
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0039.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0239.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0058.jpg"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0021.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0266.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0223.png"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0039.jpg",
-          "file": "food_0039.jpg",
-          "category": "food",
-          "alt": "그랑블루요트 선상 음식 - 제주 선셋을 가장 조용하게 보는 방법"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0021.jpg",
+          "file": "facility_0021.jpg",
+          "category": "facility",
+          "alt": "그랑블루요트 시설 - 호텔 여행에 어울리는 프리미엄 요트 코스"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0239.jpg",
-          "file": "influencer_0239.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0266.jpg",
+          "file": "influencer_0266.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 제주 선셋을 가장 조용하게 보는 방법"
+          "alt": "제주 대포항 그랑블루요트 - 호텔 여행에 어울리는 프리미엄 요트 코스"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0058.jpg",
-          "file": "influencer_0058.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0223.png",
+          "file": "influencer_0223.png",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 제주 선셋을 가장 조용하게 보는 방법"
+          "alt": "제주 대포항 그랑블루요트 - 호텔 여행에 어울리는 프리미엄 요트 코스"
         }
       ],
       "cta_label": "예약 채널 확인",
@@ -52,27 +52,27 @@
       "platform": "kakao_channel",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_kakaotalk_channel_post",
-      "title": "제주 선셋을 가장 조용하게 보는 방법",
-      "body": "제주 선셋을 가장 조용하게 보는 방법\n\n대포항에서 출발해 한 시간, 해가 낮아지는 시간을 바다 위에서 보냅니다.\n쌍동선 카타마란이라 가족, 커플, 부모님 동반 여행에서도 안정감이 좋습니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
+      "title": "호텔 여행에 어울리는 프리미엄 요트 코스",
+      "body": "호텔 여행에 어울리는 프리미엄 요트 코스\n\n신라, 파르나스 등 프리미엄 여행 동선과 함께 잡기 좋은 대포항 요트입니다.\n브랜드 인증 카타마란과 실내 라운지, 갑판 풍경이 함께 있는 코스입니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
       "button_title": "예약 확인하기",
       "button_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=kakao_channel&utm_medium=local_social&utm_campaign=jeju_yacht",
-      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0039.jpg",
+      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0021.jpg",
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0039.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0239.jpg"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0021.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0266.jpg"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0039.jpg",
-          "file": "food_0039.jpg",
-          "category": "food",
-          "alt": "그랑블루요트 선상 음식 - 제주 선셋을 가장 조용하게 보는 방법"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0021.jpg",
+          "file": "facility_0021.jpg",
+          "category": "facility",
+          "alt": "그랑블루요트 시설 - 호텔 여행에 어울리는 프리미엄 요트 코스"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0239.jpg",
-          "file": "influencer_0239.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0266.jpg",
+          "file": "influencer_0266.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 제주 선셋을 가장 조용하게 보는 방법"
+          "alt": "제주 대포항 그랑블루요트 - 호텔 여행에 어울리는 프리미엄 요트 코스"
         }
       ],
       "manual_target": "KakaoTalk Channel manager post composer",
@@ -90,8 +90,8 @@
     ]
   },
   "image_urls": [
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0039.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0239.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0058.jpg"
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0021.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0266.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0223.png"
   ]
 }
