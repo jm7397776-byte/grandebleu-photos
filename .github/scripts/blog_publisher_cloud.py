@@ -993,7 +993,7 @@ def main():
     # [2026-07-03 주인님 "전세계 타겟"] 16개 언어 전체 순환 — 하루 2언어(주력 1 + 로컬 1).
     # 주력(en/ja/zh-CN)은 3일 주기, 나머지 13개(ar·mn·ru계 포함)는 13일 주기로 매일 하나씩.
     _MAJOR = ["en", "ja", "zh-CN"]
-    _MINOR = ["ar", "de", "es", "fr", "hi", "it", "mn", "ms", "pl", "pt", "tl", "tr", "zh-TW"]
+    _MINOR = ["ar", "de", "es", "fr", "hi", "it", "mn", "ms", "pl", "pt", "tl", "tr", "zh-TW", "ru", "th", "vi", "id"]
     _doy = datetime.now().timetuple().tm_yday
     LANGS = [_MAJOR[_doy % len(_MAJOR)], _MINOR[_doy % len(_MINOR)]]
     for lang in LANGS:
