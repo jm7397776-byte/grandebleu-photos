@@ -16,6 +16,10 @@ import re
 import sys
 import urllib.parse
 import urllib.request
+import smtplib
+import ssl
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 from datetime import datetime
 from pathlib import Path
 
@@ -648,6 +652,60 @@ LANG_META = {
 }
 
 
+def _m2b_message(title: str, html: str):
+    to_addr = os.environ.get("MAIL2BLOGGER_EMAIL")
+    from_addr = os.environ.get("SMTP_USER") or os.environ.get("GMAIL_SEND_USER") or "me"
+    if not to_addr: return None
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = title; msg["From"] = from_addr; msg["To"] = to_addr
+    msg.attach(MIMEText(title + "\n\nGrande Bleu Jeju Yacht\n", "plain", "utf-8"))
+    msg.attach(MIMEText(html, "html", "utf-8"))
+    return msg
+
+def _m2b_gmail_token():
+    cid = os.environ.get("GMAIL_SEND_CLIENT_ID") or os.environ.get("BLOGGER_SAFE_CLIENT_ID")
+    cs = os.environ.get("GMAIL_SEND_CLIENT_SECRET") or os.environ.get("BLOGGER_SAFE_CLIENT_SECRET")
+    rt = os.environ.get("GMAIL_SEND_REFRESH_TOKEN")
+    if not (cid and cs and rt): return None
+    body = urllib.parse.urlencode({"client_id": cid, "client_secret": cs,
+                                   "refresh_token": rt, "grant_type": "refresh_token"}).encode()
+    req = urllib.request.Request("https://oauth2.googleapis.com/token", data=body,
+        headers={"Content-Type": "application/x-www-form-urlencoded"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r).get("access_token")
+
+def _m2b_publish(title: str, html: str) -> dict | None:
+    """Blogger API 403 시 Mail2Blogger 발행(②blog_publish_today_safe와 동일 경로, 검증된 실발행)."""
+    msg = _m2b_message(title, html)
+    if msg is None:
+        _log("MAIL2BLOGGER_EMAIL 없음 — 메일 폴백 불가"); return None
+    try:
+        tok = _m2b_gmail_token()
+        if tok:
+            raw = base64.urlsafe_b64encode(msg.as_bytes()).decode("ascii")
+            req = urllib.request.Request("https://gmail.googleapis.com/gmail/v1/users/me/messages/send",
+                data=json.dumps({"raw": raw}).encode(), method="POST",
+                headers={"Authorization": f"Bearer {tok}", "Content-Type": "application/json; charset=utf-8"})
+            with urllib.request.urlopen(req, timeout=45) as r:
+                json.load(r)
+            return {"published_by": "mail2blogger_gmail_api"}
+    except Exception as e:
+        _log(f"Gmail 전송 실패: {e}")
+    try:
+        server = os.environ.get("SMTP_SERVER"); port = int(os.environ.get("SMTP_PORT", "587"))
+        user = os.environ.get("SMTP_USER"); pw = os.environ.get("SMTP_PASSWORD")
+        if not all([server, user, pw]): return None
+        ctx = ssl.create_default_context()
+        if port == 465:
+            with smtplib.SMTP_SSL(server, port, timeout=45, context=ctx) as s:
+                s.login(user, pw); s.send_message(msg)
+        else:
+            with smtplib.SMTP(server, port, timeout=45) as s:
+                s.starttls(context=ctx); s.login(user, pw); s.send_message(msg)
+        return {"published_by": "mail2blogger_smtp"}
+    except Exception as e:
+        _log(f"SMTP 전송 실패: {e}"); return None
+
 def publish_blogger(env: dict, post: dict, lang: str = "en") -> dict:
     """Blogger API v3 — 다국어 라벨로 분류·hreflang 메타·schema JSON-LD 주입."""
     token = env.get("BLOGGER_OAUTH_TOKEN")
@@ -870,6 +928,13 @@ def publish_blogger(env: dict, post: dict, lang: str = "en") -> dict:
             return {"channel": f"blogger-{lang}", "ok": True, "url": d_min.get("url", ""),
                     "post_id": d_min.get("id", ""), "mode": "minimal_fallback"}
 
+    # [2026-07-03] 403(권한) = SAFE 계정이 블로그 작성자 아님 → 검증된 Mail2Blogger 경로로 발행
+    if "403" in str(err_full) or "403" in str(err_min):
+        m = _m2b_publish(title_full, final_content)
+        if m:
+            _log(f"  [{lang}] ✉️ Mail2Blogger 발행 ({m.get('published_by')})")
+            return {"channel": f"blogger-{lang}", "ok": True, "url": "", "post_id": "",
+                    "mode": m.get("published_by", "mail2blogger")}
     return {"channel": f"blogger-{lang}", "ok": False,
             "reason": f"full: {err_full[:100]} / minimal: {err_min[:100]}"}
 
