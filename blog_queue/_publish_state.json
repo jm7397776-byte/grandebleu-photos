@@ -137,6 +137,32 @@
       "ts": "2026-05-29T12:49:13",
       "lang": "ja",
       "results": {}
+    },
+    "auto_22_04_06__ja": {
+      "ts": "2026-07-03T05:57:01",
+      "lang": "ja",
+      "results": {
+        "blogger-ja": {
+          "channel": "blogger-ja",
+          "ok": true,
+          "url": "",
+          "post_id": "",
+          "mode": "mail2blogger_gmail_api"
+        }
+      }
+    },
+    "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__th": {
+      "ts": "2026-07-03T05:57:03",
+      "lang": "th",
+      "results": {
+        "blogger-th": {
+          "channel": "blogger-th",
+          "ok": true,
+          "url": "",
+          "post_id": "",
+          "mode": "mail2blogger_gmail_api"
+        }
+      }
     }
   }
 }

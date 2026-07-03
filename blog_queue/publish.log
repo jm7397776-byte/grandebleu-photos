@@ -177,3 +177,34 @@
        — 미니멀 재시도
 [2026-07-03T05:53:02] 토큰 자동 갱신 — ya29.a0AT3oNZ-cL0O1-RtpO2mhOJ4... (expires 3599초)
 [2026-07-03T05:53:02]   발행 실패 — state 미기록 (재시도 대상): 2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog [th]
+[2026-07-03T05:56:59] 토큰 자동 갱신 — ya29.a0AT3oNZ_P7drtzcOVADymh0Z... (expires 3599초)
+[2026-07-03T05:56:59] 토큰 자동 갱신 — ya29.a0AT3oNZ-9Xq8Wz5aW2YPf-kK... (expires 3599초)
+[2026-07-03T05:56:59] 가용 채널: ['blogger']
+[2026-07-03T05:57:00] 토큰 자동 갱신 — ya29.a0AT3oNZ8X3zmpnKNlp--j3rj... (expires 3599초)
+[2026-07-03T05:57:00]   [ja] 풀 payload 실패: HTTP Error 403: Forbidden | {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+       — 미니멀 재시도
+[2026-07-03T05:57:00] 토큰 자동 갱신 — ya29.a0AT3oNZ_GVNQzGiA6prz6I8r... (expires 3599초)
+[2026-07-03T05:57:01]   [ja] ✉️ Mail2Blogger 발행 (mail2blogger_gmail_api)
+[2026-07-03T05:57:01] 발행 — auto_22_04_06 [ja]: ['blogger-ja']
+[2026-07-03T05:57:02] 토큰 자동 갱신 — ya29.a0AT3oNZ-A_waGxZi9WYF7YT1... (expires 3599초)
+[2026-07-03T05:57:02]   [th] 풀 payload 실패: HTTP Error 403: Forbidden | {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+       — 미니멀 재시도
+[2026-07-03T05:57:02] 토큰 자동 갱신 — ya29.a0AT3oNZ9ES68tnHLIe98CjhL... (expires 3599초)
+[2026-07-03T05:57:03]   [th] ✉️ Mail2Blogger 발행 (mail2blogger_gmail_api)
+[2026-07-03T05:57:03] 발행 — 2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog [th]: ['blogger-ja', 'blogger-th']
