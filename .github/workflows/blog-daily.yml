@@ -37,6 +37,15 @@ jobs:
           BLOGGER_SAFE_CLIENT_ID: ${{ secrets.BLOGGER_SAFE_CLIENT_ID }}
           BLOGGER_SAFE_CLIENT_SECRET: ${{ secrets.BLOGGER_SAFE_CLIENT_SECRET }}
           BLOGGER_SAFE_REFRESH_TOKEN: ${{ secrets.BLOGGER_SAFE_REFRESH_TOKEN }}
+          MAIL2BLOGGER_EMAIL: ${{ secrets.MAIL2BLOGGER_EMAIL }}
+          GMAIL_SEND_CLIENT_ID: ${{ secrets.GMAIL_SEND_CLIENT_ID }}
+          GMAIL_SEND_CLIENT_SECRET: ${{ secrets.GMAIL_SEND_CLIENT_SECRET }}
+          GMAIL_SEND_REFRESH_TOKEN: ${{ secrets.GMAIL_SEND_REFRESH_TOKEN }}
+          GMAIL_SEND_USER: ${{ secrets.GMAIL_SEND_USER }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           GRANDEBLEU_KLOOK_URL: ${{ secrets.GRANDEBLEU_KLOOK_URL }}
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
           TG_CHAT: ${{ secrets.TG_CHAT }}
