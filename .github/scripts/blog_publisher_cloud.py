@@ -990,8 +990,12 @@ def main():
         available.append("wordpress")
 
     _log(f"가용 채널: {available}")
-    # 다국어 통합 발행 — en + zh-CN + ja 동시 (Blogger 라벨로 분류)
-    LANGS = [["en", "ja", "zh-CN"][datetime.now().weekday() % 3]]  # 하루 1언어만 (월=en 화=ja 수=zh 회전)
+    # [2026-07-03 주인님 "전세계 타겟"] 16개 언어 전체 순환 — 하루 2언어(주력 1 + 로컬 1).
+    # 주력(en/ja/zh-CN)은 3일 주기, 나머지 13개(ar·mn·ru계 포함)는 13일 주기로 매일 하나씩.
+    _MAJOR = ["en", "ja", "zh-CN"]
+    _MINOR = ["ar", "de", "es", "fr", "hi", "it", "mn", "ms", "pl", "pt", "tl", "tr", "zh-TW"]
+    _doy = datetime.now().timetuple().tm_yday
+    LANGS = [_MAJOR[_doy % len(_MAJOR)], _MINOR[_doy % len(_MINOR)]]
     for lang in LANGS:
         lang_dir = GLOBAL_CONTENT / lang
         if not lang_dir.exists():
