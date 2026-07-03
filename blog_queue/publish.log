@@ -43,3 +43,30 @@
 [2026-07-03T05:46:46] 토큰 갱신 실패: HTTP Error 400: Bad Request
 [2026-07-03T05:46:46]   발행 실패 — state 미기록 (재시도 대상): 2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic [ja]
 [2026-07-03T05:46:46] global_content/th 폴더 없음 — skip
+[2026-07-03T05:50:41] 토큰 자동 갱신 — ya29.a0AT3oNZ_7o1YndU7SnUCMCN7... (expires 3599초)
+[2026-07-03T05:50:41] 토큰 자동 갱신 — ya29.a0AT3oNZ9EqBpR1DXnQpNtb10... (expires 3599초)
+[2026-07-03T05:50:41] 가용 채널: ['blogger']
+[2026-07-03T05:50:41] 토큰 자동 갱신 — ya29.a0AT3oNZ_JvMeuemgfTvnC0xX... (expires 3599초)
+[2026-07-03T05:50:41]   [ja] 풀 payload 실패: HTTP Error 403: Forbidden — 미니멀 재시도
+[2026-07-03T05:50:41] 토큰 자동 갱신 — ya29.a0AT3oNZ_uzryZ3ZL4NAqZVXI... (expires 3599초)
+[2026-07-03T05:50:41]   발행 실패 — state 미기록 (재시도 대상): auto_25_02_05 [ja]
+[2026-07-03T05:50:41] 토큰 자동 갱신 — ya29.a0AT3oNZ_vrcn-FW2cdfx4mip... (expires 3599초)
+[2026-07-03T05:50:41]   [ja] 풀 payload 실패: HTTP Error 403: Forbidden — 미니멀 재시도
+[2026-07-03T05:50:42] 토큰 자동 갱신 — ya29.a0AT3oNZ-1ZXSg7tiF3aQyMi-... (expires 3599초)
+[2026-07-03T05:50:42]   발행 실패 — state 미기록 (재시도 대상): auto_22_04_06 [ja]
+[2026-07-03T05:50:42] 토큰 자동 갱신 — ya29.a0AT3oNZ-4748Gp3umjdjCaeY... (expires 3599초)
+[2026-07-03T05:50:42]   [ja] 풀 payload 실패: HTTP Error 403: Forbidden — 미니멀 재시도
+[2026-07-03T05:50:42] 토큰 자동 갱신 — ya29.a0AT3oNZ-0ck-J7y_PiYyQ1Tj... (expires 3599초)
+[2026-07-03T05:50:42]   발행 실패 — state 미기록 (재시도 대상): auto_09_00_01 [ja]
+[2026-07-03T05:50:42] 토큰 자동 갱신 — ya29.a0AT3oNZ89vO4BI7HTwARwXhb... (expires 3599초)
+[2026-07-03T05:50:43]   [ja] 풀 payload 실패: HTTP Error 403: Forbidden — 미니멀 재시도
+[2026-07-03T05:50:43] 토큰 자동 갱신 — ya29.a0AT3oNZ99y2Q-RGMpJ98YSZ_... (expires 3599초)
+[2026-07-03T05:50:43]   발행 실패 — state 미기록 (재시도 대상): _failure_learning_stats [ja]
+[2026-07-03T05:50:43] 토큰 자동 갱신 — ya29.a0AT3oNZ9oJk8QdV34ULqKzmX... (expires 3599초)
+[2026-07-03T05:50:43]   [ja] 풀 payload 실패: HTTP Error 403: Forbidden — 미니멀 재시도
+[2026-07-03T05:50:43] 토큰 자동 갱신 — ya29.a0AT3oNZ9tCtUp5QxTYZ0uYzQ... (expires 3599초)
+[2026-07-03T05:50:44]   발행 실패 — state 미기록 (재시도 대상): auto_09_03_01 [ja]
+[2026-07-03T05:50:44] 토큰 자동 갱신 — ya29.a0AT3oNZ_nVF9aeESOJcKhL6N... (expires 3599초)
+[2026-07-03T05:50:44]   [th] 풀 payload 실패: HTTP Error 403: Forbidden — 미니멀 재시도
+[2026-07-03T05:50:44] 토큰 자동 갱신 — ya29.a0AT3oNZ9WsOwBql5DNNAjvHO... (expires 3599초)
+[2026-07-03T05:50:44]   발행 실패 — state 미기록 (재시도 대상): 2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog [th]
