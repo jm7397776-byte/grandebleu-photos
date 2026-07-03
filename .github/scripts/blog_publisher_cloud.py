@@ -57,9 +57,10 @@ def refresh_blogger_token(env: dict) -> str | None:
     """refresh_token + client_secret으로 새 access_token 발급 후 .env 자동 업데이트.
 
     client_secret이 있으면 영구 자동 갱신 가능. 없으면 None 반환 (수동 갱신 필요)."""
-    rt = env.get("BLOGGER_REFRESH_TOKEN")
-    cid = env.get("BLOGGER_OAUTH_CLIENT_ID")
-    cs = env.get("BLOGGER_OAUTH_CLIENT_SECRET")
+    # [2026-07-03] SAFE OAuth(프로덕션 클라이언트, blog-publish-today와 동일) 우선 — 구 토큰은 2026-05-29부터 invalid_grant
+    rt = os.environ.get("BLOGGER_SAFE_REFRESH_TOKEN") or env.get("BLOGGER_REFRESH_TOKEN")
+    cid = os.environ.get("BLOGGER_SAFE_CLIENT_ID") or env.get("BLOGGER_OAUTH_CLIENT_ID")
+    cs = os.environ.get("BLOGGER_SAFE_CLIENT_SECRET") or env.get("BLOGGER_OAUTH_CLIENT_SECRET")
     if not (rt and cid and cs):
         _log("토큰 갱신 스킵 — refresh_token/client_id/client_secret 중 누락")
         return None
@@ -997,6 +998,8 @@ def main():
     if env.get("WP_SITE") and env.get("WP_USER") and env.get("WP_APP_PASSWORD"):
         available.append("wordpress")
 
+    if os.environ.get("BLOGGER_SAFE_REFRESH_TOKEN"):
+        refresh_blogger_token(env)   # SAFE로 access_token 선발급 (stale BLOGGER_OAUTH_TOKEN 대체)
     _log(f"가용 채널: {available}")
     # [2026-07-03 주인님 "전세계 타겟"] 16개 언어 전체 순환 — 하루 2언어(주력 1 + 로컬 1).
     # 주력(en/ja/zh-CN)은 3일 주기, 나머지 13개(ar·mn·ru계 포함)는 13일 주기로 매일 하나씩.
