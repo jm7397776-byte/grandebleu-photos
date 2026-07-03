@@ -1,46 +1,46 @@
 {
-  "date": "2026-07-02",
-  "generated_at": "2026-07-02T14:28:51",
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T11:28:41",
   "publish": true,
-  "topic_key": "family",
-  "topic_title": "부모님과 아이가 함께 타기 좋은 제주 요트",
+  "topic_key": "price",
+  "topic_title": "제주 요트투어 가격과 예약 전 확인할 점",
   "channels": {
     "daangn": {
       "platform": "daangn",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_business_profile_post",
-      "title": "부모님과 아이가 함께 타기 좋은 제주 요트",
-      "body": "멀리 이동하지 않아도 대포항에서 바로 제주의 남쪽 바다를 만날 수 있습니다.\n\n선장과 기관장이 함께 운항하고, 550호와 620호 두 척으로 총 91명까지 운영합니다.\n가족 여행 중 짧지만 기억에 남는 코스를 찾는 분께 맞습니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
+      "title": "제주 요트투어 가격과 예약 전 확인할 점",
+      "body": "주간 럭셔리 투어와 선셋 투어는 시간대와 가격이 다릅니다.\n\n프로모션 기준 주간 성인 48,000원부터, 선셋 성인 56,000원부터 확인할 수 있습니다.\n네이버, Klook, KKday, Ctrip/Trip.com 등 예약 채널별 조건을 비교하면 좋습니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
       "hashtags": [
         "제주요트",
         "서귀포",
         "대포항",
         "제주도요트투어",
-        "family"
+        "price"
       ],
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0011.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0275.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0215.jpg"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0065.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0264.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0046.jpg"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0011.jpg",
-          "file": "facility_0011.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0065.jpg",
+          "file": "facility_0065.jpg",
           "category": "facility",
-          "alt": "그랑블루요트 시설 - 부모님과 아이가 함께 타기 좋은 제주 요트"
+          "alt": "그랑블루요트 시설 - 제주 요트투어 가격과 예약 전 확인할 점"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0275.jpg",
-          "file": "influencer_0275.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0264.jpg",
+          "file": "influencer_0264.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 부모님과 아이가 함께 타기 좋은 제주 요트"
+          "alt": "제주 대포항 그랑블루요트 - 제주 요트투어 가격과 예약 전 확인할 점"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0215.jpg",
-          "file": "influencer_0215.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0046.jpg",
+          "file": "influencer_0046.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 부모님과 아이가 함께 타기 좋은 제주 요트"
+          "alt": "제주 대포항 그랑블루요트 - 제주 요트투어 가격과 예약 전 확인할 점"
         }
       ],
       "cta_label": "예약 채널 확인",
@@ -52,27 +52,27 @@
       "platform": "kakao_channel",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_kakaotalk_channel_post",
-      "title": "부모님과 아이가 함께 타기 좋은 제주 요트",
-      "body": "부모님과 아이가 함께 타기 좋은 제주 요트\n\n멀리 이동하지 않아도 대포항에서 바로 제주의 남쪽 바다를 만날 수 있습니다.\n선장과 기관장이 함께 운항하고, 550호와 620호 두 척으로 총 91명까지 운영합니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
+      "title": "제주 요트투어 가격과 예약 전 확인할 점",
+      "body": "제주 요트투어 가격과 예약 전 확인할 점\n\n주간 럭셔리 투어와 선셋 투어는 시간대와 가격이 다릅니다.\n프로모션 기준 주간 성인 48,000원부터, 선셋 성인 56,000원부터 확인할 수 있습니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
       "button_title": "예약 확인하기",
       "button_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=kakao_channel&utm_medium=local_social&utm_campaign=jeju_yacht",
-      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0011.jpg",
+      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0065.jpg",
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0011.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0275.jpg"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0065.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0264.jpg"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0011.jpg",
-          "file": "facility_0011.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0065.jpg",
+          "file": "facility_0065.jpg",
           "category": "facility",
-          "alt": "그랑블루요트 시설 - 부모님과 아이가 함께 타기 좋은 제주 요트"
+          "alt": "그랑블루요트 시설 - 제주 요트투어 가격과 예약 전 확인할 점"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0275.jpg",
-          "file": "influencer_0275.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0264.jpg",
+          "file": "influencer_0264.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 부모님과 아이가 함께 타기 좋은 제주 요트"
+          "alt": "제주 대포항 그랑블루요트 - 제주 요트투어 가격과 예약 전 확인할 점"
         }
       ],
       "manual_target": "KakaoTalk Channel manager post composer",
@@ -90,8 +90,8 @@
     ]
   },
   "image_urls": [
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0011.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0275.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0215.jpg"
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0065.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0264.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0046.jpg"
   ]
 }
