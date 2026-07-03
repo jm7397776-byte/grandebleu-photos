@@ -1376,6 +1376,23 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_13_00_04__en",
+      "lang": "en",
+      "file": "blog_queue/en/auto_13_00_04.md",
+      "title": "Unforgettable First-Timer's Guide: Things to Do Around Jungmun Resort Area, Jeju!",
+      "generated_at": "2026-07-03T02:30:38",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0207.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0016.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0107.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0101.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0203.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0095.jpg"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 1
     }
   ]
 }
