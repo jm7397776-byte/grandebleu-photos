@@ -240,10 +240,15 @@ PHOTO_POOL_BY_CAT = {
         {"url": f"{_PHOTO_BASE}/yacht_06.jpg", "alt": "Jeju catamaran on calm sea", "person": None},
         {"url": f"{_PHOTO_BASE}/yacht_12_sailing.jpg", "alt": "Grande Bleu sailing Jeju coast", "person": None},
         {"url": f"{_PHOTO_BASE}/yacht_13_aerial.jpg", "alt": "Grande Bleu aerial Daepo Port", "person": None},
+        {"url": f"{_PHOTO_BASE}/ai_scene_01.jpg", "alt": "Catamaran sailing past Jusangjeolli basalt cliffs Jeju", "person": None},
+        {"url": f"{_PHOTO_BASE}/ai_scene_06.jpg", "alt": "Open horizon view from catamaran deck Jeju", "person": None},
+        {"url": f"{_PHOTO_BASE}/ai_scene_07.jpg", "alt": "Beomseom island coastal walk Seogwipo", "person": None},
+        {"url": f"{_PHOTO_BASE}/ai_scene_08.jpg", "alt": "Emerald forest waterfall Jeju Donnaeko", "person": None},
     ],
     "sunset": [  # 일몰 톤만 — hero 제외, 본문 중간 배치
         {"url": f"{_PHOTO_BASE}/yacht_01.png", "alt": "Grande Bleu Jeju catamaran sunset", "person": None},
         {"url": f"{_PHOTO_BASE}/yacht_07_sunset.jpg", "alt": "Grande Bleu Jeju sunset moment", "person": None},
+        {"url": f"{_PHOTO_BASE}/ai_scene_02.jpg", "alt": "Catamaran silhouette at golden Jeju sunset", "person": None},
     ],
     "interior": [  # 실내·라운지·조타실
         {"url": f"{_PHOTO_BASE}/yacht_10_interior.jpg", "alt": "Grande Bleu 620 indoor lounge", "person": None},
@@ -253,6 +258,9 @@ PHOTO_POOL_BY_CAT = {
     "detail": [  # 디테일·뱃머리·럭셔리
         {"url": f"{_PHOTO_BASE}/yacht_08_bow.jpg", "alt": "Grande Bleu bow deck Jeju", "person": None},
         {"url": f"{_PHOTO_BASE}/yacht_09_luxury.png", "alt": "Grande Bleu luxury tour Jeju", "person": None},
+        {"url": f"{_PHOTO_BASE}/ai_scene_04.jpg", "alt": "Korean ramen on yacht deck Jeju sea", "person": None},
+        {"url": f"{_PHOTO_BASE}/ai_scene_05.jpg", "alt": "Fishing rod on catamaran rail Jeju", "person": None},
+        {"url": f"{_PHOTO_BASE}/ai_scene_03.jpg", "alt": "Couple at catamaran rail emerald sea", "person": None},
     ],
     "people": [  # 인플루언서·인물 (각 인물 1장씩 → 같은 인물 절대 중복 금지)
         {"url": f"{_PHOTO_BASE}/people_lala_mong.jpg", "alt": "Guest on Grande Bleu Jeju yacht", "person": "lala_mong"},
