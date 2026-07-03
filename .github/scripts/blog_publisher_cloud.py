@@ -838,6 +838,10 @@ def publish_blogger(env: dict, post: dict, lang: str = "en") -> dict:
         try:
             d, _ = blogger_call_with_refresh(env, url, data=body_bytes, method="POST")
             return (True, d, None)
+        except urllib.error.HTTPError as e:
+            try: _body = e.read().decode()[:300]
+            except Exception: _body = ""
+            return (False, None, f"{e} | {_body}")
         except Exception as e:
             return (False, None, str(e)[:200])
 
@@ -855,7 +859,7 @@ def publish_blogger(env: dict, post: dict, lang: str = "en") -> dict:
                     "post_id": d_full.get("id", ""), "mode": "full"}
 
     # 2차: 미니멀 payload (text CTA·label 7개) — JA/ZH-CN HTTP 400 fallback
-    _log(f"  [{lang}] 풀 payload 실패: {err_full[:100]} — 미니멀 재시도")
+    _log(f"  [{lang}] 풀 payload 실패: {err_full[:260]} — 미니멀 재시도")
     ok_min, d_min, err_min = _attempt(minimal_content, minimal_labels)
     if ok_min:
         _today = datetime.now().strftime("%Y-%m-%d")
