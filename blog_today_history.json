@@ -1358,6 +1358,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_29_06_00__en",
+      "lang": "en",
+      "file": "blog_queue/en/auto_29_06_00.md",
+      "title": "Jeju Yacht Tour — Route & Highlights | Grande Bleu Catamaran, Seogwipo Jeju (solo travelers)",
+      "generated_at": "2026-07-03T01:12:51",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0057.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0218.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0083.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0035.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0203.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0154.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0166.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
