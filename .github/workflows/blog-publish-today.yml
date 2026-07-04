@@ -55,7 +55,11 @@ jobs:
           git add blog_publish_today_state.json blog_queue/publish_today.log 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "blog publish today state $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push origin main
+            # push 경합 해소 (2026-07-05): 동시 커밋과 충돌 시 rebase 후 재시도
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push origin main && break
+              sleep $((i * 5))
+            done
           else
             echo "No publish state change"
           fi
