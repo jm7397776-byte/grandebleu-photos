@@ -699,3 +699,20 @@
 
 [2026-07-03T04:05:21] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/unforgettable-first-timers-guide-things.html
 [2026-07-03T04:05:22] Telegram notification sent
+[2026-07-04T01:00:29] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-04T01:00:40] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/grande-bleu.html
+[2026-07-04T01:00:41] Telegram notification sent
