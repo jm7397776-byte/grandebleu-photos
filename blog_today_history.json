@@ -1470,6 +1470,26 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_07_04_00__zh-CN",
+      "lang": "zh-CN",
+      "file": "blog_queue/zh-CN/auto_07_04_00.md",
+      "title": "情侣蜜月必看：济州岛亲子游，带着宝贝也能玩转浪漫仙境！",
+      "generated_at": "2026-07-05T01:19:34",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0159.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0275.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0190.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0018.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0239.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0004.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_357_aerial.jpg",
+        "https://example.com/grandebleu_yacht_family.jpg",
+        "https://example.com/jusangjeolli_from_yacht.jpg"
+      ],
+      "image_count": 9,
+      "remaining_candidates": 1
     }
   ]
 }
