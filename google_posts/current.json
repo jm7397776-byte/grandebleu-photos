@@ -1,35 +1,35 @@
 {
-  "week": "2026-W27",
-  "generated_at": "2026-06-29T02:07:24",
+  "week": "2026-W28",
+  "generated_at": "2026-07-06T01:54:48",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "yacht_26_bow.jpg",
-      "seo_keywords": "서귀포 요트, 제주 일몰 시간, 제주 비건 옵션, 제주 어린이 동반",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W27_ko.txt",
-      "body_length": 885
+      "photo": "yacht_213_interior_lounge.jpg",
+      "seo_keywords": "제주 안전 요트, 제주 프로포즈, 제주 노을, 제주 와인 크루즈",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W28_ko.txt",
+      "body_length": 723
     },
     "en": {
       "label": "English",
-      "photo": "influencer_0027.jpg",
-      "seo_keywords": "jeju unlimited drinks cruise, jeju couple activity, jeju photo spot, jeju private cruise",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W27_en.txt",
-      "body_length": 1399
+      "photo": "yacht_100_sunset.jpg",
+      "seo_keywords": "jeju vegan options, jeju unlimited drinks cruise, jeju best activities, jeju hotspot",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W28_en.txt",
+      "body_length": 1179
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "influencer_0027.jpg",
-      "seo_keywords": "济州岛60分钟航程, 济州岛海上游, 济州岛家庭旅行, 济州岛游艇",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W27_zh-CN.txt",
-      "body_length": 745
+      "photo": "influencer_0174.png",
+      "seo_keywords": "济州岛纪念日, 大浦港游艇, 济州岛拉面游艇, 济州岛素食选项",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W28_zh-CN.txt",
+      "body_length": 706
     },
     "ja": {
       "label": "日本語",
-      "photo": "influencer_0061.jpg",
-      "seo_keywords": "済州島ワインクルーズ, 済州島漢拏山, 済州島夕陽スポット, 済州島フォトスポット",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W26_ja.txt",
-      "body_length": 670
+      "photo": "yacht_94_sunset.jpg",
+      "seo_keywords": "済州島安全ヨット, 済州島サンセット, 済州島カップル, 済州島夜景",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W28_ja.txt",
+      "body_length": 679
     }
   },
   "_generator": "google_posts_generate_cloud.py (gemini)"
