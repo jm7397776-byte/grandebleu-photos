@@ -734,3 +734,20 @@
 [2026-07-04T03:58:30] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/202672.html
 [2026-07-04T03:58:31] Telegram notification sent
 [2026-07-05T00:30:37] already published: 企業・団体向け！ 2026年7月、済州島週末2日間で最高のチームビルディング旅
+[2026-07-05T01:00:35] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-05T01:00:46] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/grande-bleu_01413864016.html
+[2026-07-05T01:00:47] Telegram notification sent
