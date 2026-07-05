@@ -1452,6 +1452,24 @@
       ],
       "image_count": 8,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_02_06_03__zh-CN",
+      "lang": "zh-CN",
+      "file": "blog_queue/zh-CN/auto_02_06_03.md",
+      "title": "独自一人也能征服城山日出峰日出！济州岛自由行全攻略",
+      "generated_at": "2026-07-05T01:00:45",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0198.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0019.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0024.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0270.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0196.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0151.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0021.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
