@@ -1510,6 +1510,24 @@
       ],
       "image_count": 9,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_07_00_03__zh-TW",
+      "lang": "zh-TW",
+      "file": "blog_queue/zh-TW/auto_07_00_03.md",
+      "title": "濟州島親子遊：帶著孩子也能玩翻天！家庭友善景點大公開 (2026七月最新版)",
+      "generated_at": "2026-07-06T01:00:44",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0021.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_0llllll0ii.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0071.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0230.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0003.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0099.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0078.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
