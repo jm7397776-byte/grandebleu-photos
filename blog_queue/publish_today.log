@@ -804,3 +804,20 @@
 [2026-07-06T04:36:31] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/blog-post_568.html
 [2026-07-06T04:36:32] Telegram notification sent
 [2026-07-07T00:30:32] already published: 濟州島新手必看！天地淵、正房瀑布交通攻略與私房拍照點大公開！
+[2026-07-07T01:00:30] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-07T01:00:41] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/grande-bleu_0631706420.html
+[2026-07-07T01:00:41] Telegram notification sent
