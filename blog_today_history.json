@@ -1,13 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic.md",
-      "title": "[日本語] Grande Bleu 済州ヨット｜大浦港発サンセット セーリング体験 | 0529-1325",
-      "generated_at": "2026-05-29T13:25:41"
-    },
-    {
       "key": "2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic__ja",
       "lang": "ja",
       "file": "blog_queue/ja/2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic.md",
@@ -1600,6 +1593,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0029.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0009.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0003.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_16_01_07__ru",
+      "lang": "ru",
+      "file": "blog_queue/ru/auto_16_01_07.md",
+      "title": "Самые инстаграмные места на Чеджу, где получатся идеальные фото!",
+      "generated_at": "2026-07-07T02:30:45",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_285_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_ji___yuuuu.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_dmsldmsldms.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0010.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0137.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0207.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_scene_05.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
