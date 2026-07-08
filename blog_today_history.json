@@ -1,25 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic__zh-CN",
-      "lang": "zh-CN",
-      "file": "blog_queue/zh-CN/2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic.md",
-      "title": "济州游艇攻略|Grande Bleu夕阳游艇¥280起拍照打卡",
-      "generated_at": "2026-05-30T08:37:25",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_12_sailing.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_09_luxury.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_zzang_seo.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_dmsldmsldms.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_lala_mong.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_13_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_05.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_06.jpg"
-      ],
-      "image_count": 8,
-      "remaining_candidates": 9
-    },
-    {
       "key": "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__en",
       "lang": "en",
       "file": "blog_queue/en/2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic.md",
@@ -1612,6 +1593,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_391_food.jpg"
       ],
       "image_count": 6,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_06_07_06__th",
+      "lang": "th",
+      "file": "blog_queue/th/auto_06_07_06.md",
+      "title": "Jeju Yacht Tour — Best Season | Grande Bleu Catamaran, Seogwipo Jeju (premium hotel guests)",
+      "generated_at": "2026-07-08T01:00:39",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_125_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0058.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_230_deck_exterior.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0085.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0105.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0156.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_park_bin.jpg"
+      ],
+      "image_count": 7,
       "remaining_candidates": 1
     }
   ]
