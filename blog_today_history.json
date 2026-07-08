@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic.md",
-      "title": "[日本語] Grande Bleu 済州 ヨット|秋のセーリングで穏やか1時間 | 0529-0426",
-      "generated_at": "2026-05-29T04:26:32",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_14_lounge.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_01.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_11_cockpit.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_es.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_03.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_leelee.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_04.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_hwa.jpg"
-      ],
-      "image_count": 8
-    },
-    {
       "key": "2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic__zh-CN",
       "lang": "zh-CN",
       "file": "blog_queue/zh-CN/2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic.md",
@@ -1613,6 +1595,23 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_scene_05.jpg"
       ],
       "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__th",
+      "lang": "th",
+      "file": "blog_queue/th/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
+      "title": "ทริปล่องเรือยอร์ชเชจู: สัมผัสความหรูหรากับ Grande Bleu!",
+      "generated_at": "2026-07-08T00:30:40",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0090.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0075.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0066.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_amoufor_u.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0188.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_391_food.jpg"
+      ],
+      "image_count": 6,
       "remaining_candidates": 1
     }
   ]
