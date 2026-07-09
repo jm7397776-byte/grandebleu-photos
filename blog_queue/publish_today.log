@@ -908,3 +908,20 @@
 
 [2026-07-09T01:00:54] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/kham-pha-du-thuyen-jeju-grande-bleu.html
 [2026-07-09T01:00:55] Telegram notification sent
+[2026-07-09T04:10:04] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-09T04:10:15] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-yacht-tour-photo-spots-grande-bleu_0232013364.html
+[2026-07-09T04:10:15] Telegram notification sent
