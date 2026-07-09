@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__zh-CN",
-      "lang": "zh-CN",
-      "file": "blog_queue/zh-CN/2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic.md",
-      "title": "济州游艇攻略 | Grande Bleu 60分钟夕阳航海体验",
-      "generated_at": "2026-06-02T02:01:51",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_j.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_seoyurim_0818.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_14_lounge.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_03.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_05.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_0llllll0ii.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 7
-    },
-    {
       "key": "2026-05-29_0415_혼자_떠난_제주_바다_위_한_시간의_고요_그랑블루요트_솔로_항해기_topic__zh-CN",
       "lang": "zh-CN",
       "file": "blog_queue/zh-CN/2026-05-29_0415_혼자_떠난_제주_바다_위_한_시간의_고요_그랑블루요트_솔로_항해기_topic.md",
@@ -1616,6 +1599,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0018.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0053.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0229.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_08_01_04__vi",
+      "lang": "vi",
+      "file": "blog_queue/vi/auto_08_01_04.md",
+      "title": "Jeju Yacht Tour — Photo Spots | Grande Bleu Catamaran, Seogwipo Jeju (travelers from Japan)",
+      "generated_at": "2026-07-09T01:13:02",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_169_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0234.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0112.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0240.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0039.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0112.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0141.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
