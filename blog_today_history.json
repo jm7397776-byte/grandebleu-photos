@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic__zh-CN",
-      "lang": "zh-CN",
-      "file": "blog_queue/zh-CN/2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic.md",
-      "title": "Grande Bleu 济州游艇｜韩国唯一双体船夕阳巡航攻略",
-      "generated_at": "2026-06-02T00:59:10",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_ohongss.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_14_lounge.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_basic_jyan.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_05.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_gaeule.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_02.png"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 8
-    },
-    {
       "key": "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__zh-CN",
       "lang": "zh-CN",
       "file": "blog_queue/zh-CN/2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic.md",
@@ -1617,6 +1600,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_o5__25.jpg"
       ],
       "image_count": 8,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_11_06_02__vi",
+      "lang": "vi",
+      "file": "blog_queue/vi/auto_11_06_02.md",
+      "title": "Hang Manjanggul và Khám Phá Bờ Biển Phía Nam Jeju: Cẩm Nang Độc Hành 2026",
+      "generated_at": "2026-07-09T01:00:49",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_115_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0208.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0123.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0183.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0018.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0053.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0229.jpg"
+      ],
+      "image_count": 7,
       "remaining_candidates": 1
     }
   ]
