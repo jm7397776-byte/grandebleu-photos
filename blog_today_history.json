@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic.md",
-      "title": "Grande Bleu 済州ヨット|大浦港サンセットセーリング徹底ガイド",
-      "generated_at": "2026-06-01T01:56:20",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_10_interior.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_eeeeeunae.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_07_sunset.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_02.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_ji___yuuuu.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_j_danbi_o.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 7
-    },
-    {
       "key": "2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic__zh-CN",
       "lang": "zh-CN",
       "file": "blog_queue/zh-CN/2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic.md",
@@ -1615,6 +1598,25 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0111.jpg"
       ],
       "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__vi",
+      "lang": "vi",
+      "file": "blog_queue/vi/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
+      "title": "Khám Phá Du Thuyền Jeju: Grande Bleu - Ngắm Hoàng Hôn Đẳng Cấp",
+      "generated_at": "2026-07-09T00:30:32",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0124.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0123.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0145.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0039.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_06.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0225.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0074.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_o5__25.jpg"
+      ],
+      "image_count": 8,
       "remaining_candidates": 1
     }
   ]
