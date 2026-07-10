@@ -926,3 +926,20 @@
 [2026-07-09T04:10:15] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-yacht-tour-photo-spots-grande-bleu_0232013364.html
 [2026-07-09T04:10:15] Telegram notification sent
 [2026-07-10T00:30:44] already published: Jeju Yacht Tour — Photo Spots | Grande Bleu Catamaran, Seogwipo Jeju (travelers from Japan)
+[2026-07-10T01:00:41] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-10T01:00:52] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/yacht-jeju-pesiar-sunset-mewah-di-pulau.html
+[2026-07-10T01:00:53] Telegram notification sent
