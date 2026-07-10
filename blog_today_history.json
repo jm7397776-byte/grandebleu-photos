@@ -1,22 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-29_0415_혼자_떠난_제주_바다_위_한_시간의_고요_그랑블루요트_솔로_항해기_topic__zh-CN",
-      "lang": "zh-CN",
-      "file": "blog_queue/zh-CN/2026-05-29_0415_혼자_떠난_제주_바다_위_한_시간의_고요_그랑블루요트_솔로_항해기_topic.md",
-      "title": "济州游艇必玩!Grande Bleu双体船夕阳航海 冬天也暖和",
-      "generated_at": "2026-06-02T04:35:40",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_cher.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_05.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_12_sailing.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_park_bin.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_01.png"
-      ],
-      "image_count": 5,
-      "remaining_candidates": 6
-    },
-    {
       "key": "2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic__en",
       "lang": "en",
       "file": "blog_queue/en/2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic.md",
@@ -1619,6 +1603,23 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0141.jpg"
       ],
       "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__id",
+      "lang": "id",
+      "file": "blog_queue/id/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
+      "title": "Yacht Jeju: Pesiar Sunset Mewah di Pulau Jeju, Korea",
+      "generated_at": "2026-07-10T00:30:40",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_187_aerial.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0139.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0077.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0106.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0168.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0046.jpg"
+      ],
+      "image_count": 6,
       "remaining_candidates": 1
     }
   ]
