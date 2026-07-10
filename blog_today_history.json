@@ -1,20 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic__en",
-      "lang": "en",
-      "file": "blog_queue/en/2026-05-27_0416_제주_남쪽_하루_대포항_요트와_주상절리_해안_드라이브_topic.md",
-      "title": "Grande Bleu Jeju Yacht: Honest Sunset Cruise Review 2024",
-      "generated_at": "2026-06-03T02:14:17",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_02.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_01.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_04.jpg"
-      ],
-      "image_count": 3,
-      "remaining_candidates": 7
-    },
-    {
       "key": "2026-05-29_0415_혼자_떠난_제주_바다_위_한_시간의_고요_그랑블루요트_솔로_항해기_topic__en",
       "lang": "en",
       "file": "blog_queue/en/2026-05-29_0415_혼자_떠난_제주_바다_위_한_시간의_고요_그랑블루요트_솔로_항해기_topic.md",
@@ -1619,6 +1605,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0146.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0062.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0067.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_05_07_04__id",
+      "lang": "id",
+      "file": "blog_queue/id/auto_05_07_04.md",
+      "title": "Panduan Lengkap Menjelajahi Pesona Seogwipo: Surga Tersembunyi di Jeju",
+      "generated_at": "2026-07-10T01:12:35",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0091.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0276.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0082.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_189_aerial.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0099.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0096.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0264.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
