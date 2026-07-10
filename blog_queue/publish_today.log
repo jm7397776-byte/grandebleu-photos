@@ -943,3 +943,20 @@
 
 [2026-07-10T01:00:52] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/yacht-jeju-pesiar-sunset-mewah-di-pulau.html
 [2026-07-10T01:00:53] Telegram notification sent
+[2026-07-10T04:10:28] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-10T04:10:39] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/panduan-lengkap-menjelajahi-pesona.html
+[2026-07-10T04:10:39] Telegram notification sent
