@@ -978,3 +978,20 @@
 
 [2026-07-11T01:00:41] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-yacht-atardecer-inolvidable-en.html
 [2026-07-11T01:00:42] Telegram notification sent
+[2026-07-11T03:37:38] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-11T03:37:49] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-en-un-fin-de-semana-tu-guia.html
+[2026-07-11T03:37:49] Telegram notification sent
