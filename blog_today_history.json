@@ -1,21 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-29_0415_혼자_떠난_제주_바다_위_한_시간의_고요_그랑블루요트_솔로_항해기_topic__en",
-      "lang": "en",
-      "file": "blog_queue/en/2026-05-29_0415_혼자_떠난_제주_바다_위_한_시간의_고요_그랑블루요트_솔로_항해기_topic.md",
-      "title": "Grande Bleu Jeju Yacht: Honest Review of Korea's Catamaran",
-      "generated_at": "2026-06-03T16:01:09",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0031.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_01.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0075.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0052.png"
-      ],
-      "image_count": 4,
-      "remaining_candidates": 6
-    },
-    {
       "key": "2026-05-26_2014_post__en",
       "lang": "en",
       "file": "blog_queue/en/2026-05-26_2014_post.md",
@@ -1625,6 +1610,23 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0264.jpg"
       ],
       "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__es",
+      "lang": "es",
+      "file": "blog_queue/es/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
+      "title": "Jeju Yacht: Atardecer Inolvidable en Catamarán de Lujo",
+      "generated_at": "2026-07-11T00:30:30",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_428_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0216.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0242.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0128.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0099.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0060.jpg"
+      ],
+      "image_count": 6,
       "remaining_candidates": 1
     }
   ]
