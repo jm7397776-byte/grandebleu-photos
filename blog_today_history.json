@@ -1,21 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-26_2014_post__en",
-      "lang": "en",
-      "file": "blog_queue/en/2026-05-26_2014_post.md",
-      "title": "Jeju Yacht Tour Honest Review: Grande Bleu Catamaran",
-      "generated_at": "2026-06-03T16:08:57",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0133.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_01.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0142.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0201.jpg"
-      ],
-      "image_count": 4,
-      "remaining_candidates": 5
-    },
-    {
       "key": "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__ja",
       "lang": "ja",
       "file": "blog_queue/ja/2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic.md",
@@ -1627,6 +1612,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0060.jpg"
       ],
       "image_count": 6,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_11_07_05__es",
+      "lang": "es",
+      "file": "blog_queue/es/auto_11_07_05.md",
+      "title": "Explorando Manjanggul: Tesoros Geológicos y Secretos Subterráneos de Jeju",
+      "generated_at": "2026-07-11T01:00:37",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_408_food.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0177.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0134.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0296.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0226.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_scene_07.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0067.jpg"
+      ],
+      "image_count": 7,
       "remaining_candidates": 1
     }
   ]
