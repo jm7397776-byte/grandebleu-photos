@@ -996,3 +996,20 @@
 [2026-07-11T03:37:49] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-en-un-fin-de-semana-tu-guia.html
 [2026-07-11T03:37:49] Telegram notification sent
 [2026-07-12T01:00:30] already published: Jeju en un Fin de Semana: Tu Guía Esencial de 2 Días para Primerizos en 2026
+[2026-07-12T02:30:34] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-12T02:30:45] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-en-solo-mes-spots-photo.html
+[2026-07-12T02:30:45] Telegram notification sent
