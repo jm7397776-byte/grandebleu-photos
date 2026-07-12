@@ -1,38 +1,6 @@
 {
   "recent_posts": [
     {
-      "week": "2026-W22",
-      "lang": "zh-CN",
-      "angle": "weekend_urgency",
-      "first_sentence": "没想到，最难忘的济州岛海上游，往往发生在一杯红酒与落日相遇的那一刻。",
-      "hash": "7015c045f143",
-      "added": "2026-05-27T01:02:31"
-    },
-    {
-      "week": "2026-W22",
-      "lang": "ja",
-      "angle": "weekend_urgency",
-      "first_sentence": "太陽が水平線に溶けるその瞬間、済州島コスパ最高の贅沢がここにある。",
-      "hash": "89c24f297488",
-      "added": "2026-05-27T01:02:45"
-    },
-    {
-      "week": "2026-W23",
-      "lang": "ko",
-      "angle": "culture_local",
-      "first_sentence": "바다가 가장 잔잔해지는 지금, 제주 여행의 정수를 딱 1시간에 담을 수 있습니다.",
-      "hash": "84acabcd4502",
-      "added": "2026-06-01T06:00:17"
-    },
-    {
-      "week": "2026-W23",
-      "lang": "en",
-      "angle": "culture_local",
-      "first_sentence": "Calm seas season is here, and a Jeju 60 minute cruise has never felt this good.",
-      "hash": "9ed838e6daa6",
-      "added": "2026-06-01T06:00:29"
-    },
-    {
       "week": "2026-W23",
       "lang": "zh-CN",
       "angle": "culture_local",
@@ -255,6 +223,38 @@
       "first_sentence": "年で最も日没が遅い週末、済州島カップル旅行に忘れられないロマンチックな思い出を作りませんか？済州島 (チェジュド) で唯一の認定カタマラン、Grande Bleu Yacht が、特別な夕暮れの体験をお届けします。",
       "hash": "7856168670b0",
       "added": "2026-07-06T01:54:48"
+    },
+    {
+      "week": "2026-W29",
+      "lang": "ko",
+      "angle": "family_friendly",
+      "first_sentence": "맑은 하늘 청명 시즌, 아이부터 어르신까지 온 가족이 함께 즐길 수 있는 특별한 제주 럭셔리 투어를 찾으신다면, 그랑블루요트 선셋 크루즈가 완벽한 선택입니다. 한국 유일의 공인 카타마란 쌍동선으로 흔들림 없이 안정적인 60분 항해를 즐겨보세요.",
+      "hash": "ef90a2f86fde",
+      "added": "2026-07-13T01:43:41"
+    },
+    {
+      "week": "2026-W29",
+      "lang": "en",
+      "angle": "family_friendly",
+      "first_sentence": "With the clearest skies of the season, I found the perfect way to spend a family weekend in Jeju, creating memories that will last a lifetime. Our choice? Grande Bleu Yacht, Korea's only certified cat",
+      "hash": "a2bc43eb728b",
+      "added": "2026-07-13T01:44:15"
+    },
+    {
+      "week": "2026-W29",
+      "lang": "zh-CN",
+      "angle": "family_friendly",
+      "first_sentence": "天空最清澈的季节，正是体验一场难忘济州岛海上游的最佳时机。Grande Bleu Yacht，韩国唯一认证的双体船，自2011年起已接待超过10万名游客，以其极致的平稳性和宽敞的甲板空间，成为济州岛家庭旅行的首选。我们拥有两艘豪华游艇，分别可容纳47人和44人，确保您的航程舒适又安心。",
+      "hash": "078ae6bd0170",
+      "added": "2026-07-13T01:44:48"
+    },
+    {
+      "week": "2026-W29",
+      "lang": "ja",
+      "angle": "family_friendly",
+      "first_sentence": "最も澄んだ空の季節、済州島家族旅行に最適な、安定したカタマランでの海ツアーはいかがですか？Grande Bleu Yachtは、小さなお子様からご年配の方まで、ご家族皆様で安心して楽しめる済州島で唯一の認定カタマランです。",
+      "hash": "f8f9df0e39c6",
+      "added": "2026-07-13T01:45:22"
     }
   ]
 }
