@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic__zh-CN",
-      "lang": "zh-CN",
-      "file": "blog_queue/zh-CN/2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic.md",
-      "title": "济州游艇必打卡|Grande Bleu大浦港夕阳航海初体验",
-      "generated_at": "2026-06-05T01:39:34",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_227_interior_lounge.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0164.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0221.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0149.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0135.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0091.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0136.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 4
-    },
-    {
       "key": "2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic__en",
       "lang": "en",
       "file": "blog_queue/en/2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic.md",
@@ -1627,6 +1609,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_205_aerial.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0192.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0206.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_05_02_06__fr",
+      "lang": "fr",
+      "file": "blog_queue/fr/auto_05_02_06.md",
+      "title": "Jeju Yacht Tour — Best Season | Grande Bleu Catamaran, Seogwipo Jeju (Chinese-speaking travelers)",
+      "generated_at": "2026-07-12T02:30:33",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0091.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0024.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0227.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0004.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0253.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0138.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0027.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
