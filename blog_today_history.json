@@ -1,26 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-26_2014_post__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/2026-05-26_2014_post.md",
-      "title": "Grande Bleu 済州ヨット|秋の法人セーリング完全ガイド",
-      "generated_at": "2026-06-07T01:39:46",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0002.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0019.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_43_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0196.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0029.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0202.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0077.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0041.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0186.jpg"
-      ],
-      "image_count": 9,
-      "remaining_candidates": 4
-    },
-    {
       "key": "2026-05-29_0821_제주도요트투어_올인클루시브_코스__와인음식노을_후기__zh-CN",
       "lang": "zh-CN",
       "file": "blog_queue/zh-CN/2026-05-29_0821_제주도요트투어_올인클루시브_코스__와인음식노을_후기.md",
@@ -1631,6 +1611,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0122.jpg"
       ],
       "image_count": 6,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_02_00_07__de",
+      "lang": "de",
+      "file": "blog_queue/de/auto_02_00_07.md",
+      "title": "Jeju Yacht Tour — The Catamaran | Grande Bleu Catamaran, Seogwipo Jeju (first-time visitors)",
+      "generated_at": "2026-07-13T01:00:33",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_57_aerial.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0246.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0126.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0009.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0133.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0034.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0107.jpg"
+      ],
+      "image_count": 7,
       "remaining_candidates": 1
     }
   ]
