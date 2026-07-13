@@ -1,26 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-29_0821_제주도요트투어_올인클루시브_코스__와인음식노을_후기__zh-CN",
-      "lang": "zh-CN",
-      "file": "blog_queue/zh-CN/2026-05-29_0821_제주도요트투어_올인클루시브_코스__와인음식노을_후기.md",
-      "title": "Grande Bleu 济州游艇 | 韩国唯一认证双体船日落巡航",
-      "generated_at": "2026-06-08T01:56:57",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_238_deck_exterior.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0020.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0161.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0032.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0303.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0257.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0127.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0078.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0166.jpg"
-      ],
-      "image_count": 9,
-      "remaining_candidates": 3
-    },
-    {
       "key": "2026-05-29_0821_제주도요트투어_올인클루시브_코스__와인음식노을_후기__en",
       "lang": "en",
       "file": "blog_queue/en/2026-05-29_0821_제주도요트투어_올인클루시브_코스__와인음식노을_후기.md",
@@ -1629,6 +1609,23 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0107.jpg"
       ],
       "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_24_06_03__de",
+      "lang": "de",
+      "file": "blog_queue/de/auto_24_06_03.md",
+      "title": "Jeju Strände und die Südküste: Mein Solo-Abenteuer am Meer",
+      "generated_at": "2026-07-13T01:11:36",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0241.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0001.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0254.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0019.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_209_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0060.png"
+      ],
+      "image_count": 6,
       "remaining_candidates": 1
     }
   ]
