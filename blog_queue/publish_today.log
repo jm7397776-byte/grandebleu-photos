@@ -1048,3 +1048,20 @@
 
 [2026-07-13T01:00:47] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-yacht-tour-luxurioses-segeln.html
 [2026-07-13T01:00:48] Telegram notification sent
+[2026-07-13T03:54:54] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-13T03:55:05] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-strande-und-die-sudkuste-mein-solo.html
+[2026-07-13T03:55:06] Telegram notification sent
