@@ -1,21 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic__en",
-      "lang": "en",
-      "file": "blog_queue/en/2026-05-27_1415_왜_성산이_아닌_대포항인가_서귀포_선셋_크루즈의_출항지_이야기_topic.md",
-      "title": "Grande Bleu Jeju Yacht: Honest Sunset Cruise Review",
-      "generated_at": "2026-06-06T01:30:33",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0077.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_01.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0001.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0055.jpg"
-      ],
-      "image_count": 4,
-      "remaining_candidates": 4
-    },
-    {
       "key": "2026-05-26_2014_post__ja",
       "lang": "ja",
       "file": "blog_queue/ja/2026-05-26_2014_post.md",
@@ -1629,6 +1614,23 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0027.jpg"
       ],
       "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__de",
+      "lang": "de",
+      "file": "blog_queue/de/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
+      "title": "Jeju Yacht Tour: Luxuriöses Segeln & Sonnenuntergang in Korea",
+      "generated_at": "2026-07-13T00:30:38",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_87_general.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_118_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0081.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0086.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0085.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0122.jpg"
+      ],
+      "image_count": 6,
       "remaining_candidates": 1
     }
   ]
