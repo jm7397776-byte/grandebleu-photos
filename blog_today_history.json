@@ -1,25 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-29_0821_제주도요트투어_올인클루시브_코스__와인음식노을_후기__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/2026-05-29_0821_제주도요트투어_올인클루시브_코스__와인음식노을_후기.md",
-      "title": "Grande Bleu 済州ヨット|冬の穏やかなサンセット・セーリング体験",
-      "generated_at": "2026-06-10T00:30:33",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0215.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0033.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0098.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0052.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0091.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0021.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0012.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0245.png"
-      ],
-      "image_count": 8,
-      "remaining_candidates": 3
-    },
-    {
       "key": "2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic__ja",
       "lang": "ja",
       "file": "blog_queue/ja/2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic.md",
@@ -1625,6 +1606,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0026.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0081.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0284.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_02_01_02__it",
+      "lang": "it",
+      "file": "blog_queue/it/auto_02_01_02.md",
+      "title": "Alba mozzafiato a Seongsan Ilchulbong: la tua guida completa per il 2026",
+      "generated_at": "2026-07-14T00:58:15",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_310_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0215.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0173.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0249.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0039.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0035.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0009.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
