@@ -1,26 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic.md",
-      "title": "Grande Bleu 済州ヨット|春のハネムーンに穏やかなセーリング",
-      "generated_at": "2026-06-10T01:00:35",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_429_interior_lounge.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0110.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0153.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0159.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_135_deck_exterior.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0156.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0019.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0014.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0080.png"
-      ],
-      "image_count": 9,
-      "remaining_candidates": 2
-    },
-    {
       "key": "2026-05-24_0050_13_제주_선셋_명소_노을을_배경이_아니라_발밑에_두는_법_persona20__ja",
       "lang": "ja",
       "file": "blog_queue/ja/2026-05-24_0050_13_제주_선셋_명소_노을을_배경이_아니라_발밑에_두는_법_persona20.md",
@@ -1624,6 +1604,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0039.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0035.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0009.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_16_03_01__it",
+      "lang": "it",
+      "file": "blog_queue/it/auto_16_03_01.md",
+      "title": "Jeju Yacht Tour — Safety & Comfort | Grande Bleu Catamaran, Seogwipo Jeju (families with kids)",
+      "generated_at": "2026-07-14T01:00:39",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_383_food.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0041.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0012.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0193.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0168.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0283.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0140.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
