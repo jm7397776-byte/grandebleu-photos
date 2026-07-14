@@ -54,6 +54,12 @@ def main():
                    if (p.get('published_at', '') or p.get('generated_at', ''))[:10] == today]
 
     if not today_posts:
+        # 이 보고의 목적은 '발행(14:13 KST) 후' 확인. 오전 catch-up dispatch 로 미리 돌면
+        # 아직 발행 전이라 매일 허위 '실패' 경보가 났음 → 14:00 KST 이전엔 조용히 통과 (2026-07-14)
+        kst_hour = (datetime.datetime.utcnow() + datetime.timedelta(hours=9)).hour
+        if kst_hour < 14:
+            print(f'not yet published today ({today}) — before 14:00 KST, skip report')
+            return
         tg(f'🚨 외국블로그 경보: 오늘({today}) 발행 기록이 없어요.\n'
            f'github.com/jm7397776-byte/grandebleu-photos/actions 를 확인해 주세요.')
         sys.exit(1)
