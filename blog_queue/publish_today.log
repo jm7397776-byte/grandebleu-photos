@@ -1083,3 +1083,20 @@
 
 [2026-07-14T01:00:46] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/alba-mozzafiato-seongsan-ilchulbong-la.html
 [2026-07-14T01:00:46] Telegram notification sent
+[2026-07-14T03:02:07] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-14T03:02:19] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-yacht-tour-safety-comfort-grande.html
+[2026-07-14T03:02:19] Telegram notification sent
