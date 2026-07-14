@@ -1066,3 +1066,20 @@
 [2026-07-13T03:55:05] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-strande-und-die-sudkuste-mein-solo.html
 [2026-07-13T03:55:06] Telegram notification sent
 [2026-07-14T00:30:39] already published: Jeju Strände und die Südküste: Mein Solo-Abenteuer am Meer
+[2026-07-14T01:00:35] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-14T01:00:46] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/alba-mozzafiato-seongsan-ilchulbong-la.html
+[2026-07-14T01:00:46] Telegram notification sent
