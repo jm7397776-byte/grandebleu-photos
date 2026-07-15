@@ -1,46 +1,46 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T10:53:23",
+  "generated_at": "2026-07-15T13:24:16",
   "publish": true,
-  "topic_key": "fishing",
-  "topic_title": "처음 해보는 바다낚시도 편하게",
+  "topic_key": "family",
+  "topic_title": "부모님과 아이가 함께 타기 좋은 제주 요트",
   "channels": {
     "daangn": {
       "platform": "daangn",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_business_profile_post",
-      "title": "처음 해보는 바다낚시도 편하게",
-      "body": "요트 위에서 우럭, 쏨뱅이, 쥐치 같은 제주 바다 어종을 만날 수 있습니다.\n\n낚시만 하는 배가 아니라 항해, 풍경, 사진, 가벼운 체험이 함께 갑니다.\n아이와 함께할 체험형 제주 일정으로 쓰기 좋습니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
+      "title": "부모님과 아이가 함께 타기 좋은 제주 요트",
+      "body": "멀리 이동하지 않아도 대포항에서 바로 제주의 남쪽 바다를 만날 수 있습니다.\n\n선장과 기관장이 함께 운항하고, 550호와 620호 두 척으로 총 91명까지 운영합니다.\n가족 여행 중 짧지만 기억에 남는 코스를 찾는 분께 맞습니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
       "hashtags": [
         "제주요트",
         "서귀포",
         "대포항",
         "제주도요트투어",
-        "fishing"
+        "family"
       ],
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0002.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0218.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0210.jpg"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0046.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0154.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0152.png"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0002.jpg",
-          "file": "fishing_0002.jpg",
-          "category": "fishing",
-          "alt": "그랑블루요트 낚시 체험 - 처음 해보는 바다낚시도 편하게"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0046.jpg",
+          "file": "facility_0046.jpg",
+          "category": "facility",
+          "alt": "그랑블루요트 시설 - 부모님과 아이가 함께 타기 좋은 제주 요트"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0218.png",
-          "file": "influencer_0218.png",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0154.jpg",
+          "file": "influencer_0154.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 처음 해보는 바다낚시도 편하게"
+          "alt": "제주 대포항 그랑블루요트 - 부모님과 아이가 함께 타기 좋은 제주 요트"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0210.jpg",
-          "file": "influencer_0210.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0152.png",
+          "file": "influencer_0152.png",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 처음 해보는 바다낚시도 편하게"
+          "alt": "제주 대포항 그랑블루요트 - 부모님과 아이가 함께 타기 좋은 제주 요트"
         }
       ],
       "cta_label": "예약 채널 확인",
@@ -52,27 +52,27 @@
       "platform": "kakao_channel",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_kakaotalk_channel_post",
-      "title": "처음 해보는 바다낚시도 편하게",
-      "body": "처음 해보는 바다낚시도 편하게\n\n요트 위에서 우럭, 쏨뱅이, 쥐치 같은 제주 바다 어종을 만날 수 있습니다.\n낚시만 하는 배가 아니라 항해, 풍경, 사진, 가벼운 체험이 함께 갑니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
+      "title": "부모님과 아이가 함께 타기 좋은 제주 요트",
+      "body": "부모님과 아이가 함께 타기 좋은 제주 요트\n\n멀리 이동하지 않아도 대포항에서 바로 제주의 남쪽 바다를 만날 수 있습니다.\n선장과 기관장이 함께 운항하고, 550호와 620호 두 척으로 총 91명까지 운영합니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
       "button_title": "예약 확인하기",
       "button_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=kakao_channel&utm_medium=local_social&utm_campaign=jeju_yacht",
-      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0002.jpg",
+      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0046.jpg",
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0002.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0218.png"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0046.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0154.jpg"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0002.jpg",
-          "file": "fishing_0002.jpg",
-          "category": "fishing",
-          "alt": "그랑블루요트 낚시 체험 - 처음 해보는 바다낚시도 편하게"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0046.jpg",
+          "file": "facility_0046.jpg",
+          "category": "facility",
+          "alt": "그랑블루요트 시설 - 부모님과 아이가 함께 타기 좋은 제주 요트"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0218.png",
-          "file": "influencer_0218.png",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0154.jpg",
+          "file": "influencer_0154.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 처음 해보는 바다낚시도 편하게"
+          "alt": "제주 대포항 그랑블루요트 - 부모님과 아이가 함께 타기 좋은 제주 요트"
         }
       ],
       "manual_target": "KakaoTalk Channel manager post composer",
@@ -90,8 +90,8 @@
     ]
   },
   "image_urls": [
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0002.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0218.png",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0210.jpg"
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0046.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0154.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0152.png"
   ]
 }
