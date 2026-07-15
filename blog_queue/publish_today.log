@@ -1102,3 +1102,20 @@
 [2026-07-14T03:02:19] Telegram notification sent
 [2026-07-14T03:29:08] already published: Jeju Yacht Tour — Safety & Comfort | Grande Bleu Catamaran, Seogwipo Jeju (families with kids)
 [2026-07-15T00:30:37] already published: Jeju Yacht Tour — Safety & Comfort | Grande Bleu Catamaran, Seogwipo Jeju (families with kids)
+[2026-07-15T03:28:37] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-15T03:28:48] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-de-carro-rota-cenica-da-costa-sul.html
+[2026-07-15T03:28:48] Telegram notification sent
