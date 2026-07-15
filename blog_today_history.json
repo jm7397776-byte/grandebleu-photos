@@ -1,26 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-24_0050_13_제주_선셋_명소_노을을_배경이_아니라_발밑에_두는_법_persona20__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/2026-05-24_0050_13_제주_선셋_명소_노을을_배경이_아니라_발밑에_두는_법_persona20.md",
-      "title": "済州島ヨットツアー｜西帰浦の海でサンセットを体験 | Jeju Yacht",
-      "generated_at": "2026-06-10T01:38:17",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_79_general.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0177.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0145.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0239.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0068.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0080.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_206_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0003.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0045.jpg"
-      ],
-      "image_count": 9,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_08_00_06__ja",
       "lang": "ja",
       "file": "blog_queue/ja/auto_08_00_06.md",
@@ -1622,6 +1602,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0168.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0283.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0140.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__pt",
+      "lang": "pt",
+      "file": "blog_queue/pt/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
+      "title": "Grande Bleu: Seu Inesquecível Passeio de Iate em Jeju, Coreia",
+      "generated_at": "2026-07-15T00:30:34",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_128_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0065.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0020.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_247_food.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0044.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0071.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0193.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
