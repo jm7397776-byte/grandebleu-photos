@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_08_00_06__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/auto_08_00_06.md",
-      "title": "済州島ヨット ベストシーズン｜Grande Bleu 西帰浦セーリング（はじめての済州島向け）",
-      "generated_at": "2026-06-10T02:30:29",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0030.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0015.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0006.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0167.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0077.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0194.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0001.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic__zh-CN",
       "lang": "zh-CN",
       "file": "blog_queue/zh-CN/2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic.md",
@@ -1620,6 +1602,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0044.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0071.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0193.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_14_07_04__pt",
+      "lang": "pt",
+      "file": "blog_queue/pt/auto_14_07_04.md",
+      "title": "Jeju de Carro: A Rota Cênica da Costa Sul que me Deixou Sem Fôlego!",
+      "generated_at": "2026-07-15T00:54:51",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0199.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0064.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0171.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_daxxni.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0114.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0084.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0118.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
