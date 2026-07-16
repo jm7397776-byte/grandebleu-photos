@@ -1120,3 +1120,20 @@
 [2026-07-15T03:28:48] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-de-carro-rota-cenica-da-costa-sul.html
 [2026-07-15T03:28:48] Telegram notification sent
 [2026-07-16T00:30:31] already published: Jeju de Carro: A Rota Cênica da Costa Sul que me Deixou Sem Fôlego!
+[2026-07-16T03:32:24] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-16T03:32:34] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/blog-post_16.html
+[2026-07-16T03:32:35] Telegram notification sent
