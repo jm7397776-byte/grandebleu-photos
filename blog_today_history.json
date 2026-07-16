@@ -1,26 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-05-24_0050_13_제주_선셋_명소_노을을_배경이_아니라_발밑에_두는_법_persona20__zh-CN",
-      "lang": "zh-CN",
-      "file": "blog_queue/zh-CN/2026-05-24_0050_13_제주_선셋_명소_노을을_배경이_아니라_발밑에_두는_법_persona20.md",
-      "title": "Jeju Yacht Sunset Tour: Sail Catamaran at Daepo Port",
-      "generated_at": "2026-06-11T02:03:17",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_414_interior_lounge.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0070.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0088.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0182.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0135.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0014.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0183.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0298.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0062.jpg"
-      ],
-      "image_count": 9,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_02_04_05__zh-CN",
       "lang": "zh-CN",
       "file": "blog_queue/zh-CN/auto_02_04_05.md",
@@ -1620,6 +1600,26 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0036.jpg"
       ],
       "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_14_01_03__ar",
+      "lang": "ar",
+      "file": "blog_queue/ar/auto_14_01_03.md",
+      "title": "رحلة أحلامك في جيجو: اكتشف أروع الطرق الساحلية الخلابة بالسيارة!",
+      "generated_at": "2026-07-16T01:03:24",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0008.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0004.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0057.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0126.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0195.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0258.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0113.jpg",
+        "https://example.com/grandebleu_sunset_yacht.jpg",
+        "https://example.com/grandebleu_guests_view.jpg"
+      ],
+      "image_count": 9,
       "remaining_candidates": 1
     }
   ]
