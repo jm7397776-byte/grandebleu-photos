@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_02_04_05__zh-CN",
-      "lang": "zh-CN",
-      "file": "blog_queue/zh-CN/auto_02_04_05.md",
-      "title": "济州岛游艇攻略 · 预订指南｜Grande Bleu 西归浦帆船（情侣蜜月）",
-      "generated_at": "2026-06-11T02:30:43",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0075.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0229.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0074.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0137.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0241.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0168.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0105.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic__en",
       "lang": "en",
       "file": "blog_queue/en/2026-05-26_1415_그랑블루요트_대포항_체크인_실제로_얼마나_걸릴까_topic.md",
@@ -1620,6 +1602,23 @@
         "https://example.com/grandebleu_guests_view.jpg"
       ],
       "image_count": 9,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__hi",
+      "lang": "hi",
+      "file": "blog_queue/hi/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
+      "title": "जेजू यॉट क्रूज़: कोरिया में सबसे यादगार सूर्यास्त का अनुभव",
+      "generated_at": "2026-07-17T00:30:31",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0191.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_178_aerial.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0165.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0130.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0187.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0069.jpg"
+      ],
+      "image_count": 6,
       "remaining_candidates": 1
     }
   ]
