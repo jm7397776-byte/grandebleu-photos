@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_29_06_01__en",
-      "lang": "en",
-      "file": "blog_queue/en/auto_29_06_01.md",
-      "title": "Jeju Yacht Tour — Safety & Comfort | Grande Bleu Catamaran, Seogwipo Jeju (solo travelers)",
-      "generated_at": "2026-06-12T01:58:54",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0021.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0109.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0254.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0096.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0178.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_92_sunset.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0057.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_11_00_06__en",
       "lang": "en",
       "file": "blog_queue/en/auto_11_00_06.md",
@@ -1619,6 +1601,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0007.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0054.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0051.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_10_04_01__ms",
+      "lang": "ms",
+      "file": "blog_queue/ms/auto_10_04_01.md",
+      "title": "Terokai Kafe Pemandangan Laut Jeju yang Memukau, Sempurna Untuk Honeymoon!",
+      "generated_at": "2026-07-18T01:01:58",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0236.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0040.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0259.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0144.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0044.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0186.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0204.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
