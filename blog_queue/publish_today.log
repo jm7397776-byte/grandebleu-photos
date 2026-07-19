@@ -1174,3 +1174,20 @@
 [2026-07-18T03:27:01] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/terokai-kafe-pemandangan-laut-jeju-yang.html
 [2026-07-18T03:27:01] Telegram notification sent
 [2026-07-19T00:30:35] already published: Terokai Kafe Pemandangan Laut Jeju yang Memukau, Sempurna Untuk Honeymoon!
+[2026-07-19T03:48:14] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-19T03:48:25] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-east-coast-day-trip-isang-gabay.html
+[2026-07-19T03:48:26] Telegram notification sent
