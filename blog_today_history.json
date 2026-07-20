@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_22_04_06__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/auto_22_04_06.md",
-      "title": "済州のロマンチックな休日：グランブルーヨットで最高の思い出を",
-      "generated_at": "2026-06-13T01:00:38",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0031.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0001.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0079.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0283.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0182.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0208.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0177.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_09_00_01__ja",
       "lang": "ja",
       "file": "blog_queue/ja/auto_09_00_01.md",
@@ -1618,6 +1600,23 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0130.png",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0116.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0013.jpg"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__tr",
+      "lang": "tr",
+      "file": "blog_queue/tr/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
+      "title": "Jeju Yat Turu: Güney Kore'nin Cennet Adası'nda Unutulmaz Bir Maceraya Yelken Açın",
+      "generated_at": "2026-07-20T01:08:31",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0049.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0078.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0228.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0175.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0110.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_11_cockpit.jpg"
       ],
       "image_count": 6,
       "remaining_candidates": 1
