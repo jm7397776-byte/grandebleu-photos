@@ -1192,3 +1192,20 @@
 [2026-07-19T03:48:25] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-east-coast-day-trip-isang-gabay.html
 [2026-07-19T03:48:26] Telegram notification sent
 [2026-07-20T00:30:58] already published: Jeju East Coast Day Trip: Isang Gabay para sa 'Di Malilimutang Corporate Retreat!
+[2026-07-20T03:59:22] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-20T03:59:33] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-yat-turu-guney-korenin-cennet.html
+[2026-07-20T03:59:34] Telegram notification sent
