@@ -1210,3 +1210,20 @@
 [2026-07-20T03:59:33] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-yat-turu-guney-korenin-cennet.html
 [2026-07-20T03:59:34] Telegram notification sent
 [2026-07-21T00:30:31] already published: Jeju Yat Turu: Güney Kore'nin Cennet Adası'nda Unutulmaz Bir Maceraya Yelken Açın
+[2026-07-21T03:39:50] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-21T03:40:01] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/blog-post_21.html
+[2026-07-21T03:40:01] Telegram notification sent
