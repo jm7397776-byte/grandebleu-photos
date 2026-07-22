@@ -1228,3 +1228,20 @@
 [2026-07-21T03:40:01] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/blog-post_21.html
 [2026-07-21T03:40:01] Telegram notification sent
 [2026-07-22T00:30:37] already published: Жэжү арал: Урд эрэг ба гайхалтай далайн эргүүдээр аялах нь
+[2026-07-22T03:40:35] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-22T03:40:46] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-dla-par-spokojne-zakatki-na-relaks.html
+[2026-07-22T03:40:46] Telegram notification sent
