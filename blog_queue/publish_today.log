@@ -1246,3 +1246,20 @@
 [2026-07-22T03:40:46] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-dla-par-spokojne-zakatki-na-relaks.html
 [2026-07-22T03:40:46] Telegram notification sent
 [2026-07-23T00:30:33] already published: Jeju dla Par: Spokojne Zakątki na Relaks i Romantyczne Chwile
+[2026-07-23T03:39:25] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-23T03:39:36] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-islands-best-season-for-grande.html
+[2026-07-23T03:39:37] Telegram notification sent
