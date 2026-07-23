@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_20_03_06__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/auto_20_03_06.md",
-      "title": "済州島ヨット ベストシーズン｜Grande Bleu 西帰浦セーリング（子連れ家族向け）",
-      "generated_at": "2026-06-16T00:30:34",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0059.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0071.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0147.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0163.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0061.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0067.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0095.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_25_02_05__ja",
       "lang": "ja",
       "file": "blog_queue/ja/auto_25_02_05.md",
@@ -1617,6 +1599,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0034.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0030.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0157.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 13
+    },
+    {
+      "key": "auto_11_00_06__en",
+      "lang": "en",
+      "file": "blog_queue/en/auto_11_00_06.md",
+      "title": "Jeju Island's Best Season for a Grande Bleu Yacht Adventure",
+      "generated_at": "2026-07-23T01:06:17",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0019.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_280_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0237.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0244.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0076.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0022.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0022.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 13
