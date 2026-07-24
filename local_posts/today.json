@@ -1,46 +1,46 @@
 {
   "date": "2026-07-24",
-  "generated_at": "2026-07-24T11:24:37",
+  "generated_at": "2026-07-24T13:45:48",
   "publish": true,
-  "topic_key": "premium",
-  "topic_title": "호텔 여행에 어울리는 프리미엄 요트 코스",
+  "topic_key": "fishing",
+  "topic_title": "처음 해보는 바다낚시도 편하게",
   "channels": {
     "daangn": {
       "platform": "daangn",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_business_profile_post",
-      "title": "호텔 여행에 어울리는 프리미엄 요트 코스",
-      "body": "신라, 파르나스 등 프리미엄 여행 동선과 함께 잡기 좋은 대포항 요트입니다.\n\n브랜드 인증 카타마란과 실내 라운지, 갑판 풍경이 함께 있는 코스입니다.\n기념일, 데이트, 접대성 여행에도 과하지 않게 어울립니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
+      "title": "처음 해보는 바다낚시도 편하게",
+      "body": "요트 위에서 우럭, 쏨뱅이, 쥐치 같은 제주 바다 어종을 만날 수 있습니다.\n\n낚시만 하는 배가 아니라 항해, 풍경, 사진, 가벼운 체험이 함께 갑니다.\n아이와 함께할 체험형 제주 일정으로 쓰기 좋습니다.\n\n운항: 대포항 출발 1시간\n포함: 생맥주, 와인, 감귤주스, 물, 간식, 컵라면\n예약: 네이버, Klook, KKday, Ctrip/Trip.com 등에서 확인 가능\n문의: 064-739-7776",
       "hashtags": [
         "제주요트",
         "서귀포",
         "대포항",
         "제주도요트투어",
-        "premium"
+        "fishing"
       ],
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0058.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0148.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0219.png"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0003.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0130.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0108.jpg"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0058.jpg",
-          "file": "facility_0058.jpg",
-          "category": "facility",
-          "alt": "그랑블루요트 시설 - 호텔 여행에 어울리는 프리미엄 요트 코스"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0003.jpg",
+          "file": "fishing_0003.jpg",
+          "category": "fishing",
+          "alt": "그랑블루요트 낚시 체험 - 처음 해보는 바다낚시도 편하게"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0148.png",
-          "file": "influencer_0148.png",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0130.jpg",
+          "file": "influencer_0130.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 호텔 여행에 어울리는 프리미엄 요트 코스"
+          "alt": "제주 대포항 그랑블루요트 - 처음 해보는 바다낚시도 편하게"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0219.png",
-          "file": "influencer_0219.png",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0108.jpg",
+          "file": "influencer_0108.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 호텔 여행에 어울리는 프리미엄 요트 코스"
+          "alt": "제주 대포항 그랑블루요트 - 처음 해보는 바다낚시도 편하게"
         }
       ],
       "cta_label": "예약 채널 확인",
@@ -52,27 +52,27 @@
       "platform": "kakao_channel",
       "api_direct_supported": false,
       "make_action": "queue_or_notify_for_kakaotalk_channel_post",
-      "title": "호텔 여행에 어울리는 프리미엄 요트 코스",
-      "body": "호텔 여행에 어울리는 프리미엄 요트 코스\n\n신라, 파르나스 등 프리미엄 여행 동선과 함께 잡기 좋은 대포항 요트입니다.\n브랜드 인증 카타마란과 실내 라운지, 갑판 풍경이 함께 있는 코스입니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
+      "title": "처음 해보는 바다낚시도 편하게",
+      "body": "처음 해보는 바다낚시도 편하게\n\n요트 위에서 우럭, 쏨뱅이, 쥐치 같은 제주 바다 어종을 만날 수 있습니다.\n낚시만 하는 배가 아니라 항해, 풍경, 사진, 가벼운 체험이 함께 갑니다.\n\n대포항 출발 1시간 카타마란 요트투어\n선셋, 가족 여행, 기념일 일정에 어울리는 바다 위의 짧은 여백.\n\n문의 064-739-7776\nInstagram @gb.jeju",
       "button_title": "예약 확인하기",
       "button_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=kakao_channel&utm_medium=local_social&utm_campaign=jeju_yacht",
-      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0058.jpg",
+      "image_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0003.jpg",
       "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0058.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0148.png"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0003.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0130.jpg"
       ],
       "images": [
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0058.jpg",
-          "file": "facility_0058.jpg",
-          "category": "facility",
-          "alt": "그랑블루요트 시설 - 호텔 여행에 어울리는 프리미엄 요트 코스"
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0003.jpg",
+          "file": "fishing_0003.jpg",
+          "category": "fishing",
+          "alt": "그랑블루요트 낚시 체험 - 처음 해보는 바다낚시도 편하게"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0148.png",
-          "file": "influencer_0148.png",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0130.jpg",
+          "file": "influencer_0130.jpg",
           "category": "influencer",
-          "alt": "제주 대포항 그랑블루요트 - 호텔 여행에 어울리는 프리미엄 요트 코스"
+          "alt": "제주 대포항 그랑블루요트 - 처음 해보는 바다낚시도 편하게"
         }
       ],
       "manual_target": "KakaoTalk Channel manager post composer",
@@ -90,8 +90,8 @@
     ]
   },
   "image_urls": [
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0058.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0148.png",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0219.png"
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0003.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0130.jpg",
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0108.jpg"
   ]
 }
