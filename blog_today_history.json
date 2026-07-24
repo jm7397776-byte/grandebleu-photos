@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_10_05_02__zh-CN",
-      "lang": "zh-CN",
-      "file": "blog_queue/zh-CN/auto_10_05_02.md",
-      "title": "企业济州团建新选择：格兰蓝游艇价格指南与奢华体验",
-      "generated_at": "2026-06-17T02:04:56",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0036.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0046.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0008.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0087.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0246.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0137.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0049.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_08_07_02__zh-CN",
       "lang": "zh-CN",
       "file": "blog_queue/zh-CN/auto_08_07_02.md",
@@ -1621,6 +1603,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0008.jpg"
       ],
       "image_count": 9,
+      "remaining_candidates": 14
+    },
+    {
+      "key": "auto_22_04_06__ja",
+      "lang": "ja",
+      "file": "blog_queue/ja/auto_22_04_06.md",
+      "title": "済州のロマンチックな休日：グランブルーヨットで最高の思い出を",
+      "generated_at": "2026-07-24T01:01:29",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0085.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0157.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0082.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0074.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0107.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0056.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0139.jpg"
+      ],
+      "image_count": 7,
       "remaining_candidates": 14
     }
   ]
