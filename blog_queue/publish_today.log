@@ -1264,3 +1264,20 @@
 [2026-07-23T03:39:36] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/jeju-islands-best-season-for-grande.html
 [2026-07-23T03:39:37] Telegram notification sent
 [2026-07-24T00:30:33] already published: Jeju Island's Best Season for a Grande Bleu Yacht Adventure
+[2026-07-24T03:38:45] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-24T03:38:56] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/blog-post_24.html
+[2026-07-24T03:38:56] Telegram notification sent
