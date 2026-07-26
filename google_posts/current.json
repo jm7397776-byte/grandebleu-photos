@@ -1,35 +1,35 @@
 {
-  "week": "2026-W30",
-  "generated_at": "2026-07-20T01:44:33",
+  "week": "2026-W31",
+  "generated_at": "2026-07-27T01:46:05",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "yacht_98_sunset.jpg",
-      "seo_keywords": "제주 안전 투어, 제주 SNS 명소, 제주 노을, 대포항 요트",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W30_ko.txt",
-      "body_length": 665
+      "photo": "influencer_0255.jpg",
+      "seo_keywords": "제주 친구여행, 제주 노을, 제주 럭셔리 투어, 제주 일몰 시간",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W31_ko.txt",
+      "body_length": 658
     },
     "en": {
       "label": "English",
-      "photo": "influencer_0040.jpg",
-      "seo_keywords": "jeju proposal cruise, jeju anniversary cruise, jeju ocean tour, jeju wine cruise",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W30_en.txt",
-      "body_length": 1474
+      "photo": "yacht_101_sunset.jpg",
+      "seo_keywords": "jeju kid friendly, jeju private cruise, jeju 60 minute cruise, seogwipo yacht",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W31_en.txt",
+      "body_length": 1372
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "yacht_158_luxury.jpg",
-      "seo_keywords": "济州岛汉拿山, 济州岛性价比, 济州岛60分钟航程, 韩国唯一认证双体船",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W30_zh-CN.txt",
-      "body_length": 621
+      "photo": "influencer_0181.jpg",
+      "seo_keywords": "济州岛无限畅饮, 大浦港游艇, 济州岛60分钟航程, 济州岛网红打卡",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W31_zh-CN.txt",
+      "body_length": 521
     },
     "ja": {
       "label": "日本語",
-      "photo": "yacht_308_luxury.jpg",
-      "seo_keywords": "済州島海ツアー, 済州島デート, 済州島子連れ, 済州島友達旅行",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W30_ja.txt",
-      "body_length": 724
+      "photo": "yacht_15_sunset_real.jpg",
+      "seo_keywords": "済州島フォトスポット, 済州島安全ツアー, 済州島海ツアー, 済州島デート",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W31_ja.txt",
+      "body_length": 840
     }
   },
   "_generator": "google_posts_generate_cloud.py (gemini)"
