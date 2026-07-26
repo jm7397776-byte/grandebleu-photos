@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_01_03_05__en",
-      "lang": "en",
-      "file": "blog_queue/en/auto_01_03_05.md",
-      "title": "Booking Grande Bleu Yacht for Families: A Stress-Free Jeju Adventure",
-      "generated_at": "2026-06-18T02:03:15",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_279_luxury.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0290.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_437_dolphin.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0119.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0278.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0106.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_16_02_06__en",
       "lang": "en",
       "file": "blog_queue/en/auto_16_02_06.md",
@@ -1624,6 +1607,24 @@
       ],
       "image_count": 9,
       "remaining_candidates": 13
+    },
+    {
+      "key": "auto_05_01_04__zh-TW",
+      "lang": "zh-TW",
+      "file": "blog_queue/zh-TW/auto_05_01_04.md",
+      "title": "西歸浦旅行全攻略：2026年夏季，感受濟州南海岸的迷人魅力",
+      "generated_at": "2026-07-26T00:31:55",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0127.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0087.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0074.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0132.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0212.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0093.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0118.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
