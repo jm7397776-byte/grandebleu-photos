@@ -1318,3 +1318,20 @@
 [2026-07-26T03:51:30] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/blog-post_26.html
 [2026-07-26T03:51:31] Telegram notification sent
 [2026-07-27T00:30:35] already published: 濟州南海岸秘境之旅：獨行者也能盡享沙灘與海風的夏日浪漫
+[2026-07-27T03:58:26] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-27T03:58:36] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/2026.html
+[2026-07-27T03:58:37] Telegram notification sent
