@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_04_04_04__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/auto_04_04_04.md",
-      "title": "済州島ヨット 撮影スポット｜Grande Bleu 西帰浦セーリング（カップル・ハネムーン向け）",
-      "generated_at": "2026-06-19T01:00:34",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0131.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0010.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0002.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0164.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0012.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0217.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0231.png"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_09_03_01__ja",
       "lang": "ja",
       "file": "blog_queue/ja/auto_09_03_01.md",
@@ -1623,6 +1605,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0280.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0227.png",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0017.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_09_01_03__ru",
+      "lang": "ru",
+      "file": "blog_queue/ru/auto_09_01_03.md",
+      "title": "Однодневная поездка на остров Удо в 2026 году: Жемчужина Чеджу, которую нельзя пропустить!",
+      "generated_at": "2026-07-27T01:13:22",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0178.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0233.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0076.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0042.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0228.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0165.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0143.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
