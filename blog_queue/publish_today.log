@@ -1336,3 +1336,20 @@
 [2026-07-27T03:58:36] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/2026.html
 [2026-07-27T03:58:37] Telegram notification sent
 [2026-07-28T00:30:35] already published: Однодневная поездка на остров Удо в 2026 году: Жемчужина Чеджу, которую нельзя пропустить!
+[2026-07-28T03:30:47] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-28T03:30:59] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/2026_0692676561.html
+[2026-07-28T03:30:59] Telegram notification sent
