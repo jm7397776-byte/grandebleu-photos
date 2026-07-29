@@ -1354,3 +1354,20 @@
 [2026-07-28T03:30:59] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/2026_0692676561.html
 [2026-07-28T03:30:59] Telegram notification sent
 [2026-07-29T00:30:31] already published: เจาะลึก 2026: ที่เที่ยวสุดฮิตใกล้ซอควีโพที่ห้ามพลาด! (สำหรับคนชอบความหรูหรา)
+[2026-07-29T03:33:26] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-29T03:33:37] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/hanh-trinh-kham-pha-huong-vi-am-thuc-ia.html
+[2026-07-29T03:33:38] Telegram notification sent
