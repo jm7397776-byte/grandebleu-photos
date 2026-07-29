@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_10_04_03__zh-TW",
-      "lang": "zh-TW",
-      "file": "blog_queue/zh-TW/auto_10_04_03.md",
-      "title": "濟州最美海景咖啡廳地圖：與摯愛沈浸蔚藍，共度浪漫時光！",
-      "generated_at": "2026-06-20T02:30:43",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_196_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0117.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0163.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0116.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0035.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0089.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0152.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_14_00_00__es",
       "lang": "es",
       "file": "blog_queue/es/auto_14_00_00.md",
@@ -1622,6 +1604,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0178.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_345_aerial.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0178.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_22_07_03__vi",
+      "lang": "vi",
+      "file": "blog_queue/vi/auto_22_07_03.md",
+      "title": "Hành Trình Khám Phá Hương Vị Ẩm Thực Địa Phương Jeju Năm 2026: Một Trải Nghiệm Khó Quên!",
+      "generated_at": "2026-07-29T01:03:03",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0235.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0029.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_409_food.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_eeeeeunae.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0129.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0102.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_basic_jyan.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
