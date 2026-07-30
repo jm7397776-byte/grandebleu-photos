@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_04_01_03__fr",
-      "lang": "fr",
-      "file": "blog_queue/fr/auto_04_01_03.md",
-      "title": "Découvrez les trésors cachés de Jeju loin de la foule : une évasion inoubliable !",
-      "generated_at": "2026-06-22T02:05:46",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0097.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0247.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0235.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0051.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0111.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0107.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0171.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_15_04_05__fr",
       "lang": "fr",
       "file": "blog_queue/fr/auto_15_04_05.md",
@@ -1623,6 +1605,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0062.jpg"
       ],
       "image_count": 6,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_10_01_06__id",
+      "lang": "id",
+      "file": "blog_queue/id/auto_10_01_06.md",
+      "title": "5 Kafe Pemandangan Laut di Jeju yang Wajib Dikunjungi untuk Relaksasi Maksimal!",
+      "generated_at": "2026-07-30T00:58:01",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0230.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0073.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0108.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0289.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0103.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0044.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0222.png"
+      ],
+      "image_count": 7,
       "remaining_candidates": 1
     }
   ]
