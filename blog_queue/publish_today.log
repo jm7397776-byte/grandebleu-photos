@@ -1372,3 +1372,20 @@
 [2026-07-29T03:33:37] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/hanh-trinh-kham-pha-huong-vi-am-thuc-ia.html
 [2026-07-29T03:33:38] Telegram notification sent
 [2026-07-30T00:30:37] already published: Hành Trình Khám Phá Hương Vị Ẩm Thực Địa Phương Jeju Năm 2026: Một Trải Nghiệm Khó Quên!
+[2026-07-30T03:23:17] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-07-30T03:23:29] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/07/5-kafe-pemandangan-laut-di-jeju-yang.html
+[2026-07-30T03:23:29] Telegram notification sent
