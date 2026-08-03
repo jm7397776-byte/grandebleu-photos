@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_16_07_02__pt",
-      "lang": "pt",
-      "file": "blog_queue/pt/auto_16_07_02.md",
-      "title": "Jeju Yacht Tour — Price Guide | Grande Bleu Catamaran, Seogwipo Jeju (premium hotel guests)",
-      "generated_at": "2026-06-25T00:30:35",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0008.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0109.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0131.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_174___24.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0228.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0173.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0034.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_04_03_05__pt",
       "lang": "pt",
       "file": "blog_queue/pt/auto_04_03_05.md",
@@ -1624,6 +1606,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_01_05_05__it",
+      "lang": "it",
+      "file": "blog_queue/it/auto_01_05_05.md",
+      "title": "Jeju Yacht Tour — How to Book | Grande Bleu Catamaran, Seogwipo Jeju (corporate groups)",
+      "generated_at": "2026-08-03T00:30:46",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_scene_08.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_0llllll0ii.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0004.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0059.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0185.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0027.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0078.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 2
     }
   ]
 }
