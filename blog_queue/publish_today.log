@@ -1443,3 +1443,21 @@
 [2026-08-02T03:48:35] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/jeju-yacht-tour-photo-spots-grande-bleu.html
 [2026-08-02T03:48:36] Telegram notification sent
 [2026-08-03T00:30:47] already published: Jeju Yacht Tour — Photo Spots | Grande Bleu Catamaran, Seogwipo Jeju (couples and honeymooners)
+[2026-08-03T03:50:04] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-08-03T03:50:04] recent post lookup failed on attempt 1: HTTPError: HTTP Error 503: Service Unavailable
+[2026-08-03T03:50:15] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/jeju-in-famiglia-unisola-misura-di.html
+[2026-08-03T03:50:15] Telegram notification sent
