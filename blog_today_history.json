@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_14_04_04__ar",
-      "lang": "ar",
-      "file": "blog_queue/ar/auto_14_04_04.md",
-      "title": "رحلة أحلامي في جزيرة جيجو: أجمل الطرق الساحلية الخلابة للعشاق!",
-      "generated_at": "2026-06-26T01:38:50",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0156.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0209.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0203.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0200.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_326_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0219.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0041.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_07_07_02__ar",
       "lang": "ar",
       "file": "blog_queue/ar/auto_07_07_02.md",
@@ -1622,6 +1604,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0016.jpg"
       ],
       "image_count": 6,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_12_05_06__ar",
+      "lang": "ar",
+      "file": "blog_queue/ar/auto_12_05_06.md",
+      "title": "Jeju Yacht Tour — Best Season | Grande Bleu Catamaran, Seogwipo Jeju (corporate groups)",
+      "generated_at": "2026-08-05T00:58:17",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_165_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0099.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0148.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0055.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0225.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0043.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0265.jpg"
+      ],
+      "image_count": 7,
       "remaining_candidates": 1
     }
   ]
