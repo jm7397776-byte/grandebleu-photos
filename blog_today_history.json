@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_12_05_06__ar",
-      "lang": "ar",
-      "file": "blog_queue/ar/auto_12_05_06.md",
-      "title": "Jeju Yacht Tour — Best Season | Grande Bleu Catamaran, Seogwipo Jeju (corporate groups)",
-      "generated_at": "2026-06-26T01:00:36",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_342_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0059.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0095.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0032.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0103.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0065.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0176.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_14_04_04__ar",
       "lang": "ar",
       "file": "blog_queue/ar/auto_14_04_04.md",
@@ -1624,6 +1606,23 @@
       ],
       "image_count": 7,
       "remaining_candidates": 2
+    },
+    {
+      "key": "auto_22_05_06__ar",
+      "lang": "ar",
+      "file": "blog_queue/ar/auto_22_05_06.md",
+      "title": "مذاقات جيجو المحلية: رحلة لا تُنسى لتعزيز روابط فريق عملك!",
+      "generated_at": "2026-08-05T00:30:44",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0189.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0089.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0095.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0148.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0021.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0016.jpg"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 1
     }
   ]
 }
