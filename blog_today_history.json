@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_07_07_02__ar",
-      "lang": "ar",
-      "file": "blog_queue/ar/auto_07_07_02.md",
-      "title": "جيجو مع الأطفال: مغامرة لا تُنسى للعائلات الصغيرة!",
-      "generated_at": "2026-06-26T02:30:37",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0109.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0007.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0237.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0004.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0228.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0020.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0202.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_14_00_00__hi",
       "lang": "hi",
       "file": "blog_queue/hi/auto_14_00_00.md",
@@ -1620,6 +1602,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0225.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0043.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0265.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_14_04_06__hi",
+      "lang": "hi",
+      "file": "blog_queue/hi/auto_14_04_06.md",
+      "title": "जेजू की सबसे खूबसूरत कोस्टल ड्राइव: कपल्स के लिए एक अविस्मरणीय रोमांटिक रोड ट्रिप!",
+      "generated_at": "2026-08-06T00:30:53",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_418_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0058.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0115.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0033.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0042.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0092.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_05.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
