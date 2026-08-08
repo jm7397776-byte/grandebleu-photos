@@ -1550,3 +1550,20 @@
 
 [2026-08-08T00:30:50] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/jeju-mula-sa-tubig-bakit-ang-south.html
 [2026-08-08T00:30:51] Telegram notification sent
+[2026-08-08T02:18:27] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-08-08T02:18:38] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/ating-tuklasin-mga-nangungunang.html
+[2026-08-08T02:18:39] Telegram notification sent
