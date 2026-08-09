@@ -1584,3 +1584,20 @@
 
 [2026-08-09T00:30:54] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/jeju-yacht-tour-price-guide-grande-bleu.html
 [2026-08-09T00:30:55] Telegram notification sent
+[2026-08-09T02:25:54] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-08-09T02:26:05] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/jeju-yacht-tour-best-season-grande-bleu_052667062.html
+[2026-08-09T02:26:06] Telegram notification sent
