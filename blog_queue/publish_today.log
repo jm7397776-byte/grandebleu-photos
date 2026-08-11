@@ -1635,3 +1635,20 @@
 
 [2026-08-10T02:30:57] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/jeju-yacht-tour-onboard-food-drinks.html
 [2026-08-10T02:30:58] Telegram notification sent
+[2026-08-11T00:30:33] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-08-11T00:30:44] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/magiczny-dzien-na-wschodnim-wybrzezu.html
+[2026-08-11T00:30:44] Telegram notification sent
