@@ -1,26 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_19_05_07__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/auto_19_05_07.md",
-      "title": "企業・団体向け！ 2026年7月、済州島週末2日間で最高のチームビルディング旅",
-      "generated_at": "2026-07-04T01:11:55",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_70_dolphin.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0214.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0115.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0151.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_j.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_ohongss.jpg",
-        "https://example.com/yacht_exterior.jpg",
-        "https://example.com/onboard_food.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0089.jpg"
-      ],
-      "image_count": 9,
-      "remaining_candidates": 1
-    },
-    {
       "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__zh-CN",
       "lang": "zh-CN",
       "file": "blog_queue/zh-CN/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
@@ -1622,6 +1602,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 16
+    },
+    {
+      "key": "auto_04_07_06__zh-CN",
+      "lang": "zh-CN",
+      "file": "blog_queue/zh-CN/auto_04_07_06.md",
+      "title": "2026年济州岛格兰蓝游艇：最佳季节与奢华体验",
+      "generated_at": "2026-08-14T00:33:37",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_318_aerial.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0155.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0001.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0180.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0200.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0021.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_seoyurim_0818.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 12
     }
   ]
 }
