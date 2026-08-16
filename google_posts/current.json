@@ -1,35 +1,35 @@
 {
-  "week": "2026-W33",
-  "generated_at": "2026-08-10T01:23:01",
+  "week": "2026-W34",
+  "generated_at": "2026-08-17T01:11:15",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "yacht_11_cockpit.jpg",
-      "seo_keywords": "제주 일몰 명소, 서귀포 요트, 제주 프로포즈, 제주 어린이 동반",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W33_ko.txt",
-      "body_length": 761
+      "photo": "yacht_88_sunset.jpg",
+      "seo_keywords": "제주 6월 가볼만한곳, 제주 커플여행, 제주 프로포즈, 제주 노을",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W34_ko.txt",
+      "body_length": 677
     },
     "en": {
       "label": "English",
-      "photo": "yacht_237_deck_exterior.jpg",
-      "seo_keywords": "sunset cruise jeju, seogwipo yacht, jeju wine cruise, jeju luxury yacht",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W33_en.txt",
-      "body_length": 1261
+      "photo": "yacht_91_sunset.jpg",
+      "seo_keywords": "jeju weekend trip, jeju couple activity, jeju wine cruise, jeju private cruise",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W34_en.txt",
+      "body_length": 1319
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "yacht_11_cockpit.jpg",
-      "seo_keywords": "济州岛60分钟航程, 济州岛私人游艇, 济州岛日落, 济州岛游艇",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W33_zh-CN.txt",
-      "body_length": 620
+      "photo": "influencer_0088.jpg",
+      "seo_keywords": "大浦港游艇, 济州岛私人游艇, 韩国双体船, 济州岛约会",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W34_zh-CN.txt",
+      "body_length": 575
     },
     "ja": {
       "label": "日本語",
-      "photo": "yacht_23_cockpit.jpg",
-      "seo_keywords": "済州島人気スポット, 済州島ラーメンクルーズ, 済州島ヨット, 済州島夜景",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W33_ja.txt",
-      "body_length": 733
+      "photo": "influencer_0212.jpg",
+      "seo_keywords": "済州島おすすめアクティビティ, 済州島友達旅行, 韓国カタマラン, 済州島飲み放題",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W34_ja.txt",
+      "body_length": 664
     }
   },
   "_generator": "google_posts_generate_cloud.py (gemini)"
