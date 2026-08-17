@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_12_07_02__ru",
-      "lang": "ru",
-      "file": "blog_queue/ru/auto_12_07_02.md",
-      "title": "Очарование Ореумов Чеджу: Ваши Путеводитель по Скрытым Вулканическим Конусам",
-      "generated_at": "2026-07-07T01:00:42",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0028.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0139.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0148.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0158.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0085.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_281_luxury.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_25_03_04__ru",
       "lang": "ru",
       "file": "blog_queue/ru/auto_25_03_04.md",
@@ -1609,6 +1592,23 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0085.jpg"
       ],
       "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_02_02_04__th",
+      "lang": "th",
+      "file": "blog_queue/th/auto_02_02_04.md",
+      "title": "คู่มือฉบับสมบูรณ์ พิชิตยอดเขาซองซาน อิลชุลบง ชมพระอาทิตย์ขึ้นสุดอลังการที่เชจู (2026)",
+      "generated_at": "2026-08-17T23:52:43",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0098.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0001.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0057.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0172.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0031.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0195.jpg"
+      ],
+      "image_count": 6,
       "remaining_candidates": 1
     }
   ]
