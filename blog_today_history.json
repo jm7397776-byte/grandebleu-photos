@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_25_03_04__ru",
-      "lang": "ru",
-      "file": "blog_queue/ru/auto_25_03_04.md",
-      "title": "Дождливый день на Чеджу: Что делать с детьми, если планы испортила погода?",
-      "generated_at": "2026-07-07T01:20:07",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0075.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0063.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0091.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0224.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0029.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0009.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0003.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_16_01_07__ru",
       "lang": "ru",
       "file": "blog_queue/ru/auto_16_01_07.md",
@@ -1609,6 +1591,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0195.jpg"
       ],
       "image_count": 6,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_13_00_00__vi",
+      "lang": "vi",
+      "file": "blog_queue/vi/auto_13_00_00.md",
+      "title": "Khu Nghỉ Dưỡng Jungmun Jeju: Những Điều Thú Vị Bạn Nhất Định Phải Thử Khi Đến Lần Đầu!",
+      "generated_at": "2026-08-18T00:33:52",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_88_sunset.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0104.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0185.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_leelee.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0221.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0205.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0026.jpg"
+      ],
+      "image_count": 7,
       "remaining_candidates": 1
     }
   ]
