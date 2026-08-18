@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-06-02",
-      "generated_at": "2026-06-02T15:10:00",
-      "topic_key": "price",
-      "title": "제주 요트투어 가격과 예약 전 확인할 점",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0093.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0037.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0046.jpg"
-      ]
-    },
-    {
       "date": "2026-06-03",
       "generated_at": "2026-06-03T15:23:46",
       "topic_key": "fishing",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_220_interior_lounge.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0179.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0152.png"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "generated_at": "2026-08-18T10:55:36",
+      "topic_key": "family",
+      "title": "부모님과 아이가 함께 타기 좋은 제주 요트",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0004.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0124.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0201.jpg"
       ]
     }
   ]
