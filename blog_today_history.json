@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_16_01_07__ru",
-      "lang": "ru",
-      "file": "blog_queue/ru/auto_16_01_07.md",
-      "title": "Самые инстаграмные места на Чеджу, где получатся идеальные фото!",
-      "generated_at": "2026-07-07T02:30:45",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_285_luxury.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_ji___yuuuu.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_dmsldmsldms.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0010.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0137.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0207.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_scene_05.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__th",
       "lang": "th",
       "file": "blog_queue/th/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
@@ -1609,6 +1591,23 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0026.jpg"
       ],
       "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_08_03_04__vi",
+      "lang": "vi",
+      "file": "blog_queue/vi/auto_08_03_04.md",
+      "title": "Tháng 8 này đi đâu ở Jeju? Khám phá Cheonjiyeon và Jeongbang: Hai thác nước diệu kỳ cho gia đình có trẻ nhỏ!",
+      "generated_at": "2026-08-18T23:52:40",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0169.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0065.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_o5__25.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_449_dolphin.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0099.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0205.jpg"
+      ],
+      "image_count": 6,
       "remaining_candidates": 1
     }
   ]
