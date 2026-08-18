@@ -40,6 +40,7 @@ jobs:
           git add local_posts/today.json local_posts/history.json
           if ! git diff --cached --quiet; then
             git commit -m "local posts render $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin main
             git push origin main
             curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/local_posts/today.json" || true
           else
