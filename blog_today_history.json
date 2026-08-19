@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__th",
-      "lang": "th",
-      "file": "blog_queue/th/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
-      "title": "ทริปล่องเรือยอร์ชเชจู: สัมผัสความหรูหรากับ Grande Bleu!",
-      "generated_at": "2026-07-08T00:30:40",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0090.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0075.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0066.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_amoufor_u.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0188.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_391_food.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_06_07_06__th",
       "lang": "th",
       "file": "blog_queue/th/auto_06_07_06.md",
@@ -1608,6 +1591,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0205.jpg"
       ],
       "image_count": 6,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_03_02_06__id",
+      "lang": "id",
+      "file": "blog_queue/id/auto_03_02_06.md",
+      "title": "Jeju Yacht Tour — Best Season | Grande Bleu Catamaran, Seogwipo Jeju (Chinese-speaking travelers)",
+      "generated_at": "2026-08-19T00:33:32",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0079.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_347_aerial.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0188.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0184.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0135.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0158.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0200.png"
+      ],
+      "image_count": 7,
       "remaining_candidates": 1
     }
   ]
