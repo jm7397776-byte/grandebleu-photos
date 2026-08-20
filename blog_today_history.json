@@ -1,25 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__vi",
-      "lang": "vi",
-      "file": "blog_queue/vi/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
-      "title": "Khám Phá Du Thuyền Jeju: Grande Bleu - Ngắm Hoàng Hôn Đẳng Cấp",
-      "generated_at": "2026-07-09T00:30:32",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0124.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0123.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0145.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0039.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_06.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0225.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0074.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_o5__25.jpg"
-      ],
-      "image_count": 8,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_11_06_02__vi",
       "lang": "vi",
       "file": "blog_queue/vi/auto_11_06_02.md",
@@ -1607,6 +1588,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0190.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0274.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0092.png"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_00_02_06__es",
+      "lang": "es",
+      "file": "blog_queue/es/auto_00_02_06.md",
+      "title": "Descubriendo Jeju por Primera Vez: Tu Guía Imprescindible para el Verano 2026",
+      "generated_at": "2026-08-20T23:54:01",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_349_aerial.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0191.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0096.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0042.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0107.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0096.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0105.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
