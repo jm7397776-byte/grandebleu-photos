@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-06-06",
-      "generated_at": "2026-06-06T14:11:20",
-      "topic_key": "family",
-      "title": "부모님과 아이가 함께 타기 좋은 제주 요트",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0112.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0106.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0079.png"
-      ]
-    },
-    {
       "date": "2026-06-07",
       "generated_at": "2026-06-07T14:58:30",
       "topic_key": "premium",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0083.png",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0060.png",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0209.jpg"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "generated_at": "2026-08-20T11:20:43",
+      "topic_key": "course",
+      "title": "월평 주상절리와 코끼리바위를 바다에서",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_127_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0159.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0119.jpg"
       ]
     }
   ]
