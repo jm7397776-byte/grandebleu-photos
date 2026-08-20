@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-06-07",
-      "generated_at": "2026-06-07T14:58:30",
-      "topic_key": "premium",
-      "title": "호텔 여행에 어울리는 프리미엄 요트 코스",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0018.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0047.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0067.jpg"
-      ]
-    },
-    {
       "date": "2026-06-08",
       "generated_at": "2026-06-08T15:14:49",
       "topic_key": "fishing",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_127_interior_lounge.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0159.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0119.jpg"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "generated_at": "2026-08-20T11:35:32",
+      "topic_key": "price",
+      "title": "제주 요트투어 가격과 예약 전 확인할 점",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0076.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0070.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0254.jpg"
       ]
     }
   ]
