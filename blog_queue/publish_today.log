@@ -1942,3 +1942,20 @@
 
 [2026-08-20T00:33:46] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/solo-traveling-di-jeju-ini-kegiatan.html
 [2026-08-20T00:33:46] Telegram notification sent
+[2026-08-20T01:48:47] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-08-20T01:48:58] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/jeju-yacht-tour-best-season-grande-bleu_01986216697.html
+[2026-08-20T01:48:58] Telegram notification sent
