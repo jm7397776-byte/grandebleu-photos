@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_13_06_02__th",
-      "lang": "th",
-      "file": "blog_queue/th/auto_13_06_02.md",
-      "title": "เที่ยวเชจูคนเดียว? มาเช็คอินที่จุงมุนรีสอร์ทโซน สนุกได้ไม่ซ้ำใคร!",
-      "generated_at": "2026-07-08T01:05:43",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0047.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0121.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0197.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0058.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0052.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0043.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0111.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__vi",
       "lang": "vi",
       "file": "blog_queue/vi/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
@@ -1607,6 +1589,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_169_luxury.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0240.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0025.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_24_06_06__es",
+      "lang": "es",
+      "file": "blog_queue/es/auto_24_06_06.md",
+      "title": "Jeju Yacht Tour — Best Season | Grande Bleu Catamaran, Seogwipo Jeju (solo travelers)",
+      "generated_at": "2026-08-20T00:33:36",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_143_deck_exterior.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0020.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0052.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0084.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0190.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0274.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0092.png"
       ],
       "image_count": 7,
       "remaining_candidates": 1
