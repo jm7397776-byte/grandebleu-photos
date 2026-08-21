@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-06-08",
-      "generated_at": "2026-06-08T15:14:49",
-      "topic_key": "fishing",
-      "title": "처음 해보는 바다낚시도 편하게",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_daxxni.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0001.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_lala_mong.jpg"
-      ]
-    },
-    {
       "date": "2026-06-09",
       "generated_at": "2026-06-09T14:40:31",
       "topic_key": "price",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0076.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0070.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0254.jpg"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "generated_at": "2026-08-21T11:37:56",
+      "topic_key": "food",
+      "title": "맥주와 간식까지 포함된 가벼운 요트 시간",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0080.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0006.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0147.jpg"
       ]
     }
   ]
