@@ -1993,3 +1993,20 @@
 
 [2026-08-21T01:55:22] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/escapade-romantique-jeju-les-falaises.html
 [2026-08-21T01:55:23] Telegram notification sent
+[2026-08-22T00:33:32] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-08-22T00:33:43] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/road-trip-en-solo-jeju-la-magnifique.html
+[2026-08-22T00:33:43] Telegram notification sent
