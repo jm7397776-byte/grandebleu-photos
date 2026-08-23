@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_05_07_04__id",
-      "lang": "id",
-      "file": "blog_queue/id/auto_05_07_04.md",
-      "title": "Panduan Lengkap Menjelajahi Pesona Seogwipo: Surga Tersembunyi di Jeju",
-      "generated_at": "2026-07-10T01:12:35",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0091.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0276.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0082.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_189_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0099.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0096.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0264.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__es",
       "lang": "es",
       "file": "blog_queue/es/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
@@ -1605,6 +1587,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0139.jpg"
       ],
       "image_count": 6,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_23_04_03__it",
+      "lang": "it",
+      "file": "blog_queue/it/auto_23_04_03.md",
+      "title": "Jeju Lontano dalla Folla: Itinerari Romantici e Tranquilli per Coppie (Agosto 2026)",
+      "generated_at": "2026-08-23T00:34:04",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0145.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0041.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0036.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0195.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0022.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0092.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0195.jpg"
+      ],
+      "image_count": 7,
       "remaining_candidates": 1
     }
   ]
