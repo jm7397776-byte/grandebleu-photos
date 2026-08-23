@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__es",
-      "lang": "es",
-      "file": "blog_queue/es/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
-      "title": "Jeju Yacht: Atardecer Inolvidable en Catamarán de Lujo",
-      "generated_at": "2026-07-11T00:30:30",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_428_interior_lounge.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0216.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0242.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0128.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0099.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0060.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_11_07_05__es",
       "lang": "es",
       "file": "blog_queue/es/auto_11_07_05.md",
@@ -1605,6 +1588,25 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0195.jpg"
       ],
       "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_24_06_05__it",
+      "lang": "it",
+      "file": "blog_queue/it/auto_24_06_05.md",
+      "title": "Jeju in Solitaria: Le Spiagge Nascoste e la Costa Sud per un Viaggio Indimenticabile ad Agosto 2026!",
+      "generated_at": "2026-08-23T23:51:54",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0149.jpg",
+        "https://example.com/jungmun_beach.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0011.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0219.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0161.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0187.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0054.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0188.jpg"
+      ],
+      "image_count": 8,
       "remaining_candidates": 1
     }
   ]
