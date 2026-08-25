@@ -2112,3 +2112,20 @@
 
 [2026-08-25T00:33:47] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/jeju-yacht-tour-how-to-book-grande-bleu_0188394641.html
 [2026-08-25T00:33:48] Telegram notification sent
+[2026-08-25T01:49:30] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-08-25T01:49:42] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/blog-post_25.html
+[2026-08-25T01:49:43] Telegram notification sent
