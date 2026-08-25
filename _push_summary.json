@@ -1,0 +1,37 @@
+{
+  "sail": {
+    "copied": 253,
+    "blocked": 0,
+    "source": "1.요트사진"
+  },
+  "facility": {
+    "copied": 112,
+    "blocked": 0,
+    "source": "2.요트시설"
+  },
+  "food": {
+    "copied": 242,
+    "blocked": 0,
+    "source": "3. 먹을거 사진"
+  },
+  "ocean": {
+    "copied": 203,
+    "blocked": 0,
+    "source": "4.바다&포인트사진"
+  },
+  "fishing": {
+    "copied": 7,
+    "blocked": 0,
+    "source": "6.낚시사진"
+  },
+  "dolphin": {
+    "copied": 40,
+    "blocked": 0,
+    "source": "7.돌고래"
+  },
+  "influencer": {
+    "copied": 303,
+    "blocked": 22,
+    "source": "archive/처리됨"
+  }
+}

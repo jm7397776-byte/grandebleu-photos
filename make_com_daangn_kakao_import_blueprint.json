@@ -1,0 +1,95 @@
+{
+  "name": "Grande Bleu — Daangn Kakao Daily Package",
+  "flow": [
+    {
+      "id": 1,
+      "module": "builtin:BasicTrigger",
+      "version": 1,
+      "metadata": {
+        "designer": { "x": 0, "y": 0 },
+        "expect": [
+          { "name": "label", "type": "text", "label": "Schedule" }
+        ]
+      },
+      "parameters": {},
+      "mapper": {}
+    },
+    {
+      "id": 2,
+      "module": "http:ActionSendData",
+      "version": 3,
+      "parameters": {
+        "handleErrors": false,
+        "useNewZLibDeCompress": true
+      },
+      "mapper": {
+        "ca": "",
+        "qs": [],
+        "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/local_posts/today.json",
+        "data": "",
+        "gzip": true,
+        "method": "get",
+        "headers": [],
+        "timeout": "",
+        "useMtls": false,
+        "authPass": "",
+        "authUser": "",
+        "bodyType": "",
+        "contentType": "application/json",
+        "serializeUrl": false,
+        "shareCookies": false,
+        "parseResponse": true,
+        "followRedirect": true,
+        "useQuerystring": false,
+        "followAllRedirects": false,
+        "rejectUnauthorized": true
+      },
+      "metadata": {
+        "designer": { "x": 300, "y": 0 },
+        "restore": {
+          "parameters": {
+            "method": { "label": "GET" }
+          },
+          "expect": {
+            "qs": { "mode": "chose", "items": [] },
+            "method": { "mode": "chose", "label": "GET" },
+            "headers": { "mode": "chose", "items": [] }
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "instant": false,
+    "version": 1,
+    "scenario": {
+      "roundtrips": 1,
+      "maxErrors": 3,
+      "autoCommit": true,
+      "autoCommitTriggerLast": true,
+      "sequential": false,
+      "confidential": false,
+      "dataloss": false,
+      "dlq": false,
+      "freshVariables": false
+    },
+    "designer": { "orphans": [] },
+    "zone": "us2.make.com"
+  },
+  "scheduling": {
+    "type": "indefinitely",
+    "interval": 86400,
+    "time": "10:45",
+    "timezone": "Asia/Seoul"
+  },
+  "_setup_notes": {
+    "after_import": [
+      "Run once to let Make learn the JSON response structure.",
+      "Add Router after HTTP.",
+      "Route 1: send channels.daangn title/body/image_urls/cta_url to Telegram or queue.",
+      "Route 2: send channels.kakao_channel title/body/image_url/button_url to Telegram or queue.",
+      "Keep this scenario separate from Pinterest."
+    ],
+    "data_source": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/local_posts/today.json"
+  }
+}

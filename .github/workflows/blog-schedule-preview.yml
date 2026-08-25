@@ -1,0 +1,49 @@
+name: Grande Bleu Blog Schedule Preview
+
+# 매주 월 09:00 KST — 앞으로 14일 발행 예정을 텔레그램으로 전송 + repo 일정표 갱신.
+on:
+  schedule:
+    - cron: "0 0 * * 1"   # UTC 월 00:00 = KST 월 09:00
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: blog-schedule-preview
+  cancel-in-progress: false
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build + send schedule preview
+        env:
+          REPO_DIR: ${{ github.workspace }}
+          PREVIEW_DAYS: "14"
+          PREVIEW_SEND_TG: "1"
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT: ${{ secrets.TG_CHAT }}
+        run: python3 .github/scripts/blog_schedule_preview_cloud.py
+
+      - name: Commit schedule file
+        run: |
+          git config user.email "jm7397776@gmail.com"
+          git config user.name "jm7397776-byte"
+          git add blog_queue/UPCOMING_SCHEDULE.md
+          if ! git diff --cached --quiet; then
+            git commit -m "blog upcoming schedule $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin main
+          else
+            echo "No schedule change"
+          fi

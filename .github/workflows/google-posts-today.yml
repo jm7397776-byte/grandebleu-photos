@@ -1,0 +1,60 @@
+name: Grande Bleu Google Posts Today Render
+
+on:
+  schedule:
+    # KST 04:00 = UTC 19:00 (전날). Make.com이 09:00 KST에 fetch하기 전 충분한 버퍼.
+    - cron: "0 19 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: google-posts-today
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Render GBP today.json (KST)
+        env:
+          REPO_DIR: ${{ github.workspace }}
+        run: |
+          python3 .github/scripts/google_posts_today_cloud.py
+
+      - name: Commit today.json
+        run: |
+          git config user.email "jm7397776@gmail.com"
+          git config user.name "jm7397776-byte"
+          git add google_posts/today.json
+          if ! git diff --cached --quiet; then
+            git commit -m "google posts today.json (KST) $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin main
+            curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/google_posts/today.json" || true
+          else
+            echo "No change in today.json"
+          fi
+
+      - name: Notify failure
+        if: failure()
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT: ${{ secrets.TG_CHAT }}
+        run: |
+          if [ -n "$TG_TOKEN" ] && [ -n "$TG_CHAT" ]; then
+            MSG=$(printf '⚠️ 그랑블루 구글 GBP today.json 생성 실패\nworkflow: %s\nrun: %s/%s/actions/runs/%s' "$GITHUB_WORKFLOW" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")
+            curl -fsS -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+              -d "chat_id=${TG_CHAT}" \
+              --data-urlencode "text=${MSG}" || true
+          fi

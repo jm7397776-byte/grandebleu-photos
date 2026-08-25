@@ -1,0 +1,138 @@
+{
+  "name": "Grande Bleu — Auto GBP Daily Post",
+  "flow": [
+    {
+      "id": 1,
+      "module": "builtin:BasicTrigger",
+      "version": 1,
+      "metadata": {
+        "designer": { "x": 0, "y": 0 },
+        "expect": [
+          { "name": "label", "type": "text", "label": "Schedule" }
+        ]
+      },
+      "parameters": {},
+      "mapper": {}
+    },
+    {
+      "id": 2,
+      "module": "http:ActionSendData",
+      "version": 3,
+      "parameters": { "handleErrors": false, "useNewZLibDeCompress": true },
+      "mapper": {
+        "ca": "",
+        "qs": [],
+        "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/today.json",
+        "data": "",
+        "gzip": true,
+        "method": "get",
+        "headers": [],
+        "timeout": "",
+        "useMtls": false,
+        "authPass": "",
+        "authUser": "",
+        "bodyType": "",
+        "contentType": "application/json",
+        "serializeUrl": false,
+        "shareCookies": false,
+        "parseResponse": true,
+        "followRedirect": true,
+        "useQuerystring": false,
+        "followAllRedirects": false,
+        "rejectUnauthorized": true
+      },
+      "metadata": {
+        "designer": { "x": 300, "y": 0 },
+        "restore": {
+          "parameters": { "method": { "label": "GET" } },
+          "expect": {
+            "qs": { "mode": "chose", "items": [] },
+            "method": { "mode": "chose", "label": "GET" },
+            "headers": { "mode": "chose", "items": [] }
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "module": "google-my-business:createLocalPost",
+      "version": 1,
+      "parameters": {
+        "__IMTCONN__": "REPLACE_AFTER_OAUTH"
+      },
+      "mapper": {
+        "accountId": "REPLACE_WITH_USER_ACCOUNT",
+        "locationId": "REPLACE_WITH_LOCATION_ID",
+        "languageCode": "{{2.lang}}",
+        "summary": "{{2.body}}",
+        "topicType": "STANDARD",
+        "media": [
+          {
+            "mediaFormat": "PHOTO",
+            "sourceUrl": "{{2.photo_url}}"
+          }
+        ],
+        "callToAction": {
+          "actionType": "{{2.cta_action_type}}",
+          "url": "{{2.cta_url}}"
+        }
+      },
+      "filter": {
+        "name": "Publish today",
+        "conditions": [
+          [
+            {
+              "a": "{{2.publish}}",
+              "o": "text:equal",
+              "b": "true"
+            }
+          ]
+        ]
+      },
+      "metadata": {
+        "designer": { "x": 600, "y": 0 }
+      }
+    }
+  ],
+  "metadata": {
+    "instant": false,
+    "version": 1,
+    "scenario": {
+      "roundtrips": 1,
+      "maxErrors": 3,
+      "autoCommit": true,
+      "autoCommitTriggerLast": true,
+      "sequential": false,
+      "confidential": false,
+      "dataloss": false,
+      "dlq": false,
+      "freshVariables": false
+    },
+    "designer": { "orphans": [] },
+    "zone": "us2.make.com"
+  },
+  "scheduling": {
+    "type": "indefinitely",
+    "interval": 86400,
+    "time": "09:00",
+    "timezone": "Asia/Seoul"
+  },
+  "_setup_notes": {
+    "after_import": [
+      "1. Open the imported scenario",
+      "2. Click module 3 (Google Business Profile - Create a Local Post)",
+      "3. Click 'Add' under Connection — sign in with grandebleu owner Google account (jm7397776@gmail.com)",
+      "4. Select location: 제주 그랑블루요트, Grande Bleu Yacht",
+      "5. Save + toggle scenario ON",
+      "6. First run will fire at next 09:00 KST"
+    ],
+    "data_source": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/today.json",
+    "daily_languages": {
+      "Mon": "zh-CN",
+      "Tue": "en",
+      "Wed": "ja",
+      "Thu": "ko",
+      "Fri-Sun": "skip (publish=false)"
+    }
+  }
+}

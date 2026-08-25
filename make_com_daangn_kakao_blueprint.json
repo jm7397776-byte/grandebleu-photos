@@ -1,0 +1,83 @@
+{
+  "name": "Grande Bleu - Daangn and Kakao Channel Daily Package",
+  "purpose": "Fetch the daily local social package and route separate Daangn/Karrot and KakaoTalk Channel posting packages.",
+  "source_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/local_posts/today.json",
+  "schedule": {
+    "timezone": "Asia/Seoul",
+    "time": "10:45",
+    "reason": "GitHub Actions renders local_posts/today.json at 10:30 KST."
+  },
+  "modules": [
+    {
+      "step": 1,
+      "make_module": "Scheduler",
+      "settings": {
+        "run": "Every day",
+        "time": "10:45",
+        "timezone": "Asia/Seoul"
+      }
+    },
+    {
+      "step": 2,
+      "make_module": "HTTP - Make a request",
+      "settings": {
+        "method": "GET",
+        "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/local_posts/today.json",
+        "parse_response": true
+      }
+    },
+    {
+      "step": 3,
+      "make_module": "Filter",
+      "settings": {
+        "condition": "{{2.publish}} equals true"
+      }
+    },
+    {
+      "step": 4,
+      "make_module": "Router",
+      "routes": [
+        {
+          "name": "Daangn business profile package",
+          "recommended_module": "Telegram Bot - Send a message",
+          "fallback_module": "Google Sheets - Add a row",
+          "message_template": "🥕 당근마켓 업로드 패키지\n\n제목:\n{{2.channels.daangn.title}}\n\n본문:\n{{2.channels.daangn.body}}\n\n사진 1:\n{{2.channels.daangn.image_urls[1]}}\n사진 2:\n{{2.channels.daangn.image_urls[2]}}\n사진 3:\n{{2.channels.daangn.image_urls[3]}}\n\n예약 링크:\n{{2.channels.daangn.cta_url}}\n\n대상:\n{{2.channels.daangn.manual_target}}\n\n주의:\n{{2.channels.daangn.compliance_note}}"
+        },
+        {
+          "name": "KakaoTalk Channel package",
+          "recommended_module": "Telegram Bot - Send a message",
+          "fallback_module": "Google Sheets - Add a row",
+          "message_template": "💬 카카오채널 업로드 패키지\n\n제목:\n{{2.channels.kakao_channel.title}}\n\n본문:\n{{2.channels.kakao_channel.body}}\n\n대표 사진:\n{{2.channels.kakao_channel.image_url}}\n\n추가 사진:\n{{2.channels.kakao_channel.image_urls[2]}}\n\n버튼:\n{{2.channels.kakao_channel.button_title}}\n{{2.channels.kakao_channel.button_url}}\n\n대상:\n{{2.channels.kakao_channel.manual_target}}\n\n주의:\n{{2.channels.kakao_channel.compliance_note}}"
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "make_module": "Error handler",
+      "settings": {
+        "recommended_action": "Send Telegram failure alert with scenario name, execution URL, and HTTP response body.",
+        "recovery_owner": "Codex automation grande-bleu-local-posts-failure-recovery checks the feed side; Make execution errors still require Make log access or alert forwarding."
+      }
+    }
+  ],
+  "direct_posting_status": {
+    "daangn": {
+      "api_direct_supported": false,
+      "reason": "Public Daangn Business documentation describes business profile and advertising features, but no stable public create-post API for Make HTTP posting was confirmed.",
+      "safe_mode": "Generate package, notify, and post through the official manager surface or an approved partner/API if later granted."
+    },
+    "kakao_channel": {
+      "api_direct_supported": false,
+      "reason": "Kakao Developers channel APIs cover relationship, channel add/chat entry points, webhook, and customer file management; general channel post publishing was not listed in the public REST API reference.",
+      "safe_mode": "Generate package, notify, and post through KakaoTalk Channel Manager or an approved business message/channel posting product if later granted."
+    }
+  },
+  "test_plan": [
+    "Run GitHub workflow Grande Bleu Local Posts Today Render.",
+    "Open the source URL and confirm publish=true.",
+    "Run the Make scenario once.",
+    "Confirm two messages arrive: one Daangn package and one KakaoTalk Channel package.",
+    "Confirm image URLs open and are not repeated from the previous local_posts/history.json entries.",
+    "If a Make module fails, forward the execution URL/error email so Codex can patch the feed or Make mapping."
+  ]
+}
