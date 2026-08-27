@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__de",
-      "lang": "de",
-      "file": "blog_queue/de/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
-      "title": "Jeju Yacht Tour: Luxuriöses Segeln & Sonnenuntergang in Korea",
-      "generated_at": "2026-07-13T00:30:38",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_87_general.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_118_interior_lounge.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0081.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0086.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0085.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0122.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_02_00_07__de",
       "lang": "de",
       "file": "blog_queue/de/auto_02_00_07.md",
@@ -1606,6 +1589,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0091.png",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0119.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0122.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_06_07_04__ms",
+      "lang": "ms",
+      "file": "blog_queue/ms/auto_06_07_04.md",
+      "title": "Jeju Yacht Tour — Photo Spots | Grande Bleu Catamaran, Seogwipo Jeju (premium hotel guests)",
+      "generated_at": "2026-08-27T04:59:28",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_423_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0296.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0061.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_121_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0054.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0233.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0202.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
