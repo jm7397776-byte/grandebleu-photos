@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-06-19",
-      "generated_at": "2026-06-19T15:37:23",
-      "topic_key": "premium",
-      "title": "호텔 여행에 어울리는 프리미엄 요트 코스",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0044.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0091.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0030.jpg"
-      ]
-    },
-    {
       "date": "2026-06-20",
       "generated_at": "2026-06-20T14:50:49",
       "topic_key": "fishing",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0015.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0137.png",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0260.jpg"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "generated_at": "2026-08-27T20:39:22",
+      "topic_key": "food",
+      "title": "맥주와 간식까지 포함된 가벼운 요트 시간",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0112.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0092.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0052.png"
       ]
     }
   ]
