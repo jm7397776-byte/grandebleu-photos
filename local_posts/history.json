@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-06-21",
-      "generated_at": "2026-06-21T15:24:12",
-      "topic_key": "price",
-      "title": "제주 요트투어 가격과 예약 전 확인할 점",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0034.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0293.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0149.png"
-      ]
-    },
-    {
       "date": "2026-06-22",
       "generated_at": "2026-06-22T15:54:58",
       "topic_key": "course",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0002.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0284.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0134.jpg"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "generated_at": "2026-08-28T22:03:39",
+      "topic_key": "sunset",
+      "title": "제주 선셋을 가장 조용하게 보는 방법",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_369_aerial.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0069.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_o5__25.jpg"
       ]
     }
   ]
