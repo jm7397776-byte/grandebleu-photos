@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_02_00_07__de",
-      "lang": "de",
-      "file": "blog_queue/de/auto_02_00_07.md",
-      "title": "Jeju Yacht Tour — The Catamaran | Grande Bleu Catamaran, Seogwipo Jeju (first-time visitors)",
-      "generated_at": "2026-07-13T01:00:33",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_57_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0246.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0126.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0009.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0133.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0034.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0107.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_24_06_03__de",
       "lang": "de",
       "file": "blog_queue/de/auto_24_06_03.md",
@@ -1609,6 +1591,23 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0202.jpg"
       ],
       "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_18_01_05__tl",
+      "lang": "tl",
+      "file": "blog_queue/tl/auto_18_01_05.md",
+      "title": "Jeju Olle Trail: Mga Highlight ng Coastal Hike na 'Di Dapat Palampasin Ngayong Agosto 2026!",
+      "generated_at": "2026-08-28T00:33:41",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0057.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0062.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_391_food.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0068.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0104.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0061.jpg"
+      ],
+      "image_count": 6,
       "remaining_candidates": 1
     }
   ]
