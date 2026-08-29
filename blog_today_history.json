@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_02_01_02__it",
-      "lang": "it",
-      "file": "blog_queue/it/auto_02_01_02.md",
-      "title": "Alba mozzafiato a Seongsan Ilchulbong: la tua guida completa per il 2026",
-      "generated_at": "2026-07-14T00:58:15",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_310_luxury.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0215.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0173.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0249.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0039.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0035.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0009.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_16_03_01__it",
       "lang": "it",
       "file": "blog_queue/it/auto_16_03_01.md",
@@ -1607,6 +1589,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0135.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0053.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0126.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_14_03_06__tr",
+      "lang": "tr",
+      "file": "blog_queue/tr/auto_14_03_06.md",
+      "title": "Jeju Ailece Keşif: Çocuklarla Unutulmaz Bir Sahil Sürüş Rotası!",
+      "generated_at": "2026-08-29T04:18:26",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0201.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0151.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0056.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_281_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0159.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0183.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0120.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 1
