@@ -2199,3 +2199,20 @@
 [2026-08-28T11:12:25] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/jeju-yacht-tour-route-highlights-grande_0794177723.html
 [2026-08-28T11:12:26] Telegram notification sent
 [2026-08-29T00:33:39] already published: Jeju Yacht Tour — Route & Highlights | Grande Bleu Catamaran, Seogwipo Jeju (families with kids)
+[2026-08-29T06:56:35] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-08-29T06:56:46] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/jeju-ailece-kesif-cocuklarla-unutulmaz.html
+[2026-08-29T06:56:47] Telegram notification sent
