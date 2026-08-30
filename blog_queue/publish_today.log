@@ -2217,3 +2217,20 @@
 [2026-08-29T06:56:46] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/jeju-ailece-kesif-cocuklarla-unutulmaz.html
 [2026-08-29T06:56:47] Telegram notification sent
 [2026-08-30T00:33:28] already published: Jeju Ailece Keşif: Çocuklarla Unutulmaz Bir Sahil Sürüş Rotası!
+[2026-08-30T05:12:09] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-08-30T05:12:21] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/blog-post_30.html
+[2026-08-30T05:12:21] Telegram notification sent
