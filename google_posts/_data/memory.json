@@ -2,30 +2,6 @@
   "recent_posts": [
     {
       "week": "2026-W28",
-      "lang": "ko",
-      "angle": "couple_romance",
-      "first_sentence": "주말 일몰 가장 늦은 시즌, 제주 프로포즈 명소 그랑블루요트에서 로맨틱한 순간을 계획해 보세요. 잊지 못할 커플 데이트, 감동적인 프로포즈, 소중한 결혼기념일까지 제주 노을 아래 단독 갑판 좌석에서 인생샷을 남길 수 있답니다.",
-      "hash": "1d5fefa54bf5",
-      "added": "2026-07-06T01:53:09"
-    },
-    {
-      "week": "2026-W28",
-      "lang": "en",
-      "angle": "couple_romance",
-      "first_sentence": "Imagine the latest sunset weekends of the year, painting the sky with hues of romance as you sail aboard Korea's only certified catamaran. Our 60-minute Grande Bleu Yacht cruise from Daepo Port, Seogw",
-      "hash": "5ec1983ad2ce",
-      "added": "2026-07-06T01:53:41"
-    },
-    {
-      "week": "2026-W28",
-      "lang": "zh-CN",
-      "angle": "couple_romance",
-      "first_sentence": "济州岛纪念日，这个全年日落最晚的周末，正是与爱人共度浪漫时光的绝佳机会！在Grande Bleu Yacht的专属甲板座位上，以夕阳为背景，享受极致浪漫氛围，为你们的爱情留下永恒印记。",
-      "hash": "4603f69ced16",
-      "added": "2026-07-06T01:54:15"
-    },
-    {
-      "week": "2026-W28",
       "lang": "ja",
       "angle": "couple_romance",
       "first_sentence": "年で最も日没が遅い週末、済州島カップル旅行に忘れられないロマンチックな思い出を作りませんか？済州島 (チェジュド) で唯一の認定カタマラン、Grande Bleu Yacht が、特別な夕暮れの体験をお届けします。",
@@ -255,6 +231,30 @@
       "first_sentence": "海が穏やかな季節、済州島週末旅行で特別な体験を探しているなら、グランブルーヨットの60分クルーズがおすすめです。漢拏山 (ハルラサン) を背景に、済州島 (チェジュド) の真髄を60分で味わえる、まさに贅沢な時間。大浦港 (Daepo港) から出発するグランブルーヨットは、韓国で唯一の認定カタマランとして、2011年の就航以来10万人以上のお客様を安全にご案内してきました。",
       "hash": "895ddb69c2f3",
       "added": "2026-08-24T01:11:31"
+    },
+    {
+      "week": "2026-W36",
+      "lang": "ko",
+      "angle": "sunset_timing",
+      "first_sentence": "주말 일몰 가장 늦은 시즌, 제주 서귀포 바다를 온전히 누릴 수 있는 특별한 요트 경험을 찾고 있다면 그랑블루요트 선셋 크루즈가 완벽한 선택입니다. 해 질 녘 황금 시간, 가장 늦은 일몰을 배경으로 대포항을 출항하는 60분간의 항해는 잊지 못할 추억을 선사할 거예요.",
+      "hash": "ea4e092c7134",
+      "added": "2026-08-31T03:59:47"
+    },
+    {
+      "week": "2026-W36",
+      "lang": "en",
+      "angle": "sunset_timing",
+      "first_sentence": "As the latest sunset weekends of the year arrive, I found myself on the Grande Bleu Yacht, mesmerized by Jeju's golden hour. This isn't just any boat trip; it's Korea's only certified catamaran, offer",
+      "hash": "816fcf1d6e1a",
+      "added": "2026-08-31T03:59:50"
+    },
+    {
+      "week": "2026-W36",
+      "lang": "zh-CN",
+      "angle": "sunset_timing",
+      "first_sentence": "本周末将迎来全年日落最晚的黄金时段，在西归浦大浦港，我终于体验了一次与众不同的济州岛日落景点游艇之旅！乘坐 Grande Bleu Yacht——韩国唯一认证的双体船，从大浦港出发，60分钟的夕阳巡游，将济州岛热门景点的魅力尽收眼底。",
+      "hash": "3d8ebd3c9c43",
+      "added": "2026-08-31T04:02:34"
     }
   ]
 }
