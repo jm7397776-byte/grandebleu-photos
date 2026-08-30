@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-06-25",
-      "generated_at": "2026-06-25T14:37:52",
-      "topic_key": "premium",
-      "title": "호텔 여행에 어울리는 프리미엄 요트 코스",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0109.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0022.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0200.png"
-      ]
-    },
-    {
       "date": "2026-06-26",
       "generated_at": "2026-06-26T14:44:33",
       "topic_key": "food",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0030.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0089.png",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0161.jpg"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "generated_at": "2026-08-30T15:57:05",
+      "topic_key": "fishing",
+      "title": "처음 해보는 바다낚시도 편하게",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0001.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_siaxxiii.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0053.jpg"
       ]
     }
   ]
