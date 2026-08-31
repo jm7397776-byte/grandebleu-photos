@@ -2235,3 +2235,20 @@
 [2026-08-30T05:12:21] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/blog-post_30.html
 [2026-08-30T05:12:21] Telegram notification sent
 [2026-08-31T00:33:30] already published: Халласан ууланд авирах нь: Хосуудад зориулсан Жежү арлын шилдэг адал явдал!
+[2026-08-31T05:20:16] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-08-31T05:20:27] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/08/jeju-yacht-tour-route-highlights-grande_01114789315.html
+[2026-08-31T05:20:28] Telegram notification sent
