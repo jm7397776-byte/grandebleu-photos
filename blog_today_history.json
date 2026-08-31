@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_14_07_04__pt",
-      "lang": "pt",
-      "file": "blog_queue/pt/auto_14_07_04.md",
-      "title": "Jeju de Carro: A Rota Cênica da Costa Sul que me Deixou Sem Fôlego!",
-      "generated_at": "2026-07-15T00:54:51",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0199.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0064.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0171.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_daxxni.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0114.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0084.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0118.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__ar",
       "lang": "ar",
       "file": "blog_queue/ar/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
@@ -1610,6 +1592,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_25_03_00__pl",
+      "lang": "pl",
+      "file": "blog_queue/pl/auto_25_03_00.md",
+      "title": "Jeju Yacht Tour — Route & Highlights | Grande Bleu Catamaran, Seogwipo Jeju (families with kids)",
+      "generated_at": "2026-08-31T00:33:29",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_287_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0052.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0250.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0101.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_dmsldmsldms.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0216.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0142.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 2
     }
   ]
 }
