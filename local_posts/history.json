@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-06-29",
-      "generated_at": "2026-06-29T15:13:17",
-      "topic_key": "fishing",
-      "title": "처음 해보는 바다낚시도 편하게",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0007.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0165.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0210.jpg"
-      ]
-    },
-    {
       "date": "2026-06-30",
       "generated_at": "2026-06-30T14:40:59",
       "topic_key": "sunset",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0004.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0123.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0031.jpg"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "generated_at": "2026-09-01T15:23:49",
+      "topic_key": "price",
+      "title": "제주 요트투어 가격과 예약 전 확인할 점",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0099.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0234.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0255.jpg"
       ]
     }
   ]
