@@ -1,26 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_14_01_03__ar",
-      "lang": "ar",
-      "file": "blog_queue/ar/auto_14_01_03.md",
-      "title": "رحلة أحلامك في جيجو: اكتشف أروع الطرق الساحلية الخلابة بالسيارة!",
-      "generated_at": "2026-07-16T01:03:24",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0008.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0004.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0057.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0126.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0195.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0258.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0113.jpg",
-        "https://example.com/grandebleu_sunset_yacht.jpg",
-        "https://example.com/grandebleu_guests_view.jpg"
-      ],
-      "image_count": 9,
-      "remaining_candidates": 1
-    },
-    {
       "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__hi",
       "lang": "hi",
       "file": "blog_queue/hi/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
@@ -1610,6 +1590,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_29_06_00__en",
+      "lang": "en",
+      "file": "blog_queue/en/auto_29_06_00.md",
+      "title": "Jeju Yacht Tour — Route & Highlights | Grande Bleu Catamaran, Seogwipo Jeju (solo travelers)",
+      "generated_at": "2026-09-01T00:33:33",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0169.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0034.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0102.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0058.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_eeeeeunae.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0289.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0012.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 15
     }
   ]
 }
