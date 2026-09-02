@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_09_00_06__hi",
-      "lang": "hi",
-      "file": "blog_queue/hi/auto_09_00_06.md",
-      "title": "Jeju Yacht Tour — Best Season | Grande Bleu Catamaran, Seogwipo Jeju (first-time visitors)",
-      "generated_at": "2026-07-17T01:06:50",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0106.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0198.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0033.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0163.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0046.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0204.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0152.png"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_03_06_06__ms",
       "lang": "ms",
       "file": "blog_queue/ms/auto_03_06_06.md",
@@ -1609,6 +1591,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 14
+    },
+    {
+      "key": "auto_08_00_06__ja",
+      "lang": "ja",
+      "file": "blog_queue/ja/auto_08_00_06.md",
+      "title": "済州島ヨット ベストシーズン｜Grande Bleu 西帰浦セーリング（はじめての済州島向け）",
+      "generated_at": "2026-09-02T00:33:30",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0106.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_ji___yuuuu.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0189.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0137.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0028.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_42_food.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0004.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 17
     }
   ]
 }
