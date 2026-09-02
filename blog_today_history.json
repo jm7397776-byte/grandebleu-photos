@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_03_06_06__ms",
-      "lang": "ms",
-      "file": "blog_queue/ms/auto_03_06_06.md",
-      "title": "Mendaki Gunung Hallasan Sendirian: Pengalaman Solo yang Mesti Cuba di Jeju",
-      "generated_at": "2026-07-18T00:30:43",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_180_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0012.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0030.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0001.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0007.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0054.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0051.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_10_04_01__ms",
       "lang": "ms",
       "file": "blog_queue/ms/auto_10_04_01.md",
@@ -1609,6 +1591,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 17
+    },
+    {
+      "key": "auto_04_04_04__ja",
+      "lang": "ja",
+      "file": "blog_queue/ja/auto_04_04_04.md",
+      "title": "済州島ヨット 撮影スポット｜Grande Bleu 西帰浦セーリング（カップル・ハネムーン向け）",
+      "generated_at": "2026-09-02T01:21:01",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0003.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0039.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0083.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0050.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_360_aerial.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0273.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0170.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 16
     }
   ]
 }
