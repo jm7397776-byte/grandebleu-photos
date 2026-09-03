@@ -52,6 +52,18 @@ def choose_not_recent(items, recent_values, key=None):
     return random.choice(fresh or items)
 
 
+def lang_of_today(titles: dict) -> str:
+    """[2026-09-02 주인님 승인 다양화] titles_pool.json의 languages_rotation(요일별 4언어)을 실사용."""
+    from datetime import datetime, timezone, timedelta
+    weekday = datetime.now(timezone(timedelta(hours=9))).strftime("%A").lower()
+    return (titles.get("languages_rotation") or {}).get(weekday, "en")
+
+
+def link_for(titles: dict, lang: str) -> str:
+    links = titles.get("links") or {}
+    return links.get(lang) or links.get("en") or LINK
+
+
 def build_run_pool(photos, titles, history):
     recent_files = {entry.get("file") for entry in history[-HISTORY_LIMIT:]}
     jpg_photos = [
@@ -68,8 +80,9 @@ def build_run_pool(photos, titles, history):
     random.shuffle(old_jpg_photos)
     jpg_photos.extend(old_jpg_photos)
 
-    title_pool = list(titles["titles"]["en"])
-    desc_pool = list(titles["descriptions"]["en"])
+    _lang = lang_of_today(titles)
+    title_pool = list(titles["titles"].get(_lang) or titles["titles"]["en"])
+    desc_pool = list(titles["descriptions"].get(_lang) or titles["descriptions"]["en"])
     random.shuffle(title_pool)
     random.shuffle(desc_pool)
 
@@ -81,7 +94,7 @@ def build_run_pool(photos, titles, history):
             "category": photo.get("category", ""),
             "title": title_pool[idx % len(title_pool)],
             "description": desc_pool[idx % len(desc_pool)],
-            "link": LINK,
+            "link": link_for(titles, _lang),
         })
 
     return {
@@ -106,8 +119,9 @@ def pick():
         if str(p.get("file", "")).lower().endswith((".jpg", ".jpeg"))
     ]
     photo = choose_not_recent(jpg_photos or photos["photos"], recent_files, key="file")
-    title = choose_not_recent(titles["titles"]["en"], recent_titles)
-    description = choose_not_recent(titles["descriptions"]["en"], recent_descriptions)
+    _lang = lang_of_today(titles)
+    title = choose_not_recent(titles["titles"].get(_lang) or titles["titles"]["en"], recent_titles)
+    description = choose_not_recent(titles["descriptions"].get(_lang) or titles["descriptions"]["en"], recent_descriptions)
 
     data = {
         "url": photo["url"],
@@ -115,7 +129,8 @@ def pick():
         "category": photo.get("category", ""),
         "title": title,
         "description": description,
-        "link": LINK,
+        "lang": _lang,
+        "link": link_for(titles, _lang),
         "board_id": "875176208778070248",
         "generated_at": now_kst(),
     }
