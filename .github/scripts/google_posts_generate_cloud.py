@@ -356,6 +356,31 @@ def main() -> int:
             add_to_memory(memory, week, lang, post, angle_id)
             success += 1
             print(f"  ✓ {lang}: {len(post)} chars, photo={photo}")
+            # [2026-09-02 주인님 승인 — GBP 일간 주2회 동일본문 제거] 같은 언어의 주 2번째
+            # 게시용 v2 변주: 다른 키워드 조합 + v1 도입부 회피 강제 + 다른 사진.
+            # 실패해도 v1만으로 종전 동작 유지(비차단).
+            try:
+                kw2 = select_keywords(pool, lang, week + "v2", n=4)
+                avoid2 = list(avoid) + [post[:200]]
+                prompt2 = build_prompt(lang, week, angle, weekly_hook, kw2, avoid2, brand)
+                post2 = ""
+                for _t2 in range(2):
+                    post2 = gemini(prompt2)
+                    if post2 and len(post2) > 300:
+                        break
+                if post2 and len(post2) > 300:
+                    photo2 = pick_photo(cats, lang, week + "v2", angle_id)
+                    (OUT_DIR / f"{week}_{lang}_v2.txt").write_text(post2, encoding="utf-8")
+                    languages[lang]["v2"] = {
+                        "photo": photo2,
+                        "body_url": f"{RAW_BASE}/google_posts/{week}_{lang}_v2.txt",
+                        "body_length": len(post2),
+                    }
+                    print(f"  ✓ {lang} v2: {len(post2)} chars, photo={photo2}")
+                else:
+                    print(f"  - {lang} v2 생성 실패(비차단, v1만 사용)")
+            except Exception as _e2:
+                print(f"  - {lang} v2 예외(비차단): {_e2}")
         else:
             print(f"  ✗ {lang}: 생성 실패 (len={len(post) if post else 0})")
 
