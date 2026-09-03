@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_00_01_07__tl",
-      "lang": "tl",
-      "file": "blog_queue/tl/auto_00_01_07.md",
-      "title": "Unang Beses sa Jeju: Ang mga Dapat Gawin Para sa Isang Hindi Malilimutang Biyahe!",
-      "generated_at": "2026-07-19T00:30:43",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0158.jpg",
-        "https://images.unsplash.com/photo-1627443195204-c187a0f6a5b6",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0121.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0020.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0009.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0120.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0072.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_06_05_05__tl",
       "lang": "tl",
       "file": "blog_queue/tl/auto_06_05_05.md",
@@ -1611,6 +1593,24 @@
       ],
       "image_count": 9,
       "remaining_candidates": 12
+    },
+    {
+      "key": "auto_02_06_03__zh-CN",
+      "lang": "zh-CN",
+      "file": "blog_queue/zh-CN/auto_02_06_03.md",
+      "title": "独自一人也能征服城山日出峰日出！济州岛自由行全攻略",
+      "generated_at": "2026-09-03T01:25:15",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_84_general.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0130.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0154.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0157.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0041.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0007.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0121.png"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 11
     }
   ]
 }
