@@ -73,6 +73,13 @@ def build_today(current: dict) -> dict:
     if not lang_data:
         return {**base, "publish": "false", "reason": f"{lang_code} data missing in current.json"}
 
+    # [2026-09-02] 같은 언어의 주 2번째 게시면 v2 변주 사용(있을 때만) — 주2회 동일본문 제거.
+    _occ_days = sorted(d for d, l in WEEKDAY_LANG.items() if l == lang_code)
+    _occ = _occ_days.index(weekday) if weekday in _occ_days else 0
+    _v2 = lang_data.get("v2") or {}
+    if _occ >= 1 and _v2.get("body_url"):
+        lang_data = {**lang_data, **_v2}
+
     body_text = ""
     body_url = lang_data.get("body_url", "")
     if body_url:
