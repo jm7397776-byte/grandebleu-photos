@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_06_05_05__tl",
-      "lang": "tl",
-      "file": "blog_queue/tl/auto_06_05_05.md",
-      "title": "Jeju East Coast Day Trip: Isang Gabay para sa 'Di Malilimutang Corporate Retreat!",
-      "generated_at": "2026-07-19T01:06:09",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0073.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0272.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0045.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0130.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0116.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0013.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 1
-    },
-    {
       "key": "2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog__tr",
       "lang": "tr",
       "file": "blog_queue/tr/2026-10-31_icpt_제주_조천_가볼만한곳_친구들과_여럿이_즐길_코스는_prog.md",
@@ -1611,6 +1594,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 11
+    },
+    {
+      "key": "auto_07_00_03__zh-TW",
+      "lang": "zh-TW",
+      "file": "blog_queue/zh-TW/auto_07_00_03.md",
+      "title": "濟州島親子遊：帶著孩子也能玩翻天！家庭友善景點大公開 (2026七月最新版)",
+      "generated_at": "2026-09-04T00:33:37",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_434_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0134.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0162.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0072.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0201.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0294.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0076.png"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 3
     }
   ]
 }
