@@ -2325,3 +2325,20 @@
 [2026-09-04T04:19:39] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/blog-post_04.html
 [2026-09-04T04:19:40] Telegram notification sent
 [2026-09-05T00:33:37] already published: 濟州島七月：避開人潮，享受靜謐假期的私藏景點與行程
+[2026-09-05T04:14:44] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-09-05T04:14:56] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/blog-post_05.html
+[2026-09-05T04:14:57] Telegram notification sent
