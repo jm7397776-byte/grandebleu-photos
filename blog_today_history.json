@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_24_05_00__mn",
-      "lang": "mn",
-      "file": "blog_queue/mn/auto_24_05_00.md",
-      "title": "Жэжү арал: Урд эрэг ба гайхалтай далайн эргүүдээр аялах нь",
-      "generated_at": "2026-07-21T01:02:47",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_127_interior_lounge.jpg",
-        "https://example.com/jeju_sunset_beach_hero.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0077.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0074.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0007.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0087.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0150.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_11_07_02__pl",
       "lang": "pl",
       "file": "blog_queue/pl/auto_11_07_02.md",
@@ -1615,6 +1597,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 4
+    },
+    {
+      "key": "auto_16_01_07__ru",
+      "lang": "ru",
+      "file": "blog_queue/ru/auto_16_01_07.md",
+      "title": "Самые инстаграмные места на Чеджу, где получатся идеальные фото!",
+      "generated_at": "2026-09-05T01:21:39",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_445_dolphin.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0137.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0051.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0065.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_iyuune.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0160.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0025.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 3
     }
   ]
 }
