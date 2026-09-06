@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_23_04_00__pl",
-      "lang": "pl",
-      "file": "blog_queue/pl/auto_23_04_00.md",
-      "title": "Jeju dla Par: Spokojne Zakątki na Relaks i Romantyczne Chwile",
-      "generated_at": "2026-07-22T01:01:55",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_130_interior_lounge.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0141.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0111.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0020.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0220.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0113.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0122.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_29_06_01__en",
       "lang": "en",
       "file": "blog_queue/en/auto_29_06_01.md",
@@ -1616,6 +1598,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 3
+    },
+    {
+      "key": "auto_13_06_02__th",
+      "lang": "th",
+      "file": "blog_queue/th/auto_13_06_02.md",
+      "title": "เที่ยวเชจูคนเดียว? มาเช็คอินที่จุงมุนรีสอร์ทโซน สนุกได้ไม่ซ้ำใคร!",
+      "generated_at": "2026-09-06T01:18:31",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0038.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0133.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0057.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0037.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0141.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0242.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0097.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 2
     }
   ]
 }
