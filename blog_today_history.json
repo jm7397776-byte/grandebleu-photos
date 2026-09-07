@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_11_00_06__en",
-      "lang": "en",
-      "file": "blog_queue/en/auto_11_00_06.md",
-      "title": "Jeju Island's Best Season for a Grande Bleu Yacht Adventure",
-      "generated_at": "2026-07-23T01:06:17",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0019.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_280_luxury.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0237.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0244.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0076.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0022.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0022.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 13
-    },
-    {
       "key": "2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic__ja",
       "lang": "ja",
       "file": "blog_queue/ja/2026-05-26_0415_그랑블루요트_크루_Q_A_손님들이_가장_많이_묻는_것들_topic.md",
@@ -1616,6 +1598,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 3
+    },
+    {
+      "key": "auto_11_06_02__vi",
+      "lang": "vi",
+      "file": "blog_queue/vi/auto_11_06_02.md",
+      "title": "Hang Manjanggul và Khám Phá Bờ Biển Phía Nam Jeju: Cẩm Nang Độc Hành 2026",
+      "generated_at": "2026-09-07T01:17:17",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_128_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0053.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0030.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0220.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0178.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0004.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0211.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 2
     }
   ]
 }
