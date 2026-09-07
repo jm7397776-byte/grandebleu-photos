@@ -2,17 +2,6 @@
   "items": [
     {
       "date": "2026-07-07",
-      "generated_at": "2026-07-07T11:09:47",
-      "topic_key": "food",
-      "title": "맥주와 간식까지 포함된 가벼운 요트 시간",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0064.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0170.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0039.jpg"
-      ]
-    },
-    {
-      "date": "2026-07-07",
       "generated_at": "2026-07-07T14:32:19",
       "topic_key": "fishing",
       "title": "처음 해보는 바다낚시도 편하게",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0111.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0160.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0291.jpg"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "generated_at": "2026-09-07T15:18:07",
+      "topic_key": "course",
+      "title": "월평 주상절리와 코끼리바위를 바다에서",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_375_food.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0056.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0174.png"
       ]
     }
   ]
