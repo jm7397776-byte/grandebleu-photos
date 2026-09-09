@@ -2397,3 +2397,20 @@
 [2026-09-08T04:22:39] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/panduan-lengkap-menjelajahi-pesona.html
 [2026-09-08T04:22:39] Telegram notification sent
 [2026-09-09T00:33:45] already published: Panduan Lengkap Menjelajahi Pesona Seogwipo: Surga Tersembunyi di Jeju
+[2026-09-09T04:27:36] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-09-09T04:27:47] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/explorando-manjanggul-tesoros.html
+[2026-09-09T04:27:48] Telegram notification sent
