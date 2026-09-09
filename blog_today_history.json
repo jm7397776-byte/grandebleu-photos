@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_21_03_00__zh-CN",
-      "lang": "zh-CN",
-      "file": "blog_queue/zh-CN/auto_21_03_00.md",
-      "title": "亲子济州游艇初体验：Grande Bleu大浦港航线亮点全解析",
-      "generated_at": "2026-07-25T00:30:32",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0011.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0290.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_lala_mong.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0103.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0131.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0011.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0061.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 13
-    },
-    {
       "key": "2026-05-29_0415_혼자_떠난_제주_바다_위_한_시간의_고요_그랑블루요트_솔로_항해기_topic__zh-CN",
       "lang": "zh-CN",
       "file": "blog_queue/zh-CN/2026-05-29_0415_혼자_떠난_제주_바다_위_한_시간의_고요_그랑블루요트_솔로_항해기_topic.md",
@@ -1614,6 +1596,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 2
+    },
+    {
+      "key": "auto_19_00_01__es",
+      "lang": "es",
+      "file": "blog_queue/es/auto_19_00_01.md",
+      "title": "Jeju en un Fin de Semana: Tu Guía Esencial de 2 Días para Primerizos en 2026",
+      "generated_at": "2026-09-09T00:33:31",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_230_deck_exterior.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0190.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0082.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0253.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0089.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0043.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_267_luxury.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 3
     }
   ]
 }
