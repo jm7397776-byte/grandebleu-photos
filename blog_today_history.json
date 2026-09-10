@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_05_01_04__zh-TW",
-      "lang": "zh-TW",
-      "file": "blog_queue/zh-TW/auto_05_01_04.md",
-      "title": "西歸浦旅行全攻略：2026年夏季，感受濟州南海岸的迷人魅力",
-      "generated_at": "2026-07-26T00:31:55",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0127.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0087.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0074.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0132.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0212.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0093.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0118.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_24_06_03__zh-TW",
       "lang": "zh-TW",
       "file": "blog_queue/zh-TW/auto_24_06_03.md",
@@ -1612,6 +1594,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 2
+    },
+    {
+      "key": "auto_16_06_02__fr",
+      "lang": "fr",
+      "file": "blog_queue/fr/auto_16_06_02.md",
+      "title": "Jeju en Solo : Mes Spots Photo Incontournables pour des Souvenirs Uniques",
+      "generated_at": "2026-09-10T00:33:29",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_313_aerial.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0089.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0150.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0191.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0267.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0207.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0237.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 3
     }
   ]
 }
