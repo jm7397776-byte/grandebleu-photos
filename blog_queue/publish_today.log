@@ -2433,3 +2433,20 @@
 [2026-09-10T04:27:24] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/jeju-yacht-tour-best-season-grande-bleu_01088829460.html
 [2026-09-10T04:27:24] Telegram notification sent
 [2026-09-11T00:33:36] already published: Jeju Yacht Tour — Best Season | Grande Bleu Catamaran, Seogwipo Jeju (Chinese-speaking travelers)
+[2026-09-11T04:25:02] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-09-11T04:25:13] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/jeju-strande-und-die-sudkuste-mein-solo.html
+[2026-09-11T04:25:13] Telegram notification sent
