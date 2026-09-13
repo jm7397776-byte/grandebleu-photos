@@ -2469,3 +2469,20 @@
 [2026-09-12T04:23:40] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/alba-mozzafiato-seongsan-ilchulbong-la.html
 [2026-09-12T04:23:41] Telegram notification sent
 [2026-09-13T00:33:33] already published: Alba mozzafiato a Seongsan Ilchulbong: la tua guida completa per il 2026
+[2026-09-13T04:36:17] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-09-13T04:36:28] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/grande-bleu-seu-inesquecivel-passeio-de.html
+[2026-09-13T04:36:28] Telegram notification sent
