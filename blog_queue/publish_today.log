@@ -2523,3 +2523,20 @@
 [2026-09-15T04:43:21] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/blog-post_15.html
 [2026-09-15T04:43:21] Telegram notification sent
 [2026-09-16T00:33:36] already published: जेजू यॉट क्रूज़: कोरिया में सबसे यादगार सूर्यास्त का अनुभव
+[2026-09-16T04:38:44] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-09-16T04:38:56] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/mendaki-gunung-hallasan-sendirian.html
+[2026-09-16T04:38:56] Telegram notification sent
