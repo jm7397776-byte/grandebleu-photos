@@ -2,17 +2,6 @@
   "items": [
     {
       "date": "2026-07-17",
-      "generated_at": "2026-07-17T11:25:06",
-      "topic_key": "course",
-      "title": "월평 주상절리와 코끼리바위를 바다에서",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_28_stern.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_luvj63.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0206.jpg"
-      ]
-    },
-    {
-      "date": "2026-07-17",
       "generated_at": "2026-07-17T13:38:12",
       "topic_key": "fishing",
       "title": "처음 해보는 바다낚시도 편하게",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0011.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0133.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0241.png"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "generated_at": "2026-09-16T15:17:19",
+      "topic_key": "price",
+      "title": "제주 요트투어 예약 전 확인할 점",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0098.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_zzang_seo.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0166.jpg"
       ]
     }
   ]
