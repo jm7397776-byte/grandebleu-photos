@@ -2541,3 +2541,20 @@
 [2026-09-16T04:38:56] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/mendaki-gunung-hallasan-sendirian.html
 [2026-09-16T04:38:56] Telegram notification sent
 [2026-09-17T00:33:36] already published: Mendaki Gunung Hallasan Sendirian: Pengalaman Solo yang Mesti Cuba di Jeju
+[2026-09-17T04:43:12] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-09-17T04:43:23] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/unang-beses-sa-jeju-ang-mga-dapat-gawin.html
+[2026-09-17T04:43:23] Telegram notification sent
