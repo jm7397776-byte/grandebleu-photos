@@ -21,7 +21,7 @@
       "image_urls": [
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0155.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0157.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0269.jpg"
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0142.jpg"
       ],
       "images": [
         {
@@ -37,8 +37,8 @@
           "alt": "제주 대포항 그랑블루요트 - 월평 주상절리와 코끼리바위를 바다에서"
         },
         {
-          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0269.jpg",
-          "file": "influencer_0269.jpg",
+          "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0142.jpg",
+          "file": "influencer_0142.jpg",
           "category": "influencer",
           "alt": "제주 대포항 그랑블루요트 - 월평 주상절리와 코끼리바위를 바다에서"
         }
@@ -92,6 +92,6 @@
   "image_urls": [
     "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0155.jpg",
     "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0157.jpg",
-    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0269.jpg"
+    "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0142.jpg"
   ]
 }
