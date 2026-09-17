@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_18_04_04__de",
-      "lang": "de",
-      "file": "blog_queue/de/auto_18_04_04.md",
-      "title": "Jeju Yacht Tour — Photo Spots | Grande Bleu Catamaran, Seogwipo Jeju (couples and honeymooners)",
-      "generated_at": "2026-08-02T01:10:01",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_181_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0164.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0025.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0039.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0032.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0106.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0033.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_01_05_05__it",
       "lang": "it",
       "file": "blog_queue/it/auto_01_05_05.md",
@@ -1618,6 +1600,23 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_06_05_05__tl",
+      "lang": "tl",
+      "file": "blog_queue/tl/auto_06_05_05.md",
+      "title": "Jeju East Coast Day Trip: Isang Gabay para sa 'Di Malilimutang Corporate Retreat!",
+      "generated_at": "2026-09-17T00:33:32",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0078.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0278.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0100.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0094.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0155.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0099.png"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 2
     }
   ]
 }
