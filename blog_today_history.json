@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_01_05_05__it",
-      "lang": "it",
-      "file": "blog_queue/it/auto_01_05_05.md",
-      "title": "Jeju Yacht Tour — How to Book | Grande Bleu Catamaran, Seogwipo Jeju (corporate groups)",
-      "generated_at": "2026-08-03T00:30:46",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_scene_08.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_0llllll0ii.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0004.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0059.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0185.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0027.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0078.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 2
-    },
-    {
       "key": "auto_07_06_07__it",
       "lang": "it",
       "file": "blog_queue/it/auto_07_06_07.md",
@@ -1617,6 +1599,24 @@
       ],
       "image_count": 6,
       "remaining_candidates": 2
+    },
+    {
+      "key": "auto_00_01_07__tl",
+      "lang": "tl",
+      "file": "blog_queue/tl/auto_00_01_07.md",
+      "title": "Unang Beses sa Jeju: Ang mga Dapat Gawin Para sa Isang Hindi Malilimutang Biyahe!",
+      "generated_at": "2026-09-17T01:39:53",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0229.jpg",
+        "https://images.unsplash.com/photo-1627443195204-c187a0f6a5b6",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0035.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0022.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0019.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_68_dolphin.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0118.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
