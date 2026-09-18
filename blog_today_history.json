@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_16_07_02__pt",
-      "lang": "pt",
-      "file": "blog_queue/pt/auto_16_07_02.md",
-      "title": "Jeju Yacht Tour — Price Guide | Grande Bleu Catamaran, Seogwipo Jeju (premium hotel guests)",
-      "generated_at": "2026-08-04T00:30:41",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0186.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0059.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0100.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0030.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0007.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0151.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0138.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 2
-    },
-    {
       "key": "auto_04_03_05__pt",
       "lang": "pt",
       "file": "blog_queue/pt/auto_04_03_05.md",
@@ -1615,6 +1597,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0007.png"
       ],
       "image_count": 6,
+      "remaining_candidates": 1
+    },
+    {
+      "key": "auto_18_01_01__tr",
+      "lang": "tr",
+      "file": "blog_queue/tr/auto_18_01_01.md",
+      "title": "Jeju Olle Sahil Yolu: Adanın Gizli Güzelliklerini Keşfedin",
+      "generated_at": "2026-09-18T01:26:25",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0145.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0047.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0173.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0213.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0177.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0038.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0070.jpg"
+      ],
+      "image_count": 7,
       "remaining_candidates": 1
     }
   ]
