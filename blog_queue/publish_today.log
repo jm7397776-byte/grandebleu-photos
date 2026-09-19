@@ -2577,3 +2577,20 @@
 [2026-09-18T04:29:47] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/jeju-olle-sahil-yolu-adann-gizli.html
 [2026-09-18T04:29:47] Telegram notification sent
 [2026-09-19T00:33:45] already published: Jeju Olle Sahil Yolu: Adanın Gizli Güzelliklerini Keşfedin
+[2026-09-19T04:26:47] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-09-19T04:26:59] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/blog-post_19.html
+[2026-09-19T04:27:00] Telegram notification sent
