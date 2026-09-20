@@ -2595,3 +2595,20 @@
 [2026-09-19T04:26:59] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/blog-post_19.html
 [2026-09-19T04:27:00] Telegram notification sent
 [2026-09-20T00:33:44] already published: Чежү Ятмал: Солонгосын Далайн Аялал, Таны Гэр Бүлд
+[2026-09-20T04:44:23] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-09-20T04:44:34] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/jeju-poza-szlakiem-jaskinia-manjanggul.html
+[2026-09-20T04:44:35] Telegram notification sent
