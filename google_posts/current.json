@@ -1,50 +1,55 @@
 {
-  "week": "2026-W38",
-  "generated_at": "2026-09-14T03:54:25",
+  "week": "2026-W39",
+  "generated_at": "2026-09-21T03:27:02",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "yacht_417_interior_lounge.jpg",
-      "seo_keywords": "한국 유일 카타마란, 제주 60분 크루즈, 제주 야경, 제주 럭셔리 투어",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W38_ko.txt",
-      "body_length": 713,
+      "photo": "yacht_97_sunset.jpg",
+      "seo_keywords": "대포항 요트, 제주 요트투어, 제주 인생샷, 주상절리 요트",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W39_ko.txt",
+      "body_length": 825,
       "v2": {
-        "photo": "yacht_379_food.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W38_ko_v2.txt",
-        "body_length": 689
+        "photo": "yacht_133_deck_exterior.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W39_ko_v2.txt",
+        "body_length": 683
       }
     },
     "en": {
       "label": "English",
-      "photo": "yacht_356_aerial.jpg",
-      "seo_keywords": "jeju ramyeon cruise, jeju wine cruise, jeju luxury yacht, daepo port yacht",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W37_en.txt",
-      "body_length": 1251,
+      "photo": "yacht_21_upper_deck.jpg",
+      "seo_keywords": "jeju wine cruise, jeju couple activity, daepo port yacht, jeju night view",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W39_en.txt",
+      "body_length": 1492,
       "v2": {
-        "photo": "yacht_320_aerial.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W37_en_v2.txt",
-        "body_length": 1105
+        "photo": "yacht_26_bow.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W39_en_v2.txt",
+        "body_length": 1080
       }
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "yacht_325_aerial.jpg",
-      "seo_keywords": "济州岛双体帆船, 济州岛拉面游艇, 济州岛安全游艇, 济州岛求婚",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W37_zh-CN.txt",
-      "body_length": 664,
+      "photo": "yacht_133_deck_exterior.jpg",
+      "seo_keywords": "济州岛情侣, 济州岛热门景点, 济州岛性价比, 济州岛网红打卡",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W39_zh-CN.txt",
+      "body_length": 597,
       "v2": {
-        "photo": "influencer_0259.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W37_zh-CN_v2.txt",
-        "body_length": 600
+        "photo": "yacht_231_deck_exterior.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W39_zh-CN_v2.txt",
+        "body_length": 771
       }
     },
     "ja": {
       "label": "日本語",
-      "photo": "yacht_80_general.jpg",
-      "seo_keywords": "済州島60分クルーズ, 大浦港ヨット, 済州島週末旅行, チェジュ島ヨット",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W35_ja.txt",
-      "body_length": 699
+      "photo": "yacht_07_sunset.jpg",
+      "seo_keywords": "西帰浦アクティビティ, 済州島デート, 済州島ベジタリアン, 済州島漢拏山",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W39_ja.txt",
+      "body_length": 747,
+      "v2": {
+        "photo": "influencer_0153.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W39_ja_v2.txt",
+        "body_length": 631
+      }
     }
   },
   "_generator": "google_posts_generate_cloud.py (gemini)"
