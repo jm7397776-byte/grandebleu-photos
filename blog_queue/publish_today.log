@@ -2613,3 +2613,20 @@
 [2026-09-20T04:44:34] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/jeju-poza-szlakiem-jaskinia-manjanggul.html
 [2026-09-20T04:44:35] Telegram notification sent
 [2026-09-21T00:33:49] already published: Jeju poza szlakiem: Jaskinia Manjanggul i ukryte skarby wschodniego wybrzeża
+[2026-09-21T04:43:26] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-09-21T04:43:37] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/jeju-islands-best-season-for-grande.html
+[2026-09-21T04:43:37] Telegram notification sent
