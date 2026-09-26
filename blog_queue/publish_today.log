@@ -2703,3 +2703,20 @@
 [2026-09-25T04:44:37] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/blog-post_25.html
 [2026-09-25T04:44:37] Telegram notification sent
 [2026-09-26T00:33:48] already published: Очарование Ореумов Чеджу: Ваши Путеводитель по Скрытым Вулканическим Конусам
+[2026-09-26T04:46:27] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-09-26T04:46:38] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/2026_01262376217.html
+[2026-09-26T04:46:39] Telegram notification sent
