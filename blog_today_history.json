@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_16_02_06__en",
-      "lang": "en",
-      "file": "blog_queue/en/auto_16_02_06.md",
-      "title": "Jeju's Grande Bleu Yacht: Discovering the Best Season for Serenity",
-      "generated_at": "2026-08-12T00:30:40",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_404_food.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0085.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0281.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0094.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0247.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0081.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 14
-    },
-    {
       "key": "auto_12_01_06__ja",
       "lang": "ja",
       "file": "blog_queue/ja/auto_12_01_06.md",
@@ -1619,6 +1602,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 2
+    },
+    {
+      "key": "auto_22_07_03__vi",
+      "lang": "vi",
+      "file": "blog_queue/vi/auto_22_07_03.md",
+      "title": "Hành Trình Khám Phá Hương Vị Ẩm Thực Địa Phương Jeju Năm 2026: Một Trải Nghiệm Khó Quên!",
+      "generated_at": "2026-09-27T00:33:58",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0028.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_yacht_0286.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0121.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0233.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0182.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0197.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_yacht_0180.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 3
     }
   ]
 }
