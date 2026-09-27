@@ -1,38 +1,6 @@
 {
   "recent_posts": [
     {
-      "week": "2026-W30",
-      "lang": "ja",
-      "angle": "price_value",
-      "first_sentence": "ゴールデンアワーの魔法に包まれた60分クルーズで、最高のコスパ体験をしませんか？済州島海ツアーのハイライト、Grande Bleu Yachtが提供する贅沢な時間で、忘れられない思い出を作りましょう。",
-      "hash": "e64819014e0a",
-      "added": "2026-07-20T01:44:33"
-    },
-    {
-      "week": "2026-W31",
-      "lang": "ko",
-      "angle": "photo_spot",
-      "first_sentence": "바다 잔잔한 평온 시즌, 제주 노을을 가장 아름답게 즐기는 방법이 궁금하신가요? 제주 친구여행의 하이라이트가 될 그랑블루요트 선셋 크루즈를 경험하고 왔어요. 서귀포 대포항에서 출발하는 60분간의 항해는 눈부신 제주 노을과 함께 잊지 못할 추억을 선사할 거예요.",
-      "hash": "349c56e2551d",
-      "added": "2026-07-27T01:44:25"
-    },
-    {
-      "week": "2026-W31",
-      "lang": "en",
-      "angle": "photo_spot",
-      "first_sentence": "This calm seas season, I found the perfect backdrop for a dreamy Jeju selfie, capturing the unforgettable magic of sunset. Imagine: a gentle breeze, the majestic Hallasan peak in the distance, and the",
-      "hash": "3a9ae307de9c",
-      "added": "2026-07-27T01:44:58"
-    },
-    {
-      "week": "2026-W31",
-      "lang": "zh-CN",
-      "angle": "photo_spot",
-      "first_sentence": "海面平静的季节，我终于体验了一次济州岛无限畅饮游艇之旅！登上韩国唯一认证的双体帆船Grande Bleu Yacht，从大浦港出发，开启了60分钟的夕阳巡游，果然不虚此行。",
-      "hash": "f107c28806b6",
-      "added": "2026-07-27T01:45:31"
-    },
-    {
       "week": "2026-W31",
       "lang": "ja",
       "angle": "photo_spot",
@@ -255,6 +223,38 @@
       "first_sentence": "海が穏やかな季節、済州島 (チェジュド) での特別な体験を探しているなら、西帰浦 (ソギポ) のGrande Bleu Yachtがおすすめです。実は私、揺れに弱い方なんですが、韓国唯一の認定カタマラン（双胴船）ということで、その安定感にびっくりしました。",
       "hash": "12d6eeb6790a",
       "added": "2026-09-21T03:26:59"
+    },
+    {
+      "week": "2026-W40",
+      "lang": "ko",
+      "angle": "couple_romance",
+      "first_sentence": "주말 일몰 가장 늦은 시즌, 제주 바다투어의 로맨틱한 절정을 그랑블루요트에서 경험하세요. 커플 데이트, 감동적인 프로포즈, 소중한 결혼기념일까지, 두 분만의 특별한 순간을 위한 단독 갑판 좌석과 노을 배경 인생샷을 선사합니다. 60분간의 항해 동안 로맨틱한 무드 속에서 잊지 못할 추억을 만들어보세요.",
+      "hash": "f15529540089",
+      "added": "2026-09-28T04:28:13"
+    },
+    {
+      "week": "2026-W40",
+      "lang": "en",
+      "angle": "couple_romance",
+      "first_sentence": "As the latest sunset weekends of the year arrive, imagine stealing a truly romantic moment with your loved one on a private deck, bathed in the glow of a 제주 night view. Grande Bleu Yacht offers the pe",
+      "hash": "c9a64be2c74f",
+      "added": "2026-09-28T04:28:18"
+    },
+    {
+      "week": "2026-W40",
+      "lang": "zh-CN",
+      "angle": "couple_romance",
+      "first_sentence": "本周末将迎来全年日落最晚的黄金时段，在济州岛西归浦大浦港，为您的情侣约会、求婚、纪念日提供最浪漫的背景！Grande Bleu Yacht作为韩国唯一认证的双体船，自2011年起已安全接待超过10万名客人，为您打造专属甲板座位和浪漫氛围，让夕阳下的爱意无限蔓延。",
+      "hash": "d87380351650",
+      "added": "2026-09-28T04:28:33"
+    },
+    {
+      "week": "2026-W40",
+      "lang": "ja",
+      "angle": "couple_romance",
+      "first_sentence": "年で最も日没が遅い週末、済州島 (チェジュド) で忘れられないロマンチックな時間を過ごしませんか？グランブルーヨットのサンセットクルーズは、カップルデートやプロポーズ、記念日にぴったりの韓国セーリング体験をお届けします。",
+      "hash": "f0da59d92d82",
+      "added": "2026-09-28T04:31:08"
     }
   ]
 }
