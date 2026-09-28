@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_09_03_01__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/auto_09_03_01.md",
-      "title": "2026年夏！子連れ済州島旅行は牛島（ウド）日帰り探検が最高に楽しい！",
-      "generated_at": "2026-08-13T00:33:33",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0062.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_07_sunset.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0066.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0223.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0002.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0292.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0139.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 16
-    },
-    {
       "key": "auto_04_07_06__zh-CN",
       "lang": "zh-CN",
       "file": "blog_queue/zh-CN/auto_04_07_06.md",
@@ -1620,6 +1602,23 @@
       ],
       "image_count": 7,
       "remaining_candidates": 2
+    },
+    {
+      "key": "auto_12_00_07__id",
+      "lang": "id",
+      "file": "blog_queue/id/auto_12_00_07.md",
+      "title": "Jelajahi Puncak-Puncak Vulkanik Jeju (Oreum): Pesona Tersembunyi untuk Perjalanan Pertama Anda di Tahun 2026",
+      "generated_at": "2026-09-28T00:33:44",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0031.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0114.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_88_sunset.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0033.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0079.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_yacht_0022.jpg"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 3
     }
   ]
 }
