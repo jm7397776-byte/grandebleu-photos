@@ -2757,3 +2757,20 @@
 [2026-09-28T05:12:03] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/5-kafe-pemandangan-laut-di-jeju-yang.html
 [2026-09-28T05:12:04] Telegram notification sent
 [2026-09-29T00:33:48] already published: 5 Kafe Pemandangan Laut di Jeju yang Wajib Dikunjungi untuk Relaksasi Maksimal!
+[2026-09-29T05:34:13] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-09-29T05:34:23] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/jeju-yacht-tour-route-highlights-grande.html
+[2026-09-29T05:34:24] Telegram notification sent
