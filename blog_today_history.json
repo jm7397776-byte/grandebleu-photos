@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_18_06_07__zh-TW",
-      "lang": "zh-TW",
-      "file": "blog_queue/zh-TW/auto_18_06_07.md",
-      "title": "濟州偶來小徑海岸線精華：獨行旅人必訪的療癒秘境！",
-      "generated_at": "2026-08-15T00:33:35",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0170.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0226.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0109.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0002.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0140.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0201.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0112.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 2
-    },
-    {
       "key": "auto_10_04_03__zh-TW",
       "lang": "zh-TW",
       "file": "blog_queue/zh-TW/auto_10_04_03.md",
@@ -1615,6 +1597,24 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0068.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0027.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0215.png"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 2
+    },
+    {
+      "key": "auto_04_01_03__fr",
+      "lang": "fr",
+      "file": "blog_queue/fr/auto_04_01_03.md",
+      "title": "Découvrez les trésors cachés de Jeju loin de la foule : une évasion inoubliable !",
+      "generated_at": "2026-09-30T00:33:45",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0240.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0139.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_yacht_0016.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_yacht_0224.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0044.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0075.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0027.jpg"
       ],
       "image_count": 7,
       "remaining_candidates": 2
