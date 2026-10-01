@@ -2793,3 +2793,20 @@
 [2026-09-30T05:22:55] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/09/croisiere-yacht-jeju-coucher-de-soleil.html
 [2026-09-30T05:22:56] Telegram notification sent
 [2026-10-01T00:33:48] already published: Croisière Yacht à Jeju : Coucher de Soleil Inoubliable sur l'Île Coréenne
+[2026-10-01T01:04:28] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-10-01T01:04:39] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/jeju-yacht-tour-best-season-grande-bleu.html
+[2026-10-01T01:04:39] Telegram notification sent
