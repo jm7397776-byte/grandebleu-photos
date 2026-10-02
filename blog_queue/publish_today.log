@@ -2828,3 +2828,20 @@
 [2026-10-01T05:37:43] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/jeju-yacht-tour-luxurioses-segeln.html
 [2026-10-01T05:37:44] Telegram notification sent
 [2026-10-02T00:33:51] already published: Jeju Yacht Tour: Luxuriöses Segeln & Sonnenuntergang in Korea
+[2026-10-02T05:24:11] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-10-02T05:24:23] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/jeju-in-famiglia-unisola-misura-di.html
+[2026-10-02T05:24:23] Telegram notification sent
