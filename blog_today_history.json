@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_13_00_00__vi",
-      "lang": "vi",
-      "file": "blog_queue/vi/auto_13_00_00.md",
-      "title": "Khu Nghỉ Dưỡng Jungmun Jeju: Những Điều Thú Vị Bạn Nhất Định Phải Thử Khi Đến Lần Đầu!",
-      "generated_at": "2026-08-18T00:33:52",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_88_sunset.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0104.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0185.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_leelee.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0221.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0205.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0026.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_08_03_04__vi",
       "lang": "vi",
       "file": "blog_queue/vi/auto_08_03_04.md",
@@ -1618,6 +1600,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 3
+    },
+    {
+      "key": "auto_07_06_07__it",
+      "lang": "it",
+      "file": "blog_queue/it/auto_07_06_07.md",
+      "title": "Jeju in famiglia: un'isola a misura di bambino e di viaggiatore singolo!",
+      "generated_at": "2026-10-02T02:33:03",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_yacht_0027.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_yacht_0186.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0246.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0068.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_yacht_0115.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0093.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0123.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 2
     }
   ]
 }
