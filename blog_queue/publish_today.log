@@ -2846,3 +2846,20 @@
 [2026-10-02T05:24:23] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/jeju-in-famiglia-unisola-misura-di.html
 [2026-10-02T05:24:23] Telegram notification sent
 [2026-10-03T00:33:45] already published: Jeju in famiglia: un'isola a misura di bambino e di viaggiatore singolo!
+[2026-10-03T05:07:07] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-10-03T05:07:18] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/jeju-yacht-tour-price-guide-grande-bleu.html
+[2026-10-03T05:07:18] Telegram notification sent
