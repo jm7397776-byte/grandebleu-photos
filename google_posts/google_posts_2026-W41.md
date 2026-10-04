@@ -1,0 +1,50 @@
+# 📰 Google Posts — 2026-10-05 (2026-W41)
+
+> 이번 주 앵글: **가족여행·아이 동반** — 어린이부터 어르신까지 환영. 안정적 쌍동선, 가족 단위 갑판 공간, 음료 라면 가족 식사
+> hook: **맑은 하늘 청명 시즌**
+
+---
+
+
+## 🇰🇷 KO
+
+**사진**: influencer_0124.jpg
+
+**SEO 키워드**: 제주 액티비티, 대포항 요트, 제주 안전 투어, 제주 6월 가볼만한곳
+
+```
+맑은 하늘 청명 시즌, 제주 액티비티를 찾다가 대포항 요트 그랑블루를 선택했는데, 어린이부터 어르신까지 모두가 즐거워하는 가족 식사를 바다 위에서 즐길 수 있었어요. 한국 유일의 공인 카타마란이라 안정적인 쌍동선 덕분에 멀미 걱정 없이 60분 항해를 만끽했죠.
+
+· 2011년부터 10만 명 이상 탑승한 한국 유일 공인 카타마란으로, 제주 안전 투어를 책임지는 그랑블루요트는 47인승과 44인승 두 척의 배로 운항합니다.
+· 널찍한 갑판 공간에서 월평 주상절리, 코끼리 바위 등 아름다운 제주 풍경을 감상하며 제주 6월 가볼만한곳으로 완벽한 추억을 만들 수 있었어요.
+· 시원한 생맥주, 와인, 제주 감귤 주스는 물론, 제주 로컬 간식과 라면까지 무제한 무료로 제공되어 출출할 틈 없이 풍성한 선상 만찬을 즐겼습니다.
+· 대포항 요트 출발 전 컨시어지 서비스부터 친절한 보딩, 그리고 감동적인 출항까지 모든 과정이 매끄럽게 진행되어 더욱 만족스러웠습니다.
+
+맑은 날씨에 떠나는 가족 여행, 제주 그랑블루요트 선셋 크루즈에서 잊지 못할 시간을 만들어보세요.
+
+예약하기 → https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht
+```
+
+---
+
+
+## 🇺🇸 EN
+
+**사진**: influencer_0007.jpg
+
+**SEO 키워드**: jeju private cruise, seogwipo activities, daepo port yacht, jeju weekend trip
+
+```
+The clearest skies of the season have arrived, and I just experienced the most perfect jeju private cruise with my family. Sailing on Grande Bleu Yacht from Daepo Port, it truly felt like our own private ocean escape.
+
+· Our little ones loved the stable catamaran ride. Korea's only certified catamaran since 2011, it made for a smooth and comfortable journey for all ages.
+· We enjoyed plenty of family deck space to take in the stunning coastal views around Seogwipo, passing by natural wonders like Elephant Rock and Wolpyeong Basalt Columns.
+· The free onboard drinks, including 제주 tangerine juice for the kids and draft beer for the adults, paired perfectly with warm Korean ramyeon. It felt like a special family meal on the waves!
+· This 60-minute sunset cruise is an unforgettable part of any jeju weekend trip, offering unique photo opportunities and cherished family memories.
+
+Don't miss out on creating your own family memories under these beautiful skies.
+
+Book now → https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht
+```
+
+---

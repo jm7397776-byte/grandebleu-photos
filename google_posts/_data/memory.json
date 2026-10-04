@@ -1,22 +1,6 @@
 {
   "recent_posts": [
     {
-      "week": "2026-W31",
-      "lang": "ja",
-      "angle": "photo_spot",
-      "first_sentence": "海が穏やかな季節、済州島フォトスポットを探しているなら、Grande Bleu Yachtでのサンセットクルーズはいかがですか？デッキから眺める夕陽は息をのむ美しさで、インスタ映えするセルフィーが撮れること間違いなしです。",
-      "hash": "3e28adbab42f",
-      "added": "2026-07-27T01:46:05"
-    },
-    {
-      "week": "2026-W32",
-      "lang": "ko",
-      "angle": "route_scenery",
-      "first_sentence": "주말 일몰 가장 늦은 시즌, 제주 선셋 크루즈의 황홀경을 만끽하고 싶어 제주 서귀포 대포항 그랑블루요트를 찾았어요. 코끼리바위부터 진곶내 해상 협곡, 월평 주상절리, 팡팽이덕, 큰 해식동굴까지 이어지는 풍경 코스를 60분간 요트 위에서 즐기니 정말 특별한 제주 데이트 코스가 되더라고요.",
-      "hash": "bb58f0519ce9",
-      "added": "2026-08-03T01:44:21"
-    },
-    {
       "week": "2026-W32",
       "lang": "en",
       "angle": "route_scenery",
@@ -255,6 +239,22 @@
       "first_sentence": "年で最も日没が遅い週末、済州島 (チェジュド) で忘れられないロマンチックな時間を過ごしませんか？グランブルーヨットのサンセットクルーズは、カップルデートやプロポーズ、記念日にぴったりの韓国セーリング体験をお届けします。",
       "hash": "f0da59d92d82",
       "added": "2026-09-28T04:31:08"
+    },
+    {
+      "week": "2026-W41",
+      "lang": "ko",
+      "angle": "family_friendly",
+      "first_sentence": "맑은 하늘 청명 시즌, 제주 액티비티를 찾다가 대포항 요트 그랑블루를 선택했는데, 어린이부터 어르신까지 모두가 즐거워하는 가족 식사를 바다 위에서 즐길 수 있었어요. 한국 유일의 공인 카타마란이라 안정적인 쌍동선 덕분에 멀미 걱정 없이 60분 항해를 만끽했죠.",
+      "hash": "2eabb5a21355",
+      "added": "2026-10-05T03:57:55"
+    },
+    {
+      "week": "2026-W41",
+      "lang": "en",
+      "angle": "family_friendly",
+      "first_sentence": "The clearest skies of the season have arrived, and I just experienced the most perfect jeju private cruise with my family. Sailing on Grande Bleu Yacht from Daepo Port, it truly felt like our own priv",
+      "hash": "2434b68f4b01",
+      "added": "2026-10-05T03:58:09"
     }
   ]
 }

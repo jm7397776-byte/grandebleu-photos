@@ -1,31 +1,26 @@
 {
-  "week": "2026-W40",
-  "generated_at": "2026-09-28T04:36:10",
+  "week": "2026-W41",
+  "generated_at": "2026-10-05T04:18:16",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "yacht_428_interior_lounge.jpg",
-      "seo_keywords": "제주 가족여행, 제주 일몰 명소, 주상절리 요트, 제주 바다투어",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W40_ko.txt",
-      "body_length": 804,
+      "photo": "influencer_0124.jpg",
+      "seo_keywords": "제주 액티비티, 대포항 요트, 제주 안전 투어, 제주 6월 가볼만한곳",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W41_ko.txt",
+      "body_length": 690,
       "v2": {
-        "photo": "yacht_102_sunset.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W40_ko_v2.txt",
-        "body_length": 676
+        "photo": "influencer_0062.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W41_ko_v2.txt",
+        "body_length": 691
       }
     },
     "en": {
       "label": "English",
-      "photo": "yacht_434_interior_lounge.jpg",
-      "seo_keywords": "korea sailing experience, jeju night view, jeju luxury yacht, jeju family activity",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W40_en.txt",
-      "body_length": 1334,
-      "v2": {
-        "photo": "yacht_91_sunset.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W40_en_v2.txt",
-        "body_length": 1055
-      }
+      "photo": "influencer_0007.jpg",
+      "seo_keywords": "jeju private cruise, seogwipo activities, daepo port yacht, jeju weekend trip",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W41_en.txt",
+      "body_length": 1128
     },
     "zh-CN": {
       "label": "中文简体",
