@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_15_04_05__fr",
-      "lang": "fr",
-      "file": "blog_queue/fr/auto_15_04_05.md",
-      "title": "Escapade romantique à Jeju : les falaises de Wolpyeong Jusangjeolli et le rocher de l'Éléphant, un spectacle naturel à ne pas manquer !",
-      "generated_at": "2026-08-21T00:33:39",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0035.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0047.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0024.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0202.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0066.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0001.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_14_06_06__fr",
       "lang": "fr",
       "file": "blog_queue/fr/auto_14_06_06.md",
@@ -1618,6 +1601,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 2
+    },
+    {
+      "key": "auto_14_04_06__hi",
+      "lang": "hi",
+      "file": "blog_queue/hi/auto_14_04_06.md",
+      "title": "जेजू की सबसे खूबसूरत कोस्टल ड्राइव: कपल्स के लिए एक अविस्मरणीय रोमांटिक रोड ट्रिप!",
+      "generated_at": "2026-10-05T02:21:19",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_440_dolphin.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0024.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0152.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0224.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0125.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0066.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0108.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
