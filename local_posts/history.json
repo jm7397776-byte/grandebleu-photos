@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-02",
-      "generated_at": "2026-08-02T13:51:14",
-      "topic_key": "fishing",
-      "title": "처음 해보는 바다낚시도 편하게",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0005.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0259.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0303.jpg"
-      ]
-    },
-    {
       "date": "2026-08-03",
       "generated_at": "2026-08-03T10:38:52",
       "topic_key": "premium",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0002.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_j_danbi_o.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0225.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "generated_at": "2026-10-05T16:18:42",
+      "topic_key": "family",
+      "title": "부모님과 아이가 함께 타기 좋은 제주 요트",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0042.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0192.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0216.jpg"
       ]
     }
   ]
