@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_00_02_06__es",
-      "lang": "es",
-      "file": "blog_queue/es/auto_00_02_06.md",
-      "title": "Descubriendo Jeju por Primera Vez: Tu Guía Imprescindible para el Verano 2026",
-      "generated_at": "2026-08-20T23:54:01",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_349_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0191.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0096.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0042.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0107.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0096.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0105.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_15_04_05__fr",
       "lang": "fr",
       "file": "blog_queue/fr/auto_15_04_05.md",
@@ -1618,6 +1600,24 @@
       ],
       "image_count": 6,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_24_02_05__hi",
+      "lang": "hi",
+      "file": "blog_queue/hi/auto_24_02_05.md",
+      "title": "जेजू के दक्षिणी तट पर छिपा स्वर्ग: मंत्रमुग्ध कर देने वाले समुद्र तट और छिपे हुए रत्न!",
+      "generated_at": "2026-10-05T00:33:44",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_274_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_yacht_0242.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0045.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0144.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0241.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0056.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0060.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 2
     }
   ]
 }
