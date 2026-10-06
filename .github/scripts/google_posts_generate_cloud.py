@@ -20,6 +20,12 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+# 🚨[2026-10-06] 발행 전 보이스 게이트 — 1인칭 후기·유일주장·언어혼입 차단.
+#   실측: 2026-10-06 today.json(en)이 "I just experienced ... with my family",
+#   `Korea's only certified catamaran`, 영문에 한글 `제주` 혼입 상태로 발행됐다.
+#   같은 파일이 second-brain/.scripts/gbp_voice_gate.py 에도 있다(동일 내용 유지).
+import gbp_voice_gate as GATE
+
 KST = timezone(timedelta(hours=9))
 REPO_DIR = Path(os.environ.get("REPO_DIR", os.getcwd()))
 RAW_BASE = "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main"
@@ -29,6 +35,9 @@ SEO_POOL_FILE = DATA / "seo_pool.json"
 CAT_FILE = DATA / "categorized_photos.json"
 MEMORY_FILE = DATA / "memory.json"
 BRAND_FILE = DATA / "brand_facts.json"
+# [2026-09-19 W7] categorized_photos.json(구 263장 풀)엔 ai_yacht가 아예 없다 — repo 루트의
+# photos_index.json(2026-09-17 신설, ai_yacht 300장)에서 별도로 읽는다. 없으면 조용히 빈 리스트.
+PHOTOS_INDEX_FILE = REPO_DIR / "photos_index.json"
 RULES_FILE = DATA / "powerblogger_rules.md"  # 파워블로거 학습 룰북 (매주 synthesizer가 갱신)
 
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
@@ -83,10 +92,15 @@ def gemini(prompt: str, timeout: int = 150) -> str:
         return ""
     import time
     import urllib.error
-    # pro 우선(짧게 2회) → 막히면 flash로 폴백(주력, 4회). 새벽엔 pro 한도 여유로 성공 잦음.
+    # pro 우선(짧게 2회) → 막히면 flash 계열로 폴백. 새벽엔 pro 한도 여유로 성공 잦음.
+    # 🚨[2026-10-06] 무료 티어는 **모델별 1일 20회**다(실측: 429 details →
+    #   GenerateRequestsPerDayPerProjectPerModel-FreeTier value=20, retryDelay 72734s).
+    #   4언어 × (v1+v2) × 게이트 재시도까지 돌면 한 모델 20회로는 모자란다.
+    #   쿼터는 **모델별로 따로** 차므로 사다리를 늘려 하루 한도를 넓힌다(전부 0원 무료 티어).
     plan = [(GEMINI_MODEL, 2)]
-    if "flash" not in GEMINI_MODEL:
-        plan.append(("gemini-2.5-flash", 4))
+    for extra in ("gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-3-flash-preview"):
+        if extra != GEMINI_MODEL:
+            plan.append((extra, 3))
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -117,8 +131,21 @@ def gemini(prompt: str, timeout: int = 150) -> str:
                 break
             except urllib.error.HTTPError as e:
                 last = f"{model} HTTP {e.code}"
+                # 🚨[2026-10-06] **일일(PerDay) 쿼터 소진이면 기다려도 오늘은 안 풀린다**
+                #   (retryDelay 가 20시간으로 온다). 종전엔 10+20+40+80초를 헛되게 자고
+                #   다음 모델로 갔다 — 일일 쿼터면 즉시 다음 모델로 넘긴다.
+                daily = False
+                if e.code == 429:
+                    try:
+                        detail = e.read().decode("utf-8", "replace")
+                        daily = "PerDay" in detail
+                    except Exception:
+                        detail = ""
+                    if daily:
+                        print(f"  [skip] {last} — 일일 무료 한도 소진, 다음 모델로")
+                        break
                 if e.code in (429, 500, 503):
-                    print(f"  [retry {attempt+1}/4] {last}, {delay}s 대기")
+                    print(f"  [retry {attempt+1}/{tries}] {last}, {delay}s 대기")
                     time.sleep(delay)
                     delay = min(delay * 2, 80)
                     continue
@@ -156,8 +183,31 @@ def select_weekly_hook(pool: dict, week_iso: str) -> dict:
     return rotations[week_num % len(rotations)]
 
 
+# 🚨[2026-10-06] seo_pool 에 `제주 6월 가볼만한곳` 같은 **월 고정 키워드**가 섞여 있어
+#   10월 글에 "제주 6월 가볼만한곳 코스로 손꼽히는"이 그대로 들어갔다(실측).
+#   모델에게 "쓰지 마라"고 부탁하지 않고 **코드가 뽑기 전에 버린다**.
+_MONTH_KW_RE = __import__("re").compile(r"(?<![0-9])([1-9]|1[0-2])\s*[월月]|"
+                                       r"\b(January|February|March|April|May|June|July|August|"
+                                       r"September|October|November|December)\b",
+                                       __import__("re").IGNORECASE)
+
+
+def _drop_offseason_keywords(keywords, now_month):
+    """지금 달이 아닌 달을 가리키는 키워드는 버린다."""
+    out = []
+    for k in keywords:
+        m = _MONTH_KW_RE.search(str(k))
+        if not m:
+            out.append(k)
+            continue
+        if m.group(1) and int(m.group(1)) == now_month:
+            out.append(k)
+    return out
+
+
 def select_keywords(pool: dict, lang: str, week_iso: str, n: int = 4) -> list:
     keywords = pool.get("seo_keywords", {}).get(lang, [])
+    keywords = _drop_offseason_keywords(keywords, now_kst().month)
     if not keywords:
         return []
     rng = random.Random(week_iso + lang)
@@ -171,14 +221,32 @@ def select_keywords(pool: dict, lang: str, week_iso: str, n: int = 4) -> list:
 INFLUENCER_PHOTO_PCT = 35
 
 
+def _load_ai_yacht_files() -> list:
+    """photos_index.json에서 category=='ai_yacht' 파일명만. 실패/부재 시 빈 리스트(비차단)."""
+    idx = load_json(PHOTOS_INDEX_FILE, {})
+    return [p["file"] for p in idx.get("photos", [])
+            if p.get("category") == "ai_yacht" and p.get("file")]
+
+
+AI_YACHT_FILES = _load_ai_yacht_files()
+
+
 def pick_photo(cats: dict, lang: str, week_iso: str, angle_id: str) -> str:
     # 일정 확률로 인플루언서 사진을 우선 노출(랜덤 변주). 아니면 기존 카테고리 로직.
     influencer = cats.get("influencer") or []
     if influencer and (abs(hash(week_iso + lang + "inf")) % 100) < INFLUENCER_PHOTO_PCT:
         return influencer[abs(hash(week_iso + lang + "infpick")) % len(influencer)]
+    # [2026-09-19 W7] ai_yacht를 이번 앵글의 실사 카테고리들과 같은 급의 후보로 추가.
+    # categorized_photos.json엔 ai_yacht 키가 없어 기존 코드로는 100% 선택 불가였다
+    # (요트·바다 문맥 후보 중 25~40% 수준이 되도록 카테고리 후보 목록에 1개로 합류시킴 —
+    #  이 스크립트가 생성하는 글은 전부 요트투어 게시물이라 앵글 구분 없이 모두 적용).
     categories = ANGLE_TO_CATEGORIES.get(angle_id, ANGLE_TO_CATEGORIES["default"])
+    if AI_YACHT_FILES:
+        categories = categories + ["ai_yacht"]
     cat_seed = abs(hash(week_iso + lang + "cat")) % len(categories)
     chosen = categories[cat_seed]
+    if chosen == "ai_yacht":
+        return AI_YACHT_FILES[abs(hash(week_iso + lang + "aypick")) % len(AI_YACHT_FILES)]
     pool = cats.get(chosen) or cats.get("general") or []
     if not pool:
         return ""
@@ -202,7 +270,16 @@ def add_to_memory(mem: dict, week_iso: str, lang: str, post_body: str, angle_id:
         mem["recent_posts"] = mem["recent_posts"][-32:]
 
 
-def build_prompt(lang, week_iso, angle, weekly_hook, keywords, avoid, brand) -> str:
+def build_prompt(lang, week_iso, angle, weekly_hook, keywords, avoid, brand,
+                 retry_feedback: str = "") -> str:
+    # retry_feedback: 직전 시도가 게이트에서 걸린 이유 — 모델에 그대로 되먹여 자기교정시킨다.
+    retry_block = ""
+    if retry_feedback:
+        retry_block = (
+            "\n!!! YOUR PREVIOUS ATTEMPT WAS REJECTED BY THE PUBLISH GATE !!!\n"
+            "Rejected for: " + retry_feedback + "\n"
+            "Rewrite from scratch and remove every one of those. This is mandatory.\n"
+        )
     angle_focus = angle.get(FOCUS_KEY[lang], angle.get("focus_en", ""))
     angle_id = angle.get("id", "default")
     hook_text = weekly_hook.get(lang, "") or weekly_hook.get("ko", "")
@@ -232,9 +309,31 @@ def build_prompt(lang, week_iso, angle, weekly_hook, keywords, avoid, brand) -> 
             "end with emotion, not data.\n"
         )
 
-    return f"""You are a SEO copywriter for Grande Bleu Yacht — Korea's only certified catamaran in Jeju.
+    return f"""You are the SEO copywriter for Grande Bleu Yacht, a certified catamaran
+operator sailing from Daepo Port, Seogwipo, Jeju. You write the business's OWN
+Google Business Profile posts — posted from the company account, not by a customer.
 
 TASK: Write ONE Google Business Profile Post in {LANG_FULL[lang]} for ISO week {week_iso}.
+{retry_block}
+
+=== VOICE — THIS IS THE BUSINESS'S OWN PROFILE, NOT A CUSTOMER REVIEW ===
+Write in the THIRD PERSON, as the business describing its own service.
+NEVER write as a guest or reviewer. Do NOT use ANY first-person word:
+no "I", "I just experienced", "me", "my", "my family", "we", "we enjoyed",
+"our", "our little ones", "us" — and in Korean no 저는/제가/우리 가족 and no
+experiential past endings (~했는데 / ~있었어요 / ~더라고요). Korean must use
+~합니다 / ~입니다 / ~됩니다.
+A first-person review posted from the company's own account reads as a fake
+review and can breach Google's review policy.
+Correct: "Guests board at Daepo Port and sail a 60-minute sunset course."
+Wrong:   "I just experienced this with my family and our little ones loved it."
+
+=== NO EXCLUSIVITY OR RANKING CLAIMS (hard rule) ===
+Never claim to be the only / the first / the best / No.1 / the largest / unrivalled.
+Specifically DO NOT write "Korea's only certified catamaran" or any translation of it
+(유일 · 唯一 · einzige · единственный · duy nhất · satu-satunya · الوحيد ...).
+State verifiable facts instead: "a certified catamaran, sailing since 2011,
+100,000+ guests". Positioning words like "a leading Jeju sailing experience" are fine.
 
 === THIS WEEK'S CONTENT ANGLE ({angle_id}) ===
 {angle_focus}
@@ -246,15 +345,22 @@ TASK: Write ONE Google Business Profile Post in {LANG_FULL[lang]} for ISO week {
 {", ".join(keywords)}
 
 === BRAND FACTS (do not deviate) ===
-- Korea's only certified catamaran (since 2011, 100,000+ guests, two vessels: 47-seat + 44-seat)
+- A certified catamaran operator in Jeju since 2011, 100,000+ guests, two vessels (47-seat + 44-seat) — state this WITHOUT the words "only" / "first" / "best"
 - 60-minute sunset cruise from Daepo Port, Seogwipo, Jeju
 - Free unlimited onboard: draft beer, wine, Jeju tangerine juice, water, Jeju local snacks, Korean ramyeon
 - Order: Concierge -> Boarding -> Departure (NEVER reverse)
 - Two products: Luxury and Sunset (DON'T mention prices in Google Posts — direct to Klook)
 - No facts about engine type, no "no engine" / "no motor" claims
 - No afternoon tea, no mackerel/galchi fishing — actual fish: rockfish, scorpionfish, filefish, pufferfish
+  ⚠️ In Korean these are ALWAYS 우럭 · 쏨뱅이 · 쥐치 · 복어. Never 볼락, 갈치, 고등어, 참돔, 방어, 광어.
+  In Japanese: カサゴ類・ウマヅラハギ・フグ. In Chinese: 石斑类·剥皮鱼·河豚. Do not substitute other species.
 
 === ADDITIONAL VERIFIED FACTS (JSON, single source of truth — use ONLY these numbers/items; translate Korean values into the post language) ===
+NOTE: this JSON is shared with the Korean blog line and some entries are phrased with
+"유일" (= "the only"). For Google Posts you MUST drop that exclusivity wording and keep
+only the substance — e.g. "한국 유일 브랜드 인증" becomes "brand-certified", and
+"제주 유일 구명조끼 없이 탑승 가능" becomes "a safety grade that allows boarding without
+life vests". Never translate 유일 as "only" / "sole" / "唯一" / "einzige".
 {facts_json}
 
 === STRICTLY BANNED (never write anything matching these categories) ===
@@ -304,6 +410,34 @@ Make this post DISTINCTLY DIFFERENT from any previous post — fresh wording, fr
 """
 
 
+# 🚨[2026-10-06] 게이트 통과본만 채택. 실패하면 **아예 안 쓴다**(기존 콘텐츠 보존 로직이
+#   stale 을 살려두고, 건강검진이 알린다 — 조용한 0건이 되지 않게 이유를 stdout 에 남긴다).
+GATE_TRIES = 4
+
+
+def generate_checked(lang, week, angle, weekly_hook, keywords, avoid, brand, seed_note=""):
+    """gemini 생성 → 길이·보이스 게이트. 반환 (post or "", last_violations)."""
+    feedback = ""
+    viol = []
+    for attempt in range(1, GATE_TRIES + 1):
+        prompt = build_prompt(lang, week, angle, weekly_hook, keywords, avoid, brand,
+                              retry_feedback=feedback)
+        post = gemini(prompt)
+        if not post or len(post) <= 300:
+            print(f"  [{lang}{seed_note}] 짧은 응답(len={len(post) if post else 0}) "
+                  f"— 재시도 {attempt}/{GATE_TRIES}")
+            continue
+        viol = GATE.check(post, lang)
+        if not viol:
+            if attempt > 1:
+                print(f"  [{lang}{seed_note}] 게이트 통과 (시도 {attempt}회)")
+            return post, []
+        feedback = GATE.brief(viol)
+        print(f"  [{lang}{seed_note}] 게이트 거부 {attempt}/{GATE_TRIES} — {feedback}")
+    print(f"  ✗ [{lang}{seed_note}] 게이트 {GATE_TRIES}회 전부 거부 — 이번 편 폐기")
+    return "", viol
+
+
 def main() -> int:
     week = now_kst().strftime("%G-W%V")
     today = now_kst().strftime("%Y-%m-%d")
@@ -331,16 +465,14 @@ def main() -> int:
     ]
     languages = {}
     success = 0
+    gate_rejects = []   # 게이트가 끝까지 거부한 언어 — 조용한 누락 방지용 보고
     for lang, marker, label, flag in langs:
         keywords = select_keywords(pool, lang, week, n=4)
         avoid = get_recent_phrases(memory, lang, n=5)
-        prompt = build_prompt(lang, week, angle, weekly_hook, keywords, avoid, brand)
-        post = ""
-        for _try in range(3):  # 짧은/빈 응답(429 등) 재시도 — partial 방지
-            post = gemini(prompt)
-            if post and len(post) > 300:
-                break
-            print(f"  [{lang}] 짧은 응답(len={len(post) if post else 0}) — 재시도 {_try+1}/3")
+        post, _viol = generate_checked(lang, week, angle, weekly_hook,
+                                       keywords, avoid, brand)
+        if _viol:
+            gate_rejects.append(f"{lang}: {GATE.brief(_viol)}")
         photo = pick_photo(cats, lang, week, angle_id)
         if post and len(post) > 300:
             (OUT_DIR / f"{week}_{lang}.txt").write_text(post, encoding="utf-8")
@@ -360,14 +492,13 @@ def main() -> int:
             # 게시용 v2 변주: 다른 키워드 조합 + v1 도입부 회피 강제 + 다른 사진.
             # 실패해도 v1만으로 종전 동작 유지(비차단).
             try:
+                if test_lang:
+                    print(f"  [TEST] {lang} v2 생략 (테스트는 1편만 — docstring 계약)")
+                    raise StopIteration
                 kw2 = select_keywords(pool, lang, week + "v2", n=4)
                 avoid2 = list(avoid) + [post[:200]]
-                prompt2 = build_prompt(lang, week, angle, weekly_hook, kw2, avoid2, brand)
-                post2 = ""
-                for _t2 in range(2):
-                    post2 = gemini(prompt2)
-                    if post2 and len(post2) > 300:
-                        break
+                post2, _v2viol = generate_checked(lang, week, angle, weekly_hook,
+                                                  kw2, avoid2, brand, seed_note=" v2")
                 if post2 and len(post2) > 300:
                     photo2 = pick_photo(cats, lang, week + "v2", angle_id)
                     (OUT_DIR / f"{week}_{lang}_v2.txt").write_text(post2, encoding="utf-8")
@@ -379,11 +510,16 @@ def main() -> int:
                     print(f"  ✓ {lang} v2: {len(post2)} chars, photo={photo2}")
                 else:
                     print(f"  - {lang} v2 생성 실패(비차단, v1만 사용)")
+            except StopIteration:
+                pass
             except Exception as _e2:
                 print(f"  - {lang} v2 예외(비차단): {_e2}")
         else:
             print(f"  ✗ {lang}: 생성 실패 (len={len(post) if post else 0})")
 
+    if gate_rejects:
+        print(f"[GATE] 보이스 게이트 최종 거부 {len(gate_rejects)}건 (gate v{GATE.GATE_VERSION}): "
+              + " | ".join(gate_rejects))
     if success == 0:
         print("[ERROR] 생성된 글 0편 — 기존 파일 보존, 종료")
         return 1
@@ -414,6 +550,7 @@ def main() -> int:
         "klook_url": KLOOK_URL,
         "languages": languages,
         "_generator": "google_posts_generate_cloud.py (gemini)",
+        "_voice_gate": GATE.GATE_VERSION,
     }
     (OUT_DIR / "current.json").write_text(
         json.dumps(current, ensure_ascii=False, indent=2), encoding="utf-8")
