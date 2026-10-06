@@ -1,38 +1,6 @@
 {
   "recent_posts": [
     {
-      "week": "2026-W32",
-      "lang": "en",
-      "angle": "route_scenery",
-      "first_sentence": "The latest sunset weekends of the year are here, and I just discovered the most breathtaking jeju private cruise experience imaginable! Sailing aboard Grande Bleu Yacht, Korea's only certified catamar",
-      "hash": "9d696de2f51b",
-      "added": "2026-08-03T01:44:54"
-    },
-    {
-      "week": "2026-W32",
-      "lang": "zh-CN",
-      "angle": "route_scenery",
-      "first_sentence": "今年日落最晚的周末，我终于在济州岛体验了一次超高性价比的游艇之旅！乘坐韩国唯一认证的双体帆船Grande Bleu Yacht，从西归浦大浦港出发，开启了60分钟的日落巡游。",
-      "hash": "8936d0b7adc6",
-      "added": "2026-08-03T01:45:27"
-    },
-    {
-      "week": "2026-W32",
-      "lang": "ja",
-      "angle": "route_scenery",
-      "first_sentence": "済州島デートの特別な思い出に、年で最も日没が遅い週末のサンセットクルーズはいかがですか？まるで夢のような時間が流れる大浦港 (Daepo港) 発のグランブルーヨットは、済州島 (チェジュド) で唯一の認定カタマラン。波穏やかな海を巡る60分間の旅で、象岩やチンゴンネ海峡、ウォルピョン柱状節理、パンペンイドク、大型海食洞窟といった絶景ポイントを巡ります。",
-      "hash": "ab29f6b4ea2c",
-      "added": "2026-08-03T01:46:01"
-    },
-    {
-      "week": "2026-W33",
-      "lang": "ko",
-      "angle": "safety_certification",
-      "first_sentence": "맑은 하늘 청명 시즌, 제주 일몰 명소를 찾으시는 분들이라면 놓칠 수 없는 소식이 있어요. 바로 한국 유일의 공인 카타마란, 그랑블루요트의 안전하고 특별한 이야기입니다.",
-      "hash": "4a3d26ec4198",
-      "added": "2026-08-10T01:20:11"
-    },
-    {
       "week": "2026-W33",
       "lang": "en",
       "angle": "safety_certification",
@@ -255,6 +223,38 @@
       "first_sentence": "The clearest skies of the season have arrived, and I just experienced the most perfect jeju private cruise with my family. Sailing on Grande Bleu Yacht from Daepo Port, it truly felt like our own priv",
       "hash": "2434b68f4b01",
       "added": "2026-10-05T03:58:09"
+    },
+    {
+      "week": "2026-W41",
+      "lang": "ko",
+      "angle": "family_friendly",
+      "first_sentence": "맑은 하늘이 이어지는 청명한 시즌, 제주 액티비티를 찾다가 대포항 요트 그랑블루를 선택하는 가족 단위 고객이 많습니다. 어린이부터 어르신까지 모두가 편안하게 즐길 수 있도록 그랑블루요트는 안정적인 쌍동선으로 운항됩니다. 2011년부터 10만 명이 넘는 손님과 함께하며 쌓은 노하우 덕분에, 가족 여행객들에게 제주 주말 여행의 특별한 추억을 선사하고 있습니다.",
+      "hash": "2419cc80623e",
+      "added": "2026-10-06T21:41:26"
+    },
+    {
+      "week": "2026-W41",
+      "lang": "en",
+      "angle": "family_friendly",
+      "first_sentence": "The clearest skies of the season have arrived, offering ideal conditions for a Jeju private cruise. Grande Bleu Yacht, a certified catamaran operator in Jeju since 2011, invites guests to experience a",
+      "hash": "6d204bf33321",
+      "added": "2026-10-06T21:41:34"
+    },
+    {
+      "week": "2026-W41",
+      "lang": "zh-CN",
+      "angle": "family_friendly",
+      "first_sentence": "天空最清澈的季节，全家一起出游，在济州岛海上享受别样时光。Grande Bleu Yacht 作为一家自2011年起在济州岛运营的认证双体船，已接待超过10万名游客，为家庭出行提供了安全舒适的济州岛海上游体验。",
+      "hash": "0fc47d0cd8f5",
+      "added": "2026-10-06T21:41:58"
+    },
+    {
+      "week": "2026-W41",
+      "lang": "ja",
+      "angle": "family_friendly",
+      "first_sentence": "最も澄んだ空の季節、済州島ヨットクルーズで、忘れられない海の旅に出かけませんか？済州島安全ヨットなら、Grande Bleu Yachtがおすすめです。西帰浦 (ソギポ) の大浦港 (Daepo港) から出航する60分のサンセットクルーズは、お子様からご年配の方まで、ご家族全員で楽しめる特別な時間です。",
+      "hash": "6cab37664226",
+      "added": "2026-10-06T21:42:53"
     }
   ]
 }

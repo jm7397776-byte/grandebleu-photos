@@ -1,46 +1,57 @@
 {
   "week": "2026-W41",
-  "generated_at": "2026-10-05T04:18:16",
+  "generated_at": "2026-10-06T21:42:55",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "influencer_0124.jpg",
-      "seo_keywords": "제주 액티비티, 대포항 요트, 제주 안전 투어, 제주 6월 가볼만한곳",
+      "photo": "yacht_422_interior_lounge.jpg",
+      "seo_keywords": "제주 액티비티, 대포항 요트, 제주 와인 크루즈, 제주 주말 여행",
       "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W41_ko.txt",
-      "body_length": 690,
+      "body_length": 594,
       "v2": {
-        "photo": "influencer_0062.jpg",
+        "photo": "ai_yacht_0041.jpg",
         "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W41_ko_v2.txt",
-        "body_length": 691
+        "body_length": 799
       }
     },
     "en": {
       "label": "English",
-      "photo": "influencer_0007.jpg",
+      "photo": "yacht_423_interior_lounge.jpg",
       "seo_keywords": "jeju private cruise, seogwipo activities, daepo port yacht, jeju weekend trip",
       "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W41_en.txt",
-      "body_length": 1128
+      "body_length": 1318,
+      "v2": {
+        "photo": "influencer_0269.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W41_en_v2.txt",
+        "body_length": 1311
+      }
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "yacht_210_interior_lounge.jpg",
-      "seo_keywords": "西归浦活动, 济州岛红酒游艇, 大浦港游艇, 韩国双体船",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W40_zh-CN.txt",
-      "body_length": 538,
+      "photo": "ai_yacht_0144.jpg",
+      "seo_keywords": "韩国唯一认证双体船, 济州岛性价比, 济州岛海上游, 济州岛安全游艇",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W41_zh-CN.txt",
+      "body_length": 659,
       "v2": {
-        "photo": "yacht_421_interior_lounge.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W40_zh-CN_v2.txt",
-        "body_length": 576
+        "photo": "yacht_28_stern.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W41_zh-CN_v2.txt",
+        "body_length": 684
       }
     },
     "ja": {
       "label": "日本語",
-      "photo": "influencer_0303.jpg",
-      "seo_keywords": "韓国セーリング体験, 済州島ヨット, 済州島ゴールデンアワー, 済州島カップル",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W40_ja.txt",
-      "body_length": 545
+      "photo": "ai_yacht_0239.jpg",
+      "seo_keywords": "済州島安全ヨット, 済州島友達旅行, 西帰浦ヨット, 済州島飲み放題",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W41_ja.txt",
+      "body_length": 768,
+      "v2": {
+        "photo": "yacht_421_interior_lounge.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W41_ja_v2.txt",
+        "body_length": 702
+      }
     }
   },
-  "_generator": "google_posts_generate_cloud.py (gemini)"
+  "_generator": "google_posts_generate_cloud.py (gemini)",
+  "_voice_gate": "2026-10-06b"
 }
