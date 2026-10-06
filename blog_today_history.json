@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_14_06_06__fr",
-      "lang": "fr",
-      "file": "blog_queue/fr/auto_14_06_06.md",
-      "title": "Road Trip en Solo à Jeju : La Magnifique Route Côtière de Seogwipo à Olle",
-      "generated_at": "2026-08-21T23:53:49",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0025.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0055.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0243.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0005.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0303.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0193.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_11_07_02__de",
       "lang": "de",
       "file": "blog_queue/de/auto_11_07_02.md",
@@ -1619,6 +1602,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_25_03_02__ms",
+      "lang": "ms",
+      "file": "blog_queue/ms/auto_25_03_02.md",
+      "title": "Jeju Hujan? Jangan Risau! Rancangan Alternatif Mesra Keluarga di Pulau Jeju (2026)",
+      "generated_at": "2026-10-06T00:33:47",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0124.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0193.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_yacht_0058.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0200.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0094.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0037.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0151.png"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 2
     }
   ]
 }
