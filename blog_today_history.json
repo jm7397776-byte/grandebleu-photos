@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_11_07_02__de",
-      "lang": "de",
-      "file": "blog_queue/de/auto_11_07_02.md",
-      "title": "Jeju im August 2026: Ein tiefer Blick in die Manjanggul-Lavahöhle und weitere Wunder",
-      "generated_at": "2026-08-22T00:33:43",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0113.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0093.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0229.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_382_food.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0067.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0105.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_01_05_00__de",
       "lang": "de",
       "file": "blog_queue/de/auto_01_05_00.md",
@@ -1620,6 +1603,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 2
+    },
+    {
+      "key": "auto_25_00_05__ms",
+      "lang": "ms",
+      "file": "blog_queue/ms/auto_25_00_05.md",
+      "title": "Jeju Yacht Tour — How to Book | Grande Bleu Catamaran, Seogwipo Jeju (first-time visitors)",
+      "generated_at": "2026-10-06T03:18:36",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0203.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0217.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0126.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0218.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0103.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0166.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0019.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 1
     }
   ]
 }
