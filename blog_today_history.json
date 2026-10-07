@@ -1,23 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_01_05_00__de",
-      "lang": "de",
-      "file": "blog_queue/de/auto_01_05_00.md",
-      "title": "Jeju in 3 Tagen: Entspannter Reiseplan für Firmengruppen im August 2026",
-      "generated_at": "2026-08-22T23:51:36",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0175.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0214.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0116.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0219.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0163.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0139.jpg"
-      ],
-      "image_count": 6,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_23_04_03__it",
       "lang": "it",
       "file": "blog_queue/it/auto_23_04_03.md",
@@ -1621,6 +1604,23 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_27_04_01__tl",
+      "lang": "tl",
+      "file": "blog_queue/tl/auto_27_04_01.md",
+      "title": "Jeju Mula sa Tubig: Bakit ang South Coast ang Paborito ng mga Honeymooner",
+      "generated_at": "2026-10-07T00:33:44",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0087.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_park_bin.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_yacht_0197.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0043.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0013.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0083.png"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 3
     }
   ]
 }
