@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_23_04_03__it",
-      "lang": "it",
-      "file": "blog_queue/it/auto_23_04_03.md",
-      "title": "Jeju Lontano dalla Folla: Itinerari Romantici e Tranquilli per Coppie (Agosto 2026)",
-      "generated_at": "2026-08-23T00:34:04",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0145.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0041.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0036.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0195.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0022.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0092.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0195.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_24_06_05__it",
       "lang": "it",
       "file": "blog_queue/it/auto_24_06_05.md",
@@ -1621,6 +1603,24 @@
       ],
       "image_count": 6,
       "remaining_candidates": 3
+    },
+    {
+      "key": "auto_20_01_07__tl",
+      "lang": "tl",
+      "file": "blog_queue/tl/auto_20_01_07.md",
+      "title": "Ating Tuklasin: Mga Nangungunang Atraksyon Malapit sa Seogwipo!",
+      "generated_at": "2026-10-07T02:41:00",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0169.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0001.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0022.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0178.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0179.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0132.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0238.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 2
     }
   ]
 }
