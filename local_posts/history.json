@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-04",
-      "generated_at": "2026-08-04T13:40:21",
-      "topic_key": "family",
-      "title": "부모님과 아이가 함께 타기 좋은 제주 요트",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0068.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0012.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0015.jpg"
-      ]
-    },
-    {
       "date": "2026-08-05",
       "generated_at": "2026-08-05T10:41:45",
       "topic_key": "fishing",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0034.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0119.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0208.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "generated_at": "2026-10-07T11:02:53",
+      "topic_key": "premium",
+      "title": "호텔 여행에 어울리는 프리미엄 요트 코스",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0089.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0060.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0062.jpg"
       ]
     }
   ]
