@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_07_07_02__ar",
-      "lang": "ar",
-      "file": "blog_queue/ar/auto_07_07_02.md",
-      "title": "جيجو مع الأطفال: مغامرة لا تُنسى للعائلات الصغيرة!",
-      "generated_at": "2026-08-25T23:55:17",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_93_sunset.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0098.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0153.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0012.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0230.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0144.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0104.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_14_00_00__hi",
       "lang": "hi",
       "file": "blog_queue/hi/auto_14_00_00.md",
@@ -1620,6 +1602,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 1
+    },
+    {
+      "key": "auto_06_00_04__pl",
+      "lang": "pl",
+      "file": "blog_queue/pl/auto_06_00_04.md",
+      "title": "Magiczny Dzień na Wschodnim Wybrzeżu Jeju: Plan Podróży dla Początkujących!",
+      "generated_at": "2026-10-10T00:33:52",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0094.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0076.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0080.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0055.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0246.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0017.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ai_yacht_0035.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 2
     }
   ]
 }
