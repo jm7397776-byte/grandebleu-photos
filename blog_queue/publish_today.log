@@ -2972,3 +2972,20 @@
 [2026-10-09T05:55:56] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/blog-post_09.html
 [2026-10-09T05:55:57] Telegram notification sent
 [2026-10-10T00:33:46] already published: Жэжүгийн Жунмун амралтын бүсээр зугаалах: Хосуудад зориулсан гайхалтай газрууд!
+[2026-10-10T05:38:22] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-10-10T05:38:33] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/jeju-yacht-tour-catamaran-grande-bleu.html
+[2026-10-10T05:38:34] Telegram notification sent
