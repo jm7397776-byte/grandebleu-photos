@@ -2990,3 +2990,20 @@
 [2026-10-10T05:38:33] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/jeju-yacht-tour-catamaran-grande-bleu.html
 [2026-10-10T05:38:34] Telegram notification sent
 [2026-10-11T00:33:40] already published: Jeju Yacht Tour — The Catamaran | Grande Bleu Catamaran, Seogwipo Jeju (first-time visitors)
+[2026-10-11T05:34:21] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-10-11T05:34:32] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/jeju-yacht-tour-honest-review-grande.html
+[2026-10-11T05:34:33] Telegram notification sent
