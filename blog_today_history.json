@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_08_03_00__tl",
-      "lang": "tl",
-      "file": "blog_queue/tl/auto_08_03_00.md",
-      "title": "Jeju Yacht Tour — Route & Highlights | Grande Bleu Catamaran, Seogwipo Jeju (families with kids)",
-      "generated_at": "2026-08-28T07:04:52",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_67_dolphin.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0060.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0064.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0051.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0228.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_179_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0180.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 1
-    },
-    {
       "key": "auto_00_07_03__tr",
       "lang": "tr",
       "file": "blog_queue/tr/auto_00_07_03.md",
@@ -1619,6 +1601,24 @@
       ],
       "image_count": 6,
       "remaining_candidates": 14
+    },
+    {
+      "key": "auto_20_03_06__ja",
+      "lang": "ja",
+      "file": "blog_queue/ja/auto_20_03_06.md",
+      "title": "済州島ヨット ベストシーズン｜Grande Bleu 西帰浦セーリング（子連れ家族向け）",
+      "generated_at": "2026-10-12T00:33:48",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0016.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0038.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0018.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0197.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0021.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0047.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0048.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 17
     }
   ]
 }
