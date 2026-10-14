@@ -3044,3 +3044,20 @@
 [2026-10-13T06:39:54] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/grande-bleu.html
 [2026-10-13T06:39:55] Telegram notification sent
 [2026-10-14T00:33:46] already published: 济州游艇Grande Bleu｜冬日疗愈夕阳航海·韩国唯一双体船
+[2026-10-14T04:41:45] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-10-14T04:41:56] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/blog-post_14.html
+[2026-10-14T04:41:57] Telegram notification sent
