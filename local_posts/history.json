@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-10",
-      "generated_at": "2026-08-10T12:24:29",
-      "topic_key": "course",
-      "title": "월평 주상절리와 코끼리바위를 바다에서",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0197.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0029.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0253.jpg"
-      ]
-    },
-    {
       "date": "2026-08-11",
       "generated_at": "2026-08-11T10:48:22",
       "topic_key": "price",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0211.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0005.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0126.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "generated_at": "2026-10-15T06:09:52",
+      "topic_key": "price",
+      "title": "제주 요트투어 예약 전 확인할 점",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0036.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_daxxni.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0231.jpg"
       ]
     }
   ]
