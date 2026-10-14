@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_25_03_00__pl",
-      "lang": "pl",
-      "file": "blog_queue/pl/auto_25_03_00.md",
-      "title": "Jeju Yacht Tour — Route & Highlights | Grande Bleu Catamaran, Seogwipo Jeju (families with kids)",
-      "generated_at": "2026-08-31T00:33:29",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_287_luxury.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0052.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0250.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0101.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_dmsldmsldms.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0216.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0142.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 2
-    },
-    {
       "key": "auto_02_06_00__pl",
       "lang": "pl",
       "file": "blog_queue/pl/auto_02_06_00.md",
@@ -1623,6 +1605,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 3
+    },
+    {
+      "key": "auto_18_06_07__zh-TW",
+      "lang": "zh-TW",
+      "file": "blog_queue/zh-TW/auto_18_06_07.md",
+      "title": "濟州偶來小徑海岸線精華：獨行旅人必訪的療癒秘境！",
+      "generated_at": "2026-10-14T02:08:16",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_310_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_122_interior_lounge.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0058.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_hwa.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0226.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_dmsldmsldms.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0058.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 2
     }
   ]
 }
