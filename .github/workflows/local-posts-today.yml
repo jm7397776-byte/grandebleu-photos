@@ -42,10 +42,14 @@ jobs:
             git commit -m "local posts render $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase origin main
             git push origin main
-            curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/local_posts/today.json" || true
           else
             echo "No local post change"
           fi
+
+      - name: Refresh Make.com feed CDN
+        run: |
+          # Make.com reads jsDelivr, whose cached copy can lag even when no new commit was needed.
+          curl -fsS "https://purge.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/local_posts/today.json"
 
       - name: Notify local post package ready
         env:
