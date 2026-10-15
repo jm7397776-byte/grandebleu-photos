@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_29_06_00__en",
-      "lang": "en",
-      "file": "blog_queue/en/auto_29_06_00.md",
-      "title": "Jeju Yacht Tour — Route & Highlights | Grande Bleu Catamaran, Seogwipo Jeju (solo travelers)",
-      "generated_at": "2026-09-01T00:33:33",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0169.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0034.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0102.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0058.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_eeeeeunae.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0289.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/dolphin_0012.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 15
-    },
-    {
       "key": "auto_11_03_06__en",
       "lang": "en",
       "file": "blog_queue/en/auto_11_03_06.md",
@@ -1623,6 +1605,23 @@
       ],
       "image_count": 7,
       "remaining_candidates": 4
+    },
+    {
+      "key": "auto_28_05_02__ru",
+      "lang": "ru",
+      "file": "blog_queue/ru/auto_28_05_02.md",
+      "title": "Как сделать последний день на Чеджу незабываемым для вашей корпоративной группы!",
+      "generated_at": "2026-10-15T01:47:15",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0041.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0250.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0014.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0167.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0007.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0138.jpg"
+      ],
+      "image_count": 6,
+      "remaining_candidates": 3
     }
   ]
 }
