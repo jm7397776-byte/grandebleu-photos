@@ -3062,3 +3062,20 @@
 [2026-10-14T04:41:56] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/blog-post_14.html
 [2026-10-14T04:41:57] Telegram notification sent
 [2026-10-15T00:33:47] already published: 濟州偶來小徑海岸線精華：獨行旅人必訪的療癒秘境！
+[2026-10-15T04:23:52] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-10-15T04:24:03] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/blog-post_15.html
+[2026-10-15T04:24:04] Telegram notification sent
