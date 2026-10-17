@@ -3098,3 +3098,20 @@
 [2026-10-16T04:19:33] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/blog-post_16.html
 [2026-10-16T04:19:33] Telegram notification sent
 [2026-10-17T00:33:45] already published: แผนสำรองสำหรับวันฝนตกที่เชจู: เที่ยวสนุกได้ทั้งครอบครัว ไม่มีเบื่อ!
+[2026-10-17T04:10:45] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-10-17T04:10:56] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/thang-8-nay-i-au-o-jeju-kham-pha.html
+[2026-10-17T04:10:57] Telegram notification sent
