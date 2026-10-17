@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_04_04_04__ja",
-      "lang": "ja",
-      "file": "blog_queue/ja/auto_04_04_04.md",
-      "title": "済州島ヨット 撮影スポット｜Grande Bleu 西帰浦セーリング（カップル・ハネムーン向け）",
-      "generated_at": "2026-09-02T01:21:01",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0003.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0039.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0083.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0050.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_360_aerial.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0273.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0170.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 16
-    },
-    {
       "key": "2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic__zh-CN",
       "lang": "zh-CN",
       "file": "blog_queue/zh-CN/2026-05-28_1415_Gen_Z는_왜_선셋_크루즈를_다르게_예약할까_그랑블루요트의_관찰_topic.md",
@@ -1621,6 +1603,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 2
+    },
+    {
+      "key": "auto_13_00_00__vi",
+      "lang": "vi",
+      "file": "blog_queue/vi/auto_13_00_00.md",
+      "title": "Khu Nghỉ Dưỡng Jungmun Jeju: Những Điều Thú Vị Bạn Nhất Định Phải Thử Khi Đến Lần Đầu!",
+      "generated_at": "2026-10-17T00:33:43",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_279_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0020.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0207.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0160.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0187.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0056.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0057.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 3
     }
   ]
 }
