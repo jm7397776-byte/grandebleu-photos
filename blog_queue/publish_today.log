@@ -3116,3 +3116,20 @@
 [2026-10-17T04:10:56] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/thang-8-nay-i-au-o-jeju-kham-pha.html
 [2026-10-17T04:10:57] Telegram notification sent
 [2026-10-18T00:33:45] already published: Tháng 8 này đi đâu ở Jeju? Khám phá Cheonjiyeon và Jeongbang: Hai thác nước diệu kỳ cho gia đình có trẻ nhỏ!
+[2026-10-18T04:17:39] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-10-18T04:17:50] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/solo-traveling-di-jeju-ini-kegiatan.html
+[2026-10-18T04:17:51] Telegram notification sent
