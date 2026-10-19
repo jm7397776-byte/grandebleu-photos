@@ -3134,3 +3134,20 @@
 [2026-10-18T04:17:50] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/solo-traveling-di-jeju-ini-kegiatan.html
 [2026-10-18T04:17:51] Telegram notification sent
 [2026-10-19T00:33:43] already published: Solo Traveling di Jeju? Ini Kegiatan Seru di Sekitar Jungmun Resort Area Agustus 2026!
+[2026-10-19T04:26:43] Blogger API publish failed HTTP 403: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2026-10-19T04:26:54] published via mail2blogger_gmail_api: https://jejugrandebleuyacht.blogspot.com/2026/10/jeju-yacht-tour-best-season-grande-bleu_01169371976.html
+[2026-10-19T04:26:54] Telegram notification sent
