@@ -1,24 +1,6 @@
 {
   "selected": [
     {
-      "key": "auto_25_03_04__ru",
-      "lang": "ru",
-      "file": "blog_queue/ru/auto_25_03_04.md",
-      "title": "Дождливый день на Чеджу: Что делать с детьми, если планы испортила погода?",
-      "generated_at": "2026-09-05T00:33:32",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0100.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0148.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0249.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0280.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0013.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0009.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0007.jpg"
-      ],
-      "image_count": 7,
-      "remaining_candidates": 4
-    },
-    {
       "key": "auto_16_01_07__ru",
       "lang": "ru",
       "file": "blog_queue/ru/auto_16_01_07.md",
@@ -1616,6 +1598,24 @@
       ],
       "image_count": 7,
       "remaining_candidates": 3
+    },
+    {
+      "key": "auto_24_06_06__es",
+      "lang": "es",
+      "file": "blog_queue/es/auto_24_06_06.md",
+      "title": "Jeju Yacht Tour — Best Season | Grande Bleu Catamaran, Seogwipo Jeju (solo travelers)",
+      "generated_at": "2026-10-19T01:37:23",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_153_luxury.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0182.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0116.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0248.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0018.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/ocean_0155.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_174___24.jpg"
+      ],
+      "image_count": 7,
+      "remaining_candidates": 2
     }
   ]
 }
