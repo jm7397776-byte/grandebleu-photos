@@ -1,38 +1,6 @@
 {
   "recent_posts": [
     {
-      "week": "2026-W35",
-      "lang": "en",
-      "angle": "culture_local",
-      "first_sentence": "This calm seas season, I discovered the ultimate way to embrace the essence of Jeju: a sunset cruise in Jeju with Hallasan's majestic backdrop! My friends and I embarked on Grande Bleu Yacht, Korea's ",
-      "hash": "63355ded1bfa",
-      "added": "2026-08-24T01:11:24"
-    },
-    {
-      "week": "2026-W35",
-      "lang": "zh-CN",
-      "angle": "culture_local",
-      "first_sentence": "海面平静的季节，我终于体验了一次融合汉拿山背景、济州本地饼干和济州本地拉面的60分钟浓缩济州精华游艇之旅！Grande Bleu Yacht作为韩国唯一认证的双体船（自2011年起已接待超过10万名游客），为您带来无与伦比的平稳体验和绝美风光。",
-      "hash": "5800021c9b8f",
-      "added": "2026-08-24T01:11:28"
-    },
-    {
-      "week": "2026-W35",
-      "lang": "ja",
-      "angle": "culture_local",
-      "first_sentence": "海が穏やかな季節、済州島週末旅行で特別な体験を探しているなら、グランブルーヨットの60分クルーズがおすすめです。漢拏山 (ハルラサン) を背景に、済州島 (チェジュド) の真髄を60分で味わえる、まさに贅沢な時間。大浦港 (Daepo港) から出発するグランブルーヨットは、韓国で唯一の認定カタマランとして、2011年の就航以来10万人以上のお客様を安全にご案内してきました。",
-      "hash": "895ddb69c2f3",
-      "added": "2026-08-24T01:11:31"
-    },
-    {
-      "week": "2026-W36",
-      "lang": "ko",
-      "angle": "sunset_timing",
-      "first_sentence": "주말 일몰 가장 늦은 시즌, 제주 서귀포 바다를 온전히 누릴 수 있는 특별한 요트 경험을 찾고 있다면 그랑블루요트 선셋 크루즈가 완벽한 선택입니다. 해 질 녘 황금 시간, 가장 늦은 일몰을 배경으로 대포항을 출항하는 60분간의 항해는 잊지 못할 추억을 선사할 거예요.",
-      "hash": "ea4e092c7134",
-      "added": "2026-08-31T03:59:47"
-    },
-    {
       "week": "2026-W36",
       "lang": "en",
       "angle": "sunset_timing",
@@ -255,6 +223,38 @@
       "first_sentence": "海が穏やかな季節、済州島 (チェジュド) で忘れられない夕暮れを過ごすなら、グランブルーヨットの60分サンセットクルーズはいかがでしょうか。西帰浦 (ソギポ) 大浦港 (Daepo港) から出航し、デッキで夕陽セルフィー、漢拏山 (ハルラサン) とヨットを背景にしたインスタ映えスポットを巡ります。",
       "hash": "39b302a61228",
       "added": "2026-10-19T03:26:48"
+    },
+    {
+      "week": "2026-W44",
+      "lang": "ko",
+      "angle": "route_scenery",
+      "first_sentence": "주말 일몰 가장 늦은 시즌, 제주 서귀포 대포항에서 럭셔리 투어를 즐기는 완벽한 방법입니다. 그랑블루요트와 함께라면 황홀한 노을 속에서 제주 SNS 명소인 코끼리바위, 진곶내 해상 협곡, 월평 주상절리, 팡팽이덕, 큰 해식동굴의 비경을 모두 만끽할 수 있습니다. 60분간의 항해 동안 다채로운 해안 절경이 펼쳐지며, 잊지 못할 추억을 선사합니다.",
+      "hash": "e30805e7c128",
+      "added": "2026-10-26T03:40:59"
+    },
+    {
+      "week": "2026-W44",
+      "lang": "en",
+      "angle": "route_scenery",
+      "first_sentence": "As the final sunset weekends of the year approach, guests can enjoy a breathtaking jeju sunset spot like no other. Grande Bleu Yacht, a certified catamaran operator in Jeju since 2011, offers a captiv",
+      "hash": "69114387f94d",
+      "added": "2026-10-26T03:41:06"
+    },
+    {
+      "week": "2026-W44",
+      "lang": "zh-CN",
+      "angle": "route_scenery",
+      "first_sentence": "济州岛安全游的理想选择，就在西归浦大浦港的蔚蓝海面上。当十月进入尾声，2026年第44周迎来了全年日落最晚的周末，这正是抓紧时间感受漫长金色余晖的绝佳机会。",
+      "hash": "42ec92a7e8e0",
+      "added": "2026-10-26T03:43:09"
+    },
+    {
+      "week": "2026-W44",
+      "lang": "ja",
+      "angle": "route_scenery",
+      "first_sentence": "年で最も日没が遅い週末、済州島（チェジュド）の海で忘れられない夕暮れを体験しませんか？ 西帰浦（ソギポ）大浦港（Daepo港）から出航するGrande Bleu Yachtでは、この特別な時期にぴったりのサンセットクルーズをご提供しています。",
+      "hash": "2c69590ba455",
+      "added": "2026-10-26T03:48:38"
     }
   ]
 }

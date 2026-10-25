@@ -1,45 +1,50 @@
 {
-  "week": "2026-W43",
-  "generated_at": "2026-10-19T03:28:01",
+  "week": "2026-W44",
+  "generated_at": "2026-10-26T03:48:40",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "ai_yacht_0161.jpg",
-      "seo_keywords": "제주 데이트 코스, 제주 가성비 투어, 제주 안전 투어, 제주 어린이 동반",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W43_ko.txt",
-      "body_length": 732,
+      "photo": "influencer_0035.jpg",
+      "seo_keywords": "제주 SNS 명소, 대포항 요트, 제주 럭셔리 투어, 서귀포 요트",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W44_ko.txt",
+      "body_length": 959,
       "v2": {
-        "photo": "yacht_95_sunset.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W43_ko_v2.txt",
-        "body_length": 824
+        "photo": "influencer_0206.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W44_ko_v2.txt",
+        "body_length": 875
       }
     },
     "en": {
       "label": "English",
-      "photo": "yacht_88_sunset.jpg",
-      "seo_keywords": "jeju safe tour, jeju yacht tour, jeju hotspot, jeju sunset time",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W43_en.txt",
-      "body_length": 1099
+      "photo": "yacht_237_deck_exterior.jpg",
+      "seo_keywords": "jeju sunset spot, jusangjeolli cliff yacht, korea only certified catamaran, jeju photo spot",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W44_en.txt",
+      "body_length": 1307
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "ai_yacht_0276.jpg",
-      "seo_keywords": "济州岛安全游, 济州岛日落时间, 济州岛情侣, 济州岛日落景点",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W43_zh-CN.txt",
-      "body_length": 853,
+      "photo": "yacht_88_sunset.jpg",
+      "seo_keywords": "济州岛60分钟航程, 济州岛私人游艇, 济州岛无限畅饮, 济州岛安全游",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W44_zh-CN.txt",
+      "body_length": 711,
       "v2": {
-        "photo": "influencer_0081.png",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W43_zh-CN_v2.txt",
-        "body_length": 806
+        "photo": "yacht_363_aerial.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W44_zh-CN_v2.txt",
+        "body_length": 780
       }
     },
     "ja": {
       "label": "日本語",
-      "photo": "ai_yacht_0055.jpg",
-      "seo_keywords": "西帰浦ヨット, 済州島安全ツアー, 済州島インスタ映え, 大浦港ヨット",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W43_ja.txt",
-      "body_length": 804
+      "photo": "influencer_0157.jpg",
+      "seo_keywords": "済州島夕陽スポット, 韓国セーリング体験, 大浦港ヨット, 西帰浦アクティビティ",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W44_ja.txt",
+      "body_length": 710,
+      "v2": {
+        "photo": "influencer_0140.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W44_ja_v2.txt",
+        "body_length": 612
+      }
     }
   },
   "_generator": "google_posts_generate_cloud.py (gemini)",
