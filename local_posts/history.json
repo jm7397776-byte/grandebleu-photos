@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-21",
-      "generated_at": "2026-08-21T11:41:33",
-      "topic_key": "sunset",
-      "title": "제주 선셋을 가장 조용하게 보는 방법",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_163_luxury.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0292.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0010.jpg"
-      ]
-    },
-    {
       "date": "2026-08-22",
       "generated_at": "2026-08-22T11:32:50",
       "topic_key": "premium",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0236.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0139.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0007.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "generated_at": "2026-10-27T05:10:10",
+      "topic_key": "family",
+      "title": "부모님과 아이가 함께 타기 좋은 제주 요트",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0083.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_iyuune.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0014.jpg"
       ]
     }
   ]
