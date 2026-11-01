@@ -1,38 +1,6 @@
 {
   "recent_posts": [
     {
-      "week": "2026-W36",
-      "lang": "en",
-      "angle": "sunset_timing",
-      "first_sentence": "As the latest sunset weekends of the year arrive, I found myself on the Grande Bleu Yacht, mesmerized by Jeju's golden hour. This isn't just any boat trip; it's Korea's only certified catamaran, offer",
-      "hash": "816fcf1d6e1a",
-      "added": "2026-08-31T03:59:50"
-    },
-    {
-      "week": "2026-W36",
-      "lang": "zh-CN",
-      "angle": "sunset_timing",
-      "first_sentence": "本周末将迎来全年日落最晚的黄金时段，在西归浦大浦港，我终于体验了一次与众不同的济州岛日落景点游艇之旅！乘坐 Grande Bleu Yacht——韩国唯一认证的双体船，从大浦港出发，60分钟的夕阳巡游，将济州岛热门景点的魅力尽收眼底。",
-      "hash": "3d8ebd3c9c43",
-      "added": "2026-08-31T04:02:34"
-    },
-    {
-      "week": "2026-W37",
-      "lang": "ko",
-      "angle": "weather_seasonal",
-      "first_sentence": "맑은 하늘 청명 시즌, 제주 선셋 크루즈를 제대로 즐기고 싶어 서귀포 대포항 그랑블루요트를 찾았어요. 이번 주 예보는 특히 맑은 날이 많아 환상적인 노을을 기대하며 제주 60분 크루즈에 탑승했는데, 정말 잊지 못할 경험이었습니다.",
-      "hash": "51da2731c212",
-      "added": "2026-09-07T02:57:54"
-    },
-    {
-      "week": "2026-W37",
-      "lang": "en",
-      "angle": "weather_seasonal",
-      "first_sentence": "The clearest skies of the season have graced Jeju, and I just experienced the most breathtaking jeju luxury yacht adventure imaginable! Sailing aboard Grande Bleu Yacht, Korea's only certified catamar",
-      "hash": "b1e6e56cb7ad",
-      "added": "2026-09-07T02:58:00"
-    },
-    {
       "week": "2026-W37",
       "lang": "zh-CN",
       "angle": "weather_seasonal",
@@ -255,6 +223,38 @@
       "first_sentence": "年で最も日没が遅い週末、済州島（チェジュド）の海で忘れられない夕暮れを体験しませんか？ 西帰浦（ソギポ）大浦港（Daepo港）から出航するGrande Bleu Yachtでは、この特別な時期にぴったりのサンセットクルーズをご提供しています。",
       "hash": "2c69590ba455",
       "added": "2026-10-26T03:48:38"
+    },
+    {
+      "week": "2026-W45",
+      "lang": "ko",
+      "angle": "safety_certification",
+      "first_sentence": "맑은 하늘 청명 시즌, 제주 여행의 하이라이트를 찾는다면 서귀포 대포항에서 출발하는 그랑블루요트 선셋 투어가 특별한 경험을 선사합니다. 한국에서 브랜드 인증을 받은 카타마란으로, 2011년부터 10만 명 이상의 손님과 함께하며 쌓은 무사고 운항 경력을 자랑합니다. 숙련된 선장이 직접 운항하여 안전하고 편안한 60분 항해를 약속합니다.",
+      "hash": "bf9ecf8e6602",
+      "added": "2026-11-02T05:05:30"
+    },
+    {
+      "week": "2026-W45",
+      "lang": "en",
+      "angle": "safety_certification",
+      "first_sentence": "The clearest skies of the season are here, creating a stunning backdrop for a memorable **Jeju sailing experience**. Grande Bleu Yacht invites guests to embark on a captivating 60-minute sunset cruise",
+      "hash": "58492685f065",
+      "added": "2026-11-02T05:05:34"
+    },
+    {
+      "week": "2026-W45",
+      "lang": "zh-CN",
+      "angle": "safety_certification",
+      "first_sentence": "济州岛汉拿山下的海面在11月显得格外深邃，这正是从西归浦大浦港出发，近距离感受柱状节理游艇航程的理想时节。Grande Bleu Yacht自2011年起在济州岛大浦港运营，拥有47座与44座两艘大型认证双体帆船，至今已接待超过10万名游客。即便是在清凉的初冬海风中，由持证船长亲自驾驶的高规格帆船依然能提供稳健舒适的海上航行环境。",
+      "hash": "609725d566aa",
+      "added": "2026-11-02T05:05:48"
+    },
+    {
+      "week": "2026-W45",
+      "lang": "ja",
+      "angle": "safety_certification",
+      "first_sentence": "最も澄んだ空の季節、済州島（チェジュド）で特別なセーリング体験を。西帰浦（ソギポ）大浦港（Daepo港）から出航するGrande Bleu Yachtは、確かな資格を持つ船長が運航する認定カタマランです。2011年の運航開始以来、10万人を超えるお客様に感動をお届けし、無事故での運航を続けております。",
+      "hash": "60b28e1e76af",
+      "added": "2026-11-02T05:05:57"
     }
   ]
 }
