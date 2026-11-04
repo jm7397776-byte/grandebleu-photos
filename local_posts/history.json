@@ -2,17 +2,6 @@
   "items": [
     {
       "date": "2026-08-28",
-      "generated_at": "2026-08-28T10:30:45",
-      "topic_key": "fishing",
-      "title": "처음 해보는 바다낚시도 편하게",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/fishing_0002.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0284.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0134.jpg"
-      ]
-    },
-    {
-      "date": "2026-08-28",
       "generated_at": "2026-08-28T22:03:39",
       "topic_key": "sunset",
       "title": "제주 선셋을 가장 조용하게 보는 방법",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0022.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0070.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0195.jpg"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "generated_at": "2026-11-05T08:02:49",
+      "topic_key": "sunset",
+      "title": "제주 선셋을 가장 조용하게 보는 방법",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0003.png",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0232.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0118.jpg"
       ]
     }
   ]
