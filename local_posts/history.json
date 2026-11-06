@@ -2,17 +2,6 @@
   "items": [
     {
       "date": "2026-08-29",
-      "generated_at": "2026-08-29T10:48:29",
-      "topic_key": "premium",
-      "title": "호텔 여행에 어울리는 프리미엄 요트 코스",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0031.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0157.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/people_ji___yuuuu.jpg"
-      ]
-    },
-    {
-      "date": "2026-08-29",
       "generated_at": "2026-08-29T16:59:23",
       "topic_key": "course",
       "title": "월평 주상절리와 코끼리바위를 바다에서",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0054.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0081.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0040.jpg"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "generated_at": "2026-11-07T07:36:52",
+      "topic_key": "premium",
+      "title": "호텔 여행에 어울리는 프리미엄 요트 코스",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0054.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0158.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0059.jpg"
       ]
     }
   ]
