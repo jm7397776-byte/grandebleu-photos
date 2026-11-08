@@ -1,49 +1,54 @@
 {
-  "week": "2026-W45",
-  "generated_at": "2026-11-02T05:06:00",
+  "week": "2026-W46",
+  "generated_at": "2026-11-09T05:06:43",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "yacht_26_bow.jpg",
-      "seo_keywords": "제주 핫플레이스, 제주 비건 옵션, 제주 SNS 명소, 제주 친구여행",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W45_ko.txt",
-      "body_length": 936,
+      "photo": "yacht_152_luxury.jpg",
+      "seo_keywords": "제주 한라산 뷰, 제주 야경, 제주 노을, 제주 카타마란",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_ko.txt",
+      "body_length": 812,
       "v2": {
-        "photo": "yacht_11_cockpit.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W45_ko_v2.txt",
-        "body_length": 845
+        "photo": "yacht_90_sunset.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_ko_v2.txt",
+        "body_length": 696
       }
     },
     "en": {
       "label": "English",
-      "photo": "influencer_0039.jpg",
-      "seo_keywords": "jeju sunset spot, korea sailing experience, jeju anniversary cruise, jeju proposal cruise",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W45_en.txt",
-      "body_length": 1087
+      "photo": "influencer_0088.jpg",
+      "seo_keywords": "jeju sunset time, korea only certified catamaran, jeju hallasan view, jeju weekend trip",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_en.txt",
+      "body_length": 1059,
+      "v2": {
+        "photo": "yacht_15_sunset_real.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_en_v2.txt",
+        "body_length": 1302
+      }
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "influencer_0221.png",
-      "seo_keywords": "柱状节理游艇, 济州岛必玩活动, 济州岛60分钟航程, 济州岛汉拿山",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W45_zh-CN.txt",
-      "body_length": 651,
+      "photo": "yacht_149_luxury.jpg",
+      "seo_keywords": "韩国双体船, 济州岛素食选项, 济州岛网红打卡, 济州岛游艇",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_zh-CN.txt",
+      "body_length": 744,
       "v2": {
-        "photo": "influencer_0129.png",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W45_zh-CN_v2.txt",
-        "body_length": 645
+        "photo": "ai_yacht_0151.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_zh-CN_v2.txt",
+        "body_length": 771
       }
     },
     "ja": {
       "label": "日本語",
-      "photo": "yacht_23_cockpit.jpg",
-      "seo_keywords": "済州島漢拏山, 済州島コスパ, 韓国セーリング体験, 済州島ラグジュアリー",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W45_ja.txt",
-      "body_length": 635,
+      "photo": "yacht_92_sunset.jpg",
+      "seo_keywords": "済州島漢拏山, 韓国カタマラン, 済州島家族旅行, 済州島ゴールデンアワー",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_ja.txt",
+      "body_length": 641,
       "v2": {
-        "photo": "yacht_238_deck_exterior.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W45_ja_v2.txt",
-        "body_length": 820
+        "photo": "influencer_0228.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_ja_v2.txt",
+        "body_length": 861
       }
     }
   },
