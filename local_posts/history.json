@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-02",
-      "generated_at": "2026-09-02T15:03:54",
-      "topic_key": "sunset",
-      "title": "제주 선셋을 가장 조용하게 보는 방법",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0094.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0129.png",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0019.jpg"
-      ]
-    },
-    {
       "date": "2026-09-03",
       "generated_at": "2026-09-03T11:04:36",
       "topic_key": "family",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0084.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0226.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0013.jpg"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "generated_at": "2026-11-15T02:24:19",
+      "topic_key": "sunset",
+      "title": "제주 선셋을 가장 조용하게 보는 방법",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/sail_0148.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0050.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0223.jpg"
       ]
     }
   ]
