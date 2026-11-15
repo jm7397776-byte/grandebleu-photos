@@ -1,38 +1,6 @@
 {
   "recent_posts": [
     {
-      "week": "2026-W39",
-      "lang": "zh-CN",
-      "angle": "catamaran_stability",
-      "first_sentence": "海面平静的季节，我终于在济州岛体验了不晕船的游艇之旅！Grande Bleu Yacht作为韩国唯一认证的双体帆船，自2011年起已安全接待超过10万名客人，双船体设计带来的稳定感，让我在海上也能尽情享受，非常适合济州岛情侣和家庭出游。",
-      "hash": "620ff65faca6",
-      "added": "2026-09-21T03:26:52"
-    },
-    {
-      "week": "2026-W39",
-      "lang": "ja",
-      "angle": "catamaran_stability",
-      "first_sentence": "海が穏やかな季節、済州島 (チェジュド) での特別な体験を探しているなら、西帰浦 (ソギポ) のGrande Bleu Yachtがおすすめです。実は私、揺れに弱い方なんですが、韓国唯一の認定カタマラン（双胴船）ということで、その安定感にびっくりしました。",
-      "hash": "12d6eeb6790a",
-      "added": "2026-09-21T03:26:59"
-    },
-    {
-      "week": "2026-W40",
-      "lang": "ko",
-      "angle": "couple_romance",
-      "first_sentence": "주말 일몰 가장 늦은 시즌, 제주 바다투어의 로맨틱한 절정을 그랑블루요트에서 경험하세요. 커플 데이트, 감동적인 프로포즈, 소중한 결혼기념일까지, 두 분만의 특별한 순간을 위한 단독 갑판 좌석과 노을 배경 인생샷을 선사합니다. 60분간의 항해 동안 로맨틱한 무드 속에서 잊지 못할 추억을 만들어보세요.",
-      "hash": "f15529540089",
-      "added": "2026-09-28T04:28:13"
-    },
-    {
-      "week": "2026-W40",
-      "lang": "en",
-      "angle": "couple_romance",
-      "first_sentence": "As the latest sunset weekends of the year arrive, imagine stealing a truly romantic moment with your loved one on a private deck, bathed in the glow of a 제주 night view. Grande Bleu Yacht offers the pe",
-      "hash": "c9a64be2c74f",
-      "added": "2026-09-28T04:28:18"
-    },
-    {
       "week": "2026-W40",
       "lang": "zh-CN",
       "angle": "couple_romance",
@@ -255,6 +223,38 @@
       "first_sentence": "ゴールデンアワーの魔法が済州島（チェジュド）を包むこの時期、西帰浦（ソギポ）大浦港（Daepo港）から出航するGrande Bleu Yachtで、忘れられない海の冒険が始まります。韓国カタマランでの優雅なひとときを、ぜひこの機会に体験してください。",
       "hash": "6dfff26891e7",
       "added": "2026-11-09T05:06:35"
+    },
+    {
+      "week": "2026-W47",
+      "lang": "ko",
+      "angle": "culture_local",
+      "first_sentence": "바다가 잔잔한 평온 시즌, 제주 주말 여행의 정수를 한 시간에 만끽하는 그랑블루요트 선셋 투어가 특별한 경험을 선사합니다. 한라산의 웅장한 배경 아래, 제주 로컬 쿠키와 라면을 맛보며 제주의 바다를 온전히 느끼는 시간입니다. 2011년부터 10만 명 이상의 승객과 함께한 브랜드 인증 카타마란으로, 제주 서귀포 대포항에서 60분간의 잊지 못할 항해를 즐길 수",
+      "hash": "31ba497157b3",
+      "added": "2026-11-16T05:44:46"
+    },
+    {
+      "week": "2026-W47",
+      "lang": "en",
+      "angle": "culture_local",
+      "first_sentence": "The calm seas of late autumn in Jeju create a perfect setting for a serene **jeju golden hour** experience. Grande Bleu Yacht, a certified catamaran operator sailing from Daepo Port, Seogwipo, offers ",
+      "hash": "b385bc7eef01",
+      "added": "2026-11-16T05:44:55"
+    },
+    {
+      "week": "2026-W47",
+      "lang": "zh-CN",
+      "angle": "culture_local",
+      "first_sentence": "海面平静的季节，正是探索济州岛海上魅力的绝佳时刻。从西归浦大浦港出发，Grande Bleu Yacht的双体帆船将带您开启一段难忘的60分钟旅程，体验济州岛的精华所在——壮丽的汉拿山背景、香醇的济州本地饼干，还有温暖的济州本地拉面，这一切都浓缩在这段悠闲的海上时光里。",
+      "hash": "a9dc154fc7ed",
+      "added": "2026-11-16T05:45:00"
+    },
+    {
+      "week": "2026-W47",
+      "lang": "ja",
+      "angle": "culture_local",
+      "first_sentence": "海が穏やかな季節、済州島 (チェジュド) で忘れられない夕暮れを過ごすなら、済州島60分クルーズはいかがでしょうか。Grande Bleu Yachtのヨットクルーズは、大浦港 (Daepo港) から出航し、漢拏山 (ハルラサン) を背景に済州の真髄を60分で体験できる特別な時間を提供します。",
+      "hash": "d4b9e4701355",
+      "added": "2026-11-16T05:45:08"
     }
   ]
 }

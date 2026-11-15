@@ -1,54 +1,54 @@
 {
-  "week": "2026-W46",
-  "generated_at": "2026-11-09T05:06:43",
+  "week": "2026-W47",
+  "generated_at": "2026-11-16T05:45:13",
   "klook_url": "https://www.klook.com/en-US/activity/170600-jeju-grandebleu-sunset-yacht-experience/?utm_source=google_posts&utm_medium=cta&utm_campaign=jeju_yacht",
   "languages": {
     "ko": {
       "label": "한국어",
-      "photo": "yacht_152_luxury.jpg",
-      "seo_keywords": "제주 한라산 뷰, 제주 야경, 제주 노을, 제주 카타마란",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_ko.txt",
-      "body_length": 812,
+      "photo": "ai_yacht_0148.jpg",
+      "seo_keywords": "제주 주말 여행, 대포항 요트, 제주 바다투어, 제주 인생샷",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W47_ko.txt",
+      "body_length": 860,
       "v2": {
-        "photo": "yacht_90_sunset.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_ko_v2.txt",
-        "body_length": 696
+        "photo": "influencer_0294.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W47_ko_v2.txt",
+        "body_length": 833
       }
     },
     "en": {
       "label": "English",
-      "photo": "influencer_0088.jpg",
-      "seo_keywords": "jeju sunset time, korea only certified catamaran, jeju hallasan view, jeju weekend trip",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_en.txt",
-      "body_length": 1059,
+      "photo": "yacht_88_sunset.jpg",
+      "seo_keywords": "jeju golden hour, jeju kid friendly, sunset cruise jeju, jeju family activity",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W47_en.txt",
+      "body_length": 1269,
       "v2": {
-        "photo": "yacht_15_sunset_real.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_en_v2.txt",
-        "body_length": 1302
+        "photo": "yacht_03.png",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W47_en_v2.txt",
+        "body_length": 1351
       }
     },
     "zh-CN": {
       "label": "中文简体",
-      "photo": "yacht_149_luxury.jpg",
-      "seo_keywords": "韩国双体船, 济州岛素食选项, 济州岛网红打卡, 济州岛游艇",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_zh-CN.txt",
-      "body_length": 744,
+      "photo": "yacht_79_general.jpg",
+      "seo_keywords": "济州岛朋友游, 济州岛无限畅饮, 济州岛求婚, 济州岛夜景",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W47_zh-CN.txt",
+      "body_length": 520,
       "v2": {
-        "photo": "ai_yacht_0151.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_zh-CN_v2.txt",
-        "body_length": 771
+        "photo": "influencer_0172.jpg",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W47_zh-CN_v2.txt",
+        "body_length": 798
       }
     },
     "ja": {
       "label": "日本語",
-      "photo": "yacht_92_sunset.jpg",
-      "seo_keywords": "済州島漢拏山, 韓国カタマラン, 済州島家族旅行, 済州島ゴールデンアワー",
-      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_ja.txt",
-      "body_length": 641,
+      "photo": "yacht_81_general.jpg",
+      "seo_keywords": "済州島60分クルーズ, 済州島おすすめアクティビティ, 済州島インスタ映え, 済州島ラーメンクルーズ",
+      "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W47_ja.txt",
+      "body_length": 914,
       "v2": {
-        "photo": "influencer_0228.jpg",
-        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W46_ja_v2.txt",
-        "body_length": 861
+        "photo": "yacht_02.png",
+        "body_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/google_posts/2026-W47_ja_v2.txt",
+        "body_length": 953
       }
     }
   },
