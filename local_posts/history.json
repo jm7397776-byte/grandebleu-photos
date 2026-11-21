@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-07",
-      "generated_at": "2026-09-07T15:18:07",
-      "topic_key": "course",
-      "title": "월평 주상절리와 코끼리바위를 바다에서",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_375_food.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0056.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0174.png"
-      ]
-    },
-    {
       "date": "2026-09-08",
       "generated_at": "2026-09-08T10:31:33",
       "topic_key": "food",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/yacht_353_aerial.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0121.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0044.jpg"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "generated_at": "2026-11-22T07:39:15",
+      "topic_key": "sunset",
+      "title": "제주 선셋을 가장 조용하게 보는 방법",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0056.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0122.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0079.jpg"
       ]
     }
   ]
