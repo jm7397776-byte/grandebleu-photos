@@ -2,17 +2,6 @@
   "items": [
     {
       "date": "2026-09-08",
-      "generated_at": "2026-09-08T10:31:33",
-      "topic_key": "food",
-      "title": "맥주와 간식까지 포함된 가벼운 요트 시간",
-      "image_urls": [
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/food_0128.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0195.jpg",
-        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0003.jpg"
-      ]
-    },
-    {
-      "date": "2026-09-08",
       "generated_at": "2026-09-08T15:07:52",
       "topic_key": "family",
       "title": "부모님과 아이가 함께 타기 좋은 제주 요트",
@@ -1318,6 +1307,17 @@
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0056.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0122.jpg",
         "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0079.jpg"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "generated_at": "2026-11-23T03:55:48",
+      "topic_key": "food",
+      "title": "맥주와 간식까지 포함된 가벼운 요트 시간",
+      "image_urls": [
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/facility_0011.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0116.jpg",
+        "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/influencer_0093.jpg"
       ]
     }
   ]
