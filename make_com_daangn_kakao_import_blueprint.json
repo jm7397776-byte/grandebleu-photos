@@ -25,7 +25,7 @@
       "mapper": {
         "ca": "",
         "qs": [],
-        "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/local_posts/today.json",
+        "url": "https://cdn.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/local_posts/today.json",
         "data": "",
         "gzip": true,
         "method": "get",
@@ -90,6 +90,6 @@
       "Route 2: send channels.kakao_channel title/body/image_url/button_url to Telegram or queue.",
       "Keep this scenario separate from Pinterest."
     ],
-    "data_source": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/local_posts/today.json"
+    "data_source": "https://cdn.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/local_posts/today.json"
   }
 }

@@ -8,7 +8,7 @@ KakaoTalk Channel posting packages.
 Make.com should fetch this URL every day after the render workflow runs:
 
 ```text
-https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/local_posts/today.json
+https://cdn.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/local_posts/today.json
 ```
 
 ## Schedule

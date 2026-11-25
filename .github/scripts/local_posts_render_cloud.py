@@ -264,9 +264,9 @@ def main():
             "kakao_channel": render_kakao(topic, photos),
         },
         "make": {
-            # jsDelivr rejects this repository once its package exceeds 50 MB.
-            # Make.com can consume GitHub's public raw endpoint without that cap.
-            "source_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/local_posts/today.json",
+            # GitHub Raw can serve a stale main-branch response for up to five
+            # minutes. This endpoint is purged by the workflow after each render.
+            "source_url": "https://cdn.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/local_posts/today.json",
             "suggested_schedule_kst": "10:30",
             "routing": [
                 "HTTP GET today.json",

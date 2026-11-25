@@ -1,7 +1,7 @@
 {
   "name": "Grande Bleu - Daangn and Kakao Channel Daily Package",
   "purpose": "Fetch the daily local social package and route separate Daangn/Karrot and KakaoTalk Channel posting packages.",
-  "source_url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/local_posts/today.json",
+  "source_url": "https://cdn.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/local_posts/today.json",
   "schedule": {
     "timezone": "Asia/Seoul",
     "time": "10:45",
@@ -22,7 +22,7 @@
       "make_module": "HTTP - Make a request",
       "settings": {
         "method": "GET",
-        "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/local_posts/today.json",
+        "url": "https://cdn.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/local_posts/today.json",
         "parse_response": true
       }
     },

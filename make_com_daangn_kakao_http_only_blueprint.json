@@ -12,7 +12,7 @@
       "mapper": {
         "ca": "",
         "qs": [],
-        "url": "https://raw.githubusercontent.com/jm7397776-byte/grandebleu-photos/main/local_posts/today.json",
+        "url": "https://cdn.jsdelivr.net/gh/jm7397776-byte/grandebleu-photos@main/local_posts/today.json",
         "data": "",
         "gzip": true,
         "method": "get",
